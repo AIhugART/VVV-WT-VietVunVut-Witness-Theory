@@ -1,0 +1,126 @@
+{
+  "script": "fr_vvv_k7trace_consumer_verification.py",
+  "version": "1.0",
+  "date": "2026-05-28",
+  "paper": "Frauchiger & Renner (2018) arXiv:1604.07422",
+  "overall_pass": true,
+  "verifications": {
+    "V_FR2": {
+      "verification": "V_FR2",
+      "result": "PASS",
+      "k7trace_function_identical": true,
+      "cases": [
+        {
+          "case": "FR_coherent",
+          "expected_delta": 1,
+          "delta": 1,
+          "BB_analogue": "x=pi/4 interference",
+          "pass_": true
+        },
+        {
+          "case": "FR_projective",
+          "expected_delta": 0,
+          "delta": 0,
+          "BB_analogue": "x=0.01 readout",
+          "pass_": true
+        }
+      ],
+      "finding": "K7_trace(V_prov, V_final) is scenario-agnostic. Same delta_closure logic in B&B (angle x) and FR (scenario-defining). FR confirmed as K7_trace second independent consumer."
+    },
+    "avoidance_coherent": {
+      "verification": "avoidance_coherent",
+      "result": "PASS",
+      "checks": {
+        "rKJ_is_1": true,
+        "V_final_is_0": true,
+        "delta_is_1": true,
+        "K4_fails": true,
+        "joint_invalid": true,
+        "T_FR_holds": true
+      },
+      "chain": {
+        "measurement_type": "coherent",
+        "requires_K_joint": 1,
+        "V_prov": 1,
+        "V_final": 0,
+        "delta_closure": 1,
+        "K4_holds": false,
+        "joint_validity_achievable": false,
+        "T_FR_holds": true
+      }
+    },
+    "avoidance_projective": {
+      "verification": "avoidance_projective",
+      "result": "PASS",
+      "checks": {
+        "rKJ_is_0": true,
+        "V_final_is_1": true,
+        "delta_is_0": true,
+        "K4_holds": true,
+        "joint_valid": true,
+        "T_FR_not_triggered": true
+      },
+      "chain": {
+        "measurement_type": "projective",
+        "requires_K_joint": 0,
+        "V_prov": 1,
+        "V_final": 1,
+        "delta_closure": 0,
+        "K4_holds": true,
+        "joint_validity_achievable": true,
+        "T_FR_holds": false
+      }
+    },
+    "falsification": {
+      "verification": "falsification",
+      "result": "PASS",
+      "conditions": {
+        "F_FR1_K5_fires_V_unchanged": {
+          "triggered": false,
+          "expected": false
+        },
+        "F_FR2_joint_valid_when_K5": {
+          "triggered": false,
+          "expected": false
+        },
+        "F_FR3_delta_gt1": {
+          "triggered": false,
+          "expected": false
+        }
+      }
+    },
+    "structural_comparison": {
+      "verification": "structural_comparison",
+      "result": "PASS",
+      "bb_cases": [
+        {
+          "x": 0.01,
+          "regime": "readout",
+          "rKJ": 0
+        },
+        {
+          "x": 0.7854,
+          "regime": "interference",
+          "rKJ": 1
+        },
+        {
+          "x": 1.5608,
+          "regime": "readout",
+          "rKJ": 0
+        }
+      ],
+      "fr_cases": [
+        {
+          "type": "coherent",
+          "rKJ": 1
+        },
+        {
+          "type": "projective",
+          "rKJ": 0
+        }
+      ],
+      "k7trace_output_identical": true,
+      "distinction": "B&B K5: angle-dependent (sin^2(2x)>0.5). FR K5: scenario-defining (coherent=trigger). K7_trace: identical function in both."
+    }
+  }
+}

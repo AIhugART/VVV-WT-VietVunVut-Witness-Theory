@@ -1,0 +1,103 @@
+{
+  "project_name": "VVV-QMRF-EX",
+  "version": "0.8-phase11-v1.7-final",
+  "date": "2026-05-20",
+  "phases_complete": [
+    "0-environment",
+    "1-graph-construction",
+    "2-intersection-analysis",
+    "3-similarity-search",
+    "5-visualization-validation",
+    "6-expert-mapping"
+  ],
+  "graph": {
+    "total_nodes": 420,
+    "be_count": 263,
+    "vvv_count": 52,
+    "qm_count": 105,
+    "edge_count": 181
+  },
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "embedding_dim": 768,
+  "embedding_normalize": true,
+  "similarity_metric": "cosine (dot product of L2-normalized vectors)",
+  "matrix_shapes": {
+    "be_vvv": [
+      263,
+      52
+    ],
+    "vvv_qm": [
+      52,
+      105
+    ]
+  },
+  "thresholds": {
+    "tier1": 0.75,
+    "tier2_min": 0.5,
+    "manual_min": 0.3
+  },
+  "phase2_summary": {
+    "intersection_count": 45,
+    "k_gap_count": 7,
+    "rho_gap_count": 1
+  },
+  "phase3_summary": {
+    "be_vvv_new_tier1": 0,
+    "be_vvv_new_tier2": 2,
+    "vvv_qm_new_tier1": 0,
+    "vvv_qm_new_tier2": 13
+  },
+  "phase5_results": {
+    "intersection_pct": 86.5,
+    "k_effective_coverage_pct": 138.5,
+    "rho_effective_coverage_pct": 100.0,
+    "boundary_audit": "PASS",
+    "ghost_entries": 0,
+    "visualizations_generated": 2
+  },
+  "edge_count": 181,
+  "phase6_results": {
+    "km_pm_nodes_resolved": 9,
+    "new_br_ex_be_entries": 9,
+    "intersection_before": 16,
+    "intersection_after": 15,
+    "intersection_pct": 28.8,
+    "total_edges": 180,
+    "confidence_breakdown": {
+      "high": 3,
+      "medium_high": 2,
+      "medium": 4
+    }
+  },
+  "snapshot_phase": "post-v1.7-ke-sc-threshold-raise",
+  "node_count": 420,
+  "phase11_v1_7": {
+    "applied": true,
+    "date": "2026-05-21",
+    "ke_sc_threshold_v1_6": 3.5,
+    "ke_sc_threshold_v1_7": 4.0,
+    "carve_out_at": 3.8,
+    "reclassified_entries": [
+      "BR_EX_BE_00061",
+      "BR_EX_BE_00065",
+      "BR_EX_BE_00066"
+    ],
+    "reclassified_count": 3,
+    "br_ex_be_active": 66,
+    "br_ex_qm_active": 74,
+    "graph_edges_v1_7": 180,
+    "intersection_v1_7": 45,
+    "raw_dual_anchored_pct_v1_7": 86.5,
+    "stretch_tier_1_pass": true,
+    "stretch_tier_2_pass": true
+  },
+  "graph_sync_v1_6": {
+    "applied": true,
+    "injected_be": 1,
+    "injected_qm": 0,
+    "skipped_be": 30,
+    "skipped_qm": 1,
+    "edges_before": 180,
+    "edges_after": 181
+  }
+}

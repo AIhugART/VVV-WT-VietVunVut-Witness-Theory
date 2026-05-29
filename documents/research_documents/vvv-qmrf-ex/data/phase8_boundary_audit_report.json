@@ -1,0 +1,30 @@
+{
+  "phase": "phase8-audit-closure",
+  "snapshot_phase": "v1.6-phase8-closure",
+  "date": "2026-05-20",
+  "scope": {
+    "br_ex_be_entries": 69,
+    "br_ex_qm_entries": 74,
+    "entries_audited": 143,
+    "expected_entries": 143,
+    "scope_note": "69 BR_EX_BE entries after Phase 7 stretch mapping plus 74 BR_EX_QM entries from Phase 4."
+  },
+  "boundary_controls": {
+    "controls_checked": 7,
+    "claim_class_fields": 143,
+    "identity_claim_violations": 0,
+    "mandatory_origin_fields": 143,
+    "mandatory_rationale_fields": 143,
+    "violations": 0,
+    "overall": "PASS"
+  },
+  "finding_closure": {
+    "F-RCA-05": "RESOLVED_BY_PHASE8_REPORT",
+    "F-RCA-07": "RESOLVED_BY_PHASE8_REPORT",
+    "F-RCA-08": "RESOLVED_BY_PLAN_QUALIFIER",
+    "F-RCA-09": "RESOLVED_BY_PLAN_EXPECTATION_UPDATE",
+    "F-RCA-10": "RESOLVED_BY_PLAN_BASELINE_QUALIFIER",
+    "F-RCA-11": "RESOLVED_BY_API_BOUNDARY_NOTE"
+  },
+  "rca_decision_protocol": "3 rounds max; accept closure action if RCA x 5-Why x scoring reaches >=4/5; otherwise defer with reason."
+}

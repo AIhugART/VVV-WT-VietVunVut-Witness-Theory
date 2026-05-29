@@ -1,0 +1,122 @@
+
+<style>
+h2.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.dir-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;margin-bottom:12px;cursor:pointer;transition:border-color .2s}
+.dir-card:hover{border-color:var(--color-border-secondary)}
+.dir-card.open{border-color:var(--color-border-primary)}
+.dir-header{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.dir-left{display:flex;align-items:center;gap:10px}
+.dir-tag{font-size:11px;font-weight:500;padding:2px 9px;border-radius:20px;white-space:nowrap}
+.tag-a{background:#E1F5EE;color:#085041}
+.tag-b{background:#EEEDFE;color:#3C3489}
+.tag-c{background:#FAEEDA;color:#633806}
+.tag-d{background:#FAECE7;color:#712B13}
+.dir-title{font-size:14px;font-weight:500;color:var(--color-text-primary)}
+.dir-body{display:none;margin-top:12px;border-top:0.5px solid var(--color-border-tertiary);padding-top:12px}
+.dir-card.open .dir-body{display:block}
+.meta-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.meta-cell{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:8px 10px}
+.meta-label{font-size:11px;color:var(--color-text-secondary);margin-bottom:2px}
+.meta-val{font-size:12px;font-weight:500;color:var(--color-text-primary)}
+.detail-block{margin-bottom:10px}
+.detail-block p{margin:0;font-size:12px;color:var(--color-text-secondary);line-height:1.6}
+.detail-block strong{display:block;font-size:12px;font-weight:500;color:var(--color-text-primary);margin-bottom:3px}
+.journal-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.j-pill{font-size:11px;padding:2px 8px;border:0.5px solid var(--color-border-secondary);border-radius:20px;color:var(--color-text-secondary)}
+.risk-bar{display:flex;gap:3px;margin-top:4px}
+.risk-dot{width:10px;height:10px;border-radius:50%;background:var(--color-border-secondary)}
+.risk-dot.on-a{background:#1D9E75}
+.risk-dot.on-b{background:#7F77DD}
+.risk-dot.on-c{background:#BA7517}
+.risk-dot.on-d{background:#D85A30}
+.expand-hint{font-size:11px;color:var(--color-text-tertiary);margin-left:auto}
+.ask-btn{display:inline-block;margin-top:10px;font-size:12px;padding:4px 12px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);cursor:pointer;background:transparent;color:var(--color-text-primary)}
+.ask-btn:hover{background:var(--color-background-secondary)}
+@media(prefers-color-scheme:dark){
+  .tag-a{background:#085041;color:#9FE1CB}
+  .tag-b{background:#3C3489;color:#CECBF6}
+  .tag-c{background:#633806;color:#FAC775}
+  .tag-d{background:#712B13;color:#F5C4B3}
+}
+</style>
+<h2 class="sr-only">Bốn hướng viết bài báo từ Buddhist Epistemic Interpretation of QM</h2>
+<div id="cards"></div>
+<script>
+const dirs=[
+  {
+    tag:"Hướng A",tagClass:"tag-a",
+    title:"Đối chiếu BEI với Relational QM / QBism",
+    difficulty:"Trung bình",time:"6–9 tháng",risk:"Thấp",riskN:2,riskClass:"on-a",
+    thesis:"Chỉ ra rằng các tiên đề của BEI có cấu trúc lôgic tương đương với Rovelli RQM và Fuchs QBism — nhưng xuất phát từ truyền thống phi-phương Tây. Đóng góp: cho thấy đây là convergence độc lập, tăng robustness cho cả hai framework.",
+    method:"Phân tích so sánh hình thức. Mapping tiên đề-tiên đề. Không cần toán mới.",
+    gap:"Chưa ai làm systematic comparison ba-chiều: RQM × QBism × Buddhist epistemology trong một bài.",
+    journals:["Foundations of Physics","Studies in Hist. & Phil. of Modern Physics","European Journal for Phil. of Science"],
+    prompt:"Phân tích chi tiết hướng A: so sánh BEI với Relational QM và QBism"
+  },
+  {
+    tag:"Hướng B",tagClass:"tag-b",
+    title:"Giải quyết Wigner's Friend bằng quan hệ luận Madhyamaka",
+    difficulty:"Cao",time:"9–14 tháng",risk:"Trung bình",riskN:3,riskClass:"on-b",
+    thesis:"Wigner's Friend paradox nảy sinh vì giả định có một 'absolute observer'. Madhyamaka Śūnyatā loại bỏ giả định này một cách có hệ thống. Bài báo đề xuất một resolution ngôn ngữ-hình thức cho WF dựa trên relational ontology.",
+    method:"Cần nắm vững thực nghiệm Proietti et al. 2019 và Deutsch 1985. Xây dựng formal argument bằng logic quan hệ hoặc category theory sơ cấp.",
+    gap:"Các resolution hiện tại (MWI, RQM) đều có vấn đề. Một resolution triết học hình thức còn thiếu.",
+    journals:["Foundations of Physics","Physical Review A (Letter)","Synthese"],
+    prompt:"Phân tích chi tiết hướng B: giải quyết Wigner's Friend bằng Madhyamaka"
+  },
+  {
+    tag:"Hướng C",tagClass:"tag-c",
+    title:"Ālayavijñāna như mô hình cho quantum state space",
+    difficulty:"Rất cao",time:"12–18 tháng",risk:"Cao",riskN:4,riskClass:"on-c",
+    thesis:"Xây dựng một mô hình hình thức trong đó Hilbert space được tái diễn giải qua cấu trúc Ālayavijñāna: potential states, seeding (bīja), và manifestation conditions. Đây là đề xuất ontological mới.",
+    method:"Đòi hỏi toán học: có thể dùng topos theory hoặc sheaf semantics để model hóa 'potential-without-actuality'. Cần cộng tác với nhà toán học hoặc logician.",
+    gap:"Đây là terra incognita — không ai làm. Rủi ro cao nhưng nếu thành công là contribution thực sự mới.",
+    journals:["Journal of Mathematical Physics","Foundations of Physics","International Journal of Theoretical Physics"],
+    prompt:"Phân tích chi tiết hướng C: mô hình hóa Ālayavijñāna trong quantum state space"
+  },
+  {
+    tag:"Hướng D",tagClass:"tag-d",
+    title:"BEI như meta-framework cho interpretations of QM",
+    difficulty:"Trung bình-Cao",time:"8–12 tháng",risk:"Trung bình",riskN:3,riskClass:"on-d",
+    thesis:"Thay vì là một interpretation mới, BEI là một meta-framework nhận thức luận mà nhiều interpretation (Copenhagen, RQM, QBism, thậm chí MWI) là các trường hợp đặc biệt. Đóng khung lại cuộc tranh luận về interpretations.",
+    method:"Phân tích triết học hình thức. Xây dựng taxonomy của interpretations theo trục epistemology/ontology. Vị trí BEI trong taxonomy đó.",
+    gap:"Interpretations thường được so sánh về physics, hiếm khi về epistemological commitment. Góc này còn mở.",
+    journals:["British Journal for Phil. of Science","Foundations of Physics","Philosophy of Science"],
+    prompt:"Phân tích chi tiết hướng D: BEI như meta-framework cho interpretations of QM"
+  }
+];
+
+const container=document.getElementById('cards');
+dirs.forEach((d,i)=>{
+  const el=document.createElement('div');
+  el.className='dir-card';
+  const dots=Array.from({length:5},(_,j)=>`<div class="risk-dot${j<d.riskN?' '+d.riskClass:''}"></div>`).join('');
+  const pills=d.journals.map(j=>`<span class="j-pill">${j}</span>`).join('');
+  el.innerHTML=`
+    <div class="dir-header">
+      <div class="dir-left">
+        <span class="dir-tag ${d.tagClass}">${d.tag}</span>
+        <span class="dir-title">${d.title}</span>
+      </div>
+      <span class="expand-hint" id="hint-${i}">▸</span>
+    </div>
+    <div class="dir-body">
+      <div class="meta-row">
+        <div class="meta-cell"><div class="meta-label">Độ khó</div><div class="meta-val">${d.difficulty}</div></div>
+        <div class="meta-cell"><div class="meta-label">Thời gian ước tính</div><div class="meta-val">${d.time}</div></div>
+        <div class="meta-cell"><div class="meta-label">Rủi ro publish</div><div class="meta-val">${d.risk}<div class="risk-bar">${dots}</div></div></div>
+      </div>
+      <div class="detail-block"><strong>Luận điểm chính</strong><p>${d.thesis}</p></div>
+      <div class="detail-block"><strong>Phương pháp</strong><p>${d.method}</p></div>
+      <div class="detail-block"><strong>Research gap</strong><p>${d.gap}</p></div>
+      <div class="detail-block"><strong>Target journals</strong><div class="journal-list">${pills}</div></div>
+      <button class="ask-btn" onclick="sendPrompt('${d.prompt}')">Đi sâu hướng này ↗</button>
+    </div>
+  `;
+  el.addEventListener('click',(e)=>{
+    if(e.target.classList.contains('ask-btn')) return;
+    const isOpen=el.classList.toggle('open');
+    document.getElementById('hint-'+i).textContent=isOpen?'▾':'▸';
+  });
+  container.appendChild(el);
+});
+</script>

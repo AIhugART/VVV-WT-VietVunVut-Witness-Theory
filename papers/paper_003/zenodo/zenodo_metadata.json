@@ -1,0 +1,63 @@
+{
+  "title": "When Does a Physical Interaction Become a Valid Registered Measurement? A VVV-QMRF Registration-Layer Framework with the K9_E Class C Testable Hypothesis and an Experimental Specification for Extended Wigner's Friend",
+
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "publication_date": "2026-05-28",
+  "version": "3.0",
+
+  "creators": [
+    {
+      "name": "Nguyen Xuan, Viet",
+      "affiliation": "Independent Researcher, Vietnam"
+    }
+  ],
+
+  "description": "Standard quantum mechanics specifies, via postulate P3, that a measurement yields eigenvalue a_k with probability |<a_k|psi>|^2. What P3 does not specify is when a physical interaction constitutes a valid registered measurement event. This silence generates the von Neumann chain problem and leaves the Heisenberg cut formally undefined.\n\nThis paper proposes VVV-QMRF (VietVunVut Quantum Measurement Registration Framework): a registration-layer extension of quantum mechanics grounded in Buddhist Pramana epistemology (Dignaga-Dharmakirti tradition). The framework introduces a K-side registration space K, structurally separate from the physical Hilbert space H (K != H), and a six-condition test for valid registered measurement. Applied to Extended Wigner's Friend (EWF) scenarios, this yields the K-side incommensurability conjecture: K_F perp_K K_W.\n\nThe K-side registration space is axiomatized via eight frozen registration-logic axioms (K1-K8, Layer 1) and nine updatable bridge theorems (T1-T9, Layer 2). T4-H (N-observer colimit existence) has been verified as a full theorem across all four steps (RCA 4.74/5, 2026-05-28).\n\nK9_E is the probability postulate (P9): P(o|K) = Tr(E_o rho) * (1 - beta * K_ctx), with a single free parameter beta in [0,1]. At beta=0, K9_E recovers the Born rule exactly. The proposed K9-S12 Modified Bong Protocol (single waveplate at alpha=31 deg) predicts Genuine LF 1 = +0.0891 (8.6 sigma), delta<A1B2> = -0.0355 (20.8 sigma), FOM=8.6.\n\nEmpirical status (Class C qualified): A genuine non-circular fit to raw Proietti et al. (2019) data yields beta=0.598, V=0.939, Delta-chi^2=5.35 (2.31 sigma). However, v30 noise sensitivity analysis FAIL (noise_threshold=0.10 sigma RMS). Confirmation requires a dedicated K9-S12 photonic EWF experiment.\n\nThe paper presents three logically independent projects: Project A (BE-QM Comparative Mapping: 30 nodes, 39 edges), Project B (VVV-QMRF Conceptual Framework: K1-K8, T1-T9, phi-map Class D), and Project C (K9_E Testable Hypothesis: Class C qualified). A->B->C is one-way motivation, not logical derivation. A null K9_E result falsifies Project C only.\n\nDISCLAIMER: Independent personal research. Not Standard Quantum Mechanics, not peer-reviewed, not experimentally confirmed. Critique explicitly invited.",
+
+  "keywords": [
+    "quantum measurement",
+    "quantum foundations",
+    "Extended Wigner's Friend",
+    "K9_E probability postulate",
+    "registration framework",
+    "Buddhist epistemology",
+    "Pramana",
+    "K-side incommensurability",
+    "Born rule extension",
+    "K-space axiomatization",
+    "Frauchiger-Renner paradox",
+    "Modified Bong Protocol",
+    "waveplate EWF experiment"
+  ],
+
+  "access_right": "open",
+  "license": "cc-by-4.0",
+
+  "language": "eng",
+
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20356782",
+      "relation": "isNewVersionOf",
+      "scheme": "doi",
+      "resource_type": "publication-workingpaper"
+    },
+    {
+      "identifier": "10.5281/zenodo.20289261",
+      "relation": "isNewVersionOf",
+      "scheme": "doi",
+      "resource_type": "publication-workingpaper"
+    }
+  ],
+
+  "notes": "VVV-QMRF K9_E is Class C (qualified): structurally testable but empirically UNCONFIRMED. Noise sensitivity analysis FAIL (v30). Confirmation or rejection requires the K9-S12 photonic Extended Wigner's Friend experiment. See DISCLAIMER in paper. The experimental child paper (K9-S12 Modified Bong Protocol) was submitted to arXiv separately on 2026-05-27.",
+
+  "_doi_reference": {
+    "concept_doi_all_versions": "10.5281/zenodo.20289260",
+    "v3_doi": "10.5281/zenodo.20431310",
+    "v2_doi": "10.5281/zenodo.20356782",
+    "v20_doi": "10.5281/zenodo.20289261",
+    "upload_file": "VVV-QMRF_Working_Paper_v3.0.pdf"
+  }
+}

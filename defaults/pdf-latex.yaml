@@ -1,0 +1,19 @@
+# Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+# Pandoc defaults for research-oriented Markdown to PDF export.
+
+from: markdown+smart
+standalone: true
+pdf-engine: xelatex
+toc: true
+number-sections: true
+variables:
+  documentclass: article
+  papersize: a4
+  geometry:
+    - margin=1in
+  mainfont: Times New Roman
+  sansfont: Arial
+  monofont: Consolas
+  colorlinks: true
+  linkcolor: blue
+  urlcolor: blue

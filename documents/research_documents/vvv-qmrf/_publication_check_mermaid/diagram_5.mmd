@@ -1,0 +1,12 @@
+﻿flowchart LR
+  subgraph STD["Standard QM / QM chuẩn"]
+    std1["ρ_before"] --> std2["M = {E_o}"] --> std3["p_QM(o)=Tr(E_oρ)"] --> std4["o"] --> std5["ρ_after"]
+  end
+
+  subgraph VVVK["VVV-QMRF addition / Phần VVV-QMRF thêm vào"]
+    kbefore["K_before"] --> uk["U_K(K_before,o)"] --> kafter["K_after"]
+  end
+
+  std4 --> uk
+  std3 -. "preserved unchanged" .-> guard["No Born-rule modification"]
+  uk -. "novel contribution" .-> novelty["formalizes registration-state update"]

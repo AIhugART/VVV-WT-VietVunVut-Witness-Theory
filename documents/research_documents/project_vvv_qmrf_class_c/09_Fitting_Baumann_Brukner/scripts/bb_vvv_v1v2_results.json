@@ -1,0 +1,59 @@
+{
+  "script": "bb_vvv_v1v2_verification.py",
+  "version": "2.0 (corrected V1 analysis)",
+  "timestamp": "2026-05-27T23:16:33.203368",
+  "fit_plan_version": "v1.2",
+  "V1": {
+    "fraction_neg": 0.164264,
+    "q00_at_pi4": 0.49999999999999994,
+    "x_zeros_phi_pi": [
+      0.37798298399584995
+    ],
+    "min_q00": -0.09359100792384378,
+    "min_q00_x": 1.3811635019297788,
+    "min_q00_phi": 0.0,
+    "original_claim_status": "REQUIRES_REVISION",
+    "verdict": "B&B q00<0 fires near readout (x~0), not at interference (x=pi/4). Structural mapping requires_K_joint does NOT align with R_BB. V1 forward claim needs revision."
+  },
+  "V2": {
+    "alpha_sq": 0.3,
+    "cases": {
+      "x=0.01 (readout)": {
+        "delta_p": 7.998933390218621e-05,
+        "analytic": 7.998933390220598e-05
+      },
+      "x=pi/8": {
+        "delta_p": 0.09999999999999998,
+        "analytic": 0.10000000000000003
+      },
+      "x=pi/4 (interference)": {
+        "delta_p": 0.20000000000000012,
+        "analytic": 0.2
+      },
+      "x=3pi/8": {
+        "delta_p": 0.10000000000000003,
+        "analytic": 0.10000000000000003
+      },
+      "x=pi/2-0.01 (readout)": {
+        "delta_p": 7.998933390218621e-05,
+        "analytic": 7.998933390220708e-05
+      }
+    },
+    "formula_pass": true,
+    "symmetric_degeneracy": true,
+    "all_match": true,
+    "verdict": "PASS — V2 confirmed. K7 closure magnitude matches B&B Delta_p."
+  },
+  "joint": {
+    "V1_status": "REQUIRES REVISION — R_BB != R_K5 pattern",
+    "V2_status": "PASS — K7 closure confirmed",
+    "F4_triggered": true,
+    "F4_explanation": "K5 fires at x=pi/4 (requires_K_joint=1) but q00>0; B&B fires at x~0 (requires_K_joint=0) but q00<0. Conditions are not equivalent.",
+    "recommendation": "V1 claim must be downgraded from 'mathematical equivalence' to 'partial structural compatibility'. K5 and B&B no-valid-joint-model capture DIFFERENT failure modes."
+  },
+  "final_verdict": {
+    "V1": "PARTIAL — F4 triggered, R_BB != R_K5",
+    "V2": "PASS — K7 closure confirmed",
+    "overall": "V2 passes, V1 reveals genuine structural difference between K5 and B&B"
+  }
+}

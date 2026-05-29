@@ -1,0 +1,467 @@
+{
+  "phase": "phase5_coverage",
+  "date": "2026-05-20",
+  "graph": {
+    "nodes": 427,
+    "edges": 214
+  },
+  "coverage_summary": {
+    "total_vvv_nodes": 52,
+    "dual_anchored": 51,
+    "k_only": 1,
+    "rho_only": 6,
+    "neither": 1,
+    "intersection_pct": 98.1,
+    "max_k_degree": 8,
+    "max_rho_degree": 4,
+    "avg_k_degree": 1.32,
+    "avg_rho_degree": 1.36
+  },
+  "f14_staged_milestones": {
+    "phase4_actual": "98.1% (51/52)",
+    "phase5_target": "≥50% (≥26)",
+    "phase5_target_met": true,
+    "note": "Phase 5 target requires manual review pipeline (Phase 6+ work)"
+  },
+  "f15_exception_coverage": {
+    "k_covered": 51,
+    "k_excepted_structural": 27,
+    "k_excepted_breakdown": {
+      "KE-QI": 4,
+      "KE-OF": 13,
+      "KE-SC": 10
+    },
+    "k_pending_manual": 0,
+    "k_effective_coverage": "150.0% (78/52)",
+    "rho_covered": 51,
+    "rho_excepted": 1,
+    "rho_effective_coverage": "100% (52/52)"
+  },
+  "boundary_audit": {
+    "controls_checked": 7,
+    "entries_audited": 111,
+    "violations": 0,
+    "isolation_rules_passed": 5,
+    "ghost_entries": 0,
+    "overall": "PASS"
+  },
+  "per_node_coverage": [
+    {
+      "node": "N_QM_VVV_00001",
+      "k_count": 3,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00002",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00003",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00004",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00005",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00006",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00007",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00008",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00009",
+      "k_count": 0,
+      "rho_count": 0,
+      "status": "both_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00010",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00011",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00012",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00013",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00014",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00015",
+      "k_count": 0,
+      "rho_count": 3,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00016",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00018",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00020",
+      "k_count": 3,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00021",
+      "k_count": 8,
+      "rho_count": 4,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00022",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00023",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00024",
+      "k_count": 6,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00025",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00027",
+      "k_count": 7,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00028",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00029",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00030",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00031",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00032",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00033",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00034",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00035",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00036",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00037",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00038",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00039",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00040",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00041",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00042",
+      "k_count": 4,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00043",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00044",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00045",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00046",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00047",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00048",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00049",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00050",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00051",
+      "k_count": 2,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00052",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00053",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00054",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00055",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00056",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00057",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00059",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00060",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00062",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00063",
+      "k_count": 1,
+      "rho_count": 0,
+      "status": "rho_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00064",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    }
+  ],
+  "visualizations": {
+    "network_diagram": "step5_1_network_diagram_v1.9.png",
+    "kp_heatmap": "step5_2_kp_heatmap_v1.9.png"
+  }
+}

@@ -1,0 +1,13 @@
+Điểm khác biệt quan trọng so với bản trước
+Lần này hoàn toàn RCA-grounded — mỗi MAP entry đều có:
+
+BE row number + source line cụ thể từ file Pramāṇa
+QM row number từ file Susskind/Jordan & Siddiqi
+RCA flag: direct / listed only / gap / partial
+
+Không extrapolate — những khái niệm như Smriti, Paksa, Sapaksa, Kevalanvaayin không có standalone row trong BE source table đều được đánh flag listed only hoặc inferred.
+3 convergence điểm mạnh nhất từ corpus thực tế:
+
+MAP-22 — Niihsvabhaavata ↔ Bell's theorem: cùng cấu trúc logic phủ nhận intrinsic properties, một bên từ L27 BE source, một bên từ QM row 90-91
+MAP-57 — Arthakriyaa ↔ Predictive success: cả hai hệ thống ground validity trong practical efficacy — BE row 105/168 + QM row 101
+MAP-55 — Pramaanadheena-prameyyaadhigama ↔ Copenhagen/relational QM: Dinnaaga's dictum tại L137 là phát biểu epistemological của điều Copenhagen enact physically

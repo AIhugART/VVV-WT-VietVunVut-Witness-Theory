@@ -1,0 +1,223 @@
+\begin{thebibliography}{31}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Popper}(1992)}]{Popper1992}
+\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Popper}},
+  \emph{\bibinfo{title}{Realism and the Aim of Science}}
+  (\bibinfo{publisher}{Routledge}, \bibinfo{year}{1992}).
+
+\bibitem[{\citenamefont{Wigner}(1961)}]{Wigner1961}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Wigner}}, in
+  \emph{\bibinfo{booktitle}{The Scientist Speculates}}, edited by
+  \bibinfo{editor}{\bibfnamefont{I.}~\bibnamefont{Good}}
+  (\bibinfo{year}{1961}), pp. \bibinfo{pages}{284--302}.
+
+\bibitem[{\citenamefont{Brukner}(2015)}]{Brukner2015MeasurementProblem}
+\bibinfo{author}{\bibfnamefont{{\v C}.}~\bibnamefont{Brukner}},
+  \bibinfo{journal}{arXiv:1507.05255}  (\bibinfo{year}{2015}).
+
+\bibitem[{\citenamefont{Brukner}(2018)}]{Brukner2018}
+\bibinfo{author}{\bibfnamefont{{\v{C}}.}~\bibnamefont{Brukner}},
+  \bibinfo{journal}{Entropy} \textbf{\bibinfo{volume}{20}},
+  \bibinfo{pages}{350} (\bibinfo{year}{2018}).
+
+\bibitem[{\citenamefont{Frauchiger and Renner}(2018)}]{Frauchiger2016}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Frauchiger}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Renner}},
+  \bibinfo{journal}{Nature communications} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{3711} (\bibinfo{year}{2018}).
+
+\bibitem[{\citenamefont{Deutsch}(1985)}]{Deutsch1985}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Deutsch}},
+  \bibinfo{journal}{Int. J. Theor. Phys.} \textbf{\bibinfo{volume}{24}},
+  \bibinfo{pages}{1} (\bibinfo{year}{1985}).
+
+\bibitem[{\citenamefont{Healey}(2018)}]{Healey2019}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Healey}},
+  \bibinfo{journal}{Found. Phys.} \textbf{\bibinfo{volume}{48}},
+  \bibinfo{pages}{1568} (\bibinfo{year}{2018}).
+
+\bibitem[{\citenamefont{Baumann et~al.}(2019)\citenamefont{Baumann, {Del
+  Santo}, and Brukner}}]{Brukner2019}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Baumann}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Del Santo}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{{\v{C}}.}~\bibnamefont{Brukner}},
+  \bibinfo{journal}{Found. Phys.} \textbf{\bibinfo{volume}{49}},
+  \bibinfo{pages}{741} (\bibinfo{year}{2019}).
+
+\bibitem[{\citenamefont{Fine}(1982)}]{Fine1982}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fine}}, \bibinfo{journal}{Phys.
+  Rev. Lett.} \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{291}
+  (\bibinfo{year}{1982}).
+
+\bibitem[{\citenamefont{Clauser et~al.}(1969)\citenamefont{Clauser, Horne,
+  Shimony, and Holt}}]{CHSH1969}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Clauser}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Horne}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Shimony}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Holt}},
+  \bibinfo{journal}{Phys.\ Rev.\ Lett.} \textbf{\bibinfo{volume}{23}},
+  \bibinfo{pages}{880} (\bibinfo{year}{1969}).
+
+\bibitem[{\citenamefont{Bell and Aspect}(2004)}]{bell_aspect_2004}
+\bibinfo{author}{\bibfnamefont{J.~S.} \bibnamefont{Bell}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Aspect}},
+  \emph{\bibinfo{title}{Speakable and Unspeakable in Quantum Mechanics:
+  Collected Papers on Quantum Philosophy}} (\bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{2004}), \bibinfo{edition}{2nd} ed.
+
+\bibitem[{\citenamefont{Bell}(1964)}]{Bell1964}
+\bibinfo{author}{\bibfnamefont{J.~S.} \bibnamefont{Bell}},
+  \bibinfo{journal}{Physics} \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{195}
+  (\bibinfo{year}{1964}).
+
+\bibitem[{\citenamefont{Baumann and Brukner}(2019)}]{Baumann2019}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Baumann}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{{\v{C}}.}~\bibnamefont{Brukner}},
+  \bibinfo{journal}{arXiv:1901.11274}  (\bibinfo{year}{2019}).
+
+\bibitem[{\citenamefont{Graffitti
+  et~al.}(2018{\natexlab{a}})\citenamefont{Graffitti, Barrow, Proietti, Kundys,
+  and Fedrizzi}}]{GraffittiOptica}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Graffitti}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Barrow}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Proietti}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Kundys}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fedrizzi}},
+  \bibinfo{journal}{Optica} \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{514}
+  (\bibinfo{year}{2018}{\natexlab{a}}).
+
+\bibitem[{\citenamefont{Graffitti
+  et~al.}(2018{\natexlab{b}})\citenamefont{Graffitti, Kelly-Massicotte,
+  Fedrizzi, and Bra\ifmmode~\acute{n}\else \'{n}\fi{}czyk}}]{GraffittiPRA}
+\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Graffitti}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Kelly-Massicotte}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fedrizzi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Bra\ifmmode~\acute{n}\else
+  \'{n}\fi{}czyk}}, \bibinfo{journal}{Phys. Rev. A}
+  \textbf{\bibinfo{volume}{98}}, \bibinfo{pages}{053811}
+  (\bibinfo{year}{2018}{\natexlab{b}}).
+
+\bibitem[{\citenamefont{Jin et~al.}(2014)\citenamefont{Jin, Shimizu, Wakui,
+  Fujiwara, Yamashita, Miki, Terai, Wang, and Sasaki}}]{Jin14}
+\bibinfo{author}{\bibfnamefont{R.-B.} \bibnamefont{Jin}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Shimizu}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Wakui}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Fujiwara}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yamashita}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Miki}},
+  \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Terai}},
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Wang}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Sasaki}},
+  \bibinfo{journal}{Opt. Express} \textbf{\bibinfo{volume}{22}},
+  \bibinfo{pages}{11498} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Browne and Rudolph}(2005)}]{Browne2005}
+\bibinfo{author}{\bibfnamefont{D.~E.} \bibnamefont{Browne}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Rudolph}},
+  \bibinfo{journal}{Phys.\ Rev.\ Lett.} \textbf{\bibinfo{volume}{95}},
+  \bibinfo{pages}{010501} (\bibinfo{year}{2005}).
+
+\bibitem[{\citenamefont{Pan et~al.}(2001)\citenamefont{Pan, Daniell, Gasparoni,
+  Weihs, and Zeilinger}}]{PanFusionGate}
+\bibinfo{author}{\bibfnamefont{J.-W.} \bibnamefont{Pan}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Daniell}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Gasparoni}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Weihs}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zeilinger}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{4435} (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Larsson}(2014)}]{LarssonReview}
+\bibinfo{author}{\bibfnamefont{J.-{\AA}.} \bibnamefont{Larsson}},
+  \bibinfo{journal}{J.\ Phys.\ A} \textbf{\bibinfo{volume}{47}},
+  \bibinfo{pages}{424003} (\bibinfo{year}{2014}).
+
+\bibitem[{\citenamefont{Ghirardi et~al.}(1986)\citenamefont{Ghirardi, Rimini,
+  and Weber}}]{GRW1986}
+\bibinfo{author}{\bibfnamefont{G.~C.} \bibnamefont{Ghirardi}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Rimini}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Weber}},
+  \bibinfo{journal}{Phys.\ Rev.\ D} \textbf{\bibinfo{volume}{34}},
+  \bibinfo{pages}{470} (\bibinfo{year}{1986}).
+
+\bibitem[{\citenamefont{Lazarovici and Hubert}(2019)}]{Lazarovici2019}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Lazarovici}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Hubert}},
+  \bibinfo{journal}{Sci. Rep.} \textbf{\bibinfo{volume}{9}},
+  \bibinfo{pages}{470} (\bibinfo{year}{2019}).
+
+\bibitem[{\citenamefont{Everett}(1957)}]{Everett1957}
+\bibinfo{author}{\bibfnamefont{H.~I.} \bibnamefont{Everett}},
+  \bibinfo{journal}{Rev.\ Mod.\ Phys.} \textbf{\bibinfo{volume}{29}},
+  \bibinfo{pages}{454} (\bibinfo{year}{1957}).
+
+\bibitem[{\citenamefont{Bohm}(1952)}]{Bohm1952}
+\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Bohm}},
+  \bibinfo{journal}{Phys.\ Rev.} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{166} (\bibinfo{year}{1952}).
+
+\bibitem[{\citenamefont{Rovelli}(1996)}]{Rovelli1996}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Rovelli}},
+  \bibinfo{journal}{Int. J. Theor. Phys.} \textbf{\bibinfo{volume}{35}},
+  \bibinfo{pages}{1637} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{Fuchs}(2017)}]{Fuchs2017}
+\bibinfo{author}{\bibfnamefont{C.~A.} \bibnamefont{Fuchs}},
+  \bibinfo{journal}{Mind and Matter} \textbf{\bibinfo{volume}{15}},
+  \bibinfo{pages}{245} (\bibinfo{year}{2017}).
+
+\bibitem[{\citenamefont{Durham}(2019)}]{Durham2019}
+\bibinfo{author}{\bibfnamefont{I.~T.} \bibnamefont{Durham}},
+  \bibinfo{journal}{arXiv:1902.09028}  (\bibinfo{year}{2019}).
+
+\bibitem[{\citenamefont{Fedrizzi et~al.}(2007)\citenamefont{Fedrizzi, Herbst,
+  Poppe, Jennewein, and Zeilinger}}]{Fedrizzi2007Sagnac}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fedrizzi}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Herbst}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Poppe}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Jennewein}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zeilinger}},
+  \bibinfo{journal}{Opt.\ Express} \textbf{\bibinfo{volume}{15}},
+  \bibinfo{pages}{15377} (\bibinfo{year}{2007}).
+
+\bibitem[{\citenamefont{Broome et~al.}(2011)\citenamefont{Broome, Almeida,
+  Fedrizzi, and White}}]{Broome2011}
+\bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Broome}},
+  \bibinfo{author}{\bibfnamefont{M.~P.} \bibnamefont{Almeida}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Fedrizzi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.~G.} \bibnamefont{White}},
+  \bibinfo{journal}{Opt.\ Express} \textbf{\bibinfo{volume}{19}},
+  \bibinfo{pages}{22698} (\bibinfo{year}{2011}).
+
+\bibitem[{\citenamefont{Calsamiglia and Lutkenhaus}(2001)}]{Calsamiglia2001}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Calsamiglia}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Lutkenhaus}},
+  \bibinfo{journal}{Appl.\ Phys.\ B} \textbf{\bibinfo{volume}{72}},
+  \bibinfo{pages}{67} (\bibinfo{year}{2001}).
+
+\bibitem[{\citenamefont{Braunstein and Mann}(1995)}]{Braunstein1995}
+\bibinfo{author}{\bibfnamefont{S.~L.} \bibnamefont{Braunstein}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mann}},
+  \bibinfo{journal}{Phys.\ Rev.\ A} \textbf{\bibinfo{volume}{51}},
+  \bibinfo{pages}{R1727} (\bibinfo{year}{1995}).
+
+\bibitem[{\citenamefont{Eberhard}(1993)}]{Eberhard1993}
+\bibinfo{author}{\bibfnamefont{P.~H.} \bibnamefont{Eberhard}},
+  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{47}},
+  \bibinfo{pages}{747} (\bibinfo{year}{1993}).
+
+\end{thebibliography}

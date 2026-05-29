@@ -1,0 +1,56 @@
+{
+  "phase": "phase4_bridge_registry",
+  "snapshot_phase": "v1.7-ke-sc-threshold-raise",
+  "snapshot_note": "Phase 11 v1.7 manual gen per A.1+ workaround (F-RCA-12). KE-SC threshold raised 3.5/5 -> 4.0/5 + 1 carve-out at 3.8. 3 entries reclassified (BR_EX_BE_00061/00065/00066) — present in registry MD with RECLASSIFIED-v1.7 status but inactive in v1.7 graph.",
+  "date": "2026-05-21",
+  "graph_nodes": 420,
+  "graph_edges_pre_p4": 149,
+  "graph_edges_post_p4": "unknown",
+  "new_br_ex_be_edges_active": 30,
+  "new_br_ex_qm_edges_active": 1,
+  "br_ex_be_registry": {
+    "total_rows": 69,
+    "active": 66,
+    "reclassified_v1_7": 3,
+    "reclassified_ids": [
+      "BR_EX_BE_00061",
+      "BR_EX_BE_00065",
+      "BR_EX_BE_00066"
+    ],
+    "reference_copy": 36,
+    "expert_manual_mapping": 9,
+    "stretch_expert_mapping": 20,
+    "new_similarity_candidate": 1,
+    "namespace": "BR_EX_BE_00001-BR_EX_BE_00069 (3 reclassified gaps preserved)"
+  },
+  "br_ex_qm_registry": {
+    "total_rows": 74,
+    "active": 74,
+    "reclassified_v1_7": 0,
+    "namespace": "BR_EX_QM_00001-BR_EX_QM_00074"
+  },
+  "intersection_v1_7": {
+    "total_vvv": 52,
+    "intersection_count": 45,
+    "k_gaps": 0,
+    "rho_gaps": 0,
+    "both_gaps": 0,
+    "raw_dual_anchored_percent": 86.5
+  },
+  "integrity_checks": {
+    "br_ex_be_total_rows_check": true,
+    "br_ex_be_active_check": true,
+    "br_ex_be_reclassified_check": true,
+    "br_ex_qm_total_check": true,
+    "ghost_count": 0
+  },
+  "stretch_tier_status_v1_7": {
+    "tier_1_threshold": 26,
+    "tier_1_achieved": true,
+    "tier_2_threshold": 42,
+    "tier_2_achieved": true,
+    "delta_vs_v1_6": -3
+  },
+  "f_rca_12_note": "A.1+ workaround carried forward from v1.6. phase4_graph_sync.py extended with RECLASSIFIED skip filter for v1.7.",
+  "f_rca_15_note": "NEW v1.7 finding: §14.2 Q2 KE-SC threshold (3.5/5) was pragmatic floor; v1.7 raises to 4.0/5 + carve-out for publication rigor. 3 borderline entries reclassified."
+}

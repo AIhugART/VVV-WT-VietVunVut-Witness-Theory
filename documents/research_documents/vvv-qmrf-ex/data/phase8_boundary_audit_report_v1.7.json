@@ -1,0 +1,62 @@
+{
+  "phase": "phase8-audit-closure-v1.7",
+  "snapshot_phase": "v1.7-phase11-boundary-reaudit",
+  "date": "2026-05-21",
+  "scope": {
+    "br_ex_be_entries_total": 69,
+    "br_ex_be_entries_active": 66,
+    "br_ex_be_entries_reclassified": 3,
+    "br_ex_qm_entries": 74,
+    "entries_audited_active": 140,
+    "entries_audited_total_for_reference": 143,
+    "reclassified_entry_ids": ["BR_EX_BE_00061", "BR_EX_BE_00065", "BR_EX_BE_00066"],
+    "reclassified_reason": "v1.7 KE-SC threshold raise from 3.5/5 to 4.0/5 (+1 carve-out at 3.8); scores 3.7-3.8 with thin structural boundary guards; annotate-don-delete pattern preserves namespace gaps",
+    "scope_note": "66 active BR_EX_BE entries (69 rows minus 3 reclassified-v1.7) plus 74 BR_EX_QM entries = 140 active entries. Reclassified entries retain claim_class:interpretive_mapping and all boundary guard text; they are inactivated in the v1.7 graph only, not deleted."
+  },
+  "boundary_controls": {
+    "controls_checked": 7,
+    "claim_class_fields_active": 140,
+    "identity_claim_violations": 0,
+    "mandatory_origin_fields_active": 140,
+    "mandatory_rationale_fields_active": 140,
+    "violations": 0,
+    "overall": "PASS",
+    "verification_method": "subset_property — Phase 8 audit verified all 143 rows (incl. BR_EX_BE_00061/00065/00066); reclassification does NOT modify boundary guard text (annotate-don-delete); v1.7 active subset of 140 inherits 0 violations",
+    "reclassified_entries_boundary_status": "3 reclassified entries retain full C1-C7 compliance (claim_class:interpretive_mapping preserved, non_replacement_guard present, source-traceable); excluded from v1.7 active count solely because KE-SC score fell below raised 4.0/5 threshold — NOT a boundary violation"
+  },
+  "control_detail": {
+    "C1_no_identity_claim": {"active_entries": 140, "violations": 0, "note": "All entries use claim_class:interpretive_mapping or structural_analogy"},
+    "C2_no_new_qm_law": {"active_entries": 140, "violations": 0, "note": "All QM nodes are pre-existing in QM Standard; BE-direction entries create no QM nodes"},
+    "C3_no_auto_E17plus": {"active_entries": 140, "violations": 0, "note": "Zero new N_QM_VVV_XXXXX codes; all reference existing VVV nodes"},
+    "C4_non_replacement": {"active_entries": 140, "violations": 0, "note": "All entries carry non_replacement_guard in boundary note"},
+    "C5_born_rule": {"active_entries": 74, "na_entries": 66, "violations": 0, "note": "BR_EX_QM entries only; BR_EX_QM_00002 references BR_00002; no p_QM(o) modification"},
+    "C6_source_traceability": {"active_entries": 140, "violations": 0, "note": "All entries have populated Rationale + Origin fields"},
+    "C7_reproducibility": {"active_entries": 140, "violations": 0, "note": "All edges present in vvv_qmrf_ex_graph.json (180 v1.7-active edges)"}
+  },
+  "finding_closure": {
+    "F-RCA-05": "RESOLVED_BY_PHASE8_REPORT_INHERITED",
+    "F-RCA-07": "RESOLVED_BY_PHASE8_REPORT_INHERITED",
+    "F-RCA-08": "RESOLVED_BY_PLAN_QUALIFIER_INHERITED",
+    "F-RCA-09": "RESOLVED_BY_PLAN_EXPECTATION_UPDATE_INHERITED",
+    "F-RCA-10": "RESOLVED_BY_PLAN_BASELINE_QUALIFIER_INHERITED",
+    "F-RCA-11": "RESOLVED_BY_API_BOUNDARY_NOTE_INHERITED",
+    "F-RCA-15": "RESOLVED — KE-SC asymmetry (3.5 vs KE-OF 4.5) corrected to 4.0+carve-out; 3 entries reclassified; intersection 48->45 (86.5%); Tier 1+2 still PASS (6.5pt margin); boundary integrity preserved"
+  },
+  "v1_7_delta": {
+    "entries_removed_from_active": 3,
+    "entries_removed_ids": ["BR_EX_BE_00061", "BR_EX_BE_00065", "BR_EX_BE_00066"],
+    "graph_edges_v1_6": 183,
+    "graph_edges_v1_7": 180,
+    "graph_edges_delta": -3,
+    "ke_sc_threshold_v1_6": 3.5,
+    "ke_sc_threshold_v1_7": 4.0,
+    "ke_sc_carve_out_v1_7": 3.8
+  },
+  "immutability_check": {
+    "phase8_baseline_report_modified": false,
+    "v1_6_baseline_reports_modified": false,
+    "verification_command": "git diff HEAD -- data/phase8_boundary_audit_report.json data/phase*_report_v1.6.json"
+  },
+  "success_criterion_4_status": "PASS-VERIFIED — 0 violations on 140 active entries confirmed via subset property + annotate-don-delete invariant",
+  "rca_decision_protocol": "3 rounds max; accept closure action if RCA x 5-Why x scoring reaches >=4/5; otherwise defer with reason."
+}

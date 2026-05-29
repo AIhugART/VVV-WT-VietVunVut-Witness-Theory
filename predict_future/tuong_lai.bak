@@ -1,0 +1,423 @@
+Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+
+> **[SUPERSEDED — 2026-05-29]**
+> This document's 7-item roadmap (§8) has been structurally fulfilled. See the
+> **K→p(o) Bridge Law index** at [`documents/research_documents/project_vvv_qmrf_class_c/K_to_p_bridge_law.md`](documents/research_documents/project_vvv_qmrf_class_c/K_to_p_bridge_law.md)
+> for the single-entry-point overview of what was built.
+>
+> **Resolved (structural):**
+> - C-FALSI v1.0 (falsification rule) — [`VVV_QMRF_K9_Analysis_Plan.md`](documents/research_documents/project_vvv_qmrf_class_c/03_k9_sprints/VVV_QMRF_K9_Analysis_Plan.md)
+> - Falsification Hierarchy (4 levels) — [`Falsification_Hierarchy.md`](documents/research_documents/project_vvv_qmrf_class_c/04_governance/Falsification_Hierarchy.md)
+> - K9-S12 Pre-Registration Protocol — [`K9S12_PreRegistration_Protocol.md`](documents/research_documents/project_vvv_qmrf_class_c/04_governance/K9S12_PreRegistration_Protocol.md)
+> - K9_E bridge law (multiplicative form) — [`K9S7_final_lock.md`](documents/research_documents/project_vvv_qmrf_class_c/03_k9_sprints/k9_analysis/K9S7_final_lock.md)
+>
+> **Not yet resolved:**
+> - GAP-A (empirical): K9-S12 experiment NOT YET PERFORMED — needs optical lab collaboration.
+> - The core question ("Does the repo have enough to modify Standard QM?") remains **No** — not because the bridge law is missing, but because it is empirically unconfirmed (Class C qualified).
+>
+> **Formula note:** The additive form proposed in §4 (`p = P_QM + δ`) was refined to the multiplicative form (`P = P_QM × (1-β·f_perp)/Z`) in K9_E. Both are mathematically equivalent; the multiplicative form was chosen because it structurally matches K5 ⊥_K suppression. See [Falsification_Hierarchy.md §6.2](documents/research_documents/project_vvv_qmrf_class_c/04_governance/Falsification_Hierarchy.md).
+>
+> This file is retained as a HISTORICAL ARTIFACT — it correctly diagnosed the gap (no K→p(o) bridge) and defined the 7-item roadmap that was subsequently executed. Do not delete.
+
+# Tương Lai VVV-QMRF — From Registration Formalism to Physical Prediction
+
+**Date:** 2026-05-16
+**Superseded:** 2026-05-29 (see header above)
+**Document type:** RCA conversation record / Bản ghi RCA từ trao đổi
+**Status:** HISTORICAL — superseded by K9_E bridge law + C-FALSI + Hierarchy + Protocol. Retained for audit trail.
+**Scope:** Future research direction for extending VVV-QMRF from K-side registration formalism toward possible physical prediction.
+
+---
+
+## 1. Core Question / Câu hỏi lõi
+
+**EN:** Does the current repository have enough information to revise or modify Standard Quantum Mechanics?
+
+**VN:** Repo hiện tại có đủ thông tin để sửa hoặc thay đổi "Standard Quantum Mechanics" không?
+
+**Answer / Trả lời:** **No.**
+
+**EN:** The repo currently has a formal registration-layer framework, but it does not yet contain a physical law that changes the predictions of Standard QM.
+
+**VN:** Repo hiện có khung hình thức hóa tầng "registration" / ghi nhận, nhưng chưa có luật vật lý làm thay đổi dự đoán của QM chuẩn.
+
+---
+
+## 2. Current Status / Trạng thái hiện tại
+
+**EN:** The current mathematical core is K-side registration formalism:
+
+```text
+K_after = U_K(K_before, o)
+```
+
+This means:
+
+```text
+ρ-side physical measurement → outcome o → K-side registration update
+```
+
+**VN:** Lõi toán học hiện tại là hình thức hóa tầng K:
+
+```text
+K_after = U_K(K_before, o)
+```
+
+Nghĩa là:
+
+```text
+tầng vật lý ρ → kết quả o → cập nhật trạng thái ghi nhận K
+```
+
+**Boundary / Ranh giới:**
+
+**EN:** This does not modify the Born rule, Schrödinger evolution, the Hamiltonian, or the physical state-update rule.
+
+**VN:** Công thức này không sửa "Born rule", không sửa tiến hóa Schrödinger, không sửa Hamiltonian, và không sửa luật cập nhật trạng thái vật lý.
+
+---
+
+## 3. What Is Missing / Phần còn thiếu
+
+**EN:** To become a physical theory that modifies Standard QM, the repo needs a bridge law from K-side registration to the physical state or physical probability:
+
+```text
+K → ρ
+```
+
+or directly:
+
+```text
+K → p(o)
+```
+
+**VN:** Để trở thành lý thuyết vật lý có khả năng sửa QM chuẩn, repo cần một luật cầu nối từ tầng ghi nhận K sang trạng thái vật lý hoặc xác suất vật lý:
+
+```text
+K → ρ
+```
+
+hoặc trực tiếp:
+
+```text
+K → p(o)
+```
+
+**Missing formula / Công thức còn thiếu:**
+
+```text
+δ_K(o) = f(K_before, ρ, M, θ)
+```
+
+**EN:** Without this function, `δ_K(o)` is only a name, not a physical prediction.
+
+**VN:** Nếu chưa có hàm này, `δ_K(o)` chỉ là tên gọi, chưa phải dự đoán vật lý.
+
+---
+
+## 4. Minimal Future Formula / Công thức tương lai tối thiểu
+
+**EN:** The minimal formula needed for a testable deviation is:
+
+```text
+p_model(o | ρ, K_before, M, θ)
+= Tr(E_o ρ) + δ_K(o | ρ, K_before, M, θ)
+```
+
+where:
+
+```text
+p_QM(o | ρ, M) = Tr(E_o ρ)
+```
+
+and:
+
+```text
+δ_K(o | ρ, K_before, M, θ) = λ · g(o, ρ, K_before, M)
+```
+
+**VN:** Công thức tối thiểu để có sai khác kiểm chứng được là:
+
+```text
+p_model(o | ρ, K_before, M, θ)
+= Tr(E_o ρ) + δ_K(o | ρ, K_before, M, θ)
+```
+
+trong đó:
+
+```text
+p_QM(o | ρ, M) = Tr(E_o ρ)
+```
+
+và:
+
+```text
+δ_K(o | ρ, K_before, M, θ) = λ · g(o, ρ, K_before, M)
+```
+
+**Symbol meanings / Ý nghĩa ký hiệu:**
+
+| Symbol | EN | VN |
+|---|---|---|
+| `ρ` | Physical quantum state | Trạng thái lượng tử vật lý |
+| `K_before` | Registration state before the outcome appears | Trạng thái ghi nhận trước khi kết quả xuất hiện |
+| `M` | Measurement setting or measurement-registration context | Thiết lập đo hoặc bối cảnh đo-ghi nhận |
+| `o` | Measurement outcome | Kết quả đo |
+| `θ` | New model parameters | Tham số mới của mô hình |
+| `λ` | Strength of the proposed K-to-physical deviation | Độ mạnh của hiệu ứng sai khác từ K sang vật lý |
+| `g(...)` | Shape function for the deviation | Hàm hình dạng của sai khác |
+| `δ_K(o)` | K-dependent physical deviation | Sai khác vật lý phụ thuộc K |
+
+---
+
+## 5. RCA Requirement for `δ_K` / Điều kiện RCA cho `δ_K`
+
+A valid `δ_K` must satisfy all of the following.
+
+Một `δ_K` hợp lệ phải thỏa tất cả điều kiện sau.
+
+### 5.1 Baseline / Mốc chuẩn
+
+**EN:** Define the Standard QM prediction first:
+
+```text
+p_QM(o) = Tr(E_o ρ)
+```
+
+**VN:** Trước hết phải định nghĩa dự đoán của QM chuẩn:
+
+```text
+p_QM(o) = Tr(E_o ρ)
+```
+
+### 5.2 Use pre-outcome K / Dùng K trước kết quả
+
+**EN:** `δ_K` must depend on `K_before` or `K_context`, not on `K_after`, because `K_after` already contains the observed result.
+
+**VN:** `δ_K` phải phụ thuộc vào `K_before` hoặc `K_context`, không được phụ thuộc vào `K_after`, vì `K_after` đã chứa kết quả sau khi đo.
+
+Correct / Đúng:
+
+```text
+δ_K(o) = f(K_before, ρ, M, θ)
+```
+
+Incorrect / Sai:
+
+```text
+δ_K(o) = f(K_after, o)
+```
+
+### 5.3 Activation condition / Điều kiện xuất hiện
+
+**EN:** The model must state when the deviation appears:
+
+```text
+δ_K(o) ≠ 0 iff P_K(K_before, M) = 1
+```
+
+**VN:** Mô hình phải nói rõ khi nào sai khác xuất hiện:
+
+```text
+δ_K(o) ≠ 0 iff P_K(K_before, M) = 1
+```
+
+where `P_K` is the K-side condition that activates the proposed physical deviation.
+
+trong đó `P_K` là điều kiện tầng K kích hoạt sai khác vật lý được đề xuất.
+
+### 5.4 Return to Standard QM / Quay về QM chuẩn
+
+**EN:** The model must reduce to Standard QM when the new effect is absent:
+
+```text
+λ = 0 or P_K = 0 ⇒ δ_K(o) = 0
+```
+
+**VN:** Mô hình phải quay về QM chuẩn khi hiệu ứng mới không có:
+
+```text
+λ = 0 hoặc P_K = 0 ⇒ δ_K(o) = 0
+```
+
+### 5.5 Probability constraints / Ràng buộc xác suất
+
+**EN:** The modified probability must remain a valid probability:
+
+```text
+0 ≤ p_model(o) ≤ 1
+```
+
+```text
+Σ_o p_model(o) = 1
+```
+
+Therefore:
+
+```text
+Σ_o δ_K(o) = 0
+```
+
+**VN:** Xác suất đã sửa vẫn phải là xác suất hợp lệ:
+
+```text
+0 ≤ p_model(o) ≤ 1
+```
+
+```text
+Σ_o p_model(o) = 1
+```
+
+Vì vậy:
+
+```text
+Σ_o δ_K(o) = 0
+```
+
+### 5.6 Numerical prediction / Dự đoán số
+
+**EN:** The model must predict a measurable number, not only say that the deviation is nonzero.
+
+Example:
+
+```text
+δ_K(up) = +0.002
+δ_K(down) = -0.002
+```
+
+Then:
+
+```text
+p_model(up) = 0.502
+p_model(down) = 0.498
+```
+
+**VN:** Mô hình phải dự đoán được một con số đo được, không chỉ nói rằng sai khác khác 0.
+
+Ví dụ:
+
+```text
+δ_K(up) = +0.002
+δ_K(down) = -0.002
+```
+
+Khi đó:
+
+```text
+p_model(up) = 0.502
+p_model(down) = 0.498
+```
+
+---
+
+## 6. Theory and Experiment / Lý thuyết và thực nghiệm
+
+**EN:** Theory must propose the form of the law:
+
+```text
+δ_K(o) = f(K_before, ρ, M, θ)
+```
+
+**VN:** Lý thuyết phải đề xuất dạng luật:
+
+```text
+δ_K(o) = f(K_before, ρ, M, θ)
+```
+
+**EN:** Experiment must test whether the observed deviation is nonzero:
+
+```text
+δ(o) = p_observed(o) - p_QM(o)
+```
+
+**VN:** Thực nghiệm phải kiểm tra xem sai khác quan sát được có khác 0 không:
+
+```text
+δ(o) = p_observed(o) - p_QM(o)
+```
+
+**EN:** If theory has no formula, there is no physical prediction. If experiment has no measured deviation, there is no empirical support.
+
+**VN:** Nếu lý thuyết chưa có công thức, thì chưa có dự đoán vật lý. Nếu thực nghiệm chưa đo được sai khác, thì chưa có ủng hộ thực nghiệm.
+
+---
+
+## 7. Decision Table / Bảng quyết định
+
+| Question / Câu hỏi | Answer / Trả lời | RCA score |
+|---|---|---:|
+| Does the repo have K-side registration formalism? / Repo có formalism tầng K không? | Yes / Có | 4/5 |
+| Does the repo currently modify Standard QM? / Repo hiện có sửa QM chuẩn không? | No / Không | 1.5/5 |
+| Does the repo currently define `δ_K(o)`? / Repo hiện có định nghĩa `δ_K(o)` không? | No / Không | 1/5 |
+| Does the repo currently predict `δ_K(o) ≠ 0`? / Repo hiện dự đoán `δ_K(o) ≠ 0` không? | No / Không | 1.5/5 |
+| Can the repo become a research program toward `δ_K`? / Repo có thể thành chương trình nghiên cứu hướng tới `δ_K` không? | Yes, if extended / Có, nếu mở rộng | 3/5 |
+
+---
+
+## 8. Future Work / Việc tương lai
+
+**EN:** To move from registration formalism to physical prediction, the next document should be:
+
+```text
+K-ρ Coupling Physical Prediction Model
+```
+
+It must define:
+
+1. `K_before` or `K_context`.
+2. Activation condition `P_K(K_before, M)`.
+3. Deviation function `δ_K(o | ρ, K_before, M, θ)`.
+4. Probability constraints.
+5. Numerical predictions.
+6. Experimental protocol.
+7. Falsification rule.
+
+**VN:** Để đi từ formalism ghi nhận sang dự đoán vật lý, tài liệu tiếp theo nên là:
+
+```text
+K-ρ Coupling Physical Prediction Model
+```
+
+Nó phải định nghĩa:
+
+1. `K_before` hoặc `K_context`.
+2. Điều kiện kích hoạt `P_K(K_before, M)`.
+3. Hàm sai khác `δ_K(o | ρ, K_before, M, θ)`.
+4. Ràng buộc xác suất.
+5. Dự đoán số.
+6. Giao thức thực nghiệm.
+7. Quy tắc bác bỏ / falsification.
+
+---
+
+## 9. Final RCA Conclusion / Kết luận RCA cuối
+
+**EN:** The current VVV-QMRF repo is strong as a K-side registration formalism, but it is not yet a physical modification of Standard QM. To become a physical theory, it must add a K-to-physical bridge law that produces a precise, constrained, measurable deviation:
+
+```text
+p_model(o | ρ, K_before, M, θ)
+= Tr(E_oρ) + δ_K(o | ρ, K_before, M, θ)
+```
+
+with:
+
+```text
+δ_K(o) ≠ 0
+```
+
+under defined conditions and with numerical experimental predictions.
+
+**VN:** Repo VVV-QMRF hiện mạnh ở vai trò formalism tầng ghi nhận K, nhưng chưa phải sửa đổi vật lý của QM chuẩn. Để trở thành lý thuyết vật lý, nó phải thêm luật cầu nối từ K sang vật lý, tạo sai khác chính xác, có ràng buộc, và đo được:
+
+```text
+p_model(o | ρ, K_before, M, θ)
+= Tr(E_oρ) + δ_K(o | ρ, K_before, M, θ)
+```
+
+with:
+
+```text
+δ_K(o) ≠ 0
+```
+
+trong điều kiện được định nghĩa rõ và có dự đoán thực nghiệm bằng số.

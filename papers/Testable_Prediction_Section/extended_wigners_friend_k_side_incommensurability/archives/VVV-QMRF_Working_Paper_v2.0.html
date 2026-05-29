@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>VVV-QMRF Working Paper v2.0</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">VVV-QMRF Working Paper v2.0</h1>
+</header>
+<p>Author: VietVunVut (Viet - Nguyen Xuan); GitHub:
+https://github.com/AIhugART/; Facebook:
+https://www.facebook.com/xuanviet</p>
+<h1
+id="when-does-a-physical-interaction-become-a-valid-registered-measurement">When
+Does a Physical Interaction Become a Valid Registered Measurement?</h1>
+<h2
+id="a-vvv-qmrf-registration-layer-extension-of-quantum-mechanics-with-a-testable-prediction-for-extended-wigners-friend-scenarios">A
+VVV-QMRF Registration-Layer Extension of Quantum Mechanics with a
+Testable Prediction for Extended Wigner’s Friend Scenarios</h2>
+<p><strong>Working Paper v2.0</strong> <strong>Author:</strong> Viet
+Nguyen Xuan (VietVunVut) <strong>Repository:</strong>
+https://github.com/AIhugART/VVV-QMRF-VietVunVut-Quantum-Measurement-Registration-Framework
+<strong>Status:</strong> Working paper submitted for community feedback.
+All formal claims are Class D (proposed) or Class C (conjecture) unless
+stated otherwise. Critique is explicitly invited. <strong>Document
+type:</strong> Publication-facing draft / <code>publication_draft</code>
+<strong>Date:</strong> 2026-05-17 <strong>Scope:</strong>
+Registration-layer modeling of Extended Wigner’s Friend scenarios within
+VVV-QMRF. <strong>Out of scope:</strong> Replacement of Standard Quantum
+Mechanics, revision of the Born rule, consciousness-based collapse, or
+direct physical detection of K-side structures. <strong>Claim
+boundary:</strong> Formal notation in this paper defines proposed K-side
+registration models unless separately identified as Standard Quantum
+Mechanics or externally validated experimental result. <strong>Formula
+boundary:</strong> Symbols such as <code>K</code>, <code>σ_R(M)</code>,
+<code>requires_K_joint</code>, and <code>⊥_K</code> are
+registration-layer notation, not new physical observables.
+<strong>Reader level:</strong> Technical working-paper reader; community
+feedback is invited before publication-level claims are strengthened.
+<strong>Neutral wording boundary:</strong> Standard Quantum Mechanics is
+treated as scope-silent about registration architecture, not as
+logically defective.</p>
+<hr />
+<h2 id="abstract">Abstract</h2>
+<p>The quantum measurement problem has remained unresolved for nearly a
+century. Standard quantum mechanics specifies, via postulate P3, that a
+measurement of observable A on state |ψ⟩ yields eigenvalue aₖ with
+probability |⟨aₖ|ψ⟩|². What P3 does not specify is when a physical
+interaction constitutes a valid registered measurement event. This
+silence generates the von Neumann chain problem and leaves the
+Heisenberg cut formally undefined.</p>
+<p>This paper proposes VVV-QMRF (VietVunVut Quantum Measurement
+Registration Framework): a registration-layer extension of quantum
+mechanics grounded in Buddhist Pramāṇa epistemology (Dignāga–Dharmakīrti
+tradition). The framework adds a K-side registration space K, separate
+from the physical Hilbert space H, and proposes a six-condition test for
+valid registered measurement. Applied to Extended Wigner’s Friend (EWF)
+scenarios, this yields a specific conjecture: K-side registration spaces
+of two observers are incommensurable (K_F ⊥_K K_W) when a joint
+registration space K_joint is structurally required but cannot satisfy
+all six conditions simultaneously.</p>
+<p>This conjecture is not trivially true for all frameworks. It
+separates ordinary Bell-type nonclassicality from LF-level Wigner-friend
+inconsistency, as illustrated by data from Bong et al. (2020) at μ =
+0.80, 0.81 where Bell non-LF violation is reported while Local
+Friendliness inequalities remain unviolated. Existing data from Proietti
+et al. (2019) and Bong et al. (2020) are compatible with the prediction
+under the registration-layer reading developed here. The framework does
+not replace Standard Quantum Mechanics, revise the Born rule, invoke
+consciousness, or claim that a K-side structure is directly observed as
+a physical object. All formal claims are classified by evidence level. A
+purpose-designed experiment is required for confirmation.</p>
+<hr />
+<h2 id="the-registration-layer-gap">1. The Registration Layer Gap</h2>
+<h3 id="what-quantum-mechanics-specifies">1.1 What Quantum Mechanics
+Specifies</h3>
+<p>Standard quantum mechanics is built on four postulates:</p>
+<ul>
+<li><strong>P1 (State):</strong> A physical system is represented by a
+density operator ρ ∈ D(H).</li>
+<li><strong>P2 (Observables):</strong> Physical quantities are
+represented by self-adjoint operators A on H.</li>
+<li><strong>P3 (Measurement):</strong> Measurement of A on state |ψ⟩
+yields eigenvalue aₖ with probability |⟨aₖ|ψ⟩|², after which the state
+updates to the corresponding eigenstate.</li>
+<li><strong>P4 (Dynamics):</strong> Between measurements, the state
+evolves unitarily via the Schrödinger equation.</li>
+</ul>
+<p>P3 specifies what outcome appears and with what probability. P3 does
+not specify when a physical interaction counts as a measurement, what
+structural conditions distinguish a measurement from a non-measurement
+interaction, or what stops the measurement chain.</p>
+<p>This is the registration layer gap.</p>
+<h3 id="the-von-neumann-chain-problem">1.2 The Von Neumann Chain
+Problem</h3>
+<p>Von Neumann (1932) observed that if apparatus A1 measures system S,
+A1 becomes entangled with S. If apparatus A2 then measures A1, A2
+becomes entangled with A1+S. No postulate of standard QM specifies where
+this chain terminates. Every proposed stopping point — macroscopic size,
+decoherence, consciousness — is external to the formalism.</p>
+<p>Decoherence (Zurek 2003) explains why superpositions become
+effectively classical at the macroscopic scale. It does not explain when
+a physical interaction constitutes a registration event in the sense of
+a definite recorded outcome. The von Neumann chain problem is a
+registration-layer problem, not a decoherence problem.</p>
+<h3 id="the-heisenberg-cut">1.3 The Heisenberg Cut</h3>
+<p>Copenhagen quantum mechanics (Bohr 1935; Heisenberg 1958) assigns
+measurement authority to “the classical apparatus” without formally
+defining what makes an apparatus classical, why it has registration
+authority, or what structural conditions produce a definite outcome. The
+Heisenberg cut is a boundary without a formal location.</p>
+<p>VVV-QMRF addresses both problems by introducing a registration layer
+K, separate from the physical layer ρ, and proposing formal conditions
+for valid registration events within K.</p>
+<hr />
+<h2 id="the-k-side-registration-space">2. The K-side Registration
+Space</h2>
+<h3 id="layer-separation">2.1 Layer Separation</h3>
+<p>VVV-QMRF introduces a strict separation between two layers:</p>
+<ul>
+<li><strong>Physical layer (ρ-side):</strong> Physical states,
+observables, and dynamics as described by Standard QM. This layer is not
+modified. ρ ∈ D(H), H is the standard Hilbert space.</li>
+<li><strong>Registration layer (K-side):</strong> The space of
+registration events, recording conditions, and validity states. K ≠ H.
+K-side structure does not alter ρ-side dynamics.</li>
+</ul>
+<p>This separation is the core architectural commitment of VVV-QMRF.</p>
+<h3 id="minimal-k-state">2.2 Minimal K-state</h3>
+<p>A registration event is represented by a minimal K-state tuple:</p>
+<pre><code>k = ⟨M, o, cert, t, V⟩
+
+where:
+  M    = measurement act identifier
+  o    = registered outcome
+  cert = certification status (self-certified or not)
+  t    = registration time
+  V    = validity status ∈ {0, 1}</code></pre>
+<p>The K-side registration space K is the collection of such tuples
+produced by a registering system R over time.</p>
+<h3 id="source-buddhist-pramāṇa-epistemology">2.3 Source: Buddhist
+Pramāṇa Epistemology</h3>
+<p>The registration-layer architecture is derived structurally from
+Buddhist Pramāṇa epistemology (Dignāga–Dharmakīrti tradition), as
+systematized by Prasad (2023). Pramāṇa theory addresses the formal
+conditions under which a cognition constitutes a valid knowledge event.
+The structural extraction used here concerns:</p>
+<ul>
+<li><strong>Svasaṃvedana:</strong> Self-certifying cognition — a
+cognition that certifies its own occurrence without requiring a
+second-order cognition to validate it. Source for E1.</li>
+<li><strong>Arthakriyā:</strong> Validity as functional success — a
+cognition is valid if it enables successful engagement with its object.
+Source for validity conditions in E7.</li>
+<li><strong>Svataḥ/Parataḥ prāmāṇya:</strong> Initial validity is
+intrinsic, while invalidity is detected extrinsically. This is used as a
+structural meta-epistemological principle for E7, not as a standalone
+Buddhist Epistemology node.</li>
+<li><strong>Anumāna/Pratyakṣa:</strong> Inference and perception as
+distinct registration modes. Source for E11, E14.</li>
+</ul>
+<p>This is a structural extraction, not a claim that Buddhist
+epistemology proves quantum mechanics or that quantum mechanics
+validates Buddhist doctrine.</p>
+<hr />
+<h2 id="the-valid-registered-measurement-test">3. The Valid Registered
+Measurement Test</h2>
+<p>This section states the central contribution of the paper: a
+six-condition test for when a physical interaction constitutes a valid
+registered measurement.</p>
+<h3 id="the-six-conditions">3.1 The Six Conditions</h3>
+<p><strong>Interaction X is a valid registered measurement for
+registering system R if and only if:</strong></p>
+<pre><code>Condition 1 (Physical):
+  X occurs at the physical ρ-side.
+  [Standard QM governs this layer. VVV-QMRF does not modify it.]
+
+Condition 2 (Admission):
+  X is admitted into K-side as measurement act M_X for system R.
+  [The interaction crosses the layer boundary into K.]
+
+Condition 3 (Process membership):
+  M_X ∈ R, where R = {M_R1, M_R2, ...} is the registering
+  process of system R ordered by registration time.    [E6]
+
+Condition 4 (Self-certification):
+  σ_R(M_X) = 1: M_X self-certifies its occurrence within K_R,
+  determined intrinsically, not by any external M′ ≠ M_X.  [E1]
+
+Condition 5 (Default validity):
+  V(M_X) = 1 by default upon admission.              [E7]
+
+Condition 6 (Non-invalidation):
+  No later registration act M′ in K_R contradicts M_X
+  such that V(M_X) is revised to 0.                  [E7]</code></pre>
+<p>All six conditions must hold for X to count as a valid registered
+measurement.</p>
+<h3 id="the-k-side-stopping-proposition">3.2 The K-side Stopping
+Proposition</h3>
+<p><strong>Proposition (K-side stopping, Class D proposed):</strong></p>
+<p>If Conditions 1–6 hold for measurement act M_X of registering system
+R, then no further K-side registration act is required to certify M_X.
+The von Neumann registration regress terminates at M_X on the K-side
+without modifying ρ-side dynamics.</p>
+<p><strong>Why this addresses the Heisenberg cut:</strong> Condition 4
+(self-certification) provides the formal property that Copenhagen
+assigns to “classical apparatus” without definition. An apparatus has
+registration authority because σ_R(M) = 1 is determined intrinsically
+within K_R, requiring no external certifier. This is the
+registration-layer account of why the chain stops.</p>
+<p><strong>Claim class:</strong> D (proposed). Formal proof that
+Conditions 1–6 are jointly sufficient for chain termination is an open
+item.</p>
+<h3 id="observer-indexed-self-certification">3.3 Observer-Indexed
+Self-Certification</h3>
+<p>For multi-observer scenarios, the self-certification function carries
+an observer index:</p>
+<pre><code>σ_R(M) ∈ {0, 1}
+
+σ_R(M) = 1  iff  M occurred as a K-side registration event
+  of registering system R, determined intrinsically within K_R,
+  not by any M′ ≠ M and not by any R′ ≠ R.
+
+Independence: σ_F(M_F) is determined within K_F
+  independently of K_W, and vice versa.</code></pre>
+<p>The original σ(M) is the single-observer special case: σ(M) = σ_R(M)
+where R is unique. All properties of the single-observer case are
+preserved. <strong>[E01 Section 11.2, Class D]</strong></p>
+<hr />
+<h2 id="extended-wigners-friend-and-k-side-incommensurability">4.
+Extended Wigner’s Friend and K-side Incommensurability</h2>
+<h3 id="the-extended-wigners-friend-setup">4.1 The Extended Wigner’s
+Friend Setup</h3>
+<p>In the Extended Wigner’s Friend scenario (Frauchiger and Renner 2018;
+Brukner 2018), two observer pairs interact with a shared quantum
+system:</p>
+<ul>
+<li><strong>Friend F</strong> measures quantum system S inside a sealed
+laboratory. From F’s perspective, a definite outcome o_F is recorded:
+σ_F(M_F) = 1.</li>
+<li><strong>Wigner W</strong> models the entire laboratory (F + S) as a
+unitarily evolving quantum state. From W’s perspective, F+S is in
+superposition before W’s measurement. W then performs an interference
+measurement M_W on F’s laboratory.</li>
+</ul>
+<p>Standard QM supplies formal descriptions for both perspectives
+without providing a registration-layer account of their structural
+incompatibility. This is where the registration layer offers new
+structure.</p>
+<h3 id="applying-the-six-conditions-to-each-observer">4.2 Applying the
+Six Conditions to Each Observer</h3>
+<p><strong>Friend F:</strong></p>
+<pre><code>X_F → M_F ∈ R_F         [Condition 3, E6]
+σ_F(M_F) = 1             [Condition 4, E1]
+V_F(M_F) = 1             [Condition 5, E7]
+No M′ contradicts M_F    [Condition 6, E7]
+→ M_F is a valid registered measurement within K_F.</code></pre>
+<p><strong>Wigner W:</strong></p>
+<pre><code>X_W → M_W ∈ R_W         [Condition 3, E6]
+σ_W(M_W) = 1             [Condition 4, E1]
+V_W(M_W) = 1             [Condition 5, E7]
+No M′ contradicts M_W    [Condition 6, E7]
+→ M_W is a valid registered measurement within K_W.</code></pre>
+<p>Both observers satisfy the six conditions independently within their
+own K-sides.</p>
+<h3 id="the-requires_k_joint-predicate">4.3 The requires_K_joint
+Predicate</h3>
+<p>The question is whether a joint registration space K_joint can
+contain both K_F and K_W as jointly valid entries.</p>
+<pre><code>requires_K_joint(F, W, M_F, M_W) = 1
+  iff a single K_joint is structurally required to contain both
+  k_F = ⟨M_F, o_F, cert_F, t_F, V_F⟩ and
+  k_W = ⟨M_W, o_W, cert_W, t_W, V_W⟩
+  as jointly valid entries satisfying Conditions 1–6 for both.
+
+requires_K_joint(F, W, M_F, M_W) = 0
+  iff K_F and K_W can remain independent K-side spaces without
+  any joint validity check between them.</code></pre>
+<p><strong>Sufficient conditions for requires_K_joint = 1:</strong></p>
+<ul>
+<li><strong>Condition A (Wigner interference):</strong> W performs an
+interference measurement on the laboratory containing F+S. M_W registers
+a superposition description of F+S; M_F registers a definite outcome o_F
+of the same system S. Both claim K-side validity on the same physical
+event. → requires_K_joint = 1.</li>
+<li><strong>Condition B (Direct comparison):</strong> F and W directly
+compare registration records and a logical contradiction is detectable.
+→ requires_K_joint = 1.</li>
+</ul>
+<p><strong>Sufficient conditions for requires_K_joint = 0:</strong></p>
+<ul>
+<li><strong>Condition C (No interference, no comparison):</strong> W
+does not perform interference measurement on F’s laboratory. K_F and K_W
+remain causally isolated. → requires_K_joint = 0.</li>
+<li><strong>Condition D (Separable state):</strong> The shared quantum
+state |ψ⟩ is separable and M_F, M_W act on non-overlapping subsystems. →
+requires_K_joint = 0.</li>
+</ul>
+<p><strong>Claim class:</strong> D (proposed). Conditions A–D are
+sufficient conditions only. Necessary and sufficient characterization of
+requires_K_joint is an open item.</p>
+<h3 id="definition-boundary-for-k_joint-and-k-side-conflict">4.4
+Definition Boundary for K_joint and K-side Conflict</h3>
+<p>Before stating the K_joint failure proposition, the paper uses the
+following bounded definitions:</p>
+<pre><code>K_joint
+  A proposed registration-layer model that would contain entries from
+  K_F and K_W in one joint validity structure.
+
+M_W ⊥_K M_F
+  A proposed K-side conflict relation: M_W and M_F cannot both retain
+  validity value 1 inside the same K_joint because their registered
+  contents impose incompatible joint-validity commitments on the same
+  physical event domain.
+
+joint-validity failure
+  The failure of any proposed K_joint to satisfy Conditions 1-6 for
+  both M_F and M_W while preserving V(M_F)=1 and V(M_W)=1.</code></pre>
+<p>These definitions are registration-layer definitions only. They do
+not introduce a new physical observable, alter Hilbert-space dynamics,
+or claim that K_joint is directly detected as a physical object. The
+relation <code>⊥_K</code> is a Class D proposed formal relation; its use
+in the empirical prediction remains Class C until a full mathematical
+characterization and purpose-designed test are supplied.</p>
+<h3 id="k_joint-failure-and-k-side-incommensurability">4.5 K_joint
+Failure and K-side Incommensurability</h3>
+<p><strong>Proposition (K_joint failure, Class D proposed):</strong></p>
+<p>If requires_K_joint = 1 via Condition A, then no K_joint exists such
+that: - (i) σ_F(M_F) = 1 holds within K_joint [Condition 4 for F] - (ii)
+σ_W(M_W) = 1 holds within K_joint [Condition 4 for W] - (iii) V(M_F) = 1
+and V(M_W) = 1 simultaneously [Condition 5+6 for both]</p>
+<p><strong>Proof sketch:</strong></p>
+<pre><code>Step 1 [E6]: F and W are distinct registering processes R_F and R_W
+  with distinct K-side time sequences.
+
+Step 2 [E1, observer-indexed]: σ_F(M_F) = 1 is intrinsic to K_F.
+  σ_W(M_W) = 1 is intrinsic to K_W. Both hold independently.
+
+Step 3 [Condition A]: M_W registers F+S as superposition (no definite o_F).
+  M_F registers o_F as definite outcome. These are contradicting
+  registrations: M_W ⊥_K M_F — they assert incompatible K-side
+  validity claims on the same physical event.
+
+Step 4 [E7 Axiom 2]: If M′ contradicts M, V(M) and V(M′) cannot both
+  equal 1 in the same K-space. M_W ⊥_K M_F implies V(M_F) = 1 and
+  V(M_W) = 1 cannot simultaneously hold in any K_joint.
+  Therefore K_joint satisfying (i)–(iii) does not exist.</code></pre>
+<p><strong>K-side incommensurability:</strong></p>
+<pre><code>K_F ⊥_K K_W
+  iff  requires_K_joint = 1  AND  no K_joint satisfying (i)–(iii) exists.</code></pre>
+<p><strong>Claim class of Step 4:</strong> D (proposed). Depends on E7
+Axiom 2, which is itself Class D. Full formal proof is an open item
+listed in Section 7.</p>
+<h3 id="the-falsifiable-prediction">4.6 The Falsifiable Prediction</h3>
+<p>VVV-QMRF predicts a two-part structure:</p>
+<blockquote>
+<p>In Extended Wigner’s Friend experiments, configurations satisfying
+requires_K_joint = 1 are the configurations in which K-side
+joint-validity failure is structurally relevant. A violation of Local
+Friendliness inequalities is expected only when this structural
+condition is combined with sufficient empirical strength, such as
+adequate entanglement, visibility, and noise control. Configurations
+satisfying requires_K_joint = 0 are predicted to produce no LF violation
+from the K-side registration perspective.</p>
+</blockquote>
+<p><strong>This prediction is falsified if:</strong> An EWF experiment
+produces results better modeled by a single joint-registration structure
+than by K-side incommensurability in a configuration where
+requires_K_joint = 1 — i.e., if the experimental data are consistent
+with one K_joint satisfying Conditions 1-6 for both observers
+simultaneously, under Condition A and under empirical conditions strong
+enough for LF-level failure to be observable. The empirical absence of
+LF violation in a weak-entanglement or high-noise regime does not by
+itself falsify the framework, because Section 5.1 treats
+requires_K_joint = 1 as structurally necessary but not empirically
+sufficient for visible LF violation. If a single joint-registration
+model is empirically favored under the relevant structural and empirical
+conditions, E7 Axiom 2 or the proposed <code>⊥_K</code> relation
+requires revision.</p>
+<p><strong>Claim class:</strong> C (conjecture). Pending experimental
+operationalization and verification.</p>
+<hr />
+<h2 id="experimental-contact">5. Experimental Contact</h2>
+<h3 id="what-distinguishes-vvv-qmrf-from-existing-frameworks">5.1 What
+Distinguishes VVV-QMRF from Existing Frameworks</h3>
+<p>The key asymmetry is this: requires_K_joint = 1 is a structurally
+necessary but not empirically sufficient condition for LF violation. The
+quantum state must also be sufficiently entangled, and the experiment
+must have sufficient visibility and noise control, for K_joint failure
+to produce an observable inequality violation. This generates a
+two-regime structure:</p>
+<ul>
+<li><strong>Regime 1:</strong> requires_K_joint = 1 AND state weakly
+entangled → Condition A structurally active, K_joint structurally
+required, but empirical LF violation may be absent.</li>
+<li><strong>Regime 2:</strong> requires_K_joint = 1 AND state strongly
+entangled → K_joint failure is predicted to become visible as LF
+violation.</li>
+</ul>
+<p>A decoherence-only framework does not distinguish these two regimes
+at the registration-layer level, because it contains no predicate
+equivalent to requires_K_joint for separating Bell non-LF violation from
+LF-level joint-validity failure.</p>
+<p>This is not trivially true for all frameworks. It generates an
+observable conjecture: Bell non-LF violation can appear in Regime 1
+while LF inequalities remain unviolated, and LF violation appears in
+Regime 2 when entanglement, visibility, and noise conditions are
+sufficient.</p>
+<h3 id="proietti-et-al.-2019">5.2 Proietti et al. (2019)</h3>
+<p><strong>Reference:</strong> Proietti, M. et al. Experimental test of
+local observer independence. Science Advances 5(9), eaaw9832 (2019).
+DOI: 10.1126/sciadv.aaw9832.</p>
+<p><strong>Setup:</strong> Six-photon optical experiment with four
+observers (Alice’s Friend, Bob’s Friend, Alice, Bob). Two measurement
+choices per external observer:</p>
+<ul>
+<li>A0 / B0: read Friend’s memory record (no interference).</li>
+<li>A1 / B1: Wigner-type joint measurement via nonclassical interference
+on a 50/50 beam splitter.</li>
+</ul>
+<p><strong>Applying requires_K_joint:</strong></p>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 18%" />
+<col style="width: 21%" />
+<col style="width: 14%" />
+<col style="width: 22%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th>Term</th>
+<th>Configuration</th>
+<th>W interference?</th>
+<th>Condition</th>
+<th>requires_K_joint</th>
+<th>Role in S</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⟨A1B1⟩</td>
+<td>Both Wigner-type</td>
+<td>Both sides</td>
+<td>A</td>
+<td>1</td>
+<td>Added</td>
+</tr>
+<tr>
+<td>⟨A1B0⟩</td>
+<td>Alice Wigner, Bob record</td>
+<td>Alice side</td>
+<td>A</td>
+<td>1</td>
+<td>Added</td>
+</tr>
+<tr>
+<td>⟨A0B1⟩</td>
+<td>Alice record, Bob Wigner</td>
+<td>Bob side</td>
+<td>A</td>
+<td>1</td>
+<td>Added</td>
+</tr>
+<tr>
+<td>⟨A0B0⟩</td>
+<td>Both record readout</td>
+<td>None</td>
+<td>C</td>
+<td>0</td>
+<td>Subtracted</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Experimental values (alternative observable
+protocol):</strong></p>
+<pre><code>S = ⟨A1B1⟩ + ⟨A1B0⟩ + ⟨A0B1⟩ − ⟨A0B0⟩
+S = 0.571 + 0.577 + 0.573 − 0.662
+S = 2.407  (reported: 2.407 ± 0.073, violation &gt; 5σ)</code></pre>
+<p><strong>VVV-QMRF reading:</strong> The three terms with
+requires_K_joint = 1 contribute positively to the violated aggregate
+expression. The one term with requires_K_joint = 0 is subtracted. This
+aggregate sign pattern is consistent with the K_F ⊥_K K_W prediction,
+but it is not a per-configuration confirmation because S is evaluated as
+a combined inequality expression.</p>
+<p><strong>Result:</strong> Consistent at Bell-Wigner term-contribution
+level. Not a per-configuration confirmation; S is an aggregate
+expression.</p>
+<h3 id="bong-et-al.-2020">5.3 Bong et al. (2020)</h3>
+<p><strong>Reference:</strong> Bong, K.W. et al. A strong no-go theorem
+on the Wigner’s friend paradox. Nature Physics 16, 1199–1205 (2020).
+DOI: 10.1038/s41567-020-0990-x. arXiv: 1907.05607.</p>
+<p><strong>Setup:</strong> Extended Wigner’s Friend scenario with four
+observers (Charlie, Debbie, Alice, Bob). Three measurement settings per
+external observer. Friends implemented as photon paths within
+beam-displacer interferometers. State family:</p>
+<pre><code>ρ_μ = μ|Φ⁻⟩⟨Φ⁻| + (1−μ)/2 (|HV⟩⟨HV| + |VH⟩⟨VH|)</code></pre>
+<p>where μ ∈ [0,1] controls singlet fraction.</p>
+<p><strong>Applying requires_K_joint to settings:</strong></p>
+<table>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 14%" />
+<col style="width: 11%" />
+<col style="width: 20%" />
+<col style="width: 14%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th>Setting pair</th>
+<th>Alice side</th>
+<th>Bob side</th>
+<th>W interference?</th>
+<th>Condition</th>
+<th>requires_K_joint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x=1, y=1</td>
+<td>Ask Charlie</td>
+<td>Ask Debbie</td>
+<td>None</td>
+<td>C</td>
+<td>0</td>
+</tr>
+<tr>
+<td>x=1, y=2/3</td>
+<td>Ask Charlie</td>
+<td>Superobserver</td>
+<td>Bob side</td>
+<td>A</td>
+<td>1</td>
+</tr>
+<tr>
+<td>x=2/3, y=1</td>
+<td>Superobserver</td>
+<td>Ask Debbie</td>
+<td>Alice side</td>
+<td>A</td>
+<td>1</td>
+</tr>
+<tr>
+<td>x=2/3, y=2/3</td>
+<td>Superobserver</td>
+<td>Superobserver</td>
+<td>Both sides</td>
+<td>A</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>μ-threshold behavior and VVV-QMRF reading:</strong></p>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 37%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr>
+<th>μ regime</th>
+<th>Reported result</th>
+<th>VVV-QMRF reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low μ</td>
+<td>No inequalities violated</td>
+<td>requires_K_joint = 1 structurally active in x=2/3 settings; LF
+violation absent because state too weakly entangled</td>
+</tr>
+<tr>
+<td>μ = 0.80, 0.81</td>
+<td>Bell non-LF violated; LF inequalities NOT violated</td>
+<td>Regime 1: Condition A active, K_joint required, but entanglement
+insufficient for LF-level failure</td>
+</tr>
+<tr>
+<td>μ ≈ 0.87</td>
+<td>First LF violation (Semi-Brukner)</td>
+<td>Transition to Regime 2: K_joint failure is interpreted as becoming
+empirically visible</td>
+</tr>
+<tr>
+<td>High μ</td>
+<td>All categories violated including Genuine LF</td>
+<td>Regime 2: x=2/3, y=2/3 Condition A strongly active, K_joint failure
+fully exposed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The asymmetric prediction:</strong> At μ = 0.80, 0.81, Bell
+non-LF violation appears while LF inequalities remain unviolated.
+VVV-QMRF offers a registration-layer account of this asymmetry via the
+two-regime structure: requires_K_joint = 1 in superobserver settings
+(Condition A), but the quantum state at this μ value is not sufficiently
+entangled for K_joint failure to produce LF-level violation. A framework
+without a requires_K_joint predicate has no structural account, at the
+registration-layer level, of why Bell-type violation and LF-type
+violation may appear at different μ thresholds.</p>
+<p><strong>Result:</strong> Consistent at structural setting-level and
+μ-threshold level.</p>
+<h3 id="overall-condition-3-status">5.4 Overall Condition 3 Status</h3>
+<p>Both Proietti et al. (2019) and Bong et al. (2020) are compatible
+with the VVV-QMRF prediction under the registration-layer reading
+developed here. This is an existing-data compatibility check, not
+confirmation. A purpose-designed experiment varying requires_K_joint
+directly as an independent variable is required for confirmation-level
+evidence.</p>
+<h3 id="claim-control-summary">5.5 Claim-Control Summary</h3>
+<table>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 37%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Current status</th>
+<th>Boundary condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Six-condition registered measurement test</td>
+<td>Class D proposed definition</td>
+<td>Defines K-side registration validity; does not revise P1-P4 or the
+Born rule</td>
+</tr>
+<tr>
+<td>K-side stopping proposition</td>
+<td>Class D proposed proposition</td>
+<td>Requires formal proof of joint sufficiency of Conditions 1-6</td>
+</tr>
+<tr>
+<td>K_joint failure proposition</td>
+<td>Class D proposed proposition</td>
+<td>Depends on E7 Axiom 2 and the proposed definition boundary for ⊥_K;
+full mathematical characterization remains open</td>
+</tr>
+<tr>
+<td>requires_K_joint predicate</td>
+<td>Class D proposed predicate</td>
+<td>Sufficient conditions A-D only; necessary and sufficient
+characterization remains open</td>
+</tr>
+<tr>
+<td>LF-violation prediction</td>
+<td>Class C conjecture</td>
+<td>requires_K_joint = 1 is structurally necessary but not empirically
+sufficient; entanglement, visibility, and noise control also matter</td>
+</tr>
+<tr>
+<td>Proietti/Bong comparison</td>
+<td>Existing-data compatibility check</td>
+<td>Aggregate-level and setting-level consistency only; not
+confirmation</td>
+</tr>
+</tbody>
+</table>
+<p>This table functions as the claim-control layer for the working
+paper: formal language is limited by the stated evidence class, and
+empirical language is limited to compatibility unless a purpose-designed
+experiment directly tests requires_K_joint.</p>
+<hr />
+<h2 id="positioning-against-existing-interpretations">6. Positioning
+Against Existing Interpretations</h2>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 40%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr>
+<th>Interpretation</th>
+<th>Response to EWF paradox</th>
+<th>VVV-QMRF difference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Copenhagen</td>
+<td>WF is ill-posed; classical apparatus required</td>
+<td>E1/E7 formalize why apparatus has registration authority: σ_R(M) = 1
+intrinsically</td>
+</tr>
+<tr>
+<td>Many-Worlds</td>
+<td>All outcomes occur; no paradox</td>
+<td>Registration events are singular per K-side, not globally
+branching</td>
+</tr>
+<tr>
+<td>QBism</td>
+<td>Facts are agent-relative; no paradox</td>
+<td>Agrees on agent-relativity; adds formal K-side structure via six
+conditions</td>
+</tr>
+<tr>
+<td>Relational QM</td>
+<td>Facts are relation-relative; no paradox</td>
+<td>Closest existing framework; VVV-QMRF adds formal registration
+machinery that Relational QM does not provide</td>
+</tr>
+<tr>
+<td>Objective Collapse</td>
+<td>Physical collapse restores absolute facts</td>
+<td>VVV-QMRF does not require physical collapse mechanism on ρ-side</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Relation to Relational Quantum Mechanics:</strong> Rovelli
+(1996) argues that quantum states are relative to observers. VVV-QMRF
+adds the formal registration-layer structure that explains why they are
+relative: σ_R(M) operates intrinsically within K_R, independently of
+K_{R′}. K_F ⊥_K K_W is the registration-layer account of Rovelli’s
+observer-relativity. This is a genuine extension, not a restatement:
+VVV-QMRF supplies the formal conditions (E1, E6, E7) and the
+requires_K_joint predicate that Relational QM does not.</p>
+<hr />
+<h2 id="scope-limitations-and-open-items">7. Scope, Limitations, and
+Open Items</h2>
+<h3 id="what-this-paper-does-not-claim">7.1 What This Paper Does Not
+Claim</h3>
+<ul>
+<li>Does not replace Standard Quantum Mechanics or revise P1–P4.</li>
+<li>Does not revise the Born rule or unitary evolution.</li>
+<li>Does not claim Buddhist epistemology proves quantum mechanics.</li>
+<li>Does not claim K-side incommensurability is experimentally
+confirmed.</li>
+<li>Does not claim that consciousness plays any role in
+registration.</li>
+<li>Does not claim the EWF paradox is fully resolved on the ρ-side.</li>
+<li>Does not claim requires_K_joint is a necessary and sufficient
+condition (sufficient only).</li>
+</ul>
+<h3 id="open-items">7.2 Open Items</h3>
+<table>
+<colgroup>
+<col style="width: 39%" />
+<col style="width: 32%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr>
+<th>Open item</th>
+<th>Location</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Formal proof of Step 4 (E7 Axiom 2 in K_joint failure
+proposition)</td>
+<td>Section 4.5</td>
+<td>Incomplete</td>
+</tr>
+<tr>
+<td>Formal definition of ⊥_K as a mathematical relation</td>
+<td>Section 4.4</td>
+<td>Proposed definition boundary only; full formalism incomplete</td>
+</tr>
+<tr>
+<td>Necessary and sufficient characterization of requires_K_joint</td>
+<td>Section 4.3</td>
+<td>Sufficient conditions only</td>
+</tr>
+<tr>
+<td>Prove equivalence of σ(M) and R̂_svasa formalisms</td>
+<td>E01 Section 11.5</td>
+<td>Not started</td>
+</tr>
+<tr>
+<td>Axiomatize K as a full mathematical structure (topology, order)</td>
+<td>Section 2.2</td>
+<td>Partial</td>
+</tr>
+<tr>
+<td>Apply requires_K_joint to Proietti raw count-level data</td>
+<td>Section 5.2</td>
+<td>Aggregate level only</td>
+</tr>
+<tr>
+<td>Apply requires_K_joint to individual LF facet terms in Bong</td>
+<td>Section 5.3</td>
+<td>Setting-level only</td>
+</tr>
+<tr>
+<td>Explicit separability verification for Bong ρ_μ regimes</td>
+<td>Section 5.3</td>
+<td>Not done</td>
+</tr>
+<tr>
+<td>Purpose-designed VVV-QMRF experiment</td>
+<td>Section 5.4</td>
+<td>Not done</td>
+</tr>
+</tbody>
+</table>
+<h3 id="falsification-condition-restated">7.3 Falsification Condition
+(Restated)</h3>
+<p>This paper’s central prediction is falsified if:</p>
+<blockquote>
+<p>An Extended Wigner’s Friend experiment produces results better
+modeled by a single joint-registration structure than by K-side
+incommensurability, for a configuration where requires_K_joint = 1 via
+Condition A and the empirical regime has sufficient entanglement,
+visibility, and noise control for LF-level failure to be observable.</p>
+</blockquote>
+<p>In operational terms, this would mean that the data support one
+registration-layer model in which Conditions 1-6 are jointly satisfiable
+for both observers with V(M_F)=1 and V(M_W)=1, rather than a model
+requiring K_F ⊥_K K_W. If that occurs under the stated structural and
+empirical conditions, E7 Axiom 2 or the proposed <code>⊥_K</code>
+relation requires revision and the K_joint failure proposition does not
+hold.</p>
+<hr />
+<h2 id="references">References</h2>
+<ol type="1">
+<li>von Neumann, J. (1932). Mathematical Foundations of Quantum
+Mechanics. Princeton University Press.</li>
+<li>Bohr, N. (1935). Can Quantum-Mechanical Description of Physical
+Reality Be Considered Complete? Physical Review 48, 696–702.</li>
+<li>Heisenberg, W. (1958). Physics and Philosophy. Harper &amp;
+Row.</li>
+<li>Wigner, E.P. (1961). Remarks on the mind-body question. In: The
+Scientist Speculates, Good (ed.), pp. 284–302.</li>
+<li>Rovelli, C. (1996). Relational quantum mechanics. International
+Journal of Theoretical Physics 35, 1637–1678.</li>
+<li>Prasad, H.S. (2023). Buddhist Pramāṇa-Epistemology. Studia Humana
+12(1-2), 21–52. DOI: 10.2478/sh-2023-0004.</li>
+<li>Zurek, W.H. (2003). Decoherence, einselection, and the quantum
+origins of the classical. Reviews of Modern Physics 75, 715–775.</li>
+<li>Frauchiger, D. and Renner, R. (2018). Quantum theory cannot
+consistently describe the use of itself. Nature Communications 9,
+3711.</li>
+<li>Brukner, C. (2018). A no-go theorem for observer-independent facts.
+Entropy 20(5), 350.</li>
+<li>Proietti, M. et al. (2019). Experimental test of local observer
+independence. Science Advances 5(9), eaaw9832. DOI:
+10.1126/sciadv.aaw9832.</li>
+<li>Bong, K.W. et al. (2020). A strong no-go theorem on the Wigner’s
+friend paradox. Nature Physics 16, 1199–1205. DOI:
+10.1038/s41567-020-0990-x.</li>
+<li>Jordan, A.N. and Siddiqi, I.A. (2024). Quantum Measurement Theory
+and Practice. Cambridge University Press. DOI:
+10.1017/9781009103909.</li>
+</ol>
+<hr />
+<p><em>Working Paper v2.0 — VVV-QMRF</em> <em>Submitted to PhilSci
+Archive for community feedback</em> <em>All formal claims are Class D
+(proposed) or Class C (conjecture)</em> <em>Falsification condition
+stated in Section 4.6 and Section 7.3</em> <em>Purpose-designed
+experiment required for confirmation</em></p>
+</body>
+</html>

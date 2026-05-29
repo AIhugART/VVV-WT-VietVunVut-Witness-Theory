@@ -1,0 +1,46 @@
+{
+  "phase": "phase4_bridge_registry",
+  "snapshot_phase": "v1.6-stretch-manual-gen",
+  "snapshot_note": "Generated manually per A.1+ fix for F-RCA-12 design gap (plan §14.5 step 9.4). Source: registry MDs at v1.5-final commit + Phase 9 re-run state. phase4_bridge_registry.py NOT re-run to avoid destroying Phase 6/7 manual additions.",
+  "date": "2026-05-20",
+  "graph_nodes": 420,
+  "graph_edges_pre_p4": 149,
+  "graph_edges_post_p4": "unknown",
+  "new_br_ex_be_edges": 33,
+  "new_br_ex_qm_edges": 1,
+  "br_ex_be_registry": {
+    "total": 69,
+    "reference_copy": 36,
+    "new_similarity_candidate": 1,
+    "expert_manual_mapping": 9,
+    "stretch_expert_mapping": 23,
+    "namespace": "BR_EX_BE_00001-BR_EX_BE_00069"
+  },
+  "br_ex_qm_registry": {
+    "total": 74,
+    "reference_copy": 73,
+    "new_similarity_candidate": 1,
+    "namespace": "BR_EX_QM_00001-BR_EX_QM_00074"
+  },
+  "intersection_v1_6": {
+    "total_vvv": 52,
+    "intersection_count": 48,
+    "k_gaps": 0,
+    "rho_gaps": 0,
+    "both_gaps": 0,
+    "raw_dual_anchored_percent": 92.3
+  },
+  "integrity_checks": {
+    "br_ex_be_total_check": true,
+    "br_ex_qm_total_check": true,
+    "ghost_count": 0,
+    "phase8_boundary_audit_pass": true
+  },
+  "stretch_tier_status": {
+    "tier_1_threshold": 26,
+    "tier_1_achieved": true,
+    "tier_2_threshold": 42,
+    "tier_2_achieved": true
+  },
+  "f_rca_12_note": "Per A.1+ fix: phase4_bridge_registry.py SKIPPED in Phase 9.4 to preserve Phase 6/7 manual additions. Graph sync done via phase4_graph_sync.py (injected 34 new edges from registry MDs into v1.6 graph). This report is the metadata snapshot only — registry MDs and graph remain canonical source."
+}

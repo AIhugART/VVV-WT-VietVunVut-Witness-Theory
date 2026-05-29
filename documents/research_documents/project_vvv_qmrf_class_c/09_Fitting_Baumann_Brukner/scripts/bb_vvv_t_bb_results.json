@@ -1,0 +1,115 @@
+{
+  "script": "bb_vvv_t_bb_verification.py",
+  "version": "1.0",
+  "timestamp": "2026-05-28T09:19:44.764384",
+  "fit_plan_version": "v1.4",
+  "D_enc_design": "Option B (explicit-counterfactual, 3-round RCA 4.30/5)",
+  "step1": {
+    "c1": true,
+    "c2": true,
+    "c3": true,
+    "c4": true,
+    "c5": true,
+    "verdict": "PASS"
+  },
+  "step2": {
+    "enc0": 0,
+    "enc1": 1,
+    "chain_violations": 0,
+    "verdict": "PASS"
+  },
+  "step3": {
+    "K6_auth": true,
+    "V_k5_fires": 0,
+    "V_violations": 0,
+    "verdict": "PASS"
+  },
+  "step4": {
+    "c1": true,
+    "c2": true,
+    "c3": true,
+    "verdict": "PASS"
+  },
+  "T_BB_full": {
+    "T_BB_failures": 0,
+    "interference_count": 1000,
+    "awareness_violations": 0,
+    "canonical": [
+      {
+        "label": "x=0.01  (readout)",
+        "x": 0.01,
+        "T_BB_holds": true
+      },
+      {
+        "label": "x=pi/8  (boundary)",
+        "x": 0.39269908169872414,
+        "T_BB_holds": true
+      },
+      {
+        "label": "x=pi/4  (max interf.)",
+        "x": 0.7853981633974483,
+        "T_BB_holds": true
+      },
+      {
+        "label": "x=3pi/8 (symmetric)",
+        "x": 1.1780972450961724,
+        "T_BB_holds": true
+      },
+      {
+        "label": "x=pi/2-0.01 (readout)",
+        "x": 1.5607963267948965,
+        "T_BB_holds": true
+      }
+    ],
+    "verdict": "PASS"
+  },
+  "falsification": {
+    "F_TB1": false,
+    "F_TB2": false,
+    "F_TB3": false,
+    "F_TB4": false,
+    "all_clear": true
+  },
+  "cross_check_V2": {
+    "canonical": [
+      {
+        "label": "x=0.01  (readout)",
+        "x": 0.01,
+        "delta_p": 7.998933390220598e-05,
+        "T_BB_fires": false,
+        "aligned": true
+      },
+      {
+        "label": "x=pi/8  (boundary)",
+        "x": 0.39269908169872414,
+        "delta_p": 0.10000000000000003,
+        "T_BB_fires": true,
+        "aligned": true
+      },
+      {
+        "label": "x=pi/4  (max interf.)",
+        "x": 0.7853981633974483,
+        "delta_p": 0.2,
+        "T_BB_fires": true,
+        "aligned": true
+      },
+      {
+        "label": "x=3pi/8 (symmetric)",
+        "x": 1.1780972450961724,
+        "delta_p": 0.10000000000000003,
+        "T_BB_fires": true,
+        "aligned": true
+      },
+      {
+        "label": "x=pi/2-0.01 (readout)",
+        "x": 1.5607963267948965,
+        "delta_p": 7.998933390220708e-05,
+        "T_BB_fires": false,
+        "aligned": true
+      }
+    ],
+    "structural_alignment": true
+  },
+  "overall_pass": true,
+  "overall": "PASS"
+}

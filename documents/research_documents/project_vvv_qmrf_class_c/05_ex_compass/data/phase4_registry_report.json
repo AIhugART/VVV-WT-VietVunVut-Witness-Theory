@@ -1,0 +1,106 @@
+{
+  "phase": "phase4_bridge_registry",
+  "snapshot_phase": "phase4_frozen",
+  "date": "2026-05-20",
+  "graph_nodes": 420,
+  "graph_edges_pre_p4": 149,
+  "graph_edges_post_p4": 151,
+  "new_br_ex_be_edges": 1,
+  "new_br_ex_qm_edges": 1,
+  "br_ex_be_registry": {
+    "total": 37,
+    "reference_copy": 36,
+    "new_similarity_candidate": 1,
+    "namespace": "BR_EX_BE_00001–BR_EX_BE_00037"
+  },
+  "br_ex_qm_registry": {
+    "total": 74,
+    "reference_copy": 73,
+    "new_similarity_candidate": 1,
+    "namespace": "BR_EX_QM_00001–BR_EX_QM_00074"
+  },
+  "intersection_p4": {
+    "total_vvv": 52,
+    "intersection_count": 16,
+    "k_gaps": 36,
+    "rho_gaps": 1,
+    "both_gaps": 1,
+    "intersection_nodes": [
+      "N_QM_VVV_00001",
+      "N_QM_VVV_00004",
+      "N_QM_VVV_00006",
+      "N_QM_VVV_00020",
+      "N_QM_VVV_00021",
+      "N_QM_VVV_00025",
+      "N_QM_VVV_00027",
+      "N_QM_VVV_00029",
+      "N_QM_VVV_00032",
+      "N_QM_VVV_00033",
+      "N_QM_VVV_00039",
+      "N_QM_VVV_00042",
+      "N_QM_VVV_00044",
+      "N_QM_VVV_00048",
+      "N_QM_VVV_00051",
+      "N_QM_VVV_00054"
+    ],
+    "k_gap_nodes": [
+      "N_QM_VVV_00002",
+      "N_QM_VVV_00003",
+      "N_QM_VVV_00005",
+      "N_QM_VVV_00007",
+      "N_QM_VVV_00008",
+      "N_QM_VVV_00009",
+      "N_QM_VVV_00010",
+      "N_QM_VVV_00011",
+      "N_QM_VVV_00012",
+      "N_QM_VVV_00013",
+      "N_QM_VVV_00014",
+      "N_QM_VVV_00015",
+      "N_QM_VVV_00016",
+      "N_QM_VVV_00018",
+      "N_QM_VVV_00022",
+      "N_QM_VVV_00023",
+      "N_QM_VVV_00024",
+      "N_QM_VVV_00028",
+      "N_QM_VVV_00030",
+      "N_QM_VVV_00031",
+      "N_QM_VVV_00034",
+      "N_QM_VVV_00035",
+      "N_QM_VVV_00036",
+      "N_QM_VVV_00037",
+      "N_QM_VVV_00038",
+      "N_QM_VVV_00040",
+      "N_QM_VVV_00041",
+      "N_QM_VVV_00043",
+      "N_QM_VVV_00045",
+      "N_QM_VVV_00046",
+      "N_QM_VVV_00047",
+      "N_QM_VVV_00049",
+      "N_QM_VVV_00050",
+      "N_QM_VVV_00052",
+      "N_QM_VVV_00053",
+      "N_QM_VVV_00055"
+    ],
+    "rho_gap_nodes": [
+      "N_QM_VVV_00009"
+    ],
+    "both_gap_nodes": [
+      "N_QM_VVV_00009"
+    ]
+  },
+  "files_created": [
+    "ex_schema_addendum.md",
+    "br_ex_be_registry.md",
+    "br_ex_qm_registry.md",
+    "vvv_qmrf_ex_intersection.md (Phase 4 Final)",
+    "vvv_qmrf_ex_gaps.md (Phase 4 Final)",
+    "data/phase4_registry_report.json",
+    "data/vvv_qmrf_ex_graph.json (updated)"
+  ],
+  "integrity_checks": {
+    "br_ex_be_ids_unique": true,
+    "br_ex_qm_ids_unique": true,
+    "no_id_collision": true,
+    "isolation_maintained": true
+  }
+}

@@ -1,0 +1,6 @@
+# Requirements for VVV-QMRF Phase 10 Python Infrastructure
+# Re-scoped for K9_E (primary) and K9_A (fallback)
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

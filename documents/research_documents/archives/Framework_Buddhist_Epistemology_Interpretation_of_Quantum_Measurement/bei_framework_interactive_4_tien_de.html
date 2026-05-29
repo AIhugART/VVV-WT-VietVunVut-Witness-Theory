@@ -1,0 +1,110 @@
+
+<style>
+h2.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.axiom-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;margin-bottom:12px;cursor:pointer;transition:border-color .2s}
+.axiom-card:hover{border-color:var(--color-border-secondary)}
+.axiom-card.active{border-color:var(--color-border-primary)}
+.axiom-header{display:flex;align-items:baseline;gap:10px}
+.axiom-tag{font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;white-space:nowrap}
+.tag-purple{background:#EEEDFE;color:#3C3489}
+.tag-teal{background:#E1F5EE;color:#085041}
+.tag-coral{background:#FAECE7;color:#712B13}
+.tag-amber{background:#FAEEDA;color:#633806}
+.axiom-title{font-size:14px;font-weight:500;color:var(--color-text-primary)}
+.axiom-body{margin-top:10px;display:none;border-top:0.5px solid var(--color-border-tertiary);padding-top:10px}
+.axiom-card.active .axiom-body{display:block}
+.axiom-row{display:grid;grid-template-columns:minmax(0,1fr) 28px minmax(0,1fr);gap:8px;align-items:start;margin-bottom:6px}
+.axiom-col{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.axiom-col strong{display:block;font-size:11px;font-weight:500;color:var(--color-text-primary);margin-bottom:2px}
+.arrow-col{font-size:16px;color:var(--color-text-secondary);text-align:center;padding-top:14px}
+.conclusion-box{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:1rem 1.25rem;margin-top:4px}
+.conclusion-box p{margin:0;font-size:13px;color:var(--color-text-secondary);line-height:1.6}
+.conclusion-box .stmt{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:6px}
+.expand-hint{font-size:11px;color:var(--color-text-tertiary);margin-top:4px}
+@media(prefers-color-scheme:dark){
+  .tag-purple{background:#3C3489;color:#CECBF6}
+  .tag-teal{background:#085041;color:#9FE1CB}
+  .tag-coral{background:#712B13;color:#F5C4B3}
+  .tag-amber{background:#633806;color:#FAC775}
+}
+</style>
+<h2 class="sr-only">Buddhist Epistemic Interpretation — bốn tiên đề và kết luận về wavefunction và collapse</h2>
+<div id="axioms"></div>
+<div class="conclusion-box" id="conclusion" style="margin-top:16px">
+  <div class="stmt">Kết luận của framework</div>
+  <p id="conc-text">Chọn một tiên đề để xem kết luận liên quan.</p>
+</div>
+<script>
+const data=[
+  {
+    tag:"Tiên đề 1",tagClass:"tag-purple",
+    title:"Duyên khởi — mọi trạng thái đều quan hệ",
+    phap:"Không có trạng thái nào tồn tại độc lập",
+    qm:"Không có quantum state tuyệt đối — chỉ có state tương đối với reference system",
+    conc:"Wavefunction không mô tả 'hạt ở đâu'. Wavefunction mô tả cấu trúc của khả năng trong một mạng lưới quan hệ nhất định. Đây là epistemology, không phải ontology."
+  },
+  {
+    tag:"Tiên đề 2",tagClass:"tag-teal",
+    title:"Tánh không — không có intrinsic properties",
+    phap:"Không có thực thể nào có intrinsic properties",
+    qm:"Spin, position không phải properties của hạt — chúng là properties của hạt-trong-quan-hệ-với-apparatus",
+    conc:"'Hạt có spin 1/2' là câu sai cú pháp. Câu đúng: 'Hạt-khi-đo-bởi-apparatus-này có spin 1/2'. Thuộc tính không nội tại — thuộc tính là quan hệ."
+  },
+  {
+    tag:"Tiên đề 3",tagClass:"tag-coral",
+    title:"Duy thức — consciousness là điều kiện",
+    phap:"Consciousness là điều kiện cho reality to manifest",
+    qm:"Measurement không 'reveal' pre-existing state — measurement là điều kiện để state manifest",
+    conc:"Collapse không phải sự kiện vật lý. Collapse là cập nhật nhận thức khi một quan hệ mới được thiết lập. Không có gì 'xảy ra' với hạt — hạt bước vào một quan hệ mới."
+  },
+  {
+    tag:"Tiên đề 4",tagClass:"tag-amber",
+    title:"Hai đế — hai tầng mô tả",
+    phap:"Classical và quantum là hai tầng mô tả từ hai epistemic positions",
+    qm:"Quantum-classical cut là nhận thức luận, không phải vật lý",
+    conc:"Không có ranh giới vật lý nào ngăn cách thế giới macro và micro. Ranh giới là giữa tầng observer có thể 'đứng ngoài' (classical) và tầng observer không thể tách ra (quantum)."
+  }
+];
+
+const container=document.getElementById('axioms');
+const concText=document.getElementById('conc-text');
+let active=-1;
+
+data.forEach((d,i)=>{
+  const card=document.createElement('div');
+  card.className='axiom-card';
+  card.innerHTML=`
+    <div class="axiom-header">
+      <span class="axiom-tag ${d.tagClass}">${d.tag}</span>
+      <span class="axiom-title">${d.title}</span>
+    </div>
+    <div class="axiom-body">
+      <div class="axiom-row">
+        <div class="axiom-col"><strong>Phật giáo</strong>${d.phap}</div>
+        <div class="arrow-col">↔</div>
+        <div class="axiom-col"><strong>QM mapping</strong>${d.qm}</div>
+      </div>
+    </div>
+    <div class="expand-hint" id="hint-${i}">Nhấn để mở rộng</div>
+  `;
+  card.addEventListener('click',()=>{
+    if(active===i){
+      card.classList.remove('active');
+      document.getElementById('hint-'+i).textContent='Nhấn để mở rộng';
+      concText.textContent='Chọn một tiên đề để xem kết luận liên quan.';
+      active=-1;
+    } else {
+      document.querySelectorAll('.axiom-card').forEach((c,j)=>{
+        c.classList.remove('active');
+        const h=document.getElementById('hint-'+j);
+        if(h) h.textContent='Nhấn để mở rộng';
+      });
+      card.classList.add('active');
+      document.getElementById('hint-'+i).textContent='Nhấn để thu gọn';
+      concText.textContent=d.conc;
+      active=i;
+    }
+  });
+  container.appendChild(card);
+});
+</script>

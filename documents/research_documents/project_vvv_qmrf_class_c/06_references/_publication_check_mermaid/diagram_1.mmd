@@ -1,0 +1,53 @@
+﻿flowchart LR
+  %% Diagram 0: one-page system boundary map.
+  %% Blue nodes are the Standard QM physical/probability layer.
+  %% Green nodes are the VVV-QMRF registration-state layer.
+  %% Red nodes are boundary guards, not new physics claims.
+
+  subgraph STD["Standard Quantum Measurement<br/>physical-probabilistic layer"]
+    direction LR
+    S0["ρ_before<br/>quantum state"]
+    S1["M = {E_o}<br/>measurement setting"]
+    S2["p_QM(o) = Tr(E_o ρ)<br/>Born rule"]
+    S3["detector response D_o<br/>physical trace"]
+    S4["o<br/>outcome value"]
+    S5["ρ_after = ρ_o<br/>standard state update"]
+
+    S0 --> S1 --> S2 --> S3 --> S4 --> S5
+  end
+
+  subgraph GAP["RCA boundary<br/>where 'measurement' gets compressed"]
+    direction TB
+    G1["Symptom<br/>physical outcome and known outcome are merged"]
+    G2["Root cause<br/>ρ-state and K-state are not separated"]
+    G1 --> G2
+  end
+
+  subgraph VVV["VVV-QMRF addition<br/>registration-state layer K"]
+    direction LR
+    K0["K_before<br/>prior registration state"]
+    K1["ε(M)<br/>pre-symbolic trace"]
+    K2["Λ<br/>symbolization"]
+    K3["Ā<br/>internal representation encoding"]
+    K4["V_yava<br/>registration lock"]
+    K5["K_after = U_K(K_before, o)<br/>validated registration state"]
+
+    K0 --> K1 --> K2 --> K3 --> K4 --> K5
+  end
+
+  S3 --> K1
+  S4 --> K5
+  G2 -. "fix: split layers" .-> STD
+  G2 -. "fix: formalize K-side" .-> VVV
+  S2 -. "preserved unchanged" .-> B1["Boundary guard<br/>no Born-rule modification"]
+  S5 -. "preserved unchanged" .-> B2["Boundary guard<br/>no replacement of Standard QM"]
+  K5 -. "novelty localized here" .-> B3["VVV-QMRF claim<br/>formal registration-state update"]
+
+  classDef qm fill:#e8f1ff,stroke:#2f65c8,stroke-width:1.5px,color:#10213f;
+  classDef reg fill:#eaf7ef,stroke:#23804a,stroke-width:1.5px,color:#102b17;
+  classDef rca fill:#fff6dc,stroke:#b7791f,stroke-width:1.5px,color:#3b2600;
+  classDef guard fill:#fdecec,stroke:#c53030,stroke-width:1.5px,color:#3b0808;
+  class S0,S1,S2,S3,S4,S5 qm;
+  class K0,K1,K2,K3,K4,K5 reg;
+  class G1,G2 rca;
+  class B1,B2,B3 guard;

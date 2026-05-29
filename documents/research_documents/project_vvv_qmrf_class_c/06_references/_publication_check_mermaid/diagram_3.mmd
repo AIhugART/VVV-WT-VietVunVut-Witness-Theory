@@ -1,0 +1,34 @@
+﻿flowchart TB
+  subgraph VVV["VVV-QMRF two-level measurement interface / Giao diện đo hai tầng"]
+    direction TB
+    input["Input<br/>ρ_before + K_before + M"]
+
+    subgraph physical["Physical layer preserved from Standard QM / Tầng vật lý giữ nguyên QM chuẩn"]
+      direction LR
+      rho["ρ_before"]
+      effects["M = {E_o}"]
+      prob["p_QM(o) = Tr(E_o ρ)"]
+      response["detector response<br/>physical trace D_o"]
+      rhoupdate["ρ_after = ρ_o"]
+
+      rho --> effects --> prob --> response --> rhoupdate
+    end
+
+    subgraph registrationK["Registration-state layer K / Tầng cập nhật trạng thái ghi nhận K"]
+      direction LR
+      k0["K_before"]
+      eps["registration input<br/>ε(M)"]
+      lambda["symbolization<br/>Λ"]
+      akara["Internal Representation Encoding<br/>Ā"]
+      vyava["Registration Lock<br/>V_yava"]
+      k1["K_after = U_K(K_before, o)"]
+
+      k0 --> eps --> lambda --> akara --> vyava --> k1
+    end
+
+    input --> rho
+    input --> k0
+    response --> eps
+    lambda --> outcome["o enters K-side registration-state update<br/>registrable, not yet validated"]
+    outcome --> k1
+  end

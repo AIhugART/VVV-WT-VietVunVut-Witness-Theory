@@ -1,0 +1,421 @@
+{
+  "phase": "phase5_coverage",
+  "snapshot_phase": "mixed_phase5_phase6",
+  "snapshot_note": "Most fields updated post-Phase 6 (intersection_pct=48.1, dual_anchored=25). boundary_audit.entries_audited=111 is Phase 5 baseline (pre-Phase 6); the 9 Phase 6 entries were boundary-audited in vvv_qmrf_ex_boundary_audit.md (120 total). See RCA Audit F-RCA-05, F-RCA-07.",
+  "date": "2026-05-20",
+  "graph": {
+    "nodes": 420,
+    "edges": 160
+  },
+  "coverage_summary": {
+    "total_vvv_nodes": 52,
+    "dual_anchored": 25,
+    "k_only": 0,
+    "rho_only": 26,
+    "neither": 1,
+    "intersection_pct": 48.1,
+    "max_k_degree": 8,
+    "max_rho_degree": 4,
+    "avg_k_degree": 0.88,
+    "avg_rho_degree": 1.42
+  },
+  "f14_staged_milestones": {
+    "phase4_actual": "30.8% (16/52)",
+    "phase5_actual_post_phase6": "48.1% (25/52)",
+    "phase5_target": "≥50% (≥26)",
+    "phase5_target_met": false,
+    "note": "Phase 4 baseline frozen at 30.8% (16/52); post-Phase 6 expert mapping raised intersection to 48.1% (25/52); Phase 5 target ≥50% not met by automated + expert mapping alone (requires further domain expert work). F-RCA-03 fix: separated frozen baseline from live measurement."
+  },
+  "f15_exception_coverage": {
+    "k_covered": 25,
+    "k_excepted_structural": 27,
+    "k_excepted_breakdown": {
+      "KE-QI": 4,
+      "KE-OF": 13,
+      "KE-SC": 10
+    },
+    "k_pending_manual": 0,
+    "k_effective_coverage": "100.0% (52/52)",
+    "rho_covered": 51,
+    "rho_excepted": 1,
+    "rho_effective_coverage": "100% (52/52)"
+  },
+  "boundary_audit": {
+    "controls_checked": 7,
+    "entries_audited": 111,
+    "violations": 0,
+    "isolation_rules_passed": 5,
+    "ghost_entries": 0,
+    "overall": "PASS"
+  },
+  "per_node_coverage": [
+    {
+      "node": "N_QM_VVV_00001",
+      "k_count": 3,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00002",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00003",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00004",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00005",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00006",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00007",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00008",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00009",
+      "k_count": 0,
+      "rho_count": 0,
+      "status": "both_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00010",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00011",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00012",
+      "k_count": 0,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00013",
+      "k_count": 0,
+      "rho_count": 3,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00014",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00015",
+      "k_count": 0,
+      "rho_count": 3,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00016",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00018",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00020",
+      "k_count": 3,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00021",
+      "k_count": 8,
+      "rho_count": 4,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00022",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00023",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00024",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00025",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00027",
+      "k_count": 7,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00028",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00029",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00030",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00031",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00032",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00033",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00034",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00035",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00036",
+      "k_count": 1,
+      "rho_count": 3,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00037",
+      "k_count": 0,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00038",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00039",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00040",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00041",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00042",
+      "k_count": 4,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00043",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00044",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00045",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00046",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00047",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00048",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00049",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00050",
+      "k_count": 1,
+      "rho_count": 1,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00051",
+      "k_count": 2,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00052",
+      "k_count": 0,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00053",
+      "k_count": 0,
+      "rho_count": 1,
+      "status": "k_gap",
+      "dual_anchored": false
+    },
+    {
+      "node": "N_QM_VVV_00054",
+      "k_count": 1,
+      "rho_count": 2,
+      "status": "intersection",
+      "dual_anchored": true
+    },
+    {
+      "node": "N_QM_VVV_00055",
+      "k_count": 0,
+      "rho_count": 2,
+      "status": "k_gap",
+      "dual_anchored": false
+    }
+  ],
+  "visualizations": {
+    "network_diagram": "step5_1_network_diagram.png",
+    "kp_heatmap": "step5_2_kp_heatmap.png"
+  }
+}

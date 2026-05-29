@@ -1,0 +1,230 @@
+% ===================================================================
+% Supplemental Material
+% Have Optical Wigner's Friend Experiments Been Blind to a Geometric
+% Degree of Freedom?
+% ===================================================================
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,graphicx,booktabs,hyperref,geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+\title{Supplemental Material:\\
+Have Optical Wigner's Friend Experiments Been Blind to a Geometric Degree of Freedom?}
+\author{VietVunVut (Viet~--~Nguyen~Xuan)}
+\email{viet@vvvqmrf.com}
+\homepage{https://vvvqmrf.com}
+\affiliation{Independent Researcher, Vietnam}
+\date{2026-05-26}
+\maketitle
+
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+% ===================================================================
+\section{Literature Search and Algebraic Proof}
+\label{sec:S1}
+
+\subsection{Full Proof of Equatorial Cancellation Theorem}
+
+\textbf{Theorem.} Let Friend $F$ measure in $z$-basis and Superobserver $W$ at Bloch angles $(\theta,\phi)$.
+With $f_\perp(b,d) = 1 - |\langle b|d\rangle|^2$:
+\begin{equation}
+f_\perp(+1, H) - f_\perp(-1, H) = -\cos\theta
+\end{equation}
+Vanishes iff $\theta = \pi/2$.
+
+\subsubsection*{Step 1: $W$'s measurement basis}
+\begin{align}
+|b=+1\rangle &= \cos(\theta/2)|H\rangle + e^{i\phi}\sin(\theta/2)|V\rangle,\\
+|b=-1\rangle &= \sin(\theta/2)|H\rangle - e^{i\phi}\cos(\theta/2)|V\rangle.
+\end{align}
+
+\subsubsection*{Step 2: Overlaps with $F$'s outcomes}
+\begin{align}
+|\langle b=+1|H\rangle|^2 &= \cos^2(\theta/2), \quad |\langle b=+1|V\rangle|^2 = \sin^2(\theta/2),\\
+|\langle b=-1|H\rangle|^2 &= \sin^2(\theta/2), \quad |\langle b=-1|V\rangle|^2 = \cos^2(\theta/2).
+\end{align}
+$\phi$ drops out: $|e^{i\phi}|^2 = 1$. Overlaps depend \emph{only} on $\theta$.
+
+\subsubsection*{Step 3: $f_\perp$ values}
+\begin{align}
+f_\perp(+1,H) &= 1 - \cos^2(\theta/2) = \sin^2(\theta/2),\\
+f_\perp(-1,H) &= 1 - \sin^2(\theta/2) = \cos^2(\theta/2),\\
+f_\perp(+1,V) &= 1 - \sin^2(\theta/2) = \cos^2(\theta/2),\\
+f_\perp(-1,V) &= 1 - \cos^2(\theta/2) = \sin^2(\theta/2).
+\end{align}
+
+\subsubsection*{Step 4: Outcome-dependence parameter}
+\begin{align}
+f_\perp(+1, H) - f_\perp(-1, H) &= \sin^2(\theta/2) - \cos^2(\theta/2)\\
+&= -( \cos^2(\theta/2) - \sin^2(\theta/2))\\
+&= -\cos\theta.
+\end{align}
+Vanishes iff $\theta = \pi/2$. At this angle, all four $f_\perp = 1/2$, constant across all outcome pairs. $\square$
+
+\subsubsection*{Generality}
+At $\theta = \pi/2$, $|\langle b|d\rangle|^2 = 1/2$ for all $b,d$. Any $g(|\langle b|d\rangle|^2)$ therefore takes the same value for all outcome pairs. The equatorial plane is a fixed point for the entire class --- the cancellation is not specific to $f_\perp$.
+
+\subsection{BSM Equivalence for Proietti et al.\ (2019)}
+
+Proietti et al.\ use Bell-state measurement (BSM) rather than projective measurement. BSM projects onto four Bell states $\{|\Phi^+\rangle, |\Phi^-\rangle, |\Psi^+\rangle, |\Psi^-\rangle\}$. For the singlet-state source, each Bell outcome occurs with equal probability $1/4$, and conditioned on any Bell outcome $b$, the Friend's recorded outcome $d$ is equally likely to be $H$ or $V$. Consequently $|\langle b|d\rangle|^2 = 1/2$ for all $b,d$, identical to the equatorial condition $\theta = \pi/2$ derived in the main text.
+
+\subsection{Literature Search Methodology}
+
+\textbf{Search date:} 2026-05-15 to 2026-05-24.
+
+\textbf{Databases:} Google Scholar, arXiv (quant-ph), Web of Science, InspireHEP.
+
+\textbf{Search strings} (Boolean combinations):
+\begin{itemize}
+\item \textbf{Group A (subject):} ``Wigner's friend'' OR ``extended Wigner'' OR ``Frauchiger-Renner'' OR ``Local Friendliness''
+\item \textbf{Group B (parameter):} ``equatorial measurement'' OR ``Bloch sphere polar angle'' OR ``outcome dependence'' OR ``geometric constraint'' OR ``measurement basis angle''
+\end{itemize}
+
+\textbf{Inclusion criteria:}
+\begin{enumerate}
+\item Optical EWF implementation with Friend$+$Superobserver structure
+\item Published in peer-reviewed venue or arXiv
+\item Reports measurement settings from which polar angle $\theta$ can be determined
+\end{enumerate}
+
+\textbf{Results:} $\sim$200 titles screened $\to$ 47 full-text examined $\to$ 2 published optical EWF experiments identified. Both operate at equatorial geometry ($\theta = \pi/2$ or equivalent via BSM). No published experiment varies $\theta$ from $\pi/2$ for any purpose.
+
+\textbf{Additional sources examined:} Supplemental Material of Bong et al.\ (2020); Methods and Supplementary Information of Proietti et al.\ (2019); LF derivations in Frauchiger-Renner (2018) and Wiseman-Cavalcanti-Rieffel (2023); Bell/LF review by Brunner et al.\ (2014); multipartite, sequential, and possibilistic LF extensions.
+
+\textbf{Limitation:} We cannot rule out unpublished results or implementations outside our database scope. The survey establishes that within the indexed, peer-reviewed literature, $\theta$ has not been varied.
+
+% ===================================================================
+\section{Numerical Methods and Statistical Robustness}
+\label{sec:S2}
+
+\subsection{Exact Numerical Integration Method}
+
+All numerical predictions use the density matrix for the singlet state with finite visibility:
+\begin{equation}
+\rho_\mu = \mu|\Phi^-\rangle\langle\Phi^-| + \frac{1-\mu}{4}I.
+\end{equation}
+
+For the overlap-dependent model Eq.~(2--3) of the main text:
+\begin{equation}
+P(a,b \mid x,y) = P_{\rm QM}(a,b \mid x,y) \cdot [1 - \beta f_\perp(b,d)] / Z,
+\end{equation}
+with full renormalization $Z = \sum_{a,b} P_{\rm QM}(a,b \mid x,y) \cdot [1 - \beta f_\perp(b,d)]$.
+
+All computations performed via \texttt{K9S12\_proposal.py}, \texttt{statistical\_significance.py}. The algebraic cancellation theorem is independently verified via symbolic computation (\texttt{universal\_theorem\_lf\_check.py}).
+
+\subsection{Complete Correlator Table ($\theta = 31^\circ$, $\mu = 0.95$)}
+
+\begin{table}[h]
+\centering
+\caption{All nine $\langle A_x B_y\rangle$ correlators with uncertainties ($N = 91{,}000$).}
+\begin{tabular}{ccc}
+\toprule
+$(x,y)$ & $\langle AB\rangle_{\rm QM}$ & $\sigma$ \\
+\midrule
+$(1,1)$ & $-1.0000$ & $0.0000$ \\
+$(1,2)$ & $-0.8572$ & $0.0017$ \\
+$(1,3)$ & $-0.8572$ & $0.0017$ \\
+$(2,1)$ & $-0.8572$ & $0.0017$ \\
+$(2,2)$ & $-0.5045$ & $0.0029$ \\
+$(2,3)$ & $-0.8933$ & $0.0015$ \\
+$(3,1)$ & $-0.8572$ & $0.0017$ \\
+$(3,2)$ & $-0.8933$ & $0.0015$ \\
+$(3,3)$ & $-0.8829$ & $0.0016$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Grid Search Optimization}
+
+A grid search over $(\theta, \phi_2, \phi_3, \beta_{\rm Bob})$ maximizes:
+\begin{equation}
+\text{FOM}(\theta) = \min\left( n_\sigma^{\rm LF}(\theta), n_\sigma^{\rm signal}(\theta, \beta) \right),
+\end{equation}
+yielding $\theta = 31^\circ$, $\phi_2 = 112^\circ$, $\phi_3 = 217^\circ$, $\beta_{\rm Bob} = 20^\circ$. FOM remains above $5\sigma$ for $\theta \in [20^\circ, 55^\circ]$ at $\beta = 0.07$, $N = 91{,}000$.
+
+\subsection{Monte Carlo Validation}
+
+10{,}000 runs: Gen LF~1 $\ge 5\sigma$ in 99.97\%. $\beta = 0.07$: ${>}99\%$ power (single); $\beta = 0.05$: $\sim$90\% (combined). Conservative Bayesian analysis (20\% inflation): $\beta_{\rm min} \approx 0.046$ (combined).
+
+\subsection{Angular Stability}
+
+LF significance varies ${<}3\%$ across $\Delta\theta = \pm 5^\circ$. $\delta\langle AB\rangle \propto \cos\theta$: $\sim$1\% at $\pm 1^\circ$ (Bong's reported precision).
+
+\subsection{$\phi$-Scramble Control Protocol}
+
+Rotate HWP to $N_\phi \geq 10$ random azimuthal angles $\phi \in [0^\circ, 360^\circ)$, fit $\delta\langle AB\rangle(\phi) = A + B\cos(2\phi) + C\sin(2\phi)$. Test: $A \neq 0$ with $B, C \approx 0$ indicates geometric $\cos\theta$ signal; $B$ or $C \neq 0$ indicates birefringence/alignment artifacts.
+
+% ===================================================================
+\section{Interpretations and Physical Context}
+\label{sec:S3}
+
+\subsection{Relation to Contextuality}
+
+Eq.~(2) of the main text is not a contextual hidden-variable model. There is no unobserved $\lambda$; the Friend outcome $d$ is an observed macroscopic record. Dependence is on registration geometry ($|\langle b|d\rangle|^2$) rather than on which observables are co-measured.
+
+\begin{table}[h]
+\centering
+\caption{Comparison of dependence frameworks.}
+\begin{tabular}{p{0.25\textwidth}p{0.18\textwidth}p{0.25\textwidth}p{0.25\textwidth}}
+\toprule
+Framework & Hidden variable? & Dependence on & Status of $d$ \\
+\midrule
+KS Contextuality & Yes ($\lambda$) & Measurement context & Unobserved \\
+Standard contextuality & No & Co-measured observables & N/A \\
+Retrocausal models & Varies & Future choices & Varies \\
+Eq.~(2) registration & No & $|\langle b|d\rangle|^2$ geometry & Observed record \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Physical Picture}
+
+When a Friend measures in the $z$-basis, they produce a macroscopic record with a definite orientation on the Bloch sphere. A Superobserver measuring at $(\theta,\phi)$ probes this record at a relative angle $|\langle b|d\rangle|^2$. Standard QM assumes that once the Friend's outcome is registered, subsequent measurements factorize. Eq.~(2) parametrizes a possible residual dependence on this geometric relationship.
+
+\subsection{Quantum Interpretations}
+
+\textbf{Copenhagen.} Silent on registration-layer structure --- the experiment tests a structural degree of freedom that no standard interpretation addresses.
+
+\textbf{Many-Worlds (Everett).} $\beta \neq 0$ would provide the first quantitative probe of inter-branch structural correlations; a null result constrains such effects to $\beta < 0.04$.
+
+\textbf{Relational QM (Rovelli).} Tests whether relational outcomes leave geometry-dependent measurable traces --- a signature current RQM formulations neither predict nor preclude.
+
+\textbf{Objective Collapse.} CSL and Diosi-Penrose models modify dynamics, not registration geometry. The overlap-dependent class is structurally orthogonal.
+
+\textbf{QBism.} Parametrizes whether agent experiences exhibit structural coupling across agents at the registration layer. A null result constrains agent-agent coupling at $\sim\!10^{-2}$.
+
+\subsection{General Probabilistic Theories (GPT) Context}
+
+Within the GPT framework, the overlap-only deformation defines a one-parameter family of neighboring GPTs deviating from the quantum point along the registration-geometry direction. This is a structural degree of freedom orthogonal to standard nonlocality.
+
+\subsection{Weak Measurement and Postselection}
+
+In weak measurement, the weak value $A_w = \langle \psi_f | A | \psi_i \rangle / \langle \psi_f | \psi_i \rangle$ depends explicitly on the pre-postselection overlap. The basis-alignment dependence in Eq.~(2) shares the structural feature of geometric coupling between measurement records at different observational levels. The analogy is structural, not dynamical.
+
+\subsection{Scale Comparison}
+
+\begin{table}[h]
+\centering
+\caption{Phenomenological parameter scales.}
+\begin{tabular}{lcc}
+\toprule
+Parameter class & Typical constraint & Reference \\
+\midrule
+Photon-sector SME & ${<}10^{-23}$ & Colladay \& Kosteleck\'y (1997) \\
+CSL collapse rate $\lambda$ & ${<}10^{-16}$ s${}^{-1}$ & Various \\
+Weak-measurement anomalies & $\sim\!10^{-2}$ & Aharonov et al.\ (1988) \\
+Overlap-dependent $\beta$ (this work) & $\sim\!10^{-2}$ (proposed) & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Multi-Observer Extension (Preliminary)}
+
+For $N > 2$ observers, the geometric cancellation structure generalizes. Preliminary analysis suggests $\sim\!11\times$ amplification at $\beta = 0.3$ for three observers, conditional on bridge theorems connecting registration-layer structure to QM observables for $N > 2$. Rigorous derivation is left for future work.
+
+\end{document}

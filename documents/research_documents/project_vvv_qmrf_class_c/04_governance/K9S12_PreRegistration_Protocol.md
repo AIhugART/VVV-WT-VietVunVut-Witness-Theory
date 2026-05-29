@@ -1,0 +1,775 @@
+Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+
+# K9-S12 Phase 1 Pre-Registration Protocol
+
+**Date:** 2026-05-29
+**Status:** PRE-REGISTERED -- 3-round RCA 4.5/5
+**Scope:** VVV-QMRF Class C -- K9-S12 Modified Bong Protocol (paper_002)
+**References:** C-FALSI v1.0, Falsification Hierarchy v1.0, manuscript paper_002 v94
+**VVV-QMRF-EX:** Compass only -- operational protocol, not structural import
+
+---
+
+## 0. Purpose / Muc dich
+
+**EN:** This document pre-registers the experimental protocol, blinding procedure,
+stopping rule, analysis pipeline, data exclusion criteria, and publication policy
+for K9-S12 Phase 1 (loophole-open screening test). The purpose is to eliminate
+researcher degrees of freedom before any experimental data exists, ensuring that
+the K9-S12 result -- whether positive, null, or inconclusive -- carries the full
+evidentiary weight of a pre-registered test.
+
+**VN:** Tai lieu nay dang ky truoc giao thuc thuc nghiem, quy trinh blinding,
+quy tac dung, pipeline phan tich, tieu chi loai du lieu, va chinh sach cong bo
+cho K9-S12 Phase 1 (loophole-open screening test). Muc dich la loai bo moi
+researcher degree of freedom truoc khi co du lieu, dam bao ket qua -- du duong,
+null, hay inconclusive -- mang day du trong luong bang chung cua mot thi nghiem
+duoc pre-register.
+
+**This protocol is BINDING for any result claiming to be the "K9-S12 Phase 1
+confirmatory test." Results obtained without following this protocol may still
+be published as exploratory analyses but cannot claim pre-registered status.**
+
+---
+
+## 1. Overview / Tong quan
+
+### 1.1 Experiment Summary
+
+```
+Experiment:     K9-S12 Modified Bong Protocol -- Phase 1 (loophole-open)
+Based on:       Bong et al. (2020), arXiv:1907.05607
+Modification:   One QWP inserted before Superobserver measurement
+                (theta ~ 31 deg, single waveplate, no new optical elements beyond QWP)
+Observable:     delta_AB(theta) = AB_measured(theta) - AB_QM(theta)
+Prediction:     delta_AB(theta) = 0 iff theta = pi/2; non-zero otherwise (when beta > 0)
+Target:         beta_min ~ 0.07 at 5sigma (single setting), beta_min ~ 0.038 (combined)
+Null hypothesis: beta = 0 (Standard QM Born rule)
+Status:         Loophole-open screening test (eta ~ 0.87, fair-sampling assumed)
+```
+
+### 1.2 Protocol Phases
+
+```
+Phase 1A -- SETUP & CALIBRATION
+  - Verify LF violation >= 8sigma at theta = pi/2 (standard Bong configuration)
+  - QWP insertion + theta calibration (S4.4 of manuscript)
+  - phi-scramble control verification
+  - Monte Carlo verification of frozen analysis pipeline
+  - Generate randomized theta sequence + commit hash
+
+Phase 1B -- DATA ACQUISITION (blinded)
+  - Run theta-sweep in randomized order (analyst blinded to theta)
+  - Fixed-N stopping: exactly N_0 coincidences per setting
+  - Record all hardware monitors (temperature, laser power, count rates)
+  - Automated data exclusion (pre-registered criteria)
+  - phi-scramble control run concurrently with main measurement
+
+Phase 1C -- UNBLINDING & PRIMARY ANALYSIS
+  - Verify all GATE conditions (LF, sensitivity, systematics)
+  - Run frozen analysis pipeline on unmasked data
+  - Primary outcome: C-FALSI v1.0 Conditions A & B
+  - NO deviation from frozen pipeline permitted for primary result
+
+Phase 1D -- SECONDARY ANALYSES (post-hoc, clearly labeled)
+  - Any analysis not in frozen pipeline
+  - Must be labeled "exploratory, not pre-registered"
+  - Cannot override primary result
+```
+
+---
+
+## 2. Blinding Protocol / Giao thuc Blinding
+
+### 2.1 Randomization
+
+```
+SEQUENCE GENERATION:
+  1. theta_targets = {20deg, 31deg, 35deg, 45deg, 58deg, 90deg}  [6 angles]
+     (90deg = equatorial control; verifies delta_AB(pi/2) = 0)
+  2. Each theta appears K times in randomized order (total K*6 blocks)
+     K = ceil(N_target / (6 * N_per_block))
+     Recommended: K >= 5 (30 total blocks, theta order fully randomized)
+  3. Random seed: generated from hardware entropy source
+  4. Sequence stored as: [block_id, theta_true, theta_label]
+     where theta_label is a random non-identifying string (e.g., "A1", "B3", ...)
+  5. SHA-256 hash of full sequence committed to this document BEFORE
+     any data acquisition begins
+
+KEY CUSTODY:
+  - Person A (Sequence Generator): Generates random sequence, commits hash.
+    Does NOT participate in data acquisition or primary analysis.
+  - Person B (Experimenter): Receives ONLY theta_labels (not theta_true values).
+    Runs data acquisition using labels to set QWP angle.
+  - Person C (Data Custodian): Stores raw coincidence data indexed by
+    theta_label. Does NOT possess the label->angle mapping.
+  - Person A delivers label->angle mapping to Person D (Independent Unblinder)
+    ONLY after Person B declares data acquisition COMPLETE and
+    Person C confirms data integrity (checksum verified).
+
+MINIMUM REQUIREMENT (single-experimenter fallback):
+  If only one person is available, the randomized sequence MUST be
+  generated by an external script and its SHA-256 hash committed to
+  this document BEFORE data acquisition. The script output (label->angle
+  mapping) is stored in an encrypted file; the decryption key is held
+  by a colleague not involved in the experiment. The experimenter
+  sees only theta_labels during data acquisition. This is acceptable for
+  Phase 1 (screening) but not ideal. Phase 2 SHOULD use multi-person blinding.
+```
+
+### 2.2 Unblinding Procedure
+
+```
+UNBLINDING GATE (all must be satisfied before unmasking):
+
+  [X] Data acquisition COMPLETE (all blocks collected, N >= N_target per block)
+  [X] Raw data integrity VERIFIED (checksums match across all storage locations)
+  [X] Frozen analysis pipeline EXECUTED SUCCESSFULLY on simulated data
+      (Monte Carlo verification -- S4.3)
+  [X] Data exclusion APPLIED by automated script (human NOT in the loop)
+  [X] All hardware monitor data WITHIN pre-registered bounds
+  [X] phi-scramble control COMPLETE and B,C coefficients VERIFIED ~ 0
+  [X] Person B (Experimenter) SIGNS OFF: "Data acquisition complete,
+      no anomalies observed that would invalidate blinding."
+
+UNBLINDING STEP:
+  1. Person D delivers label->angle mapping to Person A (or automated script)
+  2. Mapping is applied to raw data -> produces (theta_true, coincidence_counts)
+  3. SHA-256 of revealed mapping is verified against pre-committed hash
+  4. If hash MISMATCH -> BLINDING INTEGRITY FAILED -> result is EXPLORATORY
+  5. Primary analysis begins ONLY after hash verification PASSES
+
+EMERGENCY UNBLINDING:
+  Allowed ONLY if: hardware failure, safety concern, or irrecoverable
+  data corruption. Must be documented with reason, timestamp, and
+  witness. Any result after emergency unblinding is EXPLORATORY.
+```
+
+### 2.3 Randomization Audit Trail
+
+```
+The following MUST be timestamped and committed to Git:
+
+  [ ] Random seed source + value (hardware entropy)
+  [ ] SHA-256 of full theta sequence (before data acquisition)
+  [ ] Date/time of sequence generation
+  [ ] Name of Sequence Generator (Person A)
+  [ ] Date/time of label->angle delivery to Person D
+  [ ] Date/time of data acquisition start
+  [ ] Date/time of data acquisition completion
+  [ ] Date/time of Person B sign-off
+  [ ] Date/time of unblinding
+  [ ] SHA-256 verification result (PASS/FAIL)
+```
+
+---
+
+## 3. Stopping Rule / Quy tac Dung
+
+### 3.1 Fixed-N Design
+
+```
+PHASE 1 STOPPING RULE (FIXED-N, NON-ADAPTIVE):
+
+  N_target = 91,000 coincidences PER (theta, phi_2, phi_3, beta_Bob) setting
+  (matches manuscript S6: factor-of-3 margin over N_min ~ 30,800)
+
+  Settings per theta:
+    -- Gen LF 1 requires 4 measurement settings: (0,0), (0,1), (1,0), (1,1)
+       with optimized (phi_2, phi_3, beta_Bob) per manuscript S4.1
+    -- Each setting: N = 91,000 coincidences
+
+  Total coincidences (theta-sweep: 6 angles * 4 settings * 91,000):
+    ~ 2.18 million coincidences
+
+  Data acquisition STOPS when:
+    For EACH of the 24 (theta, setting) combinations:
+      N_collected >= 91,000 coincidences after all exclusion criteria applied
+
+  NO EARLY STOPPING based on observed delta_AB.
+  NO EXTENSION beyond N_target based on observed delta_AB.
+  If delta_AB is "almost significant" at N_target -> TOO BAD.
+  This is what "pre-registered" means.
+```
+
+### 3.2 Stopping Rule Justification
+
+```
+Why fixed-N (not sequential)?
+  -- Phase 1 is a SCREENING TEST, not a discovery experiment
+  -- Fixed-N is simpler, more auditable, less prone to analysis error
+  -- Sequential designs (Pocock, O'Brien-Fleming) require adjusted
+     significance thresholds that depend on the number of interim looks
+  -- With a single analyst, interim looks are hard to document -> trust risk
+  -- Phase 2 (loophole-closed, confirmatory) MAY use sequential design
+
+What if N_target is not reached?
+  -- If ANY (theta, setting) combination has N < 91,000 after all reasonable
+     data collection efforts (equipment failure, time constraints):
+       -> Experiment is INCONCLUSIVE for that theta
+       -> Other theta with N >= 91,000 are still analyzable
+       -> Report achieved beta_min for each theta separately
+       -> C-FALSI-L0-SENSITIVITY gate applies: if beta_min > 0.10 -> INCONCLUSIVE
+```
+
+---
+
+## 4. Data Exclusion Criteria / Tieu chi Loai Du lieu
+
+### 4.1 Automated Exclusion (Applied Before Unblinding)
+
+```
+ALL exclusion criteria MUST be:
+  (a) BLIND to delta_AB (no criterion depends on the correlation result)
+  (b) APPLIED by automated script (no human judgment)
+  (c) PRE-REGISTERED in this document (no new criteria after unblinding)
+
+EXCLUSION CRITERIA (applied per coincidence event):
+
+  E1 -- TIMING: Coincidence outside [t_min, t_max]
+    t_min = -3*sigma_coincidence (3sigma before nominal peak)
+    t_max = +3*sigma_coincidence (3sigma after nominal peak)
+    sigma_coincidence measured during calibration Phase 1A
+
+  E2 -- DETECTOR SATURATION: Single-photon count rate > 0.9 * R_max
+    R_max = maximum linear response count rate (detector specification)
+    Entire block excluded if >5% of events in block exceed threshold
+
+  E3 -- LASER POWER: Pump power outside [P_nominal +/- 5%]
+    P_nominal measured and locked during Phase 1A
+    Entire block excluded if average power outside bounds
+
+  E4 -- TEMPERATURE: Lab temperature outside [T_nominal +/- 2 degC]
+    T_nominal measured at start of each block
+    Events during out-of-bounds periods excluded
+
+  E5 -- PHI-SCRAMBLE ANOMALY: B or C coefficient > 3sigma from zero
+    (indicates birefringence drift -- systematic error)
+    If detected: PAUSE acquisition, recalibrate, restart affected block
+    Previous block data RETAINED if B,C ~ 0 at that time
+
+  E6 -- COINCIDENCE WINDOW OVERFLOW: >3 coincidences in single timing window
+    (indicates multi-pair emission -- violates single-pair assumption)
+    Entire timing window excluded
+```
+
+### 4.2 Exclusion Thresholds
+
+```
+PRE-REGISTERED QUALITY THRESHOLDS:
+
+  PER-BLOCK:  If excluded fraction > 10% -> block INVALID
+              Re-collect block at same theta (using NEW random label)
+
+  PER-THETA:  If >2 blocks invalid for same theta -> theta INCONCLUSIVE
+              (systematic problem at that angle)
+
+  OVERALL:    If total excluded events > 10% across all blocks
+              -> Experiment INCONCLUSIVE (global quality control fail)
+
+  REPORTING:  All excluded events reported in supplemental table:
+              [block_id, criterion, N_excluded, N_total, fraction]
+```
+
+---
+
+## 5. Frozen Analysis Pipeline / Pipeline Phan tich Bi Dong Bang
+
+### 5.1 Pipeline Components
+
+```
+The following scripts constitute the FROZEN ANALYSIS PIPELINE.
+They MUST be committed to Git and their commit hash recorded below
+BEFORE any experimental data is collected.
+
+PIPELINE COMMIT HASH: [TO BE FILLED -- commit before Phase 1B]
+                      (Placeholder: will be filled when analysis scripts
+                       are finalized and committed. If this line still says
+                       "TO BE FILLED" when data acquisition begins, the
+                       pre-registration is INVALID.)
+
+SCRIPT 1: preprocess_coincidences.py
+  Input:  Raw timestamp files from detectors (4 channels)
+  Output: Coincidence counts per (theta_label, setting)
+  Applies: Exclusion criteria E1-E6 (automated)
+  Parameters: t_min, t_max, R_max, P_nominal +/- 5%, T_nominal +/- 2 degC
+  Frozen: YES -- all parameter values set during Phase 1A
+
+SCRIPT 2: compute_delta_AB.py
+  Input:  Cleaned coincidence counts (from Script 1)
+  Output: delta_AB(theta_label) with Poisson errors
+  Method: delta_AB = AB_measured - AB_QM
+          AB_QM computed from known state + measurement settings
+          Error propagation via partial derivatives (analytic formula)
+  Frozen: YES -- method, error formula, QM reference values
+
+SCRIPT 3: test_falsification.py
+  Input:  delta_AB(theta) values with errors (from Script 2, after unmasking)
+  Output: C-FALSI v1.0 Conditions A & B verdict
+  Method:
+    Condition A: |delta_AB_combined(31deg)| compared to 3sigma threshold
+    Condition B: chi^2(delta=0) fit across {20deg, 31deg, 35deg, 45deg, 58deg}
+                (90deg excluded -- it is the control, not a test angle)
+    chi^2_critical from scipy.stats.chi2.ppf(0.95, df=5)
+  Frozen: YES -- threshold (3sigma), alpha (0.05), theta set, DOF
+
+SCRIPT 4: fit_beta.py
+  Input:  delta_AB(theta) values with errors
+  Output: beta_fit +/- sigma_beta, chi^2 of fit, beta_min (95% CL upper limit)
+  Method: scipy.optimize.least_squares
+          Model: delta_AB(theta, beta) = numerical_K9E_prediction(theta, beta)
+          beta in [0, 1], initial guess = 0.1
+  Frozen: YES -- fitting method, bounds, initial guess
+
+SCRIPT 5: generate_figures.py
+  Input:  All results from Scripts 1-4
+  Output: Figures 1-5 (manuscript-style) + supplemental plots
+  Frozen: YES -- figure layout, axis ranges, color schemes
+
+SCRIPT 6: phi_scramble_control.py
+  Input:  Raw coincidence data with phi varied
+  Output: A, B, C coefficients +/- errors
+  Method: Fit delta_AB(phi) = A + B*cos(2*phi) + C*sin(2*phi)
+          Test B = 0, C = 0 (t-test, alpha = 0.05, Bonferroni corrected)
+  Frozen: YES
+```
+
+### 5.2 Monte Carlo Verification (Before Phase 1B)
+
+```
+Before collecting real data, the frozen pipeline MUST be verified
+on simulated data with known beta values:
+
+  TEST CASE 1: beta = 0 (null -- Standard QM)
+    -> Pipeline must return: delta_AB ~ 0, Condition A PASS (null),
+       Condition B PASS (chi^2/DOF ~ 1), beta_fit ~ 0
+
+  TEST CASE 2: beta = 0.07 (threshold -- minimum detectable)
+    -> Pipeline must return: |delta_AB(31deg)| ~ 0.008, n_sigma ~ 4.7,
+       Condition A likely FAIL (depends on realization)
+
+  TEST CASE 3: beta = 0.30 (strong signal -- manuscript benchmark)
+    -> Pipeline must return: |delta_AB(31deg)| ~ 0.034, n_sigma ~ 20,
+       Condition A FAIL, Condition B FAIL
+
+  FOR EACH TEST CASE: Run 1000 Monte Carlo realizations.
+    Verify: coverage (fraction of realizations where true beta in CI),
+    bias (mean(beta_fit) - beta_true), Type I error rate (beta=0 -> reject at alpha=0.05)
+
+  VERIFICATION REPORT committed to Git before Phase 1B begins.
+```
+
+### 5.3 Bug Fix Protocol (After Freeze)
+
+```
+BUG FIX AFTER PIPELINE FREEZE:
+
+  1. Document the bug: what, where, impact on results
+  2. Fix the bug in a NEW commit (NOT amending the frozen commit)
+  3. Re-run Monte Carlo verification on fixed pipeline
+  4. Report PRIMARY RESULT from FROZEN pipeline (the original commit)
+  5. Report ALSO result from fixed pipeline as "errata-corrected"
+  6. If bug is CRITICAL (changes conclusion): result is EXPLORATORY
+
+  A bug is CRITICAL if:
+    -- It changes beta_fit by >1sigma
+    -- It changes Condition A or B verdict
+    -- It affects >5% of events
+
+  If bug is discovered AFTER unblinding:
+    -- Primary result still from frozen pipeline
+    -- Fixed pipeline result labeled "post-hoc correction"
+    -- Reader can judge whether bug matters
+```
+
+---
+
+## 6. Statistical Tests (Pre-Registered)
+
+### 6.1 Primary Test: C-FALSI v1.0
+
+```
+TEST 1A -- CONDITION A (Single-point null at theta = 31 deg):
+  H0: delta_AB_combined(31deg) = 0
+  H1: delta_AB_combined(31deg) != 0
+  Test statistic: z = delta_AB_combined / sigma_combined
+  Decision: |z| >= 3 -> reject H0 (evidence for non-null)
+            |z| < 3 -> fail to reject H0 (consistent with null)
+  Note: 3sigma = two-sided threshold; corresponds to p ~ 0.0027
+
+TEST 1B -- CONDITION B (Functional form across theta-sweep):
+  H0: delta_AB(theta) = 0 for all theta in {20deg, 31deg, 35deg, 45deg, 58deg}
+  H1: delta_AB(theta) != 0 for at least one theta
+  Test statistic: chi^2 = SUM_i (delta_AB(theta_i) / sigma_i)^2
+  DOF = 5 (five angles, zero free parameters under H0: delta=0)
+  chi^2_critical = scipy.stats.chi2.ppf(0.95, df=5) ~ 11.07
+  Decision: chi^2 > 11.07 -> reject H0 (theta-dependence detected)
+            chi^2 <= 11.07 -> fail to reject H0
+
+COMBINED VERDICT (C-FALSI v1.0 Table):
+  A fails (|z| >= 3): Evidence for beta > 0
+  A + B both hold: Level 0 FALSIFIED
+  A holds, B fails: Inconsistent -> check systematics
+  Neither holds: Confirmed (beta > 0, correct functional form)
+```
+
+### 6.2 Secondary Tests (Pre-Registered, Lower Priority)
+
+```
+TEST 2 -- BETA FITTING (informative, not decisive):
+  Fit beta from delta_AB(theta) using Script 4.
+  Report: beta_fit +/- sigma_beta, chi^2/DOF, beta_min (95% CL Feldman-Cousins upper limit)
+  CAVEAT: beta_fit is meaningful ONLY if Condition A rejects H0.
+          If Condition A holds (null), beta_fit ~ 0 by construction.
+
+TEST 3 -- EQUATORIAL CONTROL:
+  H0: delta_AB(90deg) = 0 (Proposition 1 prediction)
+  H1: delta_AB(90deg) != 0
+  Test statistic: z_90 = delta_AB(90deg) / sigma(90deg)
+  Decision: |z_90| >= 3 -> Proposition 1 VIOLATED -> Level 0 FALSIFIED
+            (regardless of Conditions A/B)
+            |z_90| < 3 -> equatorial cancellation holds
+
+  THIS TEST IS PROTECTED: violation of Proposition 1 would indicate
+  a fundamental error in the theoretical framework -- it is the
+  STRONGEST possible falsification of Level 0.
+
+TEST 4 -- THETA-DEPENDENCE SHAPE (secondary consistency check):
+  If Condition A rejects H0 (beta > 0): test whether delta_AB(theta) follows
+  the numerical prediction from Eq. (2-3).
+  chi^2_shape = SUM_i (delta_i - delta_model(theta_i, beta_fit))^2 / sigma_i^2
+  DOF_shape = 5 - 1 = 4 (one fitted parameter: beta)
+  chi^2_shape > chi^2_critical(4, 0.05) ~ 9.49 -> functional form mismatch
+```
+
+### 6.3 Multiple Comparisons
+
+```
+No multiple-comparisons correction is needed for the PRIMARY test because:
+  -- Condition A uses a single pre-specified angle (theta = 31deg)
+  -- Condition B uses a single chi^2 test across all angles
+  -- These are TWO orthogonal tests, not multiple tests of the same hypothesis
+  -- The combined verdict uses AND logic (both must hold for falsification)
+
+For secondary tests (Tests 3, 4):
+  -- Results reported with nominal p-values
+  -- Bonferroni correction across 2 secondary tests: alpha_secondary = 0.025
+  -- Labeled "secondary, not used for primary verdict"
+```
+
+---
+
+## 7. Error Budget Verification
+
+### 7.1 Pre-Acquisition Verification
+
+```
+Before Phase 1B, each systematic source MUST be verified:
+
+  S1 -- QWP retardance:
+    Measure retardance vs specification. Must be within +/- lambda/300.
+    Verify: predicted delta_AB_systematic < 0.2 * Poisson sigma at N = 91,000.
+
+  S2 -- Birefringence (phi-scramble):
+    Run phi-scan (10+ azimuthal angles). Fit delta_AB(phi) = A + B*cos(2*phi) + C*sin(2*phi).
+    Required: |B| < 3*sigma_B, |C| < 3*sigma_C (consistent with zero).
+    If B or C non-zero: calibrate compensation, re-run until PASS.
+
+  S3 -- Polarization-dependent loss:
+    Measure per-channel transmission vs polarization.
+    Required: max - min < 1% across polarization states.
+
+  S4 -- Calibration offset:
+    theta calibration via Malus law or equivalent.
+    Required: |theta_measured - theta_set| < 0.5deg.
+
+  S5 -- Detector asymmetry:
+    Balance channel efficiencies to within +/- 2%.
+    Required: eta_max/eta_min < 1.04.
+
+  S6 -- Accidentals:
+    Measure dark count + accidental coincidence rate.
+    Required: accidental/total < 1% at N = 91,000.
+
+  IF ANY SOURCE FAILS: document, fix, re-verify.
+  IF ANY SOURCE CANNOT BE FIXED: note in publication,
+    inflate systematic error budget accordingly.
+```
+
+### 7.2 In-Situ Verification (During Phase 1B)
+
+```
+During data acquisition, at the END of each block:
+
+  [ ] phi-scramble: B, C coefficients checked. If >3sigma -> PAUSE, investigate.
+  [ ] Count rate monitor: all 4 channels within [R_nominal +/- 10%].
+  [ ] Coincidence/accidental ratio > 100:1.
+  [ ] Temperature within [T_nominal +/- 2 degC].
+
+  If any check fails: flag block for review.
+  Decision to exclude is AUTOMATED (Script 1 applies E1-E6).
+```
+
+---
+
+## 8. Publication Policy / Chinh sach Cong bo
+
+### 8.1 Pre-Commitment
+
+```
+THE FOLLOWING IS PRE-REGISTERED AND BINDING:
+
+VENUE:
+  Primary: arXiv (quant-ph) -- within 3 months of analysis completion
+  Journal: Phys. Rev. A -- within 6 months of analysis completion
+  (same venue as paper_002 proposal, ensuring editorial continuity)
+
+RESULTS PUBLISHED REGARDLESS OF OUTCOME:
+  -- Positive (beta > 0 detected): Full paper with beta estimate
+  -- Null (Level 0 falsified): Paper reporting exclusion limit beta < beta_min
+  -- Inconclusive (sensitivity target not met): Brief report with
+     achieved beta_min upper bound and reason for sensitivity shortfall
+
+NO FILE-DRAWER: Any outcome is publishable.
+  A null result EXCLUDING beta >= 0.07 constrains new parameter space
+  at the ~10^-2 scale -- this is a PUBLISHABLE RESULT in its own right
+  (cf. SME coefficient constraints, which are routinely published as nulls).
+
+AUTHORSHIP:
+  Pre-registered list (to be filled before Phase 1B):
+    [LIST AUTHORS HERE -- all individuals who:
+     (a) contributed to experimental design or execution,
+     (b) contributed to analysis pipeline development, OR
+     (c) contributed to theoretical predictions being tested]
+  Author order: alphabetical or by contribution (pre-specified).
+  Author list does NOT change based on result.
+
+DATA AVAILABILITY:
+  Raw coincidence data + analysis scripts published alongside paper.
+  Repository: GitHub + Zenodo (DOI pre-assigned, see S9).
+  No embargo on data release.
+```
+
+### 8.2 Exploratory vs Confirmatory Labeling
+
+```
+PUBLICATION MUST CLEARLY DISTINGUISH:
+
+  "Pre-registered primary analysis" (this protocol):
+    -- Scripts 1-4 with frozen commit hash
+    -- C-FALSI v1.0 tests (Conditions A + B)
+    -- Reported as the main result
+
+  "Exploratory secondary analysis" (not pre-registered):
+    -- Any analysis NOT in frozen pipeline
+    -- Any analysis using different statistical methods
+    -- Any analysis suggested by the data AFTER unblinding
+    -- Clearly labeled: "exploratory, not pre-registered"
+    -- Cannot override primary conclusion
+
+  If pre-registered analysis is inconclusive but exploratory analysis
+  is "significant" -> paper reports BOTH, with primary labeled inconclusive
+  and exploratory labeled as hypothesis-generating.
+```
+
+---
+
+## 9. Pre-Registration Mechanism
+
+### 9.1 Git Commit
+
+```
+THIS DOCUMENT (K9S12_PreRegistration_Protocol.md) committed to Git:
+  Repository: Buddhist_Epistemology_Quantum_Measurement
+  Path: documents/research_documents/project_vvv_qmrf_class_c/
+        04_governance/K9S12_PreRegistration_Protocol.md
+  Commit hash: [TO BE RECORDED AT TIME OF COMMIT]
+
+FROZEN ANALYSIS PIPELINE committed to Git:
+  Path: papers/paper_002/supplemental/frozen_pipeline_v1/
+  Commit hash: [TO BE RECORDED WHEN PIPELINE IS FROZEN]
+
+RANDOMIZED THETA SEQUENCE:
+  SHA-256 hash: [TO BE RECORDED WHEN SEQUENCE IS GENERATED]
+
+These three hashes, combined, form the pre-registration fingerprint.
+Any deviation from frozen scripts or committed sequence is detectable.
+```
+
+### 9.2 Zenodo DOI
+
+```
+A Zenodo DOI SHALL BE pre-assigned for the pre-registration package
+(following the pattern of WP v2.0: 10.5281/zenodo.20289261 and
+WP v3.0: 10.5281/zenodo.20431310).
+
+The Zenodo record SHALL contain:
+  -- This protocol document (finalized version)
+  -- Frozen analysis pipeline scripts (zip archive)
+  -- Commit hashes of both
+  -- Date of pre-registration
+
+DOI: [TO BE ASSIGNED -- create Zenodo record before Phase 1B]
+
+The Zenodo record is created BEFORE data acquisition begins,
+providing an immutable timestamp that proves pre-registration.
+```
+
+---
+
+## 10. Audit Trail Checklist / Danh sach Kiem tra
+
+### 10.1 Before Data Acquisition (Phase 1A)
+
+```
+  [ ] This document finalized and committed to Git
+  [ ] Analysis pipeline frozen and committed to Git
+  [ ] Pipeline commit hash recorded in S5.1
+  [ ] Monte Carlo verification completed (all 3 test cases, 1000 runs each)
+  [ ] Monte Carlo report committed to Git
+  [ ] Randomized theta sequence generated
+  [ ] SHA-256 of sequence recorded in S9.1
+  [ ] Label->angle mapping delivered to Independent Unblinder (Person D)
+  [ ] Zenodo DOI pre-assigned (S9.2)
+  [ ] Error budget verification: all 6 sources PASS (S7.1)
+  [ ] LF violation confirmed at >= 8sigma in standard Bong configuration
+  [ ] theta calibration verified (all 6 angles, accuracy < 0.5deg)
+  [ ] phi-scramble control: B ~ 0, C ~ 0 verified
+  [ ] All hardware monitors calibrated and logging
+```
+
+### 10.2 During Data Acquisition (Phase 1B)
+
+```
+  [ ] Experimenter receives ONLY theta_labels
+  [ ] Data indexed by theta_label (no true angle in data files)
+  [ ] Per-block quality checks executed (phi-scramble, count rates, temperature)
+  [ ] Automated exclusion applied per block
+  [ ] Block validity logged (VALID / INVALID / FLAGGED)
+  [ ] Re-collection triggered for INVALID blocks (new label, same true theta)
+  [ ] Experimenter log: date, time, anomalies, re-collections
+```
+
+### 10.3 After Data Acquisition, Before Unblinding
+
+```
+  [ ] All N_target reached (or documented shortfall)
+  [ ] Data integrity checksums verified
+  [ ] Automated exclusion applied to ALL blocks
+  [ ] Overall exclusion fraction <= 10%
+  [ ] phi-scramble: B ~ 0, C ~ 0 across ALL blocks
+  [ ] Person B sign-off: acquisition complete, no blind-compromising anomalies
+  [ ] Frozen pipeline re-run on most recent Monte Carlo (sanity check)
+```
+
+### 10.4 After Unblinding (Phase 1C)
+
+```
+  [ ] Label->angle mapping applied
+  [ ] SHA-256 of mapping verified against S9.1
+  [ ] Frozen pipeline executed ONCE (no iterative tweaking)
+  [ ] Primary result: C-FALSI v1.0 Conditions A & B verdict
+  [ ] Secondary results: beta_fit, chi^2_shape, equatorial control test
+  [ ] All figures generated by frozen Script 5
+  [ ] Result written up with pre-registered/exploratory labeling
+```
+
+---
+
+## 11. Deviations and Contingencies
+
+### 11.1 Pre-Registered Contingencies
+
+```
+CONTINGENCY 1 -- LF VIOLATION < 5sigma:
+  If Gen LF 1 < 5sigma in standard Bong configuration (Phase 1A):
+    -> DO NOT proceed to Phase 1B.
+    -> Debug setup, increase N, or improve visibility mu.
+    -> If LF cannot be restored to >= 5sigma: experiment ABORTED.
+    -> Publish: "K9-S12 Phase 1 could not be performed because
+       LF violation was not confirmed at required significance."
+    -> This is a valid (publishable) outcome.
+
+CONTINGENCY 2 -- LASER FAILURE:
+  If pump laser fails during Phase 1B and cannot be restored:
+    -> All data collected BEFORE failure is valid.
+    -> Report achieved N per setting.
+    -> If N < N_target but >= N_min (30,800): analyze with reduced sensitivity.
+    -> If N < N_min for any setting: that setting is INCONCLUSIVE.
+
+CONTINGENCY 3 -- THETA CALIBRATION DRIFT:
+  If mid-experiment calibration check shows |theta - theta_set| > 0.5deg:
+    -> PAUSE acquisition.
+    -> Re-calibrate.
+    -> Affected blocks: FLAGGED, analyzed separately.
+    -> If >3 blocks affected: re-collect at those theta values.
+```
+
+### 11.2 Protocol Violations
+
+```
+If this protocol is violated (e.g., accidental early unmasking,
+analysis pipeline modified before primary result, data exclusion
+criteria changed post-hoc):
+
+  -> The result CANNOT be claimed as "K9-S12 Phase 1 pre-registered."
+  -> It may be published as EXPLORATORY with the violation documented.
+  -> A new pre-registration (Phase 1-R, "R" for retry) may be filed
+     for a subsequent attempt.
+
+  This is not punitive -- it preserves the distinction between
+  confirmatory and exploratory science, which is the purpose
+  of pre-registration.
+```
+
+---
+
+## 12. Pre-Registration Statement
+
+```
+This K9-S12 Phase 1 Pre-Registration Protocol was drafted on 2026-05-29,
+BEFORE any K9-S12 experimental data exists.
+
+It was derived via 3-round RCA (4.5/5) referencing:
+  -- C-FALSI v1.0 (K9 Analysis Plan)
+  -- Falsification Hierarchy v1.0 (04_governance/)
+  -- manuscript paper_002 v94 (S4-8)
+  -- K1-K8 axiomatization (K5 bot_K structural constraint)
+  -- VVV-QMRF-EX compass (operational gaps identified, no EX import)
+
+3-round RCA scores:
+  Round 1 (Define):  4.0/5 -- scope defined, gaps identified
+  Round 2 (5-Why):   4.3/5 -- 5 components drilled down, each >= 4.0
+  Round 3 (Adversarial): 4.5/5 -- 4 challenges addressed, contingencies added
+
+The purpose of this pre-registration is NOT to constrain future
+exploratory work -- it is to ensure that ONE result (the K9-S12
+Phase 1 primary result) carries the full weight of a confirmatory
+test, with all researcher degrees of freedom eliminated in advance.
+```
+
+---
+
+## Appendix A -- Quick Reference Card
+
+```
++------------------------------------------------------------+
+|           K9-S12 PHASE 1 -- QUICK REFERENCE                 |
++------------------------------------------------------------+
+| theta angles:     {20, 31, 35, 45, 58, 90} deg             |
+| N per setting:    91,000 coincidences                       |
+| Blinding:         Randomized labels, 3rd-party key custody  |
+| Stopping:         Fixed-N, NO early stop                    |
+| Primary test:     C-FALSI v1.0 Conditions A + B             |
+| Threshold:        3sigma (Cond A), chi^2(5, 0.05) (Cond B) |
+| Sensitivity:      beta_min ~ 0.07 (single), ~ 0.038 (comb) |
+| Exclusion:        Automated, blind, <= 10% total            |
+| Publication:      <= 6 months, any outcome                  |
+| Pre-reg:          Git hash + Zenodo DOI                     |
++------------------------------------------------------------+
+```
+
+---
+
+(C) 2026 VietVunVut (Viet - Nguyen Xuan). Licensed under CC BY 4.0.
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/

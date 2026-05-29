@@ -1,0 +1,23 @@
+# Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+.claude/
+.ruff_cache/
+documents/published_documents/achives/*.pdf
+.tmp.driveupload/
+screenshot_*.png
+*.png
+!documents/**/*.png
+desktop.ini
+mcp/markdown-pdf/node_modules/
+mcp/markdown-pdf/test-output/
+build/mermaid-preview/
+
+# Video files (large binaries — use external hosting)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+
+# Python
+__pycache__/
+*.pyc

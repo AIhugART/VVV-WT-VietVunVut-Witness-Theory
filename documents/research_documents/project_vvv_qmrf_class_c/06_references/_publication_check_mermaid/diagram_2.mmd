@@ -1,0 +1,15 @@
+﻿flowchart LR
+  subgraph SQM["Standard Quantum Measurement system / Hệ đo lượng tử chuẩn hiện tại"]
+    direction LR
+    rho0["ρ_before<br/>physical quantum state"]
+    setting["M = {E_o}<br/>measurement setting / effects"]
+    born["p_QM(o) = Tr(E_o ρ_before)<br/>Born rule"]
+    detector["apparatus detector response<br/>physical signal only"]
+    outcome["o<br/>outcome / eigenvalue readout"]
+    rho1["ρ_after = ρ_o<br/>standard state update"]
+    registering["registering system<br/>formal black box"]
+
+    rho0 --> setting --> born --> outcome --> rho1
+    setting --> detector --> outcome
+    registering -. "registration not formalized as K" .-> outcome
+  end

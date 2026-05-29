@@ -1,0 +1,421 @@
+node_id,system,concept,betweenness_centrality
+N_QM_VVV_00021,VVV,Registration Lock / Registration-Lock Operator,0.00469000
+N_QM_VVV_00027,VVV,Registration Self-Completion Matrix / Act-Result Registration Identity,0.00265404
+N_QM_VVV_00013,VVV,Extrinsic Registration Certification Phase,0.00152448
+N_QM_VVV_00014,VVV,Extrinsic Registration-Certification Operator `Ĉ_ext`,0.00145596
+N_QM_VVV_00036,VVV,Null Registering-System Event / Registration Non-Engagement,0.00137888
+N_QM_VVV_00023,VVV,Registration Lock `V̂_yava` / Irreversible Registration Locking,0.00128134
+N_QM_VVV_00033,VVV,Self-Certifying Registration Operator / Registration Regress Stopper,0.00125850
+N_QM_00095,QM,Decoherence & Environment as Measurement,0.00110482
+N_QM_VVV_00029,VVV,Retroactive Registration Override / Formal Measurement Invalidation,0.00109625
+N_QM_VVV_00054,VVV,Pre-Measurement Registration Indeterminacy / Structured Registration-Doubt State,0.00108150
+N_QM_VVV_00044,VVV,Pre-Symbolic Stratum / Formalism-External Physical Event,0.00106961
+N_QM_VVV_00042,VVV,Tripartite Registration Validity Matrix / Strict Apparatus Axiom,0.00100823
+N_QM_00019,QM,Measurement (Physical Act),0.00097064
+N_QM_VVV_00011,VVV,Dual-Phase Registration Certification / Formal Validity Location,0.00096493
+N_QM_00033,QM,No-Result Measurement (Null Measurement),0.00088404
+N_QM_00094,QM,Heisenberg Cut,0.00078793
+N_QM_VVV_00001,VVV,Contrapositive Quantum Evidence / Purely Contrastive Quantum Evidence Structure,0.00072941
+N_QM_00022,QM,Post-Measurement State Update,0.00069563
+N_QM_VVV_00015,VVV,Conditionally Updated State `ρ̃`,0.00064138
+N_QM_VVV_00020,VVV,Validated Absence Registration / Conditioned Null Registration,0.00059380
+N_QM_VVV_00038,VVV,Measured-but-Unregistered K-State,0.00056526
+N_QM_00020,QM,von Neumann Measurement Model,0.00044535
+N_QM_VVV_00048,VVV,Limit-Faculty Registration / Transcendental Registration Mode,0.00042537
+N_QM_VVV_00032,VVV,Registration Error / Bhrānti Status,0.00039397
+N_QM_VVV_00043,VVV,Trairūpya Apparatus Validity Conditions / Validity Tensor `𝕍_tri`,0.00033687
+N_QM_VVV_00035,VVV,Primary Registration Closure / Regress-Terminating Closure,0.00033116
+N_QM_VVV_00028,VVV,Act-Result Tensor / Irreducible Event Tensor `𝒯_act-res`,0.00032545
+N_QM_00025,QM,[SUY DIỄN] Density Matrix & Mixed States,0.00030261
+N_QM_VVV_00012,VVV,Intrinsic Causal Triggering Phase,0.00028834
+N_QM_00021,QM,System–Meter Coupling,0.00027930
+N_QM_VVV_00045,VVV,Pre-Symbolic Event `ε(M)`,0.00026360
+N_QM_VVV_00024,VVV,Registration-Locking Boundary in Delayed-Choice Erasure,0.00025693
+N_QM_VVV_00030,VVV,Invalidation Operator `Ô_bhranti` / Registration Override Operator,0.00025408
+N_QM_00005,QM,Superposition,0.00016558
+N_QM_VVV_00034,VVV,Reflexive Registration Operator `R̂_svasa`,0.00014417
+N_QM_VVV_00016,VVV,Certified Registration State / Validated Registration State `ρ_certified`,0.00013703
+N_QM_VVV_00025,VVV,Intrinsic Relational Binding / Entanglement - registration Architecture,0.00013703
+N_QM_VVV_00046,VVV,Symbolization Operator `Λ`,0.00013132
+N_QM_VVV_00022,VVV,Internal Representation Encoding / Internal Encoding Phase `Â_kāra`,0.00009992
+N_QM_VVV_00039,VVV,Registering-System-as-Process Framework / Momentary Registration Series,0.00009706
+N_QM_VVV_00055,VVV,Indeterminacy Operator `Ŝ_saṃśaya`,0.00006566
+N_QM_VVV_00003,VVV,Projection Operator - registration / Null-Projection Operator `P_null`,0.00006281
+N_QM_VVV_00037,VVV,Null Registration Operator `Ê_empty`,0.00005710
+N_QM_VVV_00053,VVV,Kṣaṇa Registration Event / Registration Seal,0.00004568
+N_QM_VVV_00049,VVV,Limit-Faculty Registration Operator `M̂_trans`,0.00003997
+N_QM_VVV_00050,VVV,Non-Ordinary Valid Registration Output / Weak-Value Registration Status,0.00003997
+N_QM_VVV_00040,VVV,"Momentary Registering Moments `{o₁, o₂, ..., oₙ}`",0.00001713
+N_QM_00035,QM,Unselective Measurement & Quantum Channel,0.00000571
+N_BE_00001,BE,Valid cognition,0.00000000
+N_BE_00002,BE,Direct perception,0.00000000
+N_BE_00003,BE,Inference,0.00000000
+N_BE_00004,BE,Testimony,0.00000000
+N_BE_00005,BE,Object of cognition,0.00000000
+N_BE_00006,BE,Erroneous cognition,0.00000000
+N_BE_00007,BE,Doubt,0.00000000
+N_BE_00008,BE,Conceptual construction,0.00000000
+N_BE_00009,BE,Non-conceptual perception,0.00000000
+N_BE_00010,BE,Mental consciousness,0.00000000
+N_BE_00011,BE,Self-awareness,0.00000000
+N_BE_00012,BE,Transcendental perception,0.00000000
+N_BE_00013,BE,Particular / Unique mark,0.00000000
+N_BE_00014,BE,Universal / General mark,0.00000000
+N_BE_00015,BE,Exclusion,0.00000000
+N_BE_00016,BE,Sign / Logical reason,0.00000000
+N_BE_00017,BE,Subject / locus,0.00000000
+N_BE_00018,BE,Triple-condition syllogism,0.00000000
+N_BE_00019,BE,Pervasion,0.00000000
+N_BE_00020,BE,Necessary relation,0.00000000
+N_BE_00021,BE,Essential relation,0.00000000
+N_BE_00022,BE,Causal efficacy,0.00000000
+N_BE_00023,BE,Ignorance,0.00000000
+N_BE_00024,BE,Wisdom,0.00000000
+N_BE_00025,BE,Emptiness / Essencelessness,0.00000000
+N_BE_00026,BE,Two truths,0.00000000
+N_BE_00027,BE,Inference for oneself,0.00000000
+N_BE_00028,BE,Deductive reasoning,0.00000000
+N_BE_00029,BE,Momentariness,0.00000000
+N_BE_00030,BE,Buddha as epistemic authority,0.00000000
+N_BE_00031,BE,"Buddhist Pramāṇa-Epistemology, Logic, and Language",0.00000000
+N_BE_00032,BE,Pramāṇa-epistemology,0.00000000
+N_BE_00033,BE,Logic,0.00000000
+N_BE_00034,BE,Language or semantics,0.00000000
+N_BE_00035,BE,Double negation theory of meaning,0.00000000
+N_BE_00036,BE,Buddhist process philosophy,0.00000000
+N_BE_00037,BE,Substantialist philosophy,0.00000000
+N_BE_00038,BE,Vasubandhu,0.00000000
+N_BE_00039,BE,Diṅnāga,0.00000000
+N_BE_00040,BE,Dharmakīrti,0.00000000
+N_BE_00041,BE,Pramāṇabhūta,0.00000000
+N_BE_00042,BE,Scepticism,0.00000000
+N_BE_00043,BE,Nominalism,0.00000000
+N_BE_00044,BE,Phenomenalism,0.00000000
+N_BE_00045,BE,Idealism,0.00000000
+N_BE_00046,BE,Representationalism,0.00000000
+N_BE_00047,BE,Naïve realism,0.00000000
+N_BE_00048,BE,Critical realism,0.00000000
+N_BE_00049,BE,External realism,0.00000000
+N_BE_00050,BE,Sautrāntika,0.00000000
+N_BE_00051,BE,Yogācāra,0.00000000
+N_BE_00052,BE,Pramā,0.00000000
+N_BE_00053,BE,Prameya,0.00000000
+N_BE_00054,BE,Pramāṇa,0.00000000
+N_BE_00055,BE,Pramāphala,0.00000000
+N_BE_00056,BE,Pramāṇavāda,0.00000000
+N_BE_00057,BE,Pratyakṣa,0.00000000
+N_BE_00058,BE,Anumāna,0.00000000
+N_BE_00059,BE,Upamāna,0.00000000
+N_BE_00060,BE,Śabda,0.00000000
+N_BE_00061,BE,Lokakalyāṇa,0.00000000
+N_BE_00062,BE,Four Noble Truths,0.00000000
+N_BE_00063,BE,Middle Path,0.00000000
+N_BE_00064,BE,Essentialism,0.00000000
+N_BE_00065,BE,Ātmavāda,0.00000000
+N_BE_00066,BE,Anātmavāda,0.00000000
+N_BE_00067,BE,Anityatā,0.00000000
+N_BE_00068,BE,Nityatā,0.00000000
+N_BE_00069,BE,Dependent arising,0.00000000
+N_BE_00070,BE,Pratītyasamutpāda,0.00000000
+N_BE_00071,BE,Yathābhūtañāṇadassana,0.00000000
+N_BE_00072,BE,Avidyā,0.00000000
+N_BE_00073,BE,Three characteristics of reality,0.00000000
+N_BE_00074,BE,Dukkha,0.00000000
+N_BE_00075,BE,Taṇhā,0.00000000
+N_BE_00076,BE,Rāga,0.00000000
+N_BE_00077,BE,Dosa,0.00000000
+N_BE_00078,BE,Moha,0.00000000
+N_BE_00079,BE,Dukkha-nirodha,0.00000000
+N_BE_00080,BE,Noble Eightfold Path,0.00000000
+N_BE_00081,BE,Nirvāṇa,0.00000000
+N_BE_00082,BE,Śīla,0.00000000
+N_BE_00083,BE,Samādhi,0.00000000
+N_BE_00084,BE,Prajñā,0.00000000
+N_BE_00085,BE,Abhidharma,0.00000000
+N_BE_00086,BE,Momentariness,0.00000000
+N_BE_00087,BE,Kṣaṇabhaṅgavāda,0.00000000
+N_BE_00088,BE,Sarvāstivāda-Vaibhāṣika,0.00000000
+N_BE_00089,BE,Madhyamaka,0.00000000
+N_BE_00090,BE,Niḥsvabhāvatā,0.00000000
+N_BE_00091,BE,Dharmanairātmyavāda,0.00000000
+N_BE_00092,BE,Sarvaśūnyavāda,0.00000000
+N_BE_00093,BE,Ultimate ontological reality,0.00000000
+N_BE_00094,BE,Conceptually constructed reality,0.00000000
+N_BE_00095,BE,Cognitive-conative-emotive psychology,0.00000000
+N_BE_00096,BE,Anvaya,0.00000000
+N_BE_00097,BE,Vyatireka,0.00000000
+N_BE_00098,BE,Avinābhāva,0.00000000
+N_BE_00099,BE,Vyāpti,0.00000000
+N_BE_00100,BE,Svabhāvapratibandha,0.00000000
+N_BE_00101,BE,Eva,0.00000000
+N_BE_00102,BE,Paryudāsa-pratiṣedha,0.00000000
+N_BE_00103,BE,Prasajya-pratiṣedha,0.00000000
+N_BE_00104,BE,Apoha,0.00000000
+N_BE_00105,BE,Tipiṭaka or Tripiṭaka,0.00000000
+N_BE_00106,BE,Prajñāpāramitā,0.00000000
+N_BE_00107,BE,Ariyapariyesana-sutta,0.00000000
+N_BE_00108,BE,Dhammacakkappavattana-sutta,0.00000000
+N_BE_00109,BE,Dhamma as sailing against the current,0.00000000
+N_BE_00110,BE,Anusotagāmi,0.00000000
+N_BE_00111,BE,Diṅnāga's restricted scope,0.00000000
+N_BE_00112,BE,Dharmakīrti's revisionary approach,0.00000000
+N_BE_00113,BE,Abhidharmakośakārikā-bhāṣya,0.00000000
+N_BE_00114,BE,Vijñaptimātratāsiddhi,0.00000000
+N_BE_00115,BE,Vādavidhi,0.00000000
+N_BE_00116,BE,Vādavidhāna,0.00000000
+N_BE_00117,BE,Nyāyamukha,0.00000000
+N_BE_00118,BE,Ālambanaparīkṣā,0.00000000
+N_BE_00119,BE,Pramāṇasamuccaya-vṛtti,0.00000000
+N_BE_00120,BE,Sva-saṃvitti,0.00000000
+N_BE_00121,BE,Elliptical style,0.00000000
+N_BE_00122,BE,Svavṛtti,0.00000000
+N_BE_00123,BE,Diṅnāga's critique of opponents,0.00000000
+N_BE_00124,BE,Diṅnāga's soteriological purpose,0.00000000
+N_BE_00125,BE,Valid cognition as presupposition of action,0.00000000
+N_BE_00126,BE,Buddha's authority beyond faith,0.00000000
+N_BE_00127,BE,Pramāṇa formula,0.00000000
+N_BE_00128,BE,Vyāvahārika-sat,0.00000000
+N_BE_00129,BE,Saṃvṛti-sat,0.00000000
+N_BE_00130,BE,Paramārtha-sat,0.00000000
+N_BE_00131,BE,Laukika perception,0.00000000
+N_BE_00132,BE,Alaukika perception,0.00000000
+N_BE_00133,BE,Jñāna,0.00000000
+N_BE_00134,BE,Prāmāṇyavāda,0.00000000
+N_BE_00135,BE,Arthakriyā,0.00000000
+N_BE_00136,BE,Gold-testing method,0.00000000
+N_BE_00137,BE,Saṃśaya,0.00000000
+N_BE_00138,BE,Jijñāsā,0.00000000
+N_BE_00139,BE,Paramārthasat or dravyasat,0.00000000
+N_BE_00140,BE,Saṃvṛtisat or prajñaptisat,0.00000000
+N_BE_00141,BE,Conventionally real,0.00000000
+N_BE_00142,BE,Rigorously real,0.00000000
+N_BE_00143,BE,Inference in Indian logic,0.00000000
+N_BE_00144,BE,Nyāya-Vaiśeṣika categories,0.00000000
+N_BE_00145,BE,Dravya,0.00000000
+N_BE_00146,BE,Guṇa,0.00000000
+N_BE_00147,BE,Karma,0.00000000
+N_BE_00148,BE,Sāmānya,0.00000000
+N_BE_00149,BE,Viśeṣa,0.00000000
+N_BE_00150,BE,Samavāya,0.00000000
+N_BE_00151,BE,Abhāva,0.00000000
+N_BE_00152,BE,Argument from analogy,0.00000000
+N_BE_00153,BE,Pratijñā,0.00000000
+N_BE_00154,BE,Pakṣa,0.00000000
+N_BE_00155,BE,Sādhya or sādhyadharma,0.00000000
+N_BE_00156,BE,Hetu or liṅga,0.00000000
+N_BE_00157,BE,Dṛṣṭānta,0.00000000
+N_BE_00158,BE,Tri-rūpa-hetu,0.00000000
+N_BE_00159,BE,Anumāna-epistemology,0.00000000
+N_BE_00160,BE,Avinābhāva definition,0.00000000
+N_BE_00161,BE,Nonoccurrence condition,0.00000000
+N_BE_00162,BE,Pramāṇasamuccaya,0.00000000
+N_BE_00163,BE,Pramāṇa and samuccaya,0.00000000
+N_BE_00164,BE,Pramāṇādhīna prameyādhigama,0.00000000
+N_BE_00165,BE,Prameyādhīna pramāṇasiddhi,0.00000000
+N_BE_00166,BE,Pramāṇavyavasthā,0.00000000
+N_BE_00167,BE,Kalpanāpoḍha,0.00000000
+N_BE_00168,BE,Svalakṣaṇa,0.00000000
+N_BE_00169,BE,Sāmānyalakṣaṇa,0.00000000
+N_BE_00170,BE,Non-distinction of means and result,0.00000000
+N_BE_00171,BE,Sautrāntika cognitive process,0.00000000
+N_BE_00172,BE,Utpatti and vināśa simultaneity,0.00000000
+N_BE_00173,BE,Bāhyārtha,0.00000000
+N_BE_00174,BE,Saṃvedana,0.00000000
+N_BE_00175,BE,Sārūpya,0.00000000
+N_BE_00176,BE,Kalpanā,0.00000000
+N_BE_00177,BE,Tathya-saṃvṛti,0.00000000
+N_BE_00178,BE,Mithyā-saṃvṛti,0.00000000
+N_BE_00179,BE,Representative perception,0.00000000
+N_BE_00180,BE,Vijñaptimātra,0.00000000
+N_BE_00181,BE,Viṃśatikā,0.00000000
+N_BE_00182,BE,Triṃśikā,0.00000000
+N_BE_00183,BE,Nirvikalpaka,0.00000000
+N_BE_00184,BE,Avyapadeśya,0.00000000
+N_BE_00185,BE,Yojanā,0.00000000
+N_BE_00186,BE,Yadṛcchā-śabda,0.00000000
+N_BE_00187,BE,Jāti-śabda,0.00000000
+N_BE_00188,BE,Guṇa-śabda,0.00000000
+N_BE_00189,BE,Kriyā-śabda,0.00000000
+N_BE_00190,BE,Dravya-śabda,0.00000000
+N_BE_00191,BE,Pratyakṣa kalpanā-apoham,0.00000000
+N_BE_00192,BE,Pramāṇa-samplava,0.00000000
+N_BE_00193,BE,Dharmakīrti's anti-realism,0.00000000
+N_BE_00194,BE,Svalakṣaṇa criteria,0.00000000
+N_BE_00195,BE,Sāmānyalakṣaṇa criteria,0.00000000
+N_BE_00196,BE,Artha-kriyā-śakti,0.00000000
+N_BE_00197,BE,Arthakriyā as causal efficacy,0.00000000
+N_BE_00198,BE,Arthakriyā as practical success,0.00000000
+N_BE_00199,BE,Father of New Logic,0.00000000
+N_BE_00200,BE,Svārthānumāna,0.00000000
+N_BE_00201,BE,Parārthānumāna,0.00000000
+N_BE_00202,BE,Pañcāvayava,0.00000000
+N_BE_00203,BE,Four process mechanisms,0.00000000
+N_BE_00204,BE,Eight consciousnesses,0.00000000
+N_BE_00205,BE,Pravṛtti-vijñāna,0.00000000
+N_BE_00206,BE,Mano-vijñāna,0.00000000
+N_BE_00207,BE,Kliṣṭa-manasa,0.00000000
+N_BE_00208,BE,Ālaya-vijñāna,0.00000000
+N_BE_00209,BE,Darśana,0.00000000
+N_BE_00210,BE,Trairūpya-liṅga,0.00000000
+N_BE_00211,BE,Pakṣadharmatva,0.00000000
+N_BE_00212,BE,Sapakṣe sattvam,0.00000000
+N_BE_00213,BE,Vipakṣe asattvam,0.00000000
+N_BE_00214,BE,Positive concomitance,0.00000000
+N_BE_00215,BE,Negative concomitance,0.00000000
+N_BE_00216,BE,Indian principle of inductive reasoning,0.00000000
+N_BE_00217,BE,Logical proof,0.00000000
+N_BE_00218,BE,Upacāra,0.00000000
+N_BE_00219,BE,Anyāpoha,0.00000000
+N_BE_00220,BE,Universal critique,0.00000000
+N_BE_00221,BE,Śabda-pramāṇa rejection,0.00000000
+N_BE_00222,BE,Anya-vyāvṛtti,0.00000000
+N_BE_00223,BE,Vyakti,0.00000000
+N_BE_00224,BE,Bheda,0.00000000
+N_BE_00225,BE,Dravyatva,0.00000000
+N_BE_00226,BE,Guṇatva,0.00000000
+N_BE_00227,BE,Anubandha,0.00000000
+N_BE_00228,BE,Partial property focus,0.00000000
+N_BE_00229,BE,Pot example,0.00000000
+N_BE_00230,BE,Self-clinging,0.00000000
+N_BE_00231,BE,Satkāyadṛṣṭi,0.00000000
+N_BE_00232,BE,Skandha,0.00000000
+N_BE_00233,BE,Dharmakīrti's conceptual circularity,0.00000000
+N_BE_00234,BE,Aviṣaṃvāditva,0.00000000
+N_BE_00235,BE,Puruṣārtha-siddhi,0.00000000
+N_BE_00236,BE,Hierarchy of Discourse,0.00000000
+N_BE_00237,BE,Ascending Scale of Analysis,0.00000000
+N_BE_00238,BE,Diṅnāga's lapse on vyāpti,0.00000000
+N_BE_00239,BE,Adarśanamātra,0.00000000
+N_BE_00240,BE,Perceptual-conceptual gap,0.00000000
+N_BE_00241,BE,Vyāpti in Dharmakīrti,0.00000000
+N_BE_00242,BE,Vyāpaka,0.00000000
+N_BE_00243,BE,Vyāpya,0.00000000
+N_BE_00244,BE,Bhūyodarśana,0.00000000
+N_BE_00245,BE,Anvaya-vyāpti,0.00000000
+N_BE_00246,BE,Vyatireka-vyāpti,0.00000000
+N_BE_00247,BE,Dharmakīrti's momentariness principle,0.00000000
+N_BE_00248,BE,Dharmakīrti's pragmatism,0.00000000
+N_BE_00249,BE,Conceptual mental construction,0.00000000
+N_BE_00250,BE,Tadutpatti,0.00000000
+N_BE_00251,BE,Tādātmya,0.00000000
+N_BE_00252,BE,Anutpatti,0.00000000
+N_BE_00253,BE,Anupalabdhi,0.00000000
+N_BE_00254,BE,Kārya-hetu,0.00000000
+N_BE_00255,BE,Svabhāva-hetu,0.00000000
+N_BE_00256,BE,Anupalabdhi-hetu,0.00000000
+N_BE_00257,BE,Bhrānti,0.00000000
+N_BE_00258,BE,Adhyavasāya,0.00000000
+N_BE_00259,BE,Prāpaka,0.00000000
+N_BE_00260,BE,Dharmakīrti's definition of pramāṇa,0.00000000
+N_BE_00261,BE,Samyagjñāna,0.00000000
+N_BE_00262,BE,Article's self-limitation,0.00000000
+N_BE_00263,BE,Modern source dependence,0.00000000
+N_QM_VVV_00002,VVV,Interaction-Free State Inference (IFSI),0.00000000
+N_QM_VVV_00004,VVV,Informative Silence - registration,0.00000000
+N_QM_VVV_00005,VVV,Non-Informative Null Event / Broken-Detector Null,0.00000000
+N_QM_VVV_00006,VVV,Exclusion-Based State Selection / Exclusion-Based Registration,0.00000000
+N_QM_VVV_00007,VVV,Counterfactual Evidential Branch,0.00000000
+N_QM_VVV_00008,VVV,Ideal Information Without Direct Disturbance,0.00000000
+N_QM_VVV_00009,VVV,Elitzur-Vaidman Interaction-Free Measurement as VVV Evidence Exemplar,0.00000000
+N_QM_VVV_00010,VVV,PVM-equivalent Registration Authority,0.00000000
+N_QM_VVV_00018,VVV,Verification-Integrated Density Matrix Evolution,0.00000000
+N_QM_VVV_00031,VVV,Registration Weight / Hierarchical Registration Reliability,0.00000000
+N_QM_VVV_00041,VVV,Causal Memory Projection `Π̂_causal` / Causal Memory Tensor,0.00000000
+N_QM_VVV_00047,VVV,Degree of Symbolization / Partial-to-Complete Registration Mapping,0.00000000
+N_QM_VVV_00051,VVV,Temporal Discontinuity Doctrine / Moment-to-Moment Quantum Transition,0.00000000
+N_QM_VVV_00052,VVV,Discrete Transition Operator `T̂_kṣaṇa`,0.00000000
+N_QM_00001,QM,Qubit,0.00000000
+N_QM_00002,QM,Quantum State,0.00000000
+N_QM_00003,QM,Classical vs Quantum State,0.00000000
+N_QM_00004,QM,Hilbert Space,0.00000000
+N_QM_00006,QM,Phase Factor (Global vs Relative),0.00000000
+N_QM_00007,QM,Complex Numbers as Necessity,0.00000000
+N_QM_00008,QM,Four Postulates of Quantum Mechanics,0.00000000
+N_QM_00009,QM,Quantum Logic (vs Boolean Logic),0.00000000
+N_QM_00010,QM,Degrees of Freedom (Counting Parameters),0.00000000
+N_QM_00011,QM,Gedankenexperiment (Thought Experiment),0.00000000
+N_QM_00012,QM,[NGOẠI SUY] Wave-Particle Duality,0.00000000
+N_QM_00013,QM,[PARTIAL] Wave Function ψ(x),0.00000000
+N_QM_00014,QM,Projective Measurement (PVM),0.00000000
+N_QM_00015,QM,Three Cardinal Properties of Textbook Measurement,0.00000000
+N_QM_00016,QM,Born Rule,0.00000000
+N_QM_00017,QM,Observable (Hermitian Operator),0.00000000
+N_QM_00018,QM,Projection Operator P̂_j,0.00000000
+N_QM_00023,QM,Measurement Backaction,0.00000000
+N_QM_00024,QM,Positive Operator-Valued Measure (POVM),0.00000000
+N_QM_00026,QM,Generalized Measurement (Kraus Operators),0.00000000
+N_QM_00027,QM,Information–Disturbance Trade-off,0.00000000
+N_QM_00028,QM,Weak Measurement,0.00000000
+N_QM_00029,QM,Weak Value,0.00000000
+N_QM_00030,QM,Weak Value Amplification,0.00000000
+N_QM_00031,QM,Generalized Eigenvalues,0.00000000
+N_QM_00032,QM,Partial Wavefunction Collapse,0.00000000
+N_QM_00034,QM,Quantum Bayesian Point of View,0.00000000
+N_QM_00036,QM,Continuous Measurement: Diffusive Case,0.00000000
+N_QM_00037,QM,Continuous Measurement: Quantum Jump Case,0.00000000
+N_QM_00038,QM,Quantum Trajectory,0.00000000
+N_QM_00039,QM,Stochastic Schrödinger Equation (SSE),0.00000000
+N_QM_00040,QM,Stochastic Master Equation (SME),0.00000000
+N_QM_00041,QM,Wiener Increment dW,0.00000000
+N_QM_00042,QM,Quantum Jump Operator,0.00000000
+N_QM_00043,QM,Measurement Strength (κ or Γ),0.00000000
+N_QM_00044,QM,Stochastic Path Integral & Most Likely Path,0.00000000
+N_QM_00045,QM,Tensor Product Space,0.00000000
+N_QM_00046,QM,Product State,0.00000000
+N_QM_00047,QM,Entanglement,0.00000000
+N_QM_00048,QM,Maximally Entangled State,0.00000000
+N_QM_00049,QM,Singlet State \,0.00000000
+N_QM_00050,QM,Triplet States \,0.00000000
+N_QM_00051,QM,Composite Observables,0.00000000
+N_QM_00052,QM,Entanglement by Measurement,0.00000000
+N_QM_00053,QM,Spin,0.00000000
+N_QM_00054,QM,Pauli Matrices,0.00000000
+N_QM_00055,QM,Spin Component States,0.00000000
+N_QM_00056,QM,Spin Polarization Principle,0.00000000
+N_QM_00057,QM,Spin in a Magnetic Field,0.00000000
+N_QM_00058,QM,Linear Detector,0.00000000
+N_QM_00059,QM,Quantum-Limited Measurement,0.00000000
+N_QM_00060,QM,Standard Quantum Limit (SQL),0.00000000
+N_QM_00061,QM,Quantum Noise (Imprecision + Backaction),0.00000000
+N_QM_00062,QM,Linear Response & Fluctuation-Dissipation,0.00000000
+N_QM_00063,QM,Quantum Amplification,0.00000000
+N_QM_00064,QM,Josephson Tunnel Junction,0.00000000
+N_QM_00065,QM,Superconducting Qubit (Phase/Charge/Flux/Transmon),0.00000000
+N_QM_00066,QM,Squeezed States,0.00000000
+N_QM_00067,QM,Heisenberg Limit (Quantum Metrology),0.00000000
+N_QM_00068,QM,Signal-to-Noise Ratio in Quantum Measurement,0.00000000
+N_QM_00069,QM,Quantum Point Contact (QPC) Detector,0.00000000
+N_QM_00070,QM,Uncertainty (Standard Deviation) ΔA,0.00000000
+N_QM_00071,QM,Generalized Uncertainty Principle,0.00000000
+N_QM_00072,QM,Simultaneously Measurable Observables,0.00000000
+N_QM_00073,QM,Joint Measurement of Noncommuting Observables,0.00000000
+N_QM_00074,QM,Complementarity (Bohr),0.00000000
+N_QM_00075,QM,Hamiltonian H,0.00000000
+N_QM_00076,QM,Time Evolution (Unitarity),0.00000000
+N_QM_00077,QM,Schrödinger Equation,0.00000000
+N_QM_00078,QM,Poisson Bracket ↔ Commutator,0.00000000
+N_QM_00079,QM,[PARTIAL] Canonical Quantization,0.00000000
+N_QM_00080,QM,Classical Limit (ħ → 0),0.00000000
+N_QM_00081,QM,Wavefunction Collapse (Dynamical Description),0.00000000
+N_QM_00082,QM,[NGOẠI SUY] Momentum Operator,0.00000000
+N_QM_00083,QM,[NGOẠI SUY] Hamiltonian for a Particle,0.00000000
+N_QM_00084,QM,[NGOẠI SUY] Harmonic Oscillator,0.00000000
+N_QM_00085,QM,[NGOẠI SUY] Particle in a Box,0.00000000
+N_QM_00086,QM,Quantum Non-Demolition (QND) Measurement,0.00000000
+N_QM_00087,QM,Quantum Zeno Effect,0.00000000
+N_QM_00088,QM,Stern–Gerlach Experiment,0.00000000
+N_QM_00089,QM,EPR Paradox,0.00000000
+N_QM_00090,QM,Bell's Inequality & Bell Correlations,0.00000000
+N_QM_00091,QM,Hidden Variable Theories,0.00000000
+N_QM_00092,QM,Einstein-Bohr Debate,0.00000000
+N_QM_00093,QM,Copenhagen Interpretation,0.00000000
+N_QM_00096,QM,Schrödinger Cat State,0.00000000
+N_QM_00097,QM,Hong–Ou–Mandel (HOM) Effect,0.00000000
+N_QM_00098,QM,BB84 Quantum Cryptography Protocol,0.00000000
+N_QM_00099,QM,Quantum Information Era,0.00000000
+N_QM_00100,QM,Classical Realism vs Quantum Indeterminacy,0.00000000
+N_QM_00101,QM,Interpretation Maxim,0.00000000
+N_QM_00102,QM,Measurement Reversal,0.00000000
+N_QM_00103,QM,Quantum Feedback and Control,0.00000000
+N_QM_00104,QM,Canonical Phase Measurement,0.00000000
+N_QM_00105,QM,Continuous Quantum Error Correction,0.00000000

@@ -1,0 +1,4374 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {
+    "project": "VVV-QMRF-EX",
+    "phase": "E18-Path-C-EX-vNext-sync",
+    "date": "2026-05-22"
+  },
+  "nodes": [
+    {
+      "code": "N_BE_00001",
+      "concept": "Valid cognition",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00001"
+    },
+    {
+      "code": "N_BE_00002",
+      "concept": "Direct perception",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00002"
+    },
+    {
+      "code": "N_BE_00003",
+      "concept": "Inference",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00003"
+    },
+    {
+      "code": "N_BE_00004",
+      "concept": "Testimony",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00004"
+    },
+    {
+      "code": "N_BE_00005",
+      "concept": "Object of cognition",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00005"
+    },
+    {
+      "code": "N_BE_00006",
+      "concept": "Erroneous cognition",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00006"
+    },
+    {
+      "code": "N_BE_00007",
+      "concept": "Doubt",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00007"
+    },
+    {
+      "code": "N_BE_00008",
+      "concept": "Conceptual construction",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00008"
+    },
+    {
+      "code": "N_BE_00009",
+      "concept": "Non-conceptual perception",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00009"
+    },
+    {
+      "code": "N_BE_00010",
+      "concept": "Mental consciousness",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00010"
+    },
+    {
+      "code": "N_BE_00011",
+      "concept": "Self-awareness",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00011"
+    },
+    {
+      "code": "N_BE_00012",
+      "concept": "Transcendental perception",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00012"
+    },
+    {
+      "code": "N_BE_00013",
+      "concept": "Particular / Unique mark",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00013"
+    },
+    {
+      "code": "N_BE_00014",
+      "concept": "Universal / General mark",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00014"
+    },
+    {
+      "code": "N_BE_00015",
+      "concept": "Exclusion",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00015"
+    },
+    {
+      "code": "N_BE_00016",
+      "concept": "Sign / Logical reason",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00016"
+    },
+    {
+      "code": "N_BE_00017",
+      "concept": "Subject / locus",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00017"
+    },
+    {
+      "code": "N_BE_00018",
+      "concept": "Triple-condition syllogism",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00018"
+    },
+    {
+      "code": "N_BE_00019",
+      "concept": "Pervasion",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00019"
+    },
+    {
+      "code": "N_BE_00020",
+      "concept": "Necessary relation",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00020"
+    },
+    {
+      "code": "N_BE_00021",
+      "concept": "Essential relation",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00021"
+    },
+    {
+      "code": "N_BE_00022",
+      "concept": "Causal efficacy",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00022"
+    },
+    {
+      "code": "N_BE_00023",
+      "concept": "Ignorance",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00023"
+    },
+    {
+      "code": "N_BE_00024",
+      "concept": "Wisdom",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00024"
+    },
+    {
+      "code": "N_BE_00025",
+      "concept": "Emptiness / Essencelessness",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00025"
+    },
+    {
+      "code": "N_BE_00026",
+      "concept": "Two truths",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00026"
+    },
+    {
+      "code": "N_BE_00027",
+      "concept": "Inference for oneself",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00027"
+    },
+    {
+      "code": "N_BE_00028",
+      "concept": "Deductive reasoning",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00028"
+    },
+    {
+      "code": "N_BE_00029",
+      "concept": "Momentariness",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00029"
+    },
+    {
+      "code": "N_BE_00030",
+      "concept": "Buddha as epistemic authority",
+      "layer": "core",
+      "system": "BE",
+      "id": "N_BE_00030"
+    },
+    {
+      "code": "N_BE_00031",
+      "concept": "Buddhist Pramāṇa-Epistemology, Logic, and Language",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00031"
+    },
+    {
+      "code": "N_BE_00032",
+      "concept": "Pramāṇa-epistemology",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00032"
+    },
+    {
+      "code": "N_BE_00033",
+      "concept": "Logic",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00033"
+    },
+    {
+      "code": "N_BE_00034",
+      "concept": "Language or semantics",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00034"
+    },
+    {
+      "code": "N_BE_00035",
+      "concept": "Double negation theory of meaning",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00035"
+    },
+    {
+      "code": "N_BE_00036",
+      "concept": "Buddhist process philosophy",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00036"
+    },
+    {
+      "code": "N_BE_00037",
+      "concept": "Substantialist philosophy",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00037"
+    },
+    {
+      "code": "N_BE_00038",
+      "concept": "Vasubandhu",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00038"
+    },
+    {
+      "code": "N_BE_00039",
+      "concept": "Diṅnāga",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00039"
+    },
+    {
+      "code": "N_BE_00040",
+      "concept": "Dharmakīrti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00040"
+    },
+    {
+      "code": "N_BE_00041",
+      "concept": "Pramāṇabhūta",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00041"
+    },
+    {
+      "code": "N_BE_00042",
+      "concept": "Scepticism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00042"
+    },
+    {
+      "code": "N_BE_00043",
+      "concept": "Nominalism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00043"
+    },
+    {
+      "code": "N_BE_00044",
+      "concept": "Phenomenalism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00044"
+    },
+    {
+      "code": "N_BE_00045",
+      "concept": "Idealism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00045"
+    },
+    {
+      "code": "N_BE_00046",
+      "concept": "Representationalism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00046"
+    },
+    {
+      "code": "N_BE_00047",
+      "concept": "Naïve realism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00047"
+    },
+    {
+      "code": "N_BE_00048",
+      "concept": "Critical realism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00048"
+    },
+    {
+      "code": "N_BE_00049",
+      "concept": "External realism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00049"
+    },
+    {
+      "code": "N_BE_00050",
+      "concept": "Sautrāntika",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00050"
+    },
+    {
+      "code": "N_BE_00051",
+      "concept": "Yogācāra",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00051"
+    },
+    {
+      "code": "N_BE_00052",
+      "concept": "Pramā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00052"
+    },
+    {
+      "code": "N_BE_00053",
+      "concept": "Prameya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00053"
+    },
+    {
+      "code": "N_BE_00054",
+      "concept": "Pramāṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00054"
+    },
+    {
+      "code": "N_BE_00055",
+      "concept": "Pramāphala",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00055"
+    },
+    {
+      "code": "N_BE_00056",
+      "concept": "Pramāṇavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00056"
+    },
+    {
+      "code": "N_BE_00057",
+      "concept": "Pratyakṣa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00057"
+    },
+    {
+      "code": "N_BE_00058",
+      "concept": "Anumāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00058"
+    },
+    {
+      "code": "N_BE_00059",
+      "concept": "Upamāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00059"
+    },
+    {
+      "code": "N_BE_00060",
+      "concept": "Śabda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00060"
+    },
+    {
+      "code": "N_BE_00061",
+      "concept": "Lokakalyāṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00061"
+    },
+    {
+      "code": "N_BE_00062",
+      "concept": "Four Noble Truths",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00062"
+    },
+    {
+      "code": "N_BE_00063",
+      "concept": "Middle Path",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00063"
+    },
+    {
+      "code": "N_BE_00064",
+      "concept": "Essentialism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00064"
+    },
+    {
+      "code": "N_BE_00065",
+      "concept": "Ātmavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00065"
+    },
+    {
+      "code": "N_BE_00066",
+      "concept": "Anātmavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00066"
+    },
+    {
+      "code": "N_BE_00067",
+      "concept": "Anityatā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00067"
+    },
+    {
+      "code": "N_BE_00068",
+      "concept": "Nityatā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00068"
+    },
+    {
+      "code": "N_BE_00069",
+      "concept": "Dependent arising",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00069"
+    },
+    {
+      "code": "N_BE_00070",
+      "concept": "Pratītyasamutpāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00070"
+    },
+    {
+      "code": "N_BE_00071",
+      "concept": "Yathābhūtañāṇadassana",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00071"
+    },
+    {
+      "code": "N_BE_00072",
+      "concept": "Avidyā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00072"
+    },
+    {
+      "code": "N_BE_00073",
+      "concept": "Three characteristics of reality",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00073"
+    },
+    {
+      "code": "N_BE_00074",
+      "concept": "Dukkha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00074"
+    },
+    {
+      "code": "N_BE_00075",
+      "concept": "Taṇhā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00075"
+    },
+    {
+      "code": "N_BE_00076",
+      "concept": "Rāga",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00076"
+    },
+    {
+      "code": "N_BE_00077",
+      "concept": "Dosa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00077"
+    },
+    {
+      "code": "N_BE_00078",
+      "concept": "Moha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00078"
+    },
+    {
+      "code": "N_BE_00079",
+      "concept": "Dukkha-nirodha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00079"
+    },
+    {
+      "code": "N_BE_00080",
+      "concept": "Noble Eightfold Path",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00080"
+    },
+    {
+      "code": "N_BE_00081",
+      "concept": "Nirvāṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00081"
+    },
+    {
+      "code": "N_BE_00082",
+      "concept": "Śīla",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00082"
+    },
+    {
+      "code": "N_BE_00083",
+      "concept": "Samādhi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00083"
+    },
+    {
+      "code": "N_BE_00084",
+      "concept": "Prajñā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00084"
+    },
+    {
+      "code": "N_BE_00085",
+      "concept": "Abhidharma",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00085"
+    },
+    {
+      "code": "N_BE_00086",
+      "concept": "Momentariness",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00086"
+    },
+    {
+      "code": "N_BE_00087",
+      "concept": "Kṣaṇabhaṅgavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00087"
+    },
+    {
+      "code": "N_BE_00088",
+      "concept": "Sarvāstivāda-Vaibhāṣika",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00088"
+    },
+    {
+      "code": "N_BE_00089",
+      "concept": "Madhyamaka",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00089"
+    },
+    {
+      "code": "N_BE_00090",
+      "concept": "Niḥsvabhāvatā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00090"
+    },
+    {
+      "code": "N_BE_00091",
+      "concept": "Dharmanairātmyavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00091"
+    },
+    {
+      "code": "N_BE_00092",
+      "concept": "Sarvaśūnyavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00092"
+    },
+    {
+      "code": "N_BE_00093",
+      "concept": "Ultimate ontological reality",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00093"
+    },
+    {
+      "code": "N_BE_00094",
+      "concept": "Conceptually constructed reality",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00094"
+    },
+    {
+      "code": "N_BE_00095",
+      "concept": "Cognitive-conative-emotive psychology",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00095"
+    },
+    {
+      "code": "N_BE_00096",
+      "concept": "Anvaya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00096"
+    },
+    {
+      "code": "N_BE_00097",
+      "concept": "Vyatireka",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00097"
+    },
+    {
+      "code": "N_BE_00098",
+      "concept": "Avinābhāva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00098"
+    },
+    {
+      "code": "N_BE_00099",
+      "concept": "Vyāpti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00099"
+    },
+    {
+      "code": "N_BE_00100",
+      "concept": "Svabhāvapratibandha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00100"
+    },
+    {
+      "code": "N_BE_00101",
+      "concept": "Eva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00101"
+    },
+    {
+      "code": "N_BE_00102",
+      "concept": "Paryudāsa-pratiṣedha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00102"
+    },
+    {
+      "code": "N_BE_00103",
+      "concept": "Prasajya-pratiṣedha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00103"
+    },
+    {
+      "code": "N_BE_00104",
+      "concept": "Apoha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00104"
+    },
+    {
+      "code": "N_BE_00105",
+      "concept": "Tipiṭaka or Tripiṭaka",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00105"
+    },
+    {
+      "code": "N_BE_00106",
+      "concept": "Prajñāpāramitā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00106"
+    },
+    {
+      "code": "N_BE_00107",
+      "concept": "Ariyapariyesana-sutta",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00107"
+    },
+    {
+      "code": "N_BE_00108",
+      "concept": "Dhammacakkappavattana-sutta",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00108"
+    },
+    {
+      "code": "N_BE_00109",
+      "concept": "Dhamma as sailing against the current",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00109"
+    },
+    {
+      "code": "N_BE_00110",
+      "concept": "Anusotagāmi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00110"
+    },
+    {
+      "code": "N_BE_00111",
+      "concept": "Diṅnāga's restricted scope",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00111"
+    },
+    {
+      "code": "N_BE_00112",
+      "concept": "Dharmakīrti's revisionary approach",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00112"
+    },
+    {
+      "code": "N_BE_00113",
+      "concept": "Abhidharmakośakārikā-bhāṣya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00113"
+    },
+    {
+      "code": "N_BE_00114",
+      "concept": "Vijñaptimātratāsiddhi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00114"
+    },
+    {
+      "code": "N_BE_00115",
+      "concept": "Vādavidhi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00115"
+    },
+    {
+      "code": "N_BE_00116",
+      "concept": "Vādavidhāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00116"
+    },
+    {
+      "code": "N_BE_00117",
+      "concept": "Nyāyamukha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00117"
+    },
+    {
+      "code": "N_BE_00118",
+      "concept": "Ālambanaparīkṣā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00118"
+    },
+    {
+      "code": "N_BE_00119",
+      "concept": "Pramāṇasamuccaya-vṛtti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00119"
+    },
+    {
+      "code": "N_BE_00120",
+      "concept": "Sva-saṃvitti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00120"
+    },
+    {
+      "code": "N_BE_00121",
+      "concept": "Elliptical style",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00121"
+    },
+    {
+      "code": "N_BE_00122",
+      "concept": "Svavṛtti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00122"
+    },
+    {
+      "code": "N_BE_00123",
+      "concept": "Diṅnāga's critique of opponents",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00123"
+    },
+    {
+      "code": "N_BE_00124",
+      "concept": "Diṅnāga's soteriological purpose",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00124"
+    },
+    {
+      "code": "N_BE_00125",
+      "concept": "Valid cognition as presupposition of action",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00125"
+    },
+    {
+      "code": "N_BE_00126",
+      "concept": "Buddha's authority beyond faith",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00126"
+    },
+    {
+      "code": "N_BE_00127",
+      "concept": "Pramāṇa formula",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00127"
+    },
+    {
+      "code": "N_BE_00128",
+      "concept": "Vyāvahārika-sat",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00128"
+    },
+    {
+      "code": "N_BE_00129",
+      "concept": "Saṃvṛti-sat",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00129"
+    },
+    {
+      "code": "N_BE_00130",
+      "concept": "Paramārtha-sat",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00130"
+    },
+    {
+      "code": "N_BE_00131",
+      "concept": "Laukika perception",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00131"
+    },
+    {
+      "code": "N_BE_00132",
+      "concept": "Alaukika perception",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00132"
+    },
+    {
+      "code": "N_BE_00133",
+      "concept": "Jñāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00133"
+    },
+    {
+      "code": "N_BE_00134",
+      "concept": "Prāmāṇyavāda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00134"
+    },
+    {
+      "code": "N_BE_00135",
+      "concept": "Arthakriyā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00135"
+    },
+    {
+      "code": "N_BE_00136",
+      "concept": "Gold-testing method",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00136"
+    },
+    {
+      "code": "N_BE_00137",
+      "concept": "Saṃśaya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00137"
+    },
+    {
+      "code": "N_BE_00138",
+      "concept": "Jijñāsā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00138"
+    },
+    {
+      "code": "N_BE_00139",
+      "concept": "Paramārthasat or dravyasat",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00139"
+    },
+    {
+      "code": "N_BE_00140",
+      "concept": "Saṃvṛtisat or prajñaptisat",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00140"
+    },
+    {
+      "code": "N_BE_00141",
+      "concept": "Conventionally real",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00141"
+    },
+    {
+      "code": "N_BE_00142",
+      "concept": "Rigorously real",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00142"
+    },
+    {
+      "code": "N_BE_00143",
+      "concept": "Inference in Indian logic",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00143"
+    },
+    {
+      "code": "N_BE_00144",
+      "concept": "Nyāya-Vaiśeṣika categories",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00144"
+    },
+    {
+      "code": "N_BE_00145",
+      "concept": "Dravya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00145"
+    },
+    {
+      "code": "N_BE_00146",
+      "concept": "Guṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00146"
+    },
+    {
+      "code": "N_BE_00147",
+      "concept": "Karma",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00147"
+    },
+    {
+      "code": "N_BE_00148",
+      "concept": "Sāmānya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00148"
+    },
+    {
+      "code": "N_BE_00149",
+      "concept": "Viśeṣa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00149"
+    },
+    {
+      "code": "N_BE_00150",
+      "concept": "Samavāya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00150"
+    },
+    {
+      "code": "N_BE_00151",
+      "concept": "Abhāva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00151"
+    },
+    {
+      "code": "N_BE_00152",
+      "concept": "Argument from analogy",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00152"
+    },
+    {
+      "code": "N_BE_00153",
+      "concept": "Pratijñā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00153"
+    },
+    {
+      "code": "N_BE_00154",
+      "concept": "Pakṣa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00154"
+    },
+    {
+      "code": "N_BE_00155",
+      "concept": "Sādhya or sādhyadharma",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00155"
+    },
+    {
+      "code": "N_BE_00156",
+      "concept": "Hetu or liṅga",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00156"
+    },
+    {
+      "code": "N_BE_00157",
+      "concept": "Dṛṣṭānta",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00157"
+    },
+    {
+      "code": "N_BE_00158",
+      "concept": "Tri-rūpa-hetu",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00158"
+    },
+    {
+      "code": "N_BE_00159",
+      "concept": "Anumāna-epistemology",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00159"
+    },
+    {
+      "code": "N_BE_00160",
+      "concept": "Avinābhāva definition",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00160"
+    },
+    {
+      "code": "N_BE_00161",
+      "concept": "Nonoccurrence condition",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00161"
+    },
+    {
+      "code": "N_BE_00162",
+      "concept": "Pramāṇasamuccaya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00162"
+    },
+    {
+      "code": "N_BE_00163",
+      "concept": "Pramāṇa and samuccaya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00163"
+    },
+    {
+      "code": "N_BE_00164",
+      "concept": "Pramāṇādhīna prameyādhigama",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00164"
+    },
+    {
+      "code": "N_BE_00165",
+      "concept": "Prameyādhīna pramāṇasiddhi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00165"
+    },
+    {
+      "code": "N_BE_00166",
+      "concept": "Pramāṇavyavasthā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00166"
+    },
+    {
+      "code": "N_BE_00167",
+      "concept": "Kalpanāpoḍha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00167"
+    },
+    {
+      "code": "N_BE_00168",
+      "concept": "Svalakṣaṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00168"
+    },
+    {
+      "code": "N_BE_00169",
+      "concept": "Sāmānyalakṣaṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00169"
+    },
+    {
+      "code": "N_BE_00170",
+      "concept": "Non-distinction of means and result",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00170"
+    },
+    {
+      "code": "N_BE_00171",
+      "concept": "Sautrāntika cognitive process",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00171"
+    },
+    {
+      "code": "N_BE_00172",
+      "concept": "Utpatti and vināśa simultaneity",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00172"
+    },
+    {
+      "code": "N_BE_00173",
+      "concept": "Bāhyārtha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00173"
+    },
+    {
+      "code": "N_BE_00174",
+      "concept": "Saṃvedana",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00174"
+    },
+    {
+      "code": "N_BE_00175",
+      "concept": "Sārūpya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00175"
+    },
+    {
+      "code": "N_BE_00176",
+      "concept": "Kalpanā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00176"
+    },
+    {
+      "code": "N_BE_00177",
+      "concept": "Tathya-saṃvṛti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00177"
+    },
+    {
+      "code": "N_BE_00178",
+      "concept": "Mithyā-saṃvṛti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00178"
+    },
+    {
+      "code": "N_BE_00179",
+      "concept": "Representative perception",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00179"
+    },
+    {
+      "code": "N_BE_00180",
+      "concept": "Vijñaptimātra",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00180"
+    },
+    {
+      "code": "N_BE_00181",
+      "concept": "Viṃśatikā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00181"
+    },
+    {
+      "code": "N_BE_00182",
+      "concept": "Triṃśikā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00182"
+    },
+    {
+      "code": "N_BE_00183",
+      "concept": "Nirvikalpaka",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00183"
+    },
+    {
+      "code": "N_BE_00184",
+      "concept": "Avyapadeśya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00184"
+    },
+    {
+      "code": "N_BE_00185",
+      "concept": "Yojanā",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00185"
+    },
+    {
+      "code": "N_BE_00186",
+      "concept": "Yadṛcchā-śabda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00186"
+    },
+    {
+      "code": "N_BE_00187",
+      "concept": "Jāti-śabda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00187"
+    },
+    {
+      "code": "N_BE_00188",
+      "concept": "Guṇa-śabda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00188"
+    },
+    {
+      "code": "N_BE_00189",
+      "concept": "Kriyā-śabda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00189"
+    },
+    {
+      "code": "N_BE_00190",
+      "concept": "Dravya-śabda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00190"
+    },
+    {
+      "code": "N_BE_00191",
+      "concept": "Pratyakṣa kalpanā-apoham",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00191"
+    },
+    {
+      "code": "N_BE_00192",
+      "concept": "Pramāṇa-samplava",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00192"
+    },
+    {
+      "code": "N_BE_00193",
+      "concept": "Dharmakīrti's anti-realism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00193"
+    },
+    {
+      "code": "N_BE_00194",
+      "concept": "Svalakṣaṇa criteria",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00194"
+    },
+    {
+      "code": "N_BE_00195",
+      "concept": "Sāmānyalakṣaṇa criteria",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00195"
+    },
+    {
+      "code": "N_BE_00196",
+      "concept": "Artha-kriyā-śakti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00196"
+    },
+    {
+      "code": "N_BE_00197",
+      "concept": "Arthakriyā as causal efficacy",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00197"
+    },
+    {
+      "code": "N_BE_00198",
+      "concept": "Arthakriyā as practical success",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00198"
+    },
+    {
+      "code": "N_BE_00199",
+      "concept": "Father of New Logic",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00199"
+    },
+    {
+      "code": "N_BE_00200",
+      "concept": "Svārthānumāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00200"
+    },
+    {
+      "code": "N_BE_00201",
+      "concept": "Parārthānumāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00201"
+    },
+    {
+      "code": "N_BE_00202",
+      "concept": "Pañcāvayava",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00202"
+    },
+    {
+      "code": "N_BE_00203",
+      "concept": "Four process mechanisms",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00203"
+    },
+    {
+      "code": "N_BE_00204",
+      "concept": "Eight consciousnesses",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00204"
+    },
+    {
+      "code": "N_BE_00205",
+      "concept": "Pravṛtti-vijñāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00205"
+    },
+    {
+      "code": "N_BE_00206",
+      "concept": "Mano-vijñāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00206"
+    },
+    {
+      "code": "N_BE_00207",
+      "concept": "Kliṣṭa-manasa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00207"
+    },
+    {
+      "code": "N_BE_00208",
+      "concept": "Ālaya-vijñāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00208"
+    },
+    {
+      "code": "N_BE_00209",
+      "concept": "Darśana",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00209"
+    },
+    {
+      "code": "N_BE_00210",
+      "concept": "Trairūpya-liṅga",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00210"
+    },
+    {
+      "code": "N_BE_00211",
+      "concept": "Pakṣadharmatva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00211"
+    },
+    {
+      "code": "N_BE_00212",
+      "concept": "Sapakṣe sattvam",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00212"
+    },
+    {
+      "code": "N_BE_00213",
+      "concept": "Vipakṣe asattvam",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00213"
+    },
+    {
+      "code": "N_BE_00214",
+      "concept": "Positive concomitance",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00214"
+    },
+    {
+      "code": "N_BE_00215",
+      "concept": "Negative concomitance",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00215"
+    },
+    {
+      "code": "N_BE_00216",
+      "concept": "Indian principle of inductive reasoning",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00216"
+    },
+    {
+      "code": "N_BE_00217",
+      "concept": "Logical proof",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00217"
+    },
+    {
+      "code": "N_BE_00218",
+      "concept": "Upacāra",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00218"
+    },
+    {
+      "code": "N_BE_00219",
+      "concept": "Anyāpoha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00219"
+    },
+    {
+      "code": "N_BE_00220",
+      "concept": "Universal critique",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00220"
+    },
+    {
+      "code": "N_BE_00221",
+      "concept": "Śabda-pramāṇa rejection",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00221"
+    },
+    {
+      "code": "N_BE_00222",
+      "concept": "Anya-vyāvṛtti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00222"
+    },
+    {
+      "code": "N_BE_00223",
+      "concept": "Vyakti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00223"
+    },
+    {
+      "code": "N_BE_00224",
+      "concept": "Bheda",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00224"
+    },
+    {
+      "code": "N_BE_00225",
+      "concept": "Dravyatva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00225"
+    },
+    {
+      "code": "N_BE_00226",
+      "concept": "Guṇatva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00226"
+    },
+    {
+      "code": "N_BE_00227",
+      "concept": "Anubandha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00227"
+    },
+    {
+      "code": "N_BE_00228",
+      "concept": "Partial property focus",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00228"
+    },
+    {
+      "code": "N_BE_00229",
+      "concept": "Pot example",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00229"
+    },
+    {
+      "code": "N_BE_00230",
+      "concept": "Self-clinging",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00230"
+    },
+    {
+      "code": "N_BE_00231",
+      "concept": "Satkāyadṛṣṭi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00231"
+    },
+    {
+      "code": "N_BE_00232",
+      "concept": "Skandha",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00232"
+    },
+    {
+      "code": "N_BE_00233",
+      "concept": "Dharmakīrti's conceptual circularity",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00233"
+    },
+    {
+      "code": "N_BE_00234",
+      "concept": "Aviṣaṃvāditva",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00234"
+    },
+    {
+      "code": "N_BE_00235",
+      "concept": "Puruṣārtha-siddhi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00235"
+    },
+    {
+      "code": "N_BE_00236",
+      "concept": "Hierarchy of Discourse",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00236"
+    },
+    {
+      "code": "N_BE_00237",
+      "concept": "Ascending Scale of Analysis",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00237"
+    },
+    {
+      "code": "N_BE_00238",
+      "concept": "Diṅnāga's lapse on vyāpti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00238"
+    },
+    {
+      "code": "N_BE_00239",
+      "concept": "Adarśanamātra",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00239"
+    },
+    {
+      "code": "N_BE_00240",
+      "concept": "Perceptual-conceptual gap",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00240"
+    },
+    {
+      "code": "N_BE_00241",
+      "concept": "Vyāpti in Dharmakīrti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00241"
+    },
+    {
+      "code": "N_BE_00242",
+      "concept": "Vyāpaka",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00242"
+    },
+    {
+      "code": "N_BE_00243",
+      "concept": "Vyāpya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00243"
+    },
+    {
+      "code": "N_BE_00244",
+      "concept": "Bhūyodarśana",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00244"
+    },
+    {
+      "code": "N_BE_00245",
+      "concept": "Anvaya-vyāpti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00245"
+    },
+    {
+      "code": "N_BE_00246",
+      "concept": "Vyatireka-vyāpti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00246"
+    },
+    {
+      "code": "N_BE_00247",
+      "concept": "Dharmakīrti's momentariness principle",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00247"
+    },
+    {
+      "code": "N_BE_00248",
+      "concept": "Dharmakīrti's pragmatism",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00248"
+    },
+    {
+      "code": "N_BE_00249",
+      "concept": "Conceptual mental construction",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00249"
+    },
+    {
+      "code": "N_BE_00250",
+      "concept": "Tadutpatti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00250"
+    },
+    {
+      "code": "N_BE_00251",
+      "concept": "Tādātmya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00251"
+    },
+    {
+      "code": "N_BE_00252",
+      "concept": "Anutpatti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00252"
+    },
+    {
+      "code": "N_BE_00253",
+      "concept": "Anupalabdhi",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00253"
+    },
+    {
+      "code": "N_BE_00254",
+      "concept": "Kārya-hetu",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00254"
+    },
+    {
+      "code": "N_BE_00255",
+      "concept": "Svabhāva-hetu",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00255"
+    },
+    {
+      "code": "N_BE_00256",
+      "concept": "Anupalabdhi-hetu",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00256"
+    },
+    {
+      "code": "N_BE_00257",
+      "concept": "Bhrānti",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00257"
+    },
+    {
+      "code": "N_BE_00258",
+      "concept": "Adhyavasāya",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00258"
+    },
+    {
+      "code": "N_BE_00259",
+      "concept": "Prāpaka",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00259"
+    },
+    {
+      "code": "N_BE_00260",
+      "concept": "Dharmakīrti's definition of pramāṇa",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00260"
+    },
+    {
+      "code": "N_BE_00261",
+      "concept": "Samyagjñāna",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00261"
+    },
+    {
+      "code": "N_BE_00262",
+      "concept": "Article's self-limitation",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00262"
+    },
+    {
+      "code": "N_BE_00263",
+      "concept": "Modern source dependence",
+      "layer": "RCA",
+      "system": "BE",
+      "id": "N_BE_00263"
+    },
+    {
+      "code": "N_QM_VVV_00001",
+      "concept": "Contrapositive Quantum Evidence / Purely Contrastive Quantum Evidence Structure",
+      "layer": "Registration/inference category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00001"
+    },
+    {
+      "code": "N_QM_VVV_00002",
+      "concept": "Interaction-Free State Inference (IFSI)",
+      "layer": "Inference mechanism",
+      "system": "VVV",
+      "id": "N_QM_VVV_00002"
+    },
+    {
+      "code": "N_QM_VVV_00003",
+      "concept": "Projection Operator - registration / Null-Projection Operator `P_null`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00003"
+    },
+    {
+      "code": "N_QM_VVV_00004",
+      "concept": "Informative Silence - registration",
+      "layer": "Registration-validity distinction",
+      "system": "VVV",
+      "id": "N_QM_VVV_00004"
+    },
+    {
+      "code": "N_QM_VVV_00005",
+      "concept": "Non-Informative Null Event / Broken-Detector Null",
+      "layer": "Diagnostic/failure mode",
+      "system": "VVV",
+      "id": "N_QM_VVV_00005"
+    },
+    {
+      "code": "N_QM_VVV_00006",
+      "concept": "Exclusion-Based State Selection / Exclusion-Based Registration",
+      "layer": "Interpretive-formal operation",
+      "system": "VVV",
+      "id": "N_QM_VVV_00006"
+    },
+    {
+      "code": "N_QM_VVV_00007",
+      "concept": "Counterfactual Evidential Branch",
+      "layer": "Interpretive hypothesis",
+      "system": "VVV",
+      "id": "N_QM_VVV_00007"
+    },
+    {
+      "code": "N_QM_VVV_00008",
+      "concept": "Ideal Information Without Direct Disturbance",
+      "layer": "Ideal limit condition",
+      "system": "VVV",
+      "id": "N_QM_VVV_00008"
+    },
+    {
+      "code": "N_QM_VVV_00009",
+      "concept": "Elitzur-Vaidman Interaction-Free Measurement as VVV Evidence Exemplar",
+      "layer": "Evidence exemplar",
+      "system": "VVV",
+      "id": "N_QM_VVV_00009"
+    },
+    {
+      "code": "N_QM_VVV_00010",
+      "concept": "PVM-equivalent Registration Authority",
+      "layer": "Claim node",
+      "system": "VVV",
+      "id": "N_QM_VVV_00010"
+    },
+    {
+      "code": "N_QM_VVV_00011",
+      "concept": "Dual-Phase Registration Certification / Formal Validity Location",
+      "layer": "Registration-validity category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00011"
+    },
+    {
+      "code": "N_QM_VVV_00012",
+      "concept": "Intrinsic Causal Triggering Phase",
+      "layer": "Registration-validity phase",
+      "system": "VVV",
+      "id": "N_QM_VVV_00012"
+    },
+    {
+      "code": "N_QM_VVV_00013",
+      "concept": "Extrinsic Registration Certification Phase",
+      "layer": "Registration-validity phase",
+      "system": "VVV",
+      "id": "N_QM_VVV_00013"
+    },
+    {
+      "code": "N_QM_VVV_00014",
+      "concept": "Extrinsic Registration-Certification Operator `Ĉ_ext`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00014"
+    },
+    {
+      "code": "N_QM_VVV_00015",
+      "concept": "Conditionally Updated State `ρ̃`",
+      "layer": "Formal state notation",
+      "system": "VVV",
+      "id": "N_QM_VVV_00015"
+    },
+    {
+      "code": "N_QM_VVV_00016",
+      "concept": "Certified Registration State / Validated Registration State `ρ_certified`",
+      "layer": "Registration-state notation",
+      "system": "VVV",
+      "id": "N_QM_VVV_00016"
+    },
+    {
+      "code": "N_QM_VVV_00018",
+      "concept": "Verification-Integrated Density Matrix Evolution",
+      "layer": "Formal evolution rule",
+      "system": "VVV",
+      "id": "N_QM_VVV_00018"
+    },
+    {
+      "code": "N_QM_VVV_00020",
+      "concept": "Validated Absence Registration / Conditioned Null Registration",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00020"
+    },
+    {
+      "code": "N_QM_VVV_00021",
+      "concept": "Registration Lock / Registration-Lock Operator",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00021"
+    },
+    {
+      "code": "N_QM_VVV_00022",
+      "concept": "Internal Representation Encoding / Internal Encoding Phase `Â_kāra`",
+      "layer": "Registration phase / proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00022"
+    },
+    {
+      "code": "N_QM_VVV_00023",
+      "concept": "Registration Lock `V̂_yava` / Irreversible Registration Locking",
+      "layer": "Registration act / proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00023"
+    },
+    {
+      "code": "N_QM_VVV_00024",
+      "concept": "Registration-Locking Boundary in Delayed-Choice Erasure",
+      "layer": "Claim / boundary condition",
+      "system": "VVV",
+      "id": "N_QM_VVV_00024"
+    },
+    {
+      "code": "N_QM_VVV_00025",
+      "concept": "Intrinsic Relational Binding / Entanglement - registration Architecture",
+      "layer": "Relation category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00025"
+    },
+    {
+      "code": "N_QM_VVV_00027",
+      "concept": "Registration Self-Completion Matrix / Act-Result Registration Identity",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00027"
+    },
+    {
+      "code": "N_QM_VVV_00028",
+      "concept": "Act-Result Tensor / Irreducible Event Tensor `𝒯_act-res`",
+      "layer": "Proposed formal object",
+      "system": "VVV",
+      "id": "N_QM_VVV_00028"
+    },
+    {
+      "code": "N_QM_VVV_00029",
+      "concept": "Retroactive Registration Override / Formal Measurement Invalidation",
+      "layer": "Registration-invalidation category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00029"
+    },
+    {
+      "code": "N_QM_VVV_00030",
+      "concept": "Invalidation Operator `Ô_bhranti` / Registration Override Operator",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00030"
+    },
+    {
+      "code": "N_QM_VVV_00031",
+      "concept": "Registration Weight / Hierarchical Registration Reliability",
+      "layer": "Registration-validity parameter",
+      "system": "VVV",
+      "id": "N_QM_VVV_00031"
+    },
+    {
+      "code": "N_QM_VVV_00032",
+      "concept": "Registration Error / Bhrānti Status",
+      "layer": "Registration-error status",
+      "system": "VVV",
+      "id": "N_QM_VVV_00032"
+    },
+    {
+      "code": "N_QM_VVV_00033",
+      "concept": "Self-Certifying Registration Operator / Registration Regress Stopper",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00033"
+    },
+    {
+      "code": "N_QM_VVV_00034",
+      "concept": "Reflexive Registration Operator `R̂_svasa`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00034"
+    },
+    {
+      "code": "N_QM_VVV_00035",
+      "concept": "Primary Registration Closure / Regress-Terminating Closure",
+      "layer": "Registration-status closure",
+      "system": "VVV",
+      "id": "N_QM_VVV_00035"
+    },
+    {
+      "code": "N_QM_VVV_00036",
+      "concept": "Null Registering-System Event / Registration Non-Engagement",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00036"
+    },
+    {
+      "code": "N_QM_VVV_00037",
+      "concept": "Null Registration Operator `Ê_empty`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00037"
+    },
+    {
+      "code": "N_QM_VVV_00038",
+      "concept": "Measured-but-Unregistered K-State",
+      "layer": "Registration state",
+      "system": "VVV",
+      "id": "N_QM_VVV_00038"
+    },
+    {
+      "code": "N_QM_VVV_00039",
+      "concept": "Registering-System-as-Process Framework / Momentary Registration Series",
+      "layer": "Registering-system architecture",
+      "system": "VVV",
+      "id": "N_QM_VVV_00039"
+    },
+    {
+      "code": "N_QM_VVV_00040",
+      "concept": "Momentary Registering Moments `{o₁, o₂, ..., oₙ}`",
+      "layer": "Registration-series model",
+      "system": "VVV",
+      "id": "N_QM_VVV_00040"
+    },
+    {
+      "code": "N_QM_VVV_00041",
+      "concept": "Causal Memory Projection `Π̂_causal` / Causal Memory Tensor",
+      "layer": "Proposed continuity mechanism",
+      "system": "VVV",
+      "id": "N_QM_VVV_00041"
+    },
+    {
+      "code": "N_QM_VVV_00042",
+      "concept": "Tripartite Registration Validity Matrix / Strict Apparatus Axiom",
+      "layer": "Registration-validity category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00042"
+    },
+    {
+      "code": "N_QM_VVV_00043",
+      "concept": "Trairūpya Apparatus Validity Conditions / Validity Tensor `𝕍_tri`",
+      "layer": "Validity tensor / criteria set",
+      "system": "VVV",
+      "id": "N_QM_VVV_00043"
+    },
+    {
+      "code": "N_QM_VVV_00044",
+      "concept": "Pre-Symbolic Stratum / Formalism-External Physical Event",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00044"
+    },
+    {
+      "code": "N_QM_VVV_00045",
+      "concept": "Pre-Symbolic Event `ε(M)`",
+      "layer": "Pre-registration event",
+      "system": "VVV",
+      "id": "N_QM_VVV_00045"
+    },
+    {
+      "code": "N_QM_VVV_00046",
+      "concept": "Symbolization Operator `Λ`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00046"
+    },
+    {
+      "code": "N_QM_VVV_00047",
+      "concept": "Degree of Symbolization / Partial-to-Complete Registration Mapping",
+      "layer": "Registration-gradient concept",
+      "system": "VVV",
+      "id": "N_QM_VVV_00047"
+    },
+    {
+      "code": "N_QM_VVV_00048",
+      "concept": "Limit-Faculty Registration / Transcendental Registration Mode",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00048"
+    },
+    {
+      "code": "N_QM_VVV_00049",
+      "concept": "Limit-Faculty Registration Operator `M̂_trans`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00049"
+    },
+    {
+      "code": "N_QM_VVV_00050",
+      "concept": "Non-Ordinary Valid Registration Output / Weak-Value Registration Status",
+      "layer": "Registration-output status",
+      "system": "VVV",
+      "id": "N_QM_VVV_00050"
+    },
+    {
+      "code": "N_QM_VVV_00051",
+      "concept": "Temporal Discontinuity Doctrine / Moment-to-Moment Quantum Transition",
+      "layer": "Registration-time category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00051"
+    },
+    {
+      "code": "N_QM_VVV_00052",
+      "concept": "Discrete Transition Operator `T̂_kṣaṇa`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00052"
+    },
+    {
+      "code": "N_QM_VVV_00053",
+      "concept": "Kṣaṇa Registration Event / Registration Seal",
+      "layer": "Registration event unit",
+      "system": "VVV",
+      "id": "N_QM_VVV_00053"
+    },
+    {
+      "code": "N_QM_VVV_00054",
+      "concept": "Pre-Measurement Registration Indeterminacy / Structured Registration-Doubt State",
+      "layer": "Registration category",
+      "system": "VVV",
+      "id": "N_QM_VVV_00054"
+    },
+    {
+      "code": "N_QM_VVV_00055",
+      "concept": "Indeterminacy Operator `Ŝ_saṃśaya`",
+      "layer": "Proposed operator",
+      "system": "VVV",
+      "id": "N_QM_VVV_00055"
+    },
+    {
+      "code": "N_QM_00001",
+      "concept": "Qubit",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00001"
+    },
+    {
+      "code": "N_QM_00002",
+      "concept": "Quantum State",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00002"
+    },
+    {
+      "code": "N_QM_00003",
+      "concept": "Classical vs Quantum State",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00003"
+    },
+    {
+      "code": "N_QM_00004",
+      "concept": "Hilbert Space",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00004"
+    },
+    {
+      "code": "N_QM_00005",
+      "concept": "Superposition",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00005"
+    },
+    {
+      "code": "N_QM_00006",
+      "concept": "Phase Factor (Global vs Relative)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00006"
+    },
+    {
+      "code": "N_QM_00007",
+      "concept": "Complex Numbers as Necessity",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00007"
+    },
+    {
+      "code": "N_QM_00008",
+      "concept": "Four Postulates of Quantum Mechanics",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00008"
+    },
+    {
+      "code": "N_QM_00009",
+      "concept": "Quantum Logic (vs Boolean Logic)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00009"
+    },
+    {
+      "code": "N_QM_00010",
+      "concept": "Degrees of Freedom (Counting Parameters)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00010"
+    },
+    {
+      "code": "N_QM_00011",
+      "concept": "Gedankenexperiment (Thought Experiment)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00011"
+    },
+    {
+      "code": "N_QM_00012",
+      "concept": "[NGOẠI SUY] Wave-Particle Duality",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00012"
+    },
+    {
+      "code": "N_QM_00013",
+      "concept": "[PARTIAL] Wave Function ψ(x)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00013"
+    },
+    {
+      "code": "N_QM_00014",
+      "concept": "Projective Measurement (PVM)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00014"
+    },
+    {
+      "code": "N_QM_00015",
+      "concept": "Three Cardinal Properties of Textbook Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00015"
+    },
+    {
+      "code": "N_QM_00016",
+      "concept": "Born Rule",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00016"
+    },
+    {
+      "code": "N_QM_00017",
+      "concept": "Observable (Hermitian Operator)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00017"
+    },
+    {
+      "code": "N_QM_00018",
+      "concept": "Projection Operator P̂_j",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00018"
+    },
+    {
+      "code": "N_QM_00019",
+      "concept": "Measurement (Physical Act)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00019"
+    },
+    {
+      "code": "N_QM_00020",
+      "concept": "von Neumann Measurement Model",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00020"
+    },
+    {
+      "code": "N_QM_00021",
+      "concept": "System–Meter Coupling",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00021"
+    },
+    {
+      "code": "N_QM_00022",
+      "concept": "Post-Measurement State Update",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00022"
+    },
+    {
+      "code": "N_QM_00023",
+      "concept": "Measurement Backaction",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00023"
+    },
+    {
+      "code": "N_QM_00024",
+      "concept": "Positive Operator-Valued Measure (POVM)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00024"
+    },
+    {
+      "code": "N_QM_00025",
+      "concept": "[SUY DIỄN] Density Matrix & Mixed States",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00025"
+    },
+    {
+      "code": "N_QM_00026",
+      "concept": "Generalized Measurement (Kraus Operators)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00026"
+    },
+    {
+      "code": "N_QM_00027",
+      "concept": "Information–Disturbance Trade-off",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00027"
+    },
+    {
+      "code": "N_QM_00028",
+      "concept": "Weak Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00028"
+    },
+    {
+      "code": "N_QM_00029",
+      "concept": "Weak Value",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00029"
+    },
+    {
+      "code": "N_QM_00030",
+      "concept": "Weak Value Amplification",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00030"
+    },
+    {
+      "code": "N_QM_00031",
+      "concept": "Generalized Eigenvalues",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00031"
+    },
+    {
+      "code": "N_QM_00032",
+      "concept": "Partial Wavefunction Collapse",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00032"
+    },
+    {
+      "code": "N_QM_00033",
+      "concept": "No-Result Measurement (Null Measurement)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00033"
+    },
+    {
+      "code": "N_QM_00034",
+      "concept": "Quantum Bayesian Point of View",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00034"
+    },
+    {
+      "code": "N_QM_00035",
+      "concept": "Unselective Measurement & Quantum Channel",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00035"
+    },
+    {
+      "code": "N_QM_00036",
+      "concept": "Continuous Measurement: Diffusive Case",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00036"
+    },
+    {
+      "code": "N_QM_00037",
+      "concept": "Continuous Measurement: Quantum Jump Case",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00037"
+    },
+    {
+      "code": "N_QM_00038",
+      "concept": "Quantum Trajectory",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00038"
+    },
+    {
+      "code": "N_QM_00039",
+      "concept": "Stochastic Schrödinger Equation (SSE)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00039"
+    },
+    {
+      "code": "N_QM_00040",
+      "concept": "Stochastic Master Equation (SME)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00040"
+    },
+    {
+      "code": "N_QM_00041",
+      "concept": "Wiener Increment dW",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00041"
+    },
+    {
+      "code": "N_QM_00042",
+      "concept": "Quantum Jump Operator",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00042"
+    },
+    {
+      "code": "N_QM_00043",
+      "concept": "Measurement Strength (κ or Γ)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00043"
+    },
+    {
+      "code": "N_QM_00044",
+      "concept": "Stochastic Path Integral & Most Likely Path",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00044"
+    },
+    {
+      "code": "N_QM_00045",
+      "concept": "Tensor Product Space",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00045"
+    },
+    {
+      "code": "N_QM_00046",
+      "concept": "Product State",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00046"
+    },
+    {
+      "code": "N_QM_00047",
+      "concept": "Entanglement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00047"
+    },
+    {
+      "code": "N_QM_00048",
+      "concept": "Maximally Entangled State",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00048"
+    },
+    {
+      "code": "N_QM_00049",
+      "concept": "Singlet State \\",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00049"
+    },
+    {
+      "code": "N_QM_00050",
+      "concept": "Triplet States \\",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00050"
+    },
+    {
+      "code": "N_QM_00051",
+      "concept": "Composite Observables",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00051"
+    },
+    {
+      "code": "N_QM_00052",
+      "concept": "Entanglement by Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00052"
+    },
+    {
+      "code": "N_QM_00053",
+      "concept": "Spin",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00053"
+    },
+    {
+      "code": "N_QM_00054",
+      "concept": "Pauli Matrices",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00054"
+    },
+    {
+      "code": "N_QM_00055",
+      "concept": "Spin Component States",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00055"
+    },
+    {
+      "code": "N_QM_00056",
+      "concept": "Spin Polarization Principle",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00056"
+    },
+    {
+      "code": "N_QM_00057",
+      "concept": "Spin in a Magnetic Field",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00057"
+    },
+    {
+      "code": "N_QM_00058",
+      "concept": "Linear Detector",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00058"
+    },
+    {
+      "code": "N_QM_00059",
+      "concept": "Quantum-Limited Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00059"
+    },
+    {
+      "code": "N_QM_00060",
+      "concept": "Standard Quantum Limit (SQL)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00060"
+    },
+    {
+      "code": "N_QM_00061",
+      "concept": "Quantum Noise (Imprecision + Backaction)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00061"
+    },
+    {
+      "code": "N_QM_00062",
+      "concept": "Linear Response & Fluctuation-Dissipation",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00062"
+    },
+    {
+      "code": "N_QM_00063",
+      "concept": "Quantum Amplification",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00063"
+    },
+    {
+      "code": "N_QM_00064",
+      "concept": "Josephson Tunnel Junction",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00064"
+    },
+    {
+      "code": "N_QM_00065",
+      "concept": "Superconducting Qubit (Phase/Charge/Flux/Transmon)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00065"
+    },
+    {
+      "code": "N_QM_00066",
+      "concept": "Squeezed States",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00066"
+    },
+    {
+      "code": "N_QM_00067",
+      "concept": "Heisenberg Limit (Quantum Metrology)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00067"
+    },
+    {
+      "code": "N_QM_00068",
+      "concept": "Signal-to-Noise Ratio in Quantum Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00068"
+    },
+    {
+      "code": "N_QM_00069",
+      "concept": "Quantum Point Contact (QPC) Detector",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00069"
+    },
+    {
+      "code": "N_QM_00070",
+      "concept": "Uncertainty (Standard Deviation) ΔA",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00070"
+    },
+    {
+      "code": "N_QM_00071",
+      "concept": "Generalized Uncertainty Principle",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00071"
+    },
+    {
+      "code": "N_QM_00072",
+      "concept": "Simultaneously Measurable Observables",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00072"
+    },
+    {
+      "code": "N_QM_00073",
+      "concept": "Joint Measurement of Noncommuting Observables",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00073"
+    },
+    {
+      "code": "N_QM_00074",
+      "concept": "Complementarity (Bohr)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00074"
+    },
+    {
+      "code": "N_QM_00075",
+      "concept": "Hamiltonian H",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00075"
+    },
+    {
+      "code": "N_QM_00076",
+      "concept": "Time Evolution (Unitarity)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00076"
+    },
+    {
+      "code": "N_QM_00077",
+      "concept": "Schrödinger Equation",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00077"
+    },
+    {
+      "code": "N_QM_00078",
+      "concept": "Poisson Bracket ↔ Commutator",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00078"
+    },
+    {
+      "code": "N_QM_00079",
+      "concept": "[PARTIAL] Canonical Quantization",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00079"
+    },
+    {
+      "code": "N_QM_00080",
+      "concept": "Classical Limit (ħ → 0)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00080"
+    },
+    {
+      "code": "N_QM_00081",
+      "concept": "Wavefunction Collapse (Dynamical Description)",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00081"
+    },
+    {
+      "code": "N_QM_00082",
+      "concept": "[NGOẠI SUY] Momentum Operator",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00082"
+    },
+    {
+      "code": "N_QM_00083",
+      "concept": "[NGOẠI SUY] Hamiltonian for a Particle",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00083"
+    },
+    {
+      "code": "N_QM_00084",
+      "concept": "[NGOẠI SUY] Harmonic Oscillator",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00084"
+    },
+    {
+      "code": "N_QM_00085",
+      "concept": "[NGOẠI SUY] Particle in a Box",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00085"
+    },
+    {
+      "code": "N_QM_00086",
+      "concept": "Quantum Non-Demolition (QND) Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00086"
+    },
+    {
+      "code": "N_QM_00087",
+      "concept": "Quantum Zeno Effect",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00087"
+    },
+    {
+      "code": "N_QM_00088",
+      "concept": "Stern–Gerlach Experiment",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00088"
+    },
+    {
+      "code": "N_QM_00089",
+      "concept": "EPR Paradox",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00089"
+    },
+    {
+      "code": "N_QM_00090",
+      "concept": "Bell's Inequality & Bell Correlations",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00090"
+    },
+    {
+      "code": "N_QM_00091",
+      "concept": "Hidden Variable Theories",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00091"
+    },
+    {
+      "code": "N_QM_00092",
+      "concept": "Einstein-Bohr Debate",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00092"
+    },
+    {
+      "code": "N_QM_00093",
+      "concept": "Copenhagen Interpretation",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00093"
+    },
+    {
+      "code": "N_QM_00094",
+      "concept": "Heisenberg Cut",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00094"
+    },
+    {
+      "code": "N_QM_00095",
+      "concept": "Decoherence & Environment as Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00095"
+    },
+    {
+      "code": "N_QM_00096",
+      "concept": "Schrödinger Cat State",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00096"
+    },
+    {
+      "code": "N_QM_00097",
+      "concept": "Hong–Ou–Mandel (HOM) Effect",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00097"
+    },
+    {
+      "code": "N_QM_00098",
+      "concept": "BB84 Quantum Cryptography Protocol",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00098"
+    },
+    {
+      "code": "N_QM_00099",
+      "concept": "Quantum Information Era",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00099"
+    },
+    {
+      "code": "N_QM_00100",
+      "concept": "Classical Realism vs Quantum Indeterminacy",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00100"
+    },
+    {
+      "code": "N_QM_00101",
+      "concept": "Interpretation Maxim",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00101"
+    },
+    {
+      "code": "N_QM_00102",
+      "concept": "Measurement Reversal",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00102"
+    },
+    {
+      "code": "N_QM_00103",
+      "concept": "Quantum Feedback and Control",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00103"
+    },
+    {
+      "code": "N_QM_00104",
+      "concept": "Canonical Phase Measurement",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00104"
+    },
+    {
+      "code": "N_QM_00105",
+      "concept": "Continuous Quantum Error Correction",
+      "layer": "RCA",
+      "system": "QM",
+      "id": "N_QM_00105"
+    }
+  ],
+  "links": [
+    {
+      "edge_id": "BR_DRAFT_B_001",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00046",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_B_002",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-16",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00055",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_C_001",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-14",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00096",
+      "target": "N_QM_VVV_00042",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_C_002",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-14",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00097",
+      "target": "N_QM_VVV_00042",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_C_002_b",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-15",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00097",
+      "target": "N_QM_VVV_00001",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_C_003",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00118",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_C_004",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-16",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00127",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_001",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-14",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00158",
+      "target": "N_QM_VVV_00042",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_002",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-15",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00161",
+      "target": "N_QM_VVV_00001",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_002_b",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-9",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00161",
+      "target": "N_QM_VVV_00020",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_003",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-16",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00164",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_004",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-16",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00165",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_005",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-16",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00170",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_006",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00173",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_007",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00175",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_D_008",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00179",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_E_001",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00185",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_E_002",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00193",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_E_003",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-16",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00203",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_F_001",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-4",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00240",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_DRAFT_F_002",
+      "relation": "draft_bridge_support",
+      "bian_target": "BIAN-9",
+      "edge_type": "DRAFT_BRIDGE_BE_VVV",
+      "status": "draft",
+      "source": "N_BE_00253",
+      "target": "N_QM_VVV_00020",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00041",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00001",
+      "target": "N_QM_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00101",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00001",
+      "target": "N_BE_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00131",
+      "relation": "resolves",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00001",
+      "target": "N_QM_VVV_00054",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00001",
+      "relation": "operationalizes",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00002",
+      "target": "N_QM_VVV_00001",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00042",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00002",
+      "target": "N_QM_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00043",
+      "relation": "extends",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00003",
+      "target": "N_QM_00018",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00003",
+      "relation": "contrasts_with",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00004",
+      "target": "N_QM_VVV_00005",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00044",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00004",
+      "target": "N_QM_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00102",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00004",
+      "target": "N_BE_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00045",
+      "relation": "contrasts_within",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00005",
+      "target": "N_QM_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00002",
+      "relation": "grounds",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00006",
+      "target": "N_QM_VVV_00003",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00046",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00006",
+      "target": "N_QM_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00103",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00006",
+      "target": "N_BE_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00047",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00007",
+      "target": "N_QM_00005",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00048",
+      "relation": "idealizes",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00008",
+      "target": "N_QM_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00049",
+      "relation": "claims_equivalence_to",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00010",
+      "target": "N_QM_00014",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00004",
+      "relation": "contains_phase",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00011",
+      "target": "N_QM_VVV_00012",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00005",
+      "relation": "contains_phase",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00011",
+      "target": "N_QM_VVV_00013",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00050",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00011",
+      "target": "N_QM_00019",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00051",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00011",
+      "target": "N_QM_00095",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00129",
+      "relation": "requires_closure_from",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00011",
+      "target": "N_QM_VVV_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00006",
+      "relation": "produces",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00012",
+      "target": "N_QM_VVV_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00052",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00012",
+      "target": "N_QM_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00007",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00013",
+      "target": "N_QM_VVV_00014",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00053",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00013",
+      "target": "N_QM_00095",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00054",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00013",
+      "target": "N_QM_00103",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00008",
+      "relation": "upgrades",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00014",
+      "target": "N_QM_VVV_00016",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00010",
+      "relation": "routes_contradiction_to",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00014",
+      "target": "N_QM_VVV_00029",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00055",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00014",
+      "target": "N_QM_00105",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00056",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00015",
+      "target": "N_QM_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00057",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00015",
+      "target": "N_QM_00025",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00058",
+      "relation": "extends",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00016",
+      "target": "N_QM_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00009",
+      "relation": "implements",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00018",
+      "target": "N_QM_VVV_00011",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00059",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00018",
+      "target": "N_QM_00025",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00060",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00018",
+      "target": "N_QM_00035",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00011",
+      "relation": "generalizes",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00020",
+      "target": "N_QM_VVV_00001",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00012",
+      "relation": "uses_formal_support_from",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00020",
+      "target": "N_QM_VVV_00003",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00013",
+      "relation": "requires_contrast_with",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00020",
+      "target": "N_QM_VVV_00005",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00061",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00020",
+      "target": "N_QM_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00104",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00020",
+      "target": "N_BE_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00120",
+      "relation": "contrasts_with",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00020",
+      "target": "N_QM_VVV_00036",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00014",
+      "relation": "contains_phase",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00021",
+      "target": "N_QM_VVV_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00015",
+      "relation": "culminates_in",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00021",
+      "target": "N_QM_VVV_00023",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00062",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00021",
+      "target": "N_QM_00020",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00063",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00021",
+      "target": "N_QM_00094",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00118",
+      "relation": "enables",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00021",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00064",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00022",
+      "target": "N_QM_00019",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00016",
+      "relation": "establishes_boundary_for",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00023",
+      "target": "N_QM_VVV_00024",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00065",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00023",
+      "target": "N_QM_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00066",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00024",
+      "target": "N_QM_00102",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00067",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00025",
+      "target": "N_QM_00047",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00068",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00025",
+      "target": "N_QM_00090",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00105",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00025",
+      "target": "N_BE_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00123",
+      "relation": "co",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00025",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00017",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00027",
+      "target": "N_QM_VVV_00028",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00069",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00027",
+      "target": "N_QM_00019",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00070",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00027",
+      "target": "N_QM_00016",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00106",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00027",
+      "target": "N_BE_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00121",
+      "relation": "is_instance_of",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00027",
+      "target": "N_QM_VVV_00035",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00071",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00028",
+      "target": "N_QM_00014",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00018",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00029",
+      "target": "N_QM_VVV_00030",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00072",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00029",
+      "target": "N_QM_00102",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00107",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00029",
+      "target": "N_BE_00001",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00124",
+      "relation": "can_defeat",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00029",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00020",
+      "relation": "assigns_status",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00030",
+      "target": "N_QM_VVV_00032",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00073",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00030",
+      "target": "N_QM_00103",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00019",
+      "relation": "gates",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00031",
+      "target": "N_QM_VVV_00030",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00074",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00031",
+      "target": "N_QM_00068",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00127",
+      "relation": "grades_authority_assessed_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00031",
+      "target": "N_QM_VVV_00042",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00075",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00032",
+      "target": "N_QM_00095",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00108",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00032",
+      "target": "N_BE_00006",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00021",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00033",
+      "target": "N_QM_VVV_00034",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00076",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00033",
+      "target": "N_QM_00020",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00077",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00033",
+      "target": "N_QM_00094",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00109",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00033",
+      "target": "N_BE_00011",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00119",
+      "relation": "complements",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00033",
+      "target": "N_QM_VVV_00027",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00022",
+      "relation": "produces",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00034",
+      "target": "N_QM_VVV_00035",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00078",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00034",
+      "target": "N_QM_00022",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00079",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00035",
+      "target": "N_QM_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00023",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00036",
+      "target": "N_QM_VVV_00037",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00024",
+      "relation": "results_in",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00036",
+      "target": "N_QM_VVV_00038",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00025",
+      "relation": "contrasts_with",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00036",
+      "target": "N_QM_VVV_00001",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00080",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00036",
+      "target": "N_QM_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00081",
+      "relation": "contrasts_within",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00036",
+      "target": "N_QM_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00130",
+      "relation": "detects_failure_at",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00036",
+      "target": "N_QM_VVV_00044",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00082",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00037",
+      "target": "N_QM_00035",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00083",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00038",
+      "target": "N_QM_00095",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00026",
+      "relation": "contains_sequence",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00039",
+      "target": "N_QM_VVV_00040",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00084",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00039",
+      "target": "N_QM_00094",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00110",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00039",
+      "target": "N_BE_00029",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00125",
+      "relation": "requires_at_each_moment",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00039",
+      "target": "N_QM_VVV_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00085",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00040",
+      "target": "N_QM_00038",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00027",
+      "relation": "links_moments_within",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00041",
+      "target": "N_QM_VVV_00040",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00086",
+      "relation": "supported_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00041",
+      "target": "N_QM_00103",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00028",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00042",
+      "target": "N_QM_VVV_00043",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00087",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00042",
+      "target": "N_QM_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00111",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00042",
+      "target": "N_BE_00018",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00116",
+      "relation": "gates_entry_to",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00042",
+      "target": "N_QM_VVV_00011",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00029",
+      "relation": "downgrades_failures_to",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00043",
+      "target": "N_QM_VVV_00032",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00035",
+      "relation": "validity_gates",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00043",
+      "target": "N_QM_VVV_00048",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00088",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00043",
+      "target": "N_QM_00068",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00030",
+      "relation": "contains_event",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00044",
+      "target": "N_QM_VVV_00045",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00089",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00044",
+      "target": "N_QM_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00112",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00044",
+      "target": "N_BE_00009",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00117",
+      "relation": "provides_input_to",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00044",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00090",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00045",
+      "target": "N_QM_00020",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00031",
+      "relation": "maps",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00046",
+      "target": "N_QM_VVV_00045",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00091",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00046",
+      "target": "N_QM_00016",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00032",
+      "relation": "grades",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00047",
+      "target": "N_QM_VVV_00046",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00092",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00047",
+      "target": "N_QM_00028",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00033",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00048",
+      "target": "N_QM_VVV_00049",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00034",
+      "relation": "yields",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00048",
+      "target": "N_QM_VVV_00050",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00093",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00048",
+      "target": "N_QM_00028",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00113",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00048",
+      "target": "N_BE_00012",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00126",
+      "relation": "operates_within",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00048",
+      "target": "N_QM_VVV_00044",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00094",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00049",
+      "target": "N_QM_00026",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00095",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00050",
+      "target": "N_QM_00029",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00036",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00051",
+      "target": "N_QM_VVV_00052",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00037",
+      "relation": "contains_unit",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00051",
+      "target": "N_QM_VVV_00053",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00038",
+      "relation": "supports_architecture_of",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00051",
+      "target": "N_QM_VVV_00039",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00096",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00051",
+      "target": "N_QM_00042",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00114",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00051",
+      "target": "N_BE_00029",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00097",
+      "relation": "extends",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00052",
+      "target": "N_QM_00042",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00098",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00053",
+      "target": "N_QM_00037",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00122",
+      "relation": "provides_temporal_framework_for",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00053",
+      "target": "N_QM_VVV_00023",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00039",
+      "relation": "is_formalized_by",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00054",
+      "target": "N_QM_VVV_00055",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00040",
+      "relation": "precedes",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00054",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00099",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00054",
+      "target": "N_QM_00005",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00115",
+      "relation": "source_analogue",
+      "edge_type": "VVV_TO_BE",
+      "source": "N_QM_VVV_00054",
+      "target": "N_BE_00007",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00128",
+      "relation": "shares_temporal_location_with",
+      "edge_type": "VVV_INTERNAL",
+      "source": "N_QM_VVV_00054",
+      "target": "N_QM_VVV_00044",
+      "key": 0
+    },
+    {
+      "edge_id": "ED_QM_VVV_00100",
+      "relation": "grounded_by",
+      "edge_type": "VVV_TO_QM",
+      "source": "N_QM_VVV_00055",
+      "target": "N_QM_00025",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00013",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00005",
+      "target": "N_QM_VVV_00054",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00001",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00019",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00004",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00020",
+      "target": "N_QM_VVV_00021",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00005",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00021",
+      "target": "N_QM_VVV_00012",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00003",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00022",
+      "target": "N_QM_VVV_00015",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00014",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00025",
+      "target": "N_QM_VVV_00055",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00007",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00033",
+      "target": "N_QM_VVV_00020",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00008",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00033",
+      "target": "N_QM_VVV_00036",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00010",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00035",
+      "target": "N_QM_VVV_00037",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00012",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00042",
+      "target": "N_QM_VVV_00052",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00011",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00047",
+      "target": "N_QM_VVV_00025",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00009",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00094",
+      "target": "N_QM_VVV_00033",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_00006",
+      "relation": "bridge",
+      "direction": "`QM -> VVV`",
+      "edge_type": "BR_QM_VVV",
+      "status": "checked",
+      "source": "N_QM_00095",
+      "target": "N_QM_VVV_00013",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_EX_BE_00070",
+      "relation": "sub_concept_direct_anchor",
+      "edge_type": "BR_EX_BE_NEW",
+      "status": "active",
+      "claim_class": "interpretive_mapping_valid_sign_support",
+      "confidence": 0.42,
+      "source": "N_BE_00003",
+      "target": "N_QM_VVV_00024",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_EX_BE_00071",
+      "relation": "sub_concept_direct_anchor",
+      "edge_type": "BR_EX_BE_NEW",
+      "status": "active",
+      "claim_class": "interpretive_mapping_valid_relation_support",
+      "confidence": 0.42,
+      "source": "N_BE_00019",
+      "target": "N_QM_VVV_00024",
+      "key": 0
+    },
+    {
+      "edge_id": "BR_EX_BE_00072",
+      "relation": "sub_concept_direct_anchor",
+      "edge_type": "BR_EX_BE_NEW",
+      "status": "active",
+      "claim_class": "interpretive_mapping_valid_connection_support",
+      "confidence": 0.42,
+      "source": "N_BE_00021",
+      "target": "N_QM_VVV_00024",
+      "key": 0
+    }
+  ]
+}

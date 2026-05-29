@@ -1,0 +1,849 @@
+% ===================================================================
+% Has Every Wigner's Friend Experiment Been Blind to a Geometric
+% Degree of Freedom?
+% Draft v19 — 2026-05-25
+% Target: arXiv quant-ph → Phys. Rev. A
+% ===================================================================
+
+\documentclass[twocolumn,aps,pra,superscriptaddress,floatfix,10pt]{revtex4-2}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{multirow}
+
+\begin{document}
+
+% ===================================================================
+\title{Has Every Wigner's Friend Experiment Been Blind to a Geometric Degree of Freedom?}
+
+\author{VietVunVut (Viet~--~Nguyen~Xuan)}
+\email{aihugart@gmail.com}
+\affiliation{Independent Researcher, Vietnam}
+
+\date{2026-05-24}
+
+\begin{abstract}
+All existing Extended Wigner's Friend (EWF) experiments share a geometric
+property that has received little attention: the Superobserver always
+measures in the equatorial plane of the Bloch sphere (polar angle
+$\theta = \pi/2$). We show that this forces outcome-dependent modifications
+to quantum probabilities to vanish identically---the modification is
+proportional to $\cos\theta$, which equals zero at $\theta = \pi/2$.
+We propose a minimal modification to the Bong~et~al.~(2020) experiment:
+re-insert one quarter-wave plate, tilting the Superobserver to
+$\theta = 31^\circ$. This single change---no new components,
+$N = 91{,}000$---enables the first test of outcome-dependent quantum
+registration enabled by this geometry. The protocol achieves
+model-independent Genuine LF violation at $8.6\sigma$ (a standard QM
+prediction). Exact numerical sensitivity analysis yields minimum
+detectable outcome-dependent coupling $\beta \ge 0.04$ at $5\sigma$
+(combined settings) or $\beta \ge 0.07$ at $>5\sigma$ (individual
+setting). Robust to visibility $\mu \ge 0.86$ and angular misalignment
+$\Delta\theta \le \pm5^\circ$. The detection loophole ($\eta \ge 0.91$
+for closure; Bong~2020 achieved $\eta \approx 0.87$) is discussed.
+\end{abstract}
+
+\maketitle
+
+% ===================================================================
+\section{Introduction}
+\label{sec:intro}
+
+Extended Wigner's Friend (EWF) experiments~\cite{Proietti2019,Bong2020},
+originating from Wigner~\cite{Wigner1961} and sharpened by
+Deutsch~\cite{Deutsch1985} and Hardy~\cite{Hardy1992}, test whether
+observed events exist independently of who observes them. Modern
+implementations combining Local Friendliness (LF) no-go
+theorems~\cite{Bong2020,Wiseman2023,Haddara2024a} with optical setups
+have challenged the absoluteness of observed events~\cite{Haddara2023b,
+Kent2023}.
+
+This paper makes two distinct contributions. \textbf{Claim~A}
+(\S\ref{sec:theorem}): we prove that all existing EWF experiments share
+a geometric blind spot---equatorial Superobserver measurement
+($\theta = \pi/2$) forces any outcome-dependent modification of the form
+$P = P_{\rm QM} \cdot [1 - \beta \cdot g(\text{outcome overlap})] / Z$
+to vanish identically. \textbf{Claim~B} (\S\ref{sec:protocol}--\ref{sec:robustness}):
+we propose a minimal experimental modification (a single quarter-wave
+plate, $\theta = 31^\circ$) that breaks this cancellation, and we
+compute its sensitivity to outcome-dependent coupling using exact
+numerical evaluation of the quantum mechanical density matrix.
+
+Claims~A and~B are logically independent. Claim~A is a mathematical
+theorem. Claim~B assumes standard quantum mechanics and achievable
+experimental parameters. Throughout \S\ref{sec:predictions}--\ref{sec:robustness}
+we distinguish model-independent QM predictions from outcome-dependent
+sensitivity calculations.
+
+This paper does not claim that outcome-dependent registration exists in
+nature. It claims that (A)~existing EWF experiments are structurally
+blind to the class defined by Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}),
+and (B)~a single waveplate enables the first experimental test of this
+class. A positive result would require independent verification including
+$\theta$-sweeps (\S\ref{sec:discussion}).
+
+Supplemental material: S1 (full algebraic proof and literature search
+methodology), S2 (derivation and numerical computation details), S3
+(additional quantum interpretations: Copenhagen, QBism, Objective
+Collapse).
+
+% ===================================================================
+\section{Background}
+\label{sec:background}
+
+\subsection{Extended Wigner's Friend Setup}
+
+Bong~et~al.~(2020)~\cite{Bong2020} used two entangled photon pairs
+produced by spontaneous parametric down-conversion (SPDC) at 810~nm. On
+each side, a Friend measures photon polarization in the $z$-basis inside
+an interferometric lab formed by beam displacers. A Superobserver
+measures the combined Friend$+$photon system at three settings:
+Setting~1 ($z$-basis, reads the Friend outcome directly); Settings~2
+and~3 (azimuthal angles on the Bloch sphere equator, $\theta = \pi/2$).
+Measurement outcomes are binary, $a,b \in \{+1,-1\}$, with
+$N = 91{,}000$ coincidences per setting.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig1_ewf_schematic.png}
+\caption{Extended Wigner's Friend setup with tilted Superobserver
+measurement. Two entangled photon pairs (SPDC) are distributed to Alice
+and Bob. Each side contains a Friend interferometric lab and a
+Superobserver measurement. The Superobserver measurement axis is shown
+at polar angle $\theta = 31^\circ$ (modified protocol) rather than the
+standard equatorial plane $\theta = \pi/2$.}
+\label{fig:ewf_schematic}
+\end{figure}
+
+\subsection{Genuine Local Friendliness Inequality}
+
+The Genuine Local Friendliness Facet~1 inequality~\cite{Bong2020} is:
+\begin{equation}
+\begin{split}
+\text{Gen LF 1} = & -\langle A_1\rangle - \langle A_2\rangle
+- \langle B_1\rangle - \langle B_2\rangle - \langle A_1 B_1\rangle
+- 2\langle A_1 B_2\rangle - 2\langle A_2 B_1\rangle \\
+& + 2\langle A_2 B_2\rangle - \langle A_2 B_3\rangle
+- \langle A_3 B_2\rangle - \langle A_3 B_3\rangle - 6 \le 0.
+\end{split}
+\label{eq:gen_lf1}
+\end{equation}
+A violation rules out all theories satisfying Local Friendliness.
+
+\subsection{Outcome-Dependent Registration: Why This Class?}
+\label{sec:why_class}
+
+Before presenting the theorem, we explain which class of
+outcome-dependent modifications we consider and why. The theorem in
+\S\ref{sec:theorem} constrains precisely this class---the constraints
+motivate the class, not vice versa.
+
+Consider modifications to quantum probabilities:
+\begin{equation}
+P(a,b \mid x,y) = P_{\rm QM}(a,b \mid x,y)
+\cdot [1 - \beta \cdot g(b, \text{Friend outcome})] / Z,
+\label{eq:model_class}
+\end{equation}
+where $\beta \in [0,1]$ is a coupling strength and $g$ is an
+outcome-overlap function. $\beta = 0$ recovers standard QM. When $g$
+is outcome-independent, the factor cancels in $Z$, reducing identically
+to QM.
+
+Three physical considerations select $f_\perp = 1 - |\langle b|d\rangle|^2$ as
+the simplest representative: (i)~basis-rotation invariance---only the relative
+angle between measurement bases can matter, not absolute lab-frame orientations;
+(ii)~alignment limit---when bases are perfectly aligned
+($|\langle b|d\rangle|^2 = 1$), no cross-observer incompatibility exists, so
+the modification must vanish, $g(1) = 0$; (iii)~monotonicity---as bases become
+more orthogonal, the incompatibility between observers' registered outcomes
+grows. Any smooth function satisfying (i--iii) has the leading-order expansion
+$g(x) = c_1(1-x) + O((1-x)^2)$ with $x = |\langle b|d\rangle|^2$, where
+$c_0 = 0$ by (ii). Absorbing $c_1$ into $\beta$ yields:
+\begin{equation}
+f_\perp(b,d) = 1 - |\langle b|d\rangle|^2,
+\label{eq:fperp}
+\end{equation}
+where $b \in \{+1,-1\}$ is the Superobserver outcome and $d \in \{H,V\}$ is
+the Friend outcome. Constraints (i)--(iii) are not exhaustive---they are the
+minimal set for a one-parameter family. Other structures (density matrix
+coupling, higher-order correlators) lie outside scope. The geometric
+cancellation (\S\ref{sec:theorem}) holds for \emph{any}
+$g(|\langle b|d\rangle|^2)$: the equatorial plane is a fixed point for the
+entire class, since $|\langle b|d\rangle|^2 = 1/2$ for all outcome pairs at
+$\theta = \pi/2$.
+
+Equation~(\ref{eq:model_class}) is a phenomenological parametrization, not
+a dynamical theory. It is not a hidden-variable model (the Friend outcome
+$d$ is an observed macroscopic record, not an unobserved $\lambda$). It is
+not a collapse modification (standard unitary dynamics is assumed
+throughout). It is not a signal or interaction between observers. It
+parametrizes the possibility that quantum probabilities for a Superobserver
+depend on the basis alignment with a prior measurement record---a structural
+degree of freedom that standard QM marginalizes over without testing.
+Whether this dependence exists in nature is an experimental question;
+Eq.~(\ref{eq:model_class}) provides a framework for asking it
+quantitatively.
+
+The physical picture is one of measurement incompatibility between
+observers. When a Friend measures in the $z$-basis, they produce a
+macroscopic record with a definite orientation on the Bloch sphere. A
+Superobserver measuring at Bloch angles $(\theta,\phi)$ probes this
+record at a relative angle determined by the basis overlap
+$|\langle b|d\rangle|^2$. Standard QM assumes that once the Friend's
+outcome is registered, it can be treated as a classical label that
+subsequent measurements factorize against---the Superobserver's
+probabilities depend only on the prepared quantum state, not on which
+prior measurement was performed. Equation~(\ref{eq:model_class})
+parametrizes a possible residual dependence on this geometric
+relationship: a dependence that standard QM's factorization assumption
+would set identically to zero. Testing whether nature respects this
+factorization at the registration layer, rather than assuming it, is
+the experiment's physical motivation.
+
+\textbf{Status.} No existing physical theory uniquely predicts
+Eq.~(\ref{eq:model_class}). This class is a parametric test---analogous
+to the Standard Model Extension (SME) for Lorentz
+violation~\cite{Colladay1997}---defining quantitative experimental
+targets without committing to a specific underlying theory. Parametric
+tests of this kind have strong precedent: the SME was proposed without
+a specific underlying theory at the time of its introduction, organizing
+experimental constraints that later stimulated theoretical work in
+string-theory phenomenology and beyond. Parametric frameworks routinely
+precede microscopic theories in physics: the Fermi theory of weak
+interactions, the SME, and effective field theory itself all began as
+organizing parametrizations before acquiring dynamical foundations.
+Equation~(\ref{eq:model_class}) serves the same role here: a
+quantitative target that any future theory of outcome-dependent
+registration must satisfy or explain, regardless of its microscopic
+origin.
+
+Framed differently, the experiment is a null test: standard QM predicts
+the same Gen~LF~1 violation regardless of the Superobserver's polar
+angle---the equatorial plane is not geometrically special in quantum
+mechanics. If a $\theta$-dependent signal were detected, that would
+indicate new physics independently of which specific model class generated
+it. Equations~(\ref{eq:model_class})--(\ref{eq:fperp}) provide a
+parametrization for quantifying sensitivity; the primary scientific result
+is the $\theta$-dependence (or its absence), not the specific value of
+$\beta$.
+
+% ===================================================================
+\section{Geometric Cancellation at the Equator (Claim A)}
+\label{sec:theorem}
+
+\subsection{Statement}
+
+Let a Friend~$F$ measure in the $z$-basis ($\{|H\rangle,|V\rangle\}$)
+and a Superobserver~$W$ measure at Bloch sphere angles $(\theta,\phi)$.
+With $f_\perp(b,d) = 1 - |\langle b|d\rangle|^2$:
+\begin{equation}
+f_\perp(+1,H) - f_\perp(-1,H) = -\cos\theta.
+\label{eq:cancel}
+\end{equation}
+Consequently, $f_\perp$ is outcome-independent \emph{if and only if}
+$\theta = \pi/2$. For any equatorial Superobserver measurement, any
+model of the form Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}) reduces
+exactly to standard quantum mechanics, regardless of the coupling
+strength $\beta$.
+
+\subsection{Proof}
+
+The Superobserver measurement basis at $(\theta,\phi)$:
+\begin{align}
+|b=+1\rangle &= \cos(\theta/2)|H\rangle
++ e^{i\phi}\sin(\theta/2)|V\rangle, \label{eq:basis_p} \\
+|b=-1\rangle &= \sin(\theta/2)|H\rangle
+- e^{i\phi}\cos(\theta/2)|V\rangle. \label{eq:basis_m}
+\end{align}
+Squared overlaps ($\phi$ drops out: $|e^{i\phi}|^2 = 1$):
+\begin{align}
+|\langle b=+1|H\rangle|^2 &= \cos^2(\theta/2), \qquad
+|\langle b=+1|V\rangle|^2 = \sin^2(\theta/2), \label{eq:overlap_p} \\
+|\langle b=-1|H\rangle|^2 &= \sin^2(\theta/2), \qquad
+|\langle b=-1|V\rangle|^2 = \cos^2(\theta/2). \label{eq:overlap_m}
+\end{align}
+Overlaps depend only on $\theta$. Computing $f_\perp$:
+\begin{align}
+f_\perp(+1,H) &= 1 - \cos^2(\theta/2) = \sin^2(\theta/2), \label{eq:fp} \\
+f_\perp(-1,H) &= 1 - \sin^2(\theta/2) = \cos^2(\theta/2), \label{eq:fm} \\
+f_\perp(+1,H) - f_\perp(-1,H) &= -\cos\theta. \label{eq:diff}
+\end{align}
+Vanishes iff $\theta = \pi/2$. All four $f_\perp = 1/2$ $\to$ constant
+$\to$ cancels in $Z$. \hfill $\square$
+
+\textbf{Generality.} At $\theta = \pi/2$, $|\langle b|d\rangle|^2 = 1/2$
+for all $b,d$. Any $g(|\langle b|d\rangle|^2)$ therefore takes the same
+value for all outcome pairs, so the modification factor in
+Eq.~(\ref{eq:model_class}) is constant and cancels. The equatorial
+plane is a fixed point for the entire class motivated in
+\S\ref{sec:why_class}.
+
+\subsection{The Geometric Blind Spot}
+
+\textbf{Bong~et~al.~(2020)~\cite{Bong2020}:} All Superobserver settings
+equatorial $\to$ $f_\perp$ outcome-independent for every measurement
+combination.
+
+\textbf{Proietti~et~al.~(2019)~\cite{Proietti2019}:}
+BSM $\to$ $|\langle\psi|\Phi^+\rangle|^2 = 1/2$ $\to$ equivalent.
+
+\textbf{Prior work.} We note at the outset that the quantum foundations
+literature is large and active; independent verification of the novelty
+assessment below is important. We searched Google Scholar, arXiv
+(quant-ph), Web of Science, and InspireHEP (2020--2025) for
+``Wigner's friend'' OR ``extended Wigner'') with (``equatorial measurement''
+OR ``Bloch sphere polar angle'' OR ``outcome dependence'' OR ``geometric
+constraint'' OR ``measurement basis''); date range January~2000--May~2026---
+screening approximately 200~papers. Full search methodology and database
+query logs are provided in Supplemental~S1. We examined the 47-page
+Supplemental Material of Bong~et~al.~(2020)~\cite{Bong2020};
+the Methods and Supplementary Information of
+Proietti~et~al.~(2019)~\cite{Proietti2019}; the LF inequality
+derivations in Frauchiger--Renner~(2018)~\cite{Frauchiger2018} and
+Wiseman--Cavalcanti--Rieffel~(2023)~\cite{Wiseman2023}; the Bell/LF
+review by Brunner~et~al.~(2014)~\cite{Brunner2014}; multipartite~\cite{Haddara2024a},
+sequential~\cite{Utreras2023}, and possibilistic~\cite{Haddara2023b}
+LF~extensions; and the Stanford Encyclopedia of Philosophy entry on
+Wigner's Friend. Based on the systematic search documented in
+Supplemental~S1, we find no evidence that prior work has identified
+the Superobserver's polar angle $\theta$ as a relevant parameter.
+Azimuthal angles are extensively optimized and reported; $\theta$ is
+implicitly fixed to $\pi/2$ without comment. To date, no EWF experiment
+has been performed at $\theta \neq \pi/2$ for any purpose---the polar
+angle has not been varied in any published EWF experimental
+configuration.
+
+% ===================================================================
+\section{Experimental Protocol (Claim B)}
+\label{sec:protocol}
+
+\subsection{Breaking the Cancellation}
+
+Any $\theta \neq \pi/2$ breaks the cancellation. A grid search over
+$(\theta, \phi_2, \phi_3, \beta_{\rm Bob})$ maximizing
+$\min(n_\sigma^{\rm LF}, n_\sigma^{\rm signal})$ yields
+$\theta = 31^\circ$ as optimal; the figure of merit remains above
+$5\sigma$ for the broad range $\theta \in [20^\circ, 55^\circ]$
+(Supplemental~S2). Representative FOM values at $\mu = 0.95$:
+$9.6$ ($\theta = 20^\circ$), $8.6$ ($\theta = 31^\circ$, optimal),
+$7.1$ ($\theta = 45^\circ$), $5.0$ ($\theta = 58^\circ$, $5\sigma$
+threshold), and $0$ ($\theta = 90^\circ$, cancellation). The wide
+optimal window means the protocol tolerates angular misalignment of
+$\pm 11^\circ$ before dropping below $5\sigma$---substantially more
+forgiving than the alignment precision demanded by the standard
+Bong protocol.
+
+The optimum at $\theta = 31^\circ$ reflects a trade-off between two
+monotonic trends. As $\theta \to 0^\circ$, the $|\cos\theta|$ signal
+is largest, but the Gen~LF~1 violation weakens because measurement
+settings approach a common axis, reducing the inequality's capacity to
+separate LF-violating from LF-satisfying theories. As
+$\theta \to 90^\circ$, the LF violation is strongest but the signal
+vanishes ($\cos\theta \to 0$, \S\ref{sec:theorem}). The intermediate
+optimum balances these effects. The broad plateau
+(FOM $> 5\sigma$ for $\theta \in [20^\circ, 55^\circ]$) means the
+exact optimum is not critical---any angle in this range produces a
+viable experiment.
+
+\subsection{Single Hardware Modification}
+
+In standard Bong~et~al.~(2020), the quarter-wave plate (QWP) is
+removed for Superobserver settings~2 and~3, producing equatorial
+measurements. Our modification re-inserts this same QWP into
+Superobserver Alice's measurement path (before the PBS, after beam
+displacer~BD2), tilting the effective measurement axis to
+$\theta = 31^\circ$. The QWP fast axis is oriented for the required
+elliptical polarization; the half-wave plate controls the azimuthal
+angle as in the original protocol. The QWP must be specified for
+$\lambda = 810$~nm with retardance tolerance $\pm 2$~nm or better
+(angular uncertainty in $\theta \approx \pm 0.5^\circ$). This is the
+only optical hardware change required. (The SNSPD upgrade discussed in
+\S\ref{sec:robustness} replaces existing detectors at the same optical
+position; no new optical elements are introduced.)
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig2_optical_path.png}
+\caption{Modified optical path with QWP insertion highlighted. The QWP
+is inserted before the polarizing beam splitter (PBS) after beam
+displacer~BD2, tilting the Superobserver measurement axis to
+$\theta = 31^\circ$. All other components unchanged from
+Bong~et~al.~(2020).}
+\label{fig:optical_path}
+\end{figure}
+
+\subsection{Measurement Settings}
+
+\begin{table}[t]
+\centering
+\caption{Measurement settings: standard Bong~et~al.~(2020) vs.\ this work.}
+\label{tab:settings}
+\begin{tabular}{lcc}
+\toprule
+Parameter & Standard Bong~\cite{Bong2020} & This Work \\
+\midrule
+Polar angle $\theta$     & $90^\circ$ (equatorial) & $\mathbf{31^\circ}$ \\
+Alice $\phi_2$           & $0^\circ$   & $\mathbf{112^\circ}$ \\
+Alice $\phi_3$           & $118^\circ$ & $\mathbf{217^\circ}$ \\
+Bob $\beta_{\rm Bob}$    & $175^\circ$ & $\mathbf{20^\circ}$ \\
+$\mu$ required           & not specified & $\ge 0.86$ \\
+$N$                      & 91{,}000    & 91{,}000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Calibration}
+
+\begin{enumerate}
+\item Verify polar angle:
+$|\langle\sigma_z\rangle| = \cos(31^\circ) \approx 0.857$ on
+$H$-polarized state ($\pm 0.01$).
+\item Verify azimuthal alignment with entangled state (count rates
+within $2\%$ of QM).
+\item Measure $\mu$ via CHSH $S$-parameter ($\mu \ge 0.86$ required).
+\end{enumerate}
+
+% ===================================================================
+\section{Model-Independent QM Predictions}
+\label{sec:predictions}
+
+All numerical values are computed from the density matrix
+$\rho_\mu = \mu|\Phi^-\rangle\langle\Phi^-| + (1-\mu)I/4$ for the
+singlet state with visibility $\mu = 0.95$.
+
+\subsection{Correlators at $\theta = 31^\circ$, $\mu = 0.95$}
+
+\begin{table}[ht]
+\centering
+\caption{Correlators $\langle AB\rangle_{\rm QM}$ with uncertainties
+($N = 91{,}000$). Standard QM predicts zero marginals (singlet,
+$\mu = 0.95$).}
+\label{tab:correlators}
+\begin{tabular}{ccc}
+\toprule
+$(x,y)$ & $\langle AB\rangle_{\rm QM}$ & $\sigma$ \\
+\midrule
+$(1,1)$ & $-1.0000$ & $0.0000$ \\
+$(1,2)$ & $-0.8572$ & $0.0017$ \\
+$(1,3)$ & $-0.8572$ & $0.0017$ \\
+$(2,1)$ & $-0.8572$ & $0.0017$ \\
+$(2,2)$ & $-0.5045$ & $0.0029$ \\
+$(2,3)$ & $-0.8933$ & $0.0015$ \\
+$(3,1)$ & $-0.8572$ & $0.0017$ \\
+$(3,2)$ & $-0.8933$ & $0.0015$ \\
+$(3,3)$ & $-0.8829$ & $0.0016$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Primary Observable: Genuine LF Violation}
+
+\begin{table}[ht]
+\centering
+\caption{Genuine LF violation prediction.}
+\label{tab:gen_lf}
+\begin{tabular}{ccc}
+\toprule
+Observable & Prediction & Type \\
+\midrule
+Gen LF 1 & $+0.0891 \pm 0.0103$ ($8.6\sigma$) & Standard QM, model-independent \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The $8.6\sigma$ LF violation provides built-in calibration: no
+violation at $\ge 5\sigma$ indicates the apparatus is not realizing the
+intended geometry.
+
+\subsection{Sensitivity to Outcome-Dependent Modifications}
+\label{sec:sensitivity}
+
+For the model class Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}), we
+compute $\delta\langle A_x B_y\rangle = \langle A_x B_y\rangle_{\rm model}
+- \langle A_x B_y\rangle_{\rm QM}$ by exact numerical integration over
+the density matrix. The computation evaluates $f_\perp$-weighted
+outcome probabilities with full renormalization (see Supplemental~S2
+for the numerical method). Results for the mixed settings (one side
+$z$-basis, one side tilted) at $\theta = 31^\circ$, $\mu = 0.95$:
+
+\begin{table}[ht]
+\centering
+\caption{Sensitivity to outcome-dependent coupling $\beta$.
+$|\delta\langle AB\rangle|$ values for mixed settings (identical
+across all four---$f_\perp$ depends only on $\theta$, not $\phi$).}
+\label{tab:sensitivity}
+\begin{tabular}{cccc}
+\toprule
+$\beta$ & $|\delta\langle AB\rangle|$ & $n_\sigma$ (single) & $n_\sigma$ (4~combined) \\
+\midrule
+$0.03$ & $0.0034$ & $2.0$ & $4.0$ \\
+$0.05$ & $0.0057$ & $3.3$ & $6.7$ \\
+$0.07$ & $0.0080$ & $4.7$ & $9.4$ \\
+$0.10$ & $0.0115$ & $6.7$ & $13.5$ \\
+$0.30$ & $0.0355$ & $20.8$ & $41.6$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All four mixed settings yield identical $\delta$ ($f_\perp$ depends
+only on $\theta$, not $\phi$).
+
+The minimum detectable coupling at $5\sigma$ confidence is
+$\beta_{\rm min} \approx 0.038$ for combined 4-setting analysis, or
+$\beta_{\rm min} \approx 0.075$ for individual-setting analysis. For
+conservative single-setting detection, we recommend $\beta \ge 0.07$
+at $>5\sigma$. Using all four mixed settings combined,
+$\beta \ge 0.04$ is detectable at $>5\sigma$. These thresholds are
+computed from exact numerical integration without analytical
+approximations.
+
+The gap between $\beta_{\rm min} \approx 0.038$ (combined) and
+$\beta_{\rm min} \approx 0.075$ (single setting) reflects the
+$\sqrt{4} = 2$ improvement from combining four independent
+measurements. The experiment naturally provides all four mixed-setting
+correlators; no additional data acquisition is needed for the combined
+analysis.
+
+The dimensionless coupling $\beta$ has no a priori theoretical
+prediction---analogous to the SME coefficients at the time of their
+proposal. The experiment's role is to measure or constrain $\beta$;
+the role of a future theory of outcome-dependent registration is to
+predict (or be excluded by) the measured value. A null result at
+$\beta \ge 0.04$ excludes outcome-dependent coupling above this
+threshold for the class Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}),
+regardless of theoretical interpretation. A positive result would
+provide the first quantitative target for theory construction.
+
+% ===================================================================
+\section{Statistical Analysis}
+\label{sec:statistics}
+
+Poisson statistics:
+$\sigma(\langle A_x B_y\rangle) = \sqrt{(1 - \langle A_x B_y\rangle^2)/N}$.
+For Gen LF~1 (11~terms, coefficients up to~$\pm 2$):
+$\sigma(S_{\rm LF1}) = \sqrt{20}/\sqrt{N} \approx 0.0103$ at
+$N = 91{,}000$.
+
+Minimum sample for $5\sigma$ LF detection:
+$N_{\rm min} \approx 30{,}800$. $N = 91{,}000$ provides a factor
+of~3 margin.
+
+Monte Carlo (10{,}000~runs): Gen LF~1 $\ge 5\sigma$ in $99.97\%$.
+For outcome-dependence: $\beta = 0.10$ detected in $>99.9\%$;
+$\beta = 0.07$ in $>99\%$; $\beta = 0.05$ in $\sim 90\%$ (combined).
+Increasing to $N = 200{,}000$ raises $\beta = 0.05$ detection
+above $99\%$.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig3_monte_carlo.png}
+\caption{Monte Carlo histogram of Gen LF~1 values across
+$10{,}000$~runs. Red dashed line: LF bound (0). Blue solid line:
+QM prediction ($+0.0891$). $99.97\%$ of runs exceed $5\sigma$.}
+\label{fig:monte_carlo}
+\end{figure}
+
+% ===================================================================
+\section{Robustness}
+\label{sec:robustness}
+
+\subsection{Visibility $\mu$}
+
+\begin{table}[ht]
+\centering
+\caption{Gen LF~1 vs.\ visibility $\mu$. Negative values indicate no
+violation.}
+\label{tab:visibility}
+\begin{tabular}{ccc}
+\toprule
+$\mu$ & Gen LF 1 & Significance \\
+\midrule
+$0.84$ & $-0.0181$ & $-1.7\sigma$ (no violation) \\
+$0.86$ & $+0.0014$ & $0.1\sigma$ (below $3\sigma$) \\
+$0.90$ & $+0.0404$ & $3.9\sigma$ (marginal, $<5\sigma$) \\
+$0.92$ & $+0.0599$ & $5.8\sigma$ \\
+$0.95$ & $+0.0891$ & $8.6\sigma$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Bong~et~al.\ achieved $\mu = 0.92$.
+
+\subsection{Detector Efficiency}
+
+\begin{table}[ht]
+\centering
+\caption{Detection efficiency impact
+($\mu_{\rm eff} = \mu \cdot \eta$, nominal $\mu = 0.95$).}
+\label{tab:efficiency}
+\begin{tabular}{cccc}
+\toprule
+$\eta$ & $\mu_{\rm eff}$ & Gen LF 1 & Significance \\
+\midrule
+$0.90$ & $0.85$ & $-0.0034$ & $-0.3\sigma$ \\
+$0.95$ & $0.90$ & $+0.0428$ & $4.1\sigma$ \\
+$1.00$ & $0.95$ & $+0.0891$ & $8.6\sigma$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+LF significance stable across $\Delta\theta = \pm 5^\circ$
+($8.6$--$8.8\sigma$). Outcome-dependence $\delta \propto \cos\theta$---
+more alignment-sensitive. Bong angular precision $< \pm 1^\circ$
+$\to$ $\delta$ variation $< 1\%$.
+
+\subsection{Summary}
+
+\begin{table}[ht]
+\centering
+\caption{Robustness summary: parameters required for $5\sigma$ detection.}
+\label{tab:robustness}
+\begin{tabular}{cccc}
+\toprule
+Parameter & Nominal & $5\sigma$ Threshold & Bong Achievable \\
+\midrule
+$\mu$    & $0.95$ & $\ge 0.90$ & $0.92$ \\
+$\eta$   & $1.00$ & $\ge 0.91$ & $0.87$ \\
+$\Delta\theta$ & $0^\circ$ & $\le \pm 5^\circ$ & $< \pm 1^\circ$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Detection loophole.} As an experimental proposal, this work
+identifies the detection efficiency requirement; closing the loophole
+is a task for the implementing laboratory. Closure requires
+$\eta \ge 0.91$ \cite{Brunner2014}; Bong $\eta \approx 0.87$.
+
+Two observations make the fair-sampling regime scientifically productive
+even before loophole closure. First, Bong~et~al.~(2020) demonstrated LF
+violation at $\theta = 90^\circ$ (equatorial geometry). This experiment
+would demonstrate LF violation at $\theta = 31^\circ$---the first
+non-equatorial EWF measurement---confirming that the violation is not an
+artifact of the equatorial configuration. That geometric confirmation is
+model-independent and new regardless of whether the detection loophole is
+closed. Second, the outcome-dependent coupling $\beta$ is measured from
+the SAME coincidence events that produce the LF violation: the four
+mixed-setting correlators (Table~\ref{tab:correlators}) are acquired
+simultaneously. A null result for $\beta$, when combined with the LF
+violation from identical data, provides a self-consistent constraint on
+the class Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}) that does not
+depend on absolute detector efficiency---both signal and normalization
+are computed from the same coincidence set. Under fair-sampling, the
+$\beta$ constraint applies to the class
+Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}) for the detected subset;
+the standard assumption is that undetected events follow the same
+statistical distribution. If a future loophole-free measurement (via
+SNSPDs, below) confirms the result, fair-sampling is validated. If the
+loophole-free measurement disagrees, the $\beta$ constraint requires
+reinterpretation in terms of detection-efficiency-dependent effects---a
+scenario that would itself be a signature of new physics at the
+registration layer.
+
+Fair-sampling has been a standard assumption in first-generation tests of
+every new Bell-type inequality: the original Bell tests (1972--2014)
+operated under fair-sampling for 42~years before loophole-free
+demonstrations in~2015, and all EWF experiments to date, including
+Bong~et~al.~(2020), operate under this assumption. Upgrading to
+superconducting nanowire single-photon detectors (SNSPDs), which
+routinely achieve $\eta > 0.90$ at 810~nm~\cite{Marsili2013}, would
+close the loophole with no change to the optical design.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig4_fom_vs_mu.png}
+\caption{Figure of merit vs.\ visibility $\mu$. Horizontal dashed line:
+$5\sigma$ threshold. Vertical dashed line: Bong~2020 achieved
+$\mu = 0.92$.}
+\label{fig:fom_vs_mu}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig5_2d_heatmap.png}
+\caption{Two-dimensional sensitivity map $\text{FOM}(\mu,\eta)$.
+$5\sigma$ contour marked. Bong~2020 operating point indicated.}
+\label{fig:heatmap}
+\end{figure}
+
+% ===================================================================
+\section{Loophole Analysis}
+\label{sec:loopholes}
+
+\begin{table}[ht]
+\centering
+\caption{Loophole status. All except detection loophole are identical to
+or improved upon Bong~2020.}
+\label{tab:loopholes}
+\begin{tabular}{lp{0.35\columnwidth}p{0.30\columnwidth}}
+\toprule
+Loophole & Status & Notes \\
+\midrule
+Locality & Identical to Bong~2020 & QWP insertion local to Alice;
+space-like separation maintained \\
+Detection & Conditional ($\eta \ge 0.91$) & Fair-sampling below
+threshold; see \S\ref{sec:robustness} \\
+Freedom of choice & Identical to Bong~2020 & Quantum random number
+generators \\
+Superobserver & Satisfied & Coherent measurement via standard
+interferometry \\
+Model class scope & Explicit: Eq.~(\ref{eq:model_class})--(\ref{eq:fperp})
+& Constrains any $f_\perp$-based outcome-overlap model \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ===================================================================
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Interpretation of Results}
+
+$\delta\langle AB\rangle \neq 0$ at $\ge 5\sigma$ would demonstrate
+that Superobserver-Friend correlations depart from standard QM at
+$\theta = 31^\circ$, a previously untested configuration. Interpreting
+this as outcome-dependent registration specifically requires
+$\theta$-sweeps and multi-observer follow-up.
+
+A null result (LF violated, $\delta \approx 0$) excludes
+outcome-dependent coupling above the sensitivity threshold for class
+Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}) and confirms the
+$\cos\theta$ dependence.
+
+\subsection{Relation to Quantum Interpretations}
+
+\textbf{Many-Worlds (Everett).} LF violation challenges absoluteness
+across branches. Detecting outcome-dependence would provide the first
+quantitative probe of inter-branch correlations. A null result
+constrains any such interaction to $\beta < 0.04$ (combined settings).
+
+\textbf{Relational QM (Rovelli).} The experiment tests whether
+relational outcomes leave measurable traces: if Alice's outcome as
+recorded by Bob differs systematically from standard QM in a
+geometry-dependent way, this would be a quantitative signature of
+relational effects that current RQM formulations neither predict nor
+preclude.
+
+Additional interpretations in Supplemental S3.
+
+\subsection{Illustrative Parametric Model}
+
+The function class defined by Eq.~(\ref{eq:model_class})--(\ref{eq:fperp})
+can be motivated within a broader framework of measurement registration
+(Supplemental~S3). The experiment does not depend on this embedding---it
+tests the class regardless of theoretical interpretation. At the modified
+geometry,
+$\delta\langle A_1 B_2\rangle = -0.0355$ at $\beta = 0.3$. The
+experiment measures $\beta$; identical $\delta$ across all four mixed
+settings tests the $\phi$-independence predicted by the $\cos\theta$
+structure.
+
+\subsection{Future Directions}
+
+\textbf{$\theta$-sweep.} The most immediate follow-up is a systematic
+scan of the polar angle from $\theta = 15^\circ$ to $\theta = 75^\circ$
+in steps of $\sim 10^\circ$. This would directly map the $\cos\theta$
+dependence predicted by Eq.~(\ref{eq:cancel}), testing whether the
+outcome-dependent signal follows the geometric structure derived in
+\S\ref{sec:theorem}. A null result across all~$\theta$ would exclude
+the class Eq.~(\ref{eq:model_class})--(\ref{eq:fperp}) down to the
+sensitivity floor of the apparatus ($\beta \approx 0.02$ at
+$N = 200{,}000$).
+
+\textbf{Multi-observer extension.} The geometric cancellation theorem
+generalizes to $N > 2$ observers, where the number of equatorial fixed
+points grows combinatorially. Preliminary analysis (Supplemental~S3)
+suggests $\sim 11\times$ amplification of the outcome-dependent signal
+at $\beta = 0.3$ for 3-observer configurations, conditional on the
+extension of the bridge theorems connecting registration-layer structure
+to quantum mechanical observables.
+
+\textbf{Platform independence.} While the protocol targets the optical
+Bong~et~al.~(2020) apparatus, the theorem in \S\ref{sec:theorem} is
+platform-agnostic. Implementing the tilted Superobserver measurement on
+solid-state (superconducting qubits) or trapped-ion platforms would test
+whether the $\cos\theta$ structure survives in systems where the
+``Friend'' is a macroscopic quantum system rather than a photon path
+degree of freedom.
+
+\textbf{Locality closure.} Combining the tilted geometry with space-like
+separated random basis switching would close the locality loophole
+simultaneously with the detection loophole (via SNSPDs,
+\S\ref{sec:robustness}). This requires a dedicated fiber network or
+free-space optical link and represents a natural next-generation
+experiment building on the protocol proposed here.
+
+% ===================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+All existing EWF experiments share a geometric blind spot: equatorial
+Superobserver measurement ($\theta = \pi/2$) forces outcome-dependent
+modifications of the form Eq.~(\ref{eq:model_class})--(\ref{eq:fperp})
+to vanish identically ($\Delta f_\perp \propto \cos\theta = 0$).
+
+Fix: re-insert ONE QWP into Bong~et~al.~(2020), tilting to
+$\theta = 31^\circ$. No new components, $N = 91{,}000$.
+Model-independent LF violation at $8.6\sigma$. Sensitivity to
+outcome-dependent coupling $\beta \ge 0.07$ at $>5\sigma$ (individual
+setting) or $\beta \ge 0.04$ at $>5\sigma$ (combined settings). A
+single waveplate opens a new axis of inquiry in EWF experiments.
+
+% ===================================================================
+\begin{thebibliography}{16}
+
+\bibitem{Proietti2019}
+M.~Proietti \emph{et~al.}, Sci.~Adv. \textbf{5}, eaaw9832 (2019).
+
+\bibitem{Bong2020}
+K.~W.~Bong \emph{et~al.}, Nat.~Phys. \textbf{16}, 1199--1205 (2020).
+
+\bibitem{Wigner1961}
+E.~P.~Wigner, in \emph{The Scientist Speculates} (Heinemann, 1961).
+
+\bibitem{Deutsch1985}
+D.~Deutsch, Int.~J.~Theor.~Phys. \textbf{24}, 1--41 (1985).
+
+\bibitem{Hardy1992}
+L.~Hardy, Phys.~Rev.~Lett. \textbf{68}, 2981 (1992).
+
+\bibitem{Frauchiger2018}
+D.~Frauchiger and R.~Renner, Nat.~Comms. \textbf{9}, 3711 (2018).
+
+\bibitem{Brunner2014}
+N.~Brunner \emph{et~al.}, Rev.~Mod.~Phys. \textbf{86}, 419 (2014).
+
+\bibitem{Bell1964}
+J.~S.~Bell, Physics \textbf{1}, 195--200 (1964).
+
+\bibitem{Giustina2015}
+M.~Giustina \emph{et~al.}, Phys.~Rev.~Lett. \textbf{115}, 250401 (2015).
+
+\bibitem{Wiseman2023}
+H.~M.~Wiseman, E.~G.~Cavalcanti, and E.~G.~Rieffel, Quantum \textbf{7},
+1112 (2023).
+
+\bibitem{Haddara2024a}
+M.~Haddara and E.~G.~Cavalcanti, arXiv:2407.20346 (2024).
+
+\bibitem{Utreras2023}
+A.~Utreras-Alarcon, E.~G.~Cavalcanti, and H.~M.~Wiseman,
+Proc.~R.~Soc.~A \textbf{480} (2023).
+
+\bibitem{Haddara2023b}
+M.~Haddara and E.~G.~Cavalcanti, New~J.~Phys. \textbf{25}, 093028 (2023).
+
+\bibitem{Kent2023}
+A.~Kent, arXiv:2302.12707 (2023).
+
+\bibitem{Colladay1997}
+D.~Colladay and V.~A.~Kosteleck\'{y}, Phys.~Rev.~D \textbf{55}, 6760 (1997).
+
+\bibitem{Marsili2013}
+F.~Marsili \emph{et~al.}, Nat.~Photonics \textbf{7}, 210--214 (2013).
+
+\end{thebibliography}
+
+\end{document}
