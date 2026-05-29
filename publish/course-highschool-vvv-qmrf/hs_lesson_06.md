@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 06 — "Buddhist Epistemology" trong dự án này là gì?
 
@@ -179,7 +179,7 @@ D. Đây là bài học vẽ tranh
 ## 8. Source Links
 
 - [System Buddhist Epistemology Full](../../SYSTEM_Buddhist_Epistemology/system_be_full.md)
-- [Buddhist Epistemology and Quantum Measurement Refine Mapping](../research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md)
+- [Buddhist Epistemology and Quantum Measurement Refine Mapping](../research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md)
 
 ## What This Lesson Does NOT Claim
 

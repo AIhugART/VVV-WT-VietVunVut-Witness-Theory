@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 18 — E10: "Tripartite Registration Validity Matrix"
 
@@ -171,8 +171,8 @@ D. Tầng thể thao
 
 ## 8. Source Links
 
-- [E10 Tripartite Registration Validity Matrix](../research_documents/category/vvv_qmrf_category_09_e10_tripartite_registration_validity_matrix.md)
-- [E7 Dual-Phase Registration Certification](../research_documents/category/vvv_qmrf_category_04_e07_dual_phase_registration_certification.md)
+- [E10 Tripartite Registration Validity Matrix](../research_documents/vvv-qmrf/category/vvv_qmrf_category_09_e10_tripartite_registration_validity_matrix.md)
+- [E7 Dual-Phase Registration Certification](../research_documents/vvv-qmrf/category/vvv_qmrf_category_04_e07_dual_phase_registration_certification.md)
 
 ## What This Lesson Does NOT Claim
 

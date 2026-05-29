@@ -50,7 +50,7 @@ Symptom: A section claims Buddhist Epistemology "solves" Quantum Measurement.
 
 - VVV-QMRF stands for "VietVunVut Quantum Measurement Registration Framework". Legacy name: "VietVunVut Epistemic Quantum Measurement (VVV-EQM)". Definition: Standard Quantum Mechanics has four physical postulates (P1–P4) that describe state space, observables, measurement, and dynamics. These postulates are silent on the registration architecture of measurement — they do not specify what certifies a measurement, what distinguishes measurement from interaction, or what constitutes the registering system. VVV-QMRF proposes a registration-logic structure K organized in five architectural layers:
 
-- **Layer 1 (FROZEN) — K1–K8 Registration-logic axioms:** binary cert, V in {0,1}, bot_K incommensurability, AdmJoint. Defines act-result co-instantiation (K1), temporal injectivity (K2), self-certification (K3), registration validity (K4), cross-registration interaction / incommensurability (K5 + K5_prospective), authentication (K6), closure (K7), and cross-space preservation (K8). K5_prospective (upgraded v29) is a conservative extension of K5 with identical conditions (i)–(iii), adding a new evaluation target only. See `documents/research_documents/meta_architecture/K_Space_Axiomatization.md` for the full axiomatization and `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` for the v29 version with K5_prospective clause.
+- **Layer 1 (FROZEN) — K1–K8 Registration-logic axioms:** binary cert, V in {0,1}, bot_K incommensurability, AdmJoint. Defines act-result co-instantiation (K1), temporal injectivity (K2), self-certification (K3), registration validity (K4), cross-registration interaction / incommensurability (K5 + K5_prospective), authentication (K6), closure (K7), and cross-space preservation (K8). K5_prospective (upgraded v29) is a conservative extension of K5 with identical conditions (i)–(iii), adding a new evaluation target only. See `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md` for the full axiomatization and `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` for the v29 version with K5_prospective clause.
 
 - **Layer 2 (UPDATABLE) — T1–T7 Bridge theorems:** K_joint construction (T1 N=2 constructive), colimit (T4-H Step 1 proven, Steps 2–4 deferred), relativization. Bridge theorems connect K-space structure to registration contexts. K9_E requires only T1 (N=2 constructive), not T4. The framework derives K-side incommensurability (K_F ⊥_K K_W) in Extended Wigner's Friend scenarios, identifying where standard QM interpretations lack the structural machinery to formalize registration-layer conditions.
 
@@ -66,7 +66,7 @@ Symptom: A section claims Buddhist Epistemology "solves" Quantum Measurement.
 
 - **Classification (v31, 2026-05-24):** VVV-QMRF K9_E = Class C (qualified) — structurally testable, empirically UNCONFIRMED. v29 upgraded to (genuine) via 3-round RCA (4.50/5); v30 downgraded to (qualified) via P10-NOISE noise sensitivity analysis (FAIL: noise_threshold=0.10 sigma RMS); v31 K9E-PAT CLOSED as UNRESOLVABLE (RCA 4.92/5). Distinguishing signal below current experimental detection threshold; confirmation or rejection requires dedicated experiment. K9-S12 Modified Bong protocol (single QWP, alpha=31 deg) proposed as FIRST test: Gen LF 1 = +0.0891 (8.6sigma), delta<A1B2> = -0.0355 (20.8sigma), FOM=8.6. Paper draft at `04_governance/paper/draft_v1.md`. IBM Quantum approach REJECTED (double category error, RCA 4.92/5) — K9_E requires K-space registration structure absent on gate-model QPUs.
 
-- See `documents/research_documents/project_vvv_qmrf_class_c/index.md` for the full Class C master index, `documents/research_documents/project_vvv_qmrf_class_c/04_governance/K_Space_Axiomatization_plan.md` for the Phase 1-13 RCA synthesis, and `documents/research_documents/project_vvv_qmrf_class_c/04_governance/Post_v30_Execution_Plan.md` for the post-v30 execution plan (K9E-PAT → K9-S12 paper → experiment). See `documents/research_documents/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` for the φ-map derivation, `documents/research_documents/meta_architecture/decisions/central_claim_change_RCA.md` for the Track A→B decision record, and `documents/research_documents/meta_architecture/decisions/phi_map_track_b_roadmap.md` for the Track B research program.
+- See `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md` for the full Class C master index, `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/04_governance/K_Space_Axiomatization_plan.md` for the Phase 1-13 RCA synthesis, and `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/04_governance/Post_v30_Execution_Plan.md` for the post-v30 execution plan (K9E-PAT → K9-S12 paper → experiment). See `documents/research_documents/vvv-qmrf/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` for the φ-map derivation, `documents/research_documents/vvv-qmrf/meta_architecture/decisions/central_claim_change_RCA.md` for the Track A→B decision record, and `documents/research_documents/vvv-qmrf/meta_architecture/decisions/phi_map_track_b_roadmap.md` for the Track B research program.
 - Use Buddhist Epistemology as the primary ontological frame and map Quantum Measurement onto it only within the project’s declared Quantum Measurement cases; report any content that exceeds Buddhist Epistemology scope or treats a mapping as Standard Quantum Mechanics.
 - For RCA on Buddhist Epistemology node and edge definitions, use only `SYSTEM_Buddhist_Epistemology/system_be_full.md` as the single source of truth; treat other BE node/edge tables as derived references.
 
@@ -98,8 +98,8 @@ Symptom: A section claims Buddhist Epistemology "solves" Quantum Measurement.
 ### PEER-SYNC — K_Space_Axiomatization.md dual-copy rule
 
 - Two peer-level copies of `K_Space_Axiomatization.md` exist and MUST be kept in sync:
-  - **Canonical copy:** `documents/research_documents/meta_architecture/K_Space_Axiomatization.md`
-  - **Class C working copy:** `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md`
+  - **Canonical copy:** `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md`
+  - **Class C working copy:** `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md`
 - When editing EITHER file's structural content (axioms K1-K8, K5_prospective, bridge theorems T1-T8, open items, Layer 1/2 Summary tables), the SAME change MUST be applied to the peer file.
 - Header metadata (version, date, status) must stay consistent between both copies.
 - Before committing changes to one, verify the other is in sync via: `bash scripts/sync_check_k_space.sh`
@@ -129,10 +129,10 @@ This project maps relationships between Buddhist epistemology (Pramāṇavāda �
 | `SYSTEM_Buddhist_Epistemology/system_buddhist_epistemology.md` | Compact derived key concepts table for the 30 core BE nodes. |
 | `documents/published_documents/node_pub_doc_Buddhist_Epistemology.md` | Published compact derived node definitions (30 core nodes). |
 | `documents/published_documents/edge_pub_doc_Buddhist_Epistemology.md` | Published compact derived edge definitions (39 core edges). |
-| `documents/research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md` | Primary deep-analysis BE-QM mapping that applies the BE SOT. |
-| `documents/research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_system_mapping.md` | Formal BE-QM system mapping that applies BE node/edge codes from the BE SOT. |
+| `documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md` | Primary deep-analysis BE-QM mapping that applies the BE SOT. |
+| `documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_system_mapping.md` | Formal BE-QM system mapping that applies BE node/edge codes from the BE SOT. |
 
-Archived (superseded): `documents/research_documents/archives/`
+Archived (superseded): `documents/research_documents/vvv-qmrf/archives/`
 
 ## Working guidelines
 

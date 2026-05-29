@@ -17,8 +17,8 @@
 | SOT ID | SOT Name | File Path | Role | Last Verified | Version |
 |--------|----------|-----------|------|---------------|---------|
 | **SOT-1** | BE Full System | `SYSTEM_Buddhist_Epistemology/system_be_full.md` | Single source of truth for BE node/edge definitions (30 N_BE + 39 ED_BE) | 2026-05-24 | v1.0 |
-| **SOT-2** | K-Space Axiomatization (canonical) | `documents/research_documents/meta_architecture/K_Space_Axiomatization.md` | K1-K8 axioms + T1-T8 bridge theorems — canonical copy | 2026-05-24 | v2.2 |
-| **SOT-3** | K-Space Axiomatization (Class C) | `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` | K1-K8 + T1-T8 — Class C working copy (PEER-SYNC with SOT-2) | 2026-05-24 | v2.3 |
+| **SOT-2** | K-Space Axiomatization (canonical) | `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md` | K1-K8 axioms + T1-T8 bridge theorems — canonical copy | 2026-05-24 | v2.2 |
+| **SOT-3** | K-Space Axiomatization (Class C) | `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` | K1-K8 + T1-T8 — Class C working copy (PEER-SYNC with SOT-2) | 2026-05-24 | v2.3 |
 | **SOT-4** | CLAUDE.md | `CLAUDE.md` | [INTERNAL GOVERNANCE ONLY] AI assistant instruction file — NOT a scholarly source. Replaced by `VVV_QMRF_Definitions.md` for external communication. | 2026-05-24 | — |
 
 ### A.2 External SOTs (outside repository)

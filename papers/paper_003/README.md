@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # papers/paper_003 — Working Paper v3.0
 
@@ -79,7 +79,7 @@ A→B→C is one-way motivation, NOT logical derivation. A null K9_E result (K9-
 2. ~~Author approves → promote to `VVV-QMRF_Working_Paper_v3.0.md`~~ ✓ Done
 3. ~~Export Zenodo upload package (PDF + metadata)~~ ✓ Done 2026-05-28
 4. **Upload PDF to Zenodo** — follow `zenodo/UPLOAD_CHECKLIST.md`
-5. After publish: update `documents/research_documents/project_vvv_qmrf_class_c/index.md` + `CLAUDE.md` with v3.0 version DOI
+5. After publish: update `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md` + `CLAUDE.md` with v3.0 version DOI
 
 ---
 

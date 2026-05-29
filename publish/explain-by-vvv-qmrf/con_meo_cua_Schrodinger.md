@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Registration-Layer Reading of Schrödinger's Cat via VVV-QMRF
 
@@ -7,7 +7,7 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 **Status:** educational draft
 **Reader level:** highschool
 **Scope:** High-school / LLM-friendly explanation of Schrödinger's Cat through VVV-QMRF registration-layer terminology.
-**Source trace:** `documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md`; `documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md`; `documents/research_documents/framework/vvv_qmrf_framework_e05_internal_representation_encoding_postulate.md`; `documents/research_documents/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md`; `documents/research_documents/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md`; `documents/research_documents/vvv-qmrf/schema_guide.md`; `DISCLAIMER.md`.
+**Source trace:** `documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e05_internal_representation_encoding_postulate.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md`; `documents/research_documents/vvv-qmrf/schema_guide.md`; `DISCLAIMER.md`.
 **Claim boundary:** This lesson offers a registration-layer interpretation of the paradox; it does not replace Standard Quantum Mechanics.
 **Concept boundary:** The cat example separates physical-state description from registration-state update; it must not be read as an identity claim about physical collapse, quantum superposition, Standard Quantum Mechanics, or Buddhist doctrine.
 **Formula boundary:** $\rho$ is Standard Quantum Mechanics physical-state notation, while $K$ is VVV-QMRF registration-layer notation; neither is used here to introduce a new physical law.

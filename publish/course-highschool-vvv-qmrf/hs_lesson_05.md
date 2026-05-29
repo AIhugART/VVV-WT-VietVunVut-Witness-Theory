@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 05 — Phân biệt `ρ` và `K`
 
@@ -170,7 +170,7 @@ D. `ρ` là tên lớp học
 
 ## 8. Source Links
 
-- [Measurement Interface Postulate E17](../research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
+- [Measurement Interface Postulate E17](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
 - [Sơ đồ VVV-QMRF và Standard QM](../research_documents/vvv-qmrf/VVV_QMRF_vs_Standard_QM_system_diagram.md)
 
 ## What This Lesson Does NOT Claim

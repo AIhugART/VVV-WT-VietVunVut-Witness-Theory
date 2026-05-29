@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # VVV-QMRF Working Paper v3.0 — Implementation Plan
 # Kế hoạch thực hiện Working Paper v3.0
@@ -15,9 +15,9 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 **Source artifacts:**
 - v2.0 base: `papers/Testable_Prediction_Section/extended_wigners_friend_k_side_incommensurability/VVV-QMRF_Working_Paper_v2.0.md` (812 lines)
 - v3.0 LEGACY structure plan (SUPERSEDED): `papers/Testable_Prediction_Section/extended_wigners_friend_k_side_incommensurability/plan/VVV-QMRF_Working_Paper_v3.0_structure.md` (2026-05-23, φ-centric — outdated relative to v35 index)
-- Project Class C index: `documents/research_documents/project_vvv_qmrf_class_c/index.md` (v35, 2026-05-28)
-- K-Space SOT (peer-synced): `documents/research_documents/meta_architecture/K_Space_Axiomatization.md` and `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md`
-- φ-map (Class D supporting): `documents/research_documents/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` v0.2
+- Project Class C index: `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md` (v35, 2026-05-28)
+- K-Space SOT (peer-synced): `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md` and `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md`
+- φ-map (Class D supporting): `documents/research_documents/vvv-qmrf/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` v0.2
 - K9-S12 child paper (arXiv submitted 2026-05-27): `papers/paper_002/manuscript.md`
 
 > **DISCLAIMER:** VVV-QMRF is independent personal research, Class C (qualified) for K9_E hypothesis. Not Standard Quantum Mechanics, not peer-reviewed, not experimentally confirmed. Full boundary protocol carried over to v3.0 §13.

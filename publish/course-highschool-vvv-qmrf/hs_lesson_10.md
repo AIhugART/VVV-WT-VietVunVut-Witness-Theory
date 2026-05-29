@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 10 — E2: "Registration Self-Completion Matrix"
 
@@ -169,8 +169,8 @@ D. Tầng trò chơi
 
 ## 8. Source Links
 
-- [E2 Registration Self-Completion Matrix](../research_documents/category/vvv_qmrf_category_02_e02_registration_self_completion_matrix.md)
-- [Formal Registration-State Measurement Model](../research_documents/framework/vvv_qmrf_framework_formal_registration_state_measurement_model.md)
+- [E2 Registration Self-Completion Matrix](../research_documents/vvv-qmrf/category/vvv_qmrf_category_02_e02_registration_self_completion_matrix.md)
+- [Formal Registration-State Measurement Model](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_formal_registration_state_measurement_model.md)
 
 ## What This Lesson Does NOT Claim
 

@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # RCA Plan: K-Space Axiomatization for VVV-QMRF
 # RCA Kế hoạch: Tiên đề hóa Không gian K cho VVV-QMRF
@@ -406,7 +406,7 @@ Mỗi K-space axiom phải nhất quán với BE structural sources:
 
 | Step | Task | Output |
 |:----:|------|--------|
-| 3.1 | Write `K_Space_Axiomatization.md` in `documents/research_documents/meta_architecture/` | Full document with RCA, axioms, theorems, claim traceability |
+| 3.1 | Write `K_Space_Axiomatization.md` in `documents/research_documents/vvv-qmrf/meta_architecture/` | Full document with RCA, axioms, theorems, claim traceability |
 | 3.2 | Add claim traceability table (schema_guide.md §6 compliance) | Claim registry |
 | 3.3 | Add non-overclaim guardrails and boundary clauses | Boundary section |
 | 3.4 | Cross-reference with paper v2.0 Section 7.2 deferred items | Cross-reference table |

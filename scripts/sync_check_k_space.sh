@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 # sync_check_k_space.sh — Verify K_Space_Axiomatization.md peer copies are in sync
 # PEER-SYNC rule (2026-05-24): both files must match structurally.
 # Run before committing changes to either copy.
@@ -6,8 +6,8 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-CANONICAL="$REPO_ROOT/documents/research_documents/meta_architecture/K_Space_Axiomatization.md"
-CLASS_C="$REPO_ROOT/documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md"
+CANONICAL="$REPO_ROOT/documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md"
+CLASS_C="$REPO_ROOT/documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

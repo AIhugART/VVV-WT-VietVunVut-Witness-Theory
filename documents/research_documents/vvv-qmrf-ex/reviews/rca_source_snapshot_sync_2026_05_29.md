@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # RCA Summary — VVV-QMRF-EX Source Snapshot Sync
 
@@ -44,7 +44,7 @@ The failure starts at the input-contract boundary:
 | File | Fix |
 |---|---|
 | `source_snapshot/vvv_qmrf_core/node_QM_VVV.md` | Re-copied from `documents/research_documents/vvv-qmrf/node_QM_VVV.md` |
-| `source_snapshot/meta_architecture/K_Space_Axiomatization.md` | Re-copied from `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` |
+| `source_snapshot/meta_architecture/K_Space_Axiomatization.md` | Re-copied from `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` |
 | `source_snapshot/SNAPSHOT_MANIFEST.md` | Added 2026-05-29 partial re-snapshot entry; updated node/K-space inventory and totals notes |
 | `phase1_graph_construction.py` | Repointed BE, QM, VVV edge, bridge, and draft-bridge inputs to `source_snapshot` paths |
 

@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 15 — E7: "Dual-Phase Registration Certification"
 
@@ -168,8 +168,8 @@ D. Tầng thể thao
 
 ## 8. Source Links
 
-- [E7 Dual-Phase Registration Certification](../research_documents/category/vvv_qmrf_category_04_e07_dual_phase_registration_certification.md)
-- [E8 Retroactive Registration Override](../research_documents/category/vvv_qmrf_category_03_e08_retroactive_registration_override.md)
+- [E7 Dual-Phase Registration Certification](../research_documents/vvv-qmrf/category/vvv_qmrf_category_04_e07_dual_phase_registration_certification.md)
+- [E8 Retroactive Registration Override](../research_documents/vvv-qmrf/category/vvv_qmrf_category_03_e08_retroactive_registration_override.md)
 
 ## What This Lesson Does NOT Claim
 

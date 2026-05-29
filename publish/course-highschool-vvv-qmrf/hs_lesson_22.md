@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 22 — E14: "Validated Absence Registration"
 
@@ -162,8 +162,8 @@ D. Bỏ hết vật lý chuẩn
 
 ## 8. Source Links
 
-- [E14 Validated Absence Registration](../research_documents/category/vvv_qmrf_category_13_e14_validated_absence_registration.md)
-- [E11 Purely Contrastive Evidence](../research_documents/category/vvv_qmrf_category_01_e11_purely_contrastive_evidence.md)
+- [E14 Validated Absence Registration](../research_documents/vvv-qmrf/category/vvv_qmrf_category_13_e14_validated_absence_registration.md)
+- [E11 Purely Contrastive Evidence](../research_documents/vvv-qmrf/category/vvv_qmrf_category_01_e11_purely_contrastive_evidence.md)
 
 ## What This Lesson Does NOT Claim
 

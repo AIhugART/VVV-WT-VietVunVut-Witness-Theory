@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # VVV-QMRF Testable Prediction Campaign — Internal Evidence Ledger
 
@@ -113,13 +113,13 @@ claim_ids:
   - "C-TP-03-002"
 evidence_type: "source_trace"
 source_files:
-  - path: "documents/research_documents/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md"
+  - path: "documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md"
     role: "framework"
     anchor: "postulate statement and formal prerequisite for E1"
 git_evidence:
   commit_hash: "pending"
   branch: "backup/buddhist-epistemology-quantum-measurement"
-  file_path: "documents/research_documents/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md"
+  file_path: "documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md"
   date: "2026-05-17"
 claim_status: "Class D"
 verification_status: "internally_verified"
@@ -138,13 +138,13 @@ claim_ids:
   - "C-TP-01-004"
 evidence_type: "source_trace"
 source_files:
-  - path: "documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md"
+  - path: "documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md"
     role: "framework"
     anchor: "postulate statement and sigma formal sketch"
 git_evidence:
   commit_hash: "pending"
   branch: "backup/buddhist-epistemology-quantum-measurement"
-  file_path: "documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md"
+  file_path: "documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md"
   date: "2026-05-17"
 claim_status: "Class D"
 verification_status: "internally_verified"
@@ -165,13 +165,13 @@ claim_ids:
   - "C-TP-02-003"
 evidence_type: "source_trace"
 source_files:
-  - path: "documents/research_documents/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md"
+  - path: "documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md"
     role: "framework"
     anchor: "postulate statement and asymmetric validity formal sketch"
 git_evidence:
   commit_hash: "pending"
   branch: "backup/buddhist-epistemology-quantum-measurement"
-  file_path: "documents/research_documents/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md"
+  file_path: "documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md"
   date: "2026-05-17"
 claim_status: "Class D"
 verification_status: "internally_verified"
@@ -192,13 +192,13 @@ claim_ids:
   - "C-TP-03-004"
 evidence_type: "formal_derivation"
 source_files:
-  - path: "documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md"
+  - path: "documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md"
     role: "meta_architecture"
     anchor: "K-side registration structure, typed state, boundary verification"
 git_evidence:
   commit_hash: "pending"
   branch: "backup/buddhist-epistemology-quantum-measurement"
-  file_path: "documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md"
+  file_path: "documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md"
   date: "2026-05-17"
 claim_status: "Class C/D"
 verification_status: "internally_verified"
@@ -219,7 +219,7 @@ claim_ids:
   - "C-TP-04-003"
 evidence_type: "dependency"
 source_files:
-  - path: "documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_wigners_friend_registration_layer_mapping.md"
+  - path: "documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_wigners_friend_registration_layer_mapping.md"
     role: "meta_architecture"
     anchor: "Wigner's Friend registration-layer application boundary"
   - path: "papers/Testable_Prediction_Section/extended_wigners_friend_k_side_incommensurability/VVV-QMRF_Testable_Prediction_Plan.md"

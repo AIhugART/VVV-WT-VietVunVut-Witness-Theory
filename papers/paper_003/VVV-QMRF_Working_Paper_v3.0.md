@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # When Does a Physical Interaction Become a Valid Registered Measurement?
 ## A VVV-QMRF Registration-Layer Framework with the K9_E Class C Testable Hypothesis and an Experimental Specification for Extended Wigner's Friend
@@ -13,7 +13,7 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 **Plan reference:** `papers/paper_003/VVV-QMRF_Working_Paper_v3.0_plan.md`
 **Base version:** v2.0 (`papers/Testable_Prediction_Section/.../VVV-QMRF_Working_Paper_v2.0.md`)
 
-> **DISCLAIMER:** VVV-QMRF is independent personal research, not Standard Quantum Mechanics, not peer-reviewed, and not experimentally confirmed. K9_E (P9) is classified **Class C (qualified)**: structurally testable but empirically unconfirmed. Evidence is real but ambiguous; noise as an alternative explanation cannot be ruled out (v30 noise sensitivity analysis FAIL). Confirmation or rejection requires a purpose-designed K9-S12 photonic Extended Wigner's Friend experiment. VVV-QMRF does not replace Standard QM, revise the Born rule, or invoke consciousness. Full boundary protocol: `DISCLAIMER.md`. Formal definitions: `documents/research_documents/project_vvv_qmrf_class_c/06_references/VVV_QMRF_Definitions.md`.
+> **DISCLAIMER:** VVV-QMRF is independent personal research, not Standard Quantum Mechanics, not peer-reviewed, and not experimentally confirmed. K9_E (P9) is classified **Class C (qualified)**: structurally testable but empirically unconfirmed. Evidence is real but ambiguous; noise as an alternative explanation cannot be ruled out (v30 noise sensitivity analysis FAIL). Confirmation or rejection requires a purpose-designed K9-S12 photonic Extended Wigner's Friend experiment. VVV-QMRF does not replace Standard QM, revise the Born rule, or invoke consciousness. Full boundary protocol: `DISCLAIMER.md`. Formal definitions: `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/06_references/VVV_QMRF_Definitions.md`.
 
 ---
 
@@ -116,7 +116,7 @@ This section presents the formal axiomatization of the K-side registration space
 
 > **Scope boundary (v2.4 §0.6 audit):** The K-space axiomatization in this section is **purely structural**. It contains zero probability equations, zero numerical values, and zero experimental data. K9_E (§5) is a separate probability postulate (P9) that is **not derivable from K1–K8 alone** — the axioms define structural properties (registration, validity, incommensurability) but do not uniquely determine a probability rule. Data fitting (§7) is a separate empirical analysis. This three-layer separation is architectural: K1–K8 (structure) → K9_E (postulate) → data fitting (empirical).
 
-The authoritative peer-synced source is `documents/research_documents/meta_architecture/K_Space_Axiomatization.md` (canonical) and `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` (working copy), both v2.4.
+The authoritative peer-synced source is `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md` (canonical) and `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` (working copy), both v2.4.
 
 ### 4.1 Layer 1 (Frozen): Axioms K1–K8
 
@@ -1073,8 +1073,8 @@ What distinguishes VVV-QMRF is that the constraints are explicitly named, traced
 
 ## Appendices
 
-**Appendix A** — K9_E reproduction scripts: `documents/research_documents/project_vvv_qmrf_class_c/07_fits/`
-**Appendix B** — K_Space_Axiomatization v2.4: `documents/research_documents/meta_architecture/K_Space_Axiomatization.md`
+**Appendix A** — K9_E reproduction scripts: `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/07_fits/`
+**Appendix B** — K_Space_Axiomatization v2.4: `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md`
 **Appendix C** — AHP audit footprint: `documents/research_documents/anti_hallucinations/`
 
 ---

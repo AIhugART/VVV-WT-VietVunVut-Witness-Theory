@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # K9_E Source of Truth — Single-Waveplate Test of Outcome-Dependent Quantum Registration in Extended Wigner's Friend Scenarios
 
@@ -66,7 +66,7 @@ f_perp(b, d) = 1 - |<b|d>|^2
 
 K9_E is a **POSTULATE**, not a theorem derivable from K1-K8 alone. K1-K8 define structural registration-layer properties (binary cert, temporal injectivity, self-certification, incommensurability, authentication, closure, cross-space preservation) but do not uniquely determine a probability rule. K9_E is the bridge between K-space structure and observable quantum probabilities.
 
-**Source references:** CLAUDE.md Layer 3 (FROZEN K1-K8, Class C qualified v31); `documents/research_documents/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` (v29 with K5_prospective).
+**Source references:** CLAUDE.md Layer 3 (FROZEN K1-K8, Class C qualified v31); `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/01_axiomatization/K_Space_Axiomatization.md` (v29 with K5_prospective).
 
 ---
 

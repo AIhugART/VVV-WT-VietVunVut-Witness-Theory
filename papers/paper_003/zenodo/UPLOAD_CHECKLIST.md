@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Zenodo Upload Checklist — Working Paper v3.0
 
@@ -90,7 +90,7 @@ Once Zenodo assigns the v3.0 version DOI, update these files:
 |---|---|
 | `papers/paper_003/VVV-QMRF_Working_Paper_v3.0.md` | Ref [15]: add v3.0 DOI |
 | `papers/paper_003/VVV-QMRF_Working_Paper_v3.0_draft.md` | Same as above |
-| `documents/research_documents/project_vvv_qmrf_class_c/index.md` | Add v3.0 DOI to Zenodo section |
+| `documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md` | Add v3.0 DOI to Zenodo section |
 | `CLAUDE.md` | Update Zenodo DOI note with concept DOI + v3.0 DOI |
 | `memory/project_zenodo_dois.md` | Update memory file |
 

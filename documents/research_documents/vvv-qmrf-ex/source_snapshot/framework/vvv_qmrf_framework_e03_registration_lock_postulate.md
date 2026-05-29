@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # E3 — Registration Lock Postulate / Tiên đề Khóa Ghi nhận
 # Legacy Name: Epistemic Commitment Postulate / Tiên đề Cam kết Nhận thức / VVV-EQM
@@ -128,7 +128,7 @@ D_enc connection:
 > Status: TODO(HOTFIX) **RESOLVED** 2026-05-29.
 > Both preconditions satisfied: (a) Ā_kāra = E5 domain [E5 §3b Weak mapping, RCA 4.90/5]; (b) L_K↔V̂_yava co-extensionality via K4 [this section, RCA 4.80/5].
 > E3 anchor table above is now the operative K1-K8 grounding for this postulate.
-> Full formalization plan: `documents/research_documents/meta_architecture/plan/E3_Registration_Lock_Formalization_Plan.md` v2.0.
+> Full formalization plan: `documents/research_documents/vvv-qmrf/meta_architecture/plan/E3_Registration_Lock_Formalization_Plan.md` v2.0.
 
 ### 3e. Unified Formal Type Signature (L4)
 

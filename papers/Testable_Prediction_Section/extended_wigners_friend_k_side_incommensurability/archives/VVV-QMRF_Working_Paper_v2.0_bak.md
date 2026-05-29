@@ -1,4 +1,4 @@
-# When Does a Physical Interaction Become a Valid Registered Measurement?
+﻿# When Does a Physical Interaction Become a Valid Registered Measurement?
 ## A VVV-QMRF Registration-Layer Extension of Quantum Mechanics with a Testable Prediction for Extended Wigner's Friend Scenarios
 
 **Working Paper v2.0**
@@ -712,7 +712,7 @@ The `⊥_K` formal definition chain is now complete at the proposed level (Class
 | Full formal proof for `⊥_K` as a mathematical relation | Requires axiomatized K-space (topology, order); paper currently uses registration-layer structural definition |
 | `AdmJoint` necessary-and-sufficient conditions | Currently sufficient conditions A-E; full characterization requires completed K-space axiomatization |
 | Equivalence of `σ(M)` and `R̂_svasa` formalisms | Separate research track (E01 §11.5) |
-| Axiomatize K as a full mathematical structure | ~~Long-term architectural task; not needed for current Class C/D claims~~ → Addressed 2026-05-19: K1-K7 core axioms + T1-T4 bridge theorems formalized in `documents/research_documents/meta_architecture/K_Space_Axiomatization.md` (VVV-QMRF §K-AXIOM v1.3). Layer 1 (K1-K7) frozen; Layer 2 (T1-T4) pending Level 4 freeze. Concrete model (minimal EWF, 2 observers) completed: K1-K7 consistency verified, Level 4 derivation chain verified, T2 proof attempt done with 3 gaps (EP, relativization, Level 4 ⊥ freeze). |
+| Axiomatize K as a full mathematical structure | ~~Long-term architectural task; not needed for current Class C/D claims~~ → Addressed 2026-05-19: K1-K7 core axioms + T1-T4 bridge theorems formalized in `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md` (VVV-QMRF §K-AXIOM v1.3). Layer 1 (K1-K7) frozen; Layer 2 (T1-T4) pending Level 4 freeze. Concrete model (minimal EWF, 2 observers) completed: K1-K7 consistency verified, Level 4 derivation chain verified, T2 proof attempt done with 3 gaps (EP, relativization, Level 4 ⊥ freeze). |
 
 **Next-step operational items (required for confirmation):**
 

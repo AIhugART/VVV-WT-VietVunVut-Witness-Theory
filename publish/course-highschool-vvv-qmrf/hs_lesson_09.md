@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 09 — E1: "Self-Certifying Registration"
 
@@ -165,8 +165,8 @@ D. Không bị phát nhạc
 
 ## 8. Source Links
 
-- [E1 Self-Certifying Registration Operator](../research_documents/category/vvv_qmrf_category_05_e01_self_certifying_registration_operator.md)
-- [Measurement Interface Postulate E17](../research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
+- [E1 Self-Certifying Registration Operator](../research_documents/vvv-qmrf/category/vvv_qmrf_category_05_e01_self_certifying_registration_operator.md)
+- [Measurement Interface Postulate E17](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
 
 ## What This Lesson Does NOT Claim
 

@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 08 — Công thức trung tâm `K_after = U_K(K_before, o)`
 
@@ -193,8 +193,8 @@ D. Một detector biết suy nghĩ
 
 ## 8. Source Links
 
-- [Measurement Interface Postulate E17](../research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
-- [Formal Registration-State Measurement Model](../research_documents/framework/vvv_qmrf_framework_formal_registration_state_measurement_model.md)
+- [Measurement Interface Postulate E17](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
+- [Formal Registration-State Measurement Model](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_formal_registration_state_measurement_model.md)
 - [Sơ đồ VVV-QMRF và Standard QM](../research_documents/vvv-qmrf/VVV_QMRF_vs_Standard_QM_system_diagram.md)
 
 ## What This Lesson Does NOT Claim

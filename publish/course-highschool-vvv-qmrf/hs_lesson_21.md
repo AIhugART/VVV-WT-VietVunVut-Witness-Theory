@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 21 — E13: "Temporal Discontinuity"
 
@@ -160,8 +160,8 @@ D. E13 là trò chơi chữ
 
 ## 8. Source Links
 
-- [E13 Temporal Discontinuity Doctrine](../research_documents/category/vvv_qmrf_category_12_e13_temporal_discontinuity_doctrine.md)
-- [Measurement Interface Postulate E17](../research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
+- [E13 Temporal Discontinuity Doctrine](../research_documents/vvv-qmrf/category/vvv_qmrf_category_12_e13_temporal_discontinuity_doctrine.md)
+- [Measurement Interface Postulate E17](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
 
 ## What This Lesson Does NOT Claim
 

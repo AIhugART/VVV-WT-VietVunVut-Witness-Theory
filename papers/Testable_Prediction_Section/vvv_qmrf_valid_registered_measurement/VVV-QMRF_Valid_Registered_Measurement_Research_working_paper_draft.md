@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 > **DISCLAIMER:** VVV-QMRF is independent Class D personal research, not Standard Quantum Mechanics, not peer-reviewed or experimentally validated, and not for real-world technical use. Full boundary protocol: `DISCLAIMER.md`.
 
@@ -466,9 +466,9 @@ E6 supplies the registering process R; E1 supplies σ(M_X)=1; E7 supplies V(M_X)
 |---|---|---|---|---|
 | C-001 | Standard QM describes physical states, observables, probabilities, and dynamics at the `ρ`-side. | External / established | Standard QM literature. | Do not frame Standard QM as logically defective. |
 | C-002 | VVV-QMRF asks a separate registration-layer validity question. | Project interpretation | `DISCLAIMER.md`; schema guide; VVV-QMRF framework docs. | Scope-gap claim, not physical critique. |
-| C-003 | E6 defines `R` as a process-structured registering system. | Class D | `documents/research_documents/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md`. | `R` is not a Hilbert-space object. |
-| C-004 | E1 defines occurrence self-certification `σ(M_X)=1`. | Class D | `documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md`. | Not a consciousness claim. |
-| C-005 | E7 defines default validity and later invalidation. | Class D | `documents/research_documents/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md`. | K-side validity, not physical observable. |
+| C-003 | E6 defines `R` as a process-structured registering system. | Class D | `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md`. | `R` is not a Hilbert-space object. |
+| C-004 | E1 defines occurrence self-certification `σ(M_X)=1`. | Class D | `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md`. | Not a consciousness claim. |
+| C-005 | E7 defines default validity and later invalidation. | Class D | `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md`. | K-side validity, not physical observable. |
 | C-006 | `ValidReg(X, R)` is a six-condition registration-validity criterion. | Class D derived proposal | E6 + E1 + E7. | Does not modify physical QM. |
 | C-007 | Friend and Wigner may each satisfy local valid registration conditions. | Class D application | Wigner's Friend registration-layer mapping. | Does not resolve full physical WF problem. |
 | C-008 | `K_F ⊥_K K_W` may hold in EWF scenarios. | Class C conjecture | Testable prediction plans; future formalization. | Not experimentally confirmed. |
@@ -480,11 +480,11 @@ E6 supplies the registering process R; E1 supplies σ(M_X)=1; E7 supplies V(M_X)
 |---|---|
 | `DISCLAIMER.md` | Boundary source: Class D, not Standard QM, not peer-reviewed, not experimentally validated, not for real-world technical use. |
 | `documents/research_documents/vvv-qmrf/schema_guide.md` | Document contract for claim class, formula boundary, source trace, and neutral wording. |
-| `documents/research_documents/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md` | E6 source for `R` and `M_X ∈ R`. |
-| `documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md` | E1 source for `σ(M_X)=1`. |
-| `documents/research_documents/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md` | E7 source for validity and invalidation. |
-| `documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md` | K-side symbol and formal architecture source. |
-| `documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_wigners_friend_registration_layer_mapping.md` | Wigner's Friend registration-layer mapping and boundary source. |
+| `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md` | E6 source for `R` and `M_X ∈ R`. |
+| `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md` | E1 source for `σ(M_X)=1`. |
+| `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md` | E7 source for validity and invalidation. |
+| `documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md` | K-side symbol and formal architecture source. |
+| `documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_wigners_friend_registration_layer_mapping.md` | Wigner's Friend registration-layer mapping and boundary source. |
 | `papers/Testable_Prediction_Section/vvv_qmrf_valid_registered_measurement/VVV-QMRF_Testable_Prediction_Plan_v4.md` | RCA-balanced plan and claim hierarchy for this draft. |
 | `papers/Testable_Prediction_Section/extended_wigners_friend_k_side_incommensurability/VVV-QMRF_Testable_Prediction_Plan.md` | Original EWF / `K_F ⊥_K K_W` conjecture scaffold. |
 

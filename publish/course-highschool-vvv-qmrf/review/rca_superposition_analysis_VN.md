@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # RCA: VVV-QMRF giữ ranh giới nào với sự chồng chập lượng tử?
 
@@ -7,7 +7,7 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 **Status:** educational review
 **Reader level:** academic
 **Scope:** RCA boundary audit of whether VVV-QMRF preserves the distinction between quantum superposition at the physical $\rho$ side and registration-layer description at the $K$ side.
-**Source trace:** `documents/research_documents/vvv-qmrf/schema_guide.md`; `documents/research_documents/framework/vvv_qmrf_framework_e16_pre_measurement_registration_indeterminacy_postulate.md`; `documents/research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md`; `publish/course-highschool-vvv-qmrf/con_meo_cua_Schrodinger.md`; `DISCLAIMER.md`.
+**Source trace:** `documents/research_documents/vvv-qmrf/schema_guide.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e16_pre_measurement_registration_indeterminacy_postulate.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md`; `publish/course-highschool-vvv-qmrf/con_meo_cua_Schrodinger.md`; `DISCLAIMER.md`.
 **Claim boundary:** This review is a registration-layer boundary audit; it does not redefine Standard Quantum Mechanics or the physical status of quantum superposition.
 **Concept boundary:** Terms such as SDS, $\rho$, and $K$ separate physical description from registration-layer description; they do not make identity claims.
 **Formula boundary:** Formula snippets are source-trace examples or teaching notation; they are not new physical laws.
@@ -39,7 +39,7 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 > *"Pre-measurement superposition = complete structured indeterminacy"*
 > *"Chồng chập trước đo = bất định có cấu trúc hoàn chỉnh"*
 
-Và trong [E16 formal document](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/documents/research_documents/framework/vvv_qmrf_framework_e16_pre_measurement_registration_indeterminacy_postulate.md):
+Và trong [E16 formal document](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e16_pre_measurement_registration_indeterminacy_postulate.md):
 
 ```
 SDS (quantum coherent indeterminacy):
@@ -211,7 +211,7 @@ Bài con mèo Schrödinger tạo ấn tượng rằng "con mèo không thực s�
 
 ---
 
-*Phân tích này dựa trên: [README.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/README.md), [E16](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/documents/research_documents/framework/vvv_qmrf_framework_e16_pre_measurement_registration_indeterminacy_postulate.md), [E17](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/documents/research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md), [Registration-Layer-VVV-QMRF.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/publish/course-highschool-vvv-qmrf/Registration-Layer-VVV-QMRF.md), [con_meo_cua_Schrodinger.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/publish/course-highschool-vvv-qmrf/con_meo_cua_Schrodinger.md), [DISCLAIMER.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/DISCLAIMER.md).*
+*Phân tích này dựa trên: [README.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/README.md), [E16](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e16_pre_measurement_registration_indeterminacy_postulate.md), [E17](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md), [Registration-Layer-VVV-QMRF.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/publish/course-highschool-vvv-qmrf/Registration-Layer-VVV-QMRF.md), [con_meo_cua_Schrodinger.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/publish/course-highschool-vvv-qmrf/con_meo_cua_Schrodinger.md), [DISCLAIMER.md](file:///h:/Other%20computers/My%20Computer/Buddhist_Epistemology_Quantum_Measurement/DISCLAIMER.md).*
 
 ---
 

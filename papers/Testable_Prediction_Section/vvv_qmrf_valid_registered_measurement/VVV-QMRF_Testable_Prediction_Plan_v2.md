@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # VVV-QMRF Testable Prediction Plan v2
 # When Does an Interaction Become a Valid Registered Measurement?
@@ -133,12 +133,12 @@ The future paper must include a dedicated Source Corpus and SOT Hierarchy sectio
 |---:|---|---|
 | 0 | `DISCLAIMER.md` | Boundary source: VVV-QMRF is Class D personal research, not Standard Quantum Mechanics, not peer-reviewed, not experimentally validated, and not for real-world technical use. |
 | 1 | `documents/research_documents/vvv-qmrf/schema_guide.md` | Document contract: claim class, source trace, formula registry, symbol registry, non-overclaim rules. |
-| 2 | `documents/research_documents/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md` | E6 source: registering system as process; domain for `R` and `M_X ∈ R`. |
-| 3 | `documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md` | E1 source: self-certification marker `σ(M_X)=1`. |
-| 4 | `documents/research_documents/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md` | E7 source: validity location, default validity, invalidation by later contradiction. |
-| 5 | `documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md` | K-side notation, typed K-state tuple, validity function, and formal validity rule. |
-| 6 | `documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_wigners_friend_registration_layer_mapping.md` | Wigner's Friend registration-layer application boundary. |
-| 7 | `documents/research_documents/synthesis/vvv_qmrf_synthesis_s2_self_certifying_registration_loop.md` | E1/E2/E7 registration closure loop and Wigner's Friend boundary. |
+| 2 | `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e06_registering_system_as_process_postulate.md` | E6 source: registering system as process; domain for `R` and `M_X ∈ R`. |
+| 3 | `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md` | E1 source: self-certification marker `σ(M_X)=1`. |
+| 4 | `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e07_registration_validity_location_postulate.md` | E7 source: validity location, default validity, invalidation by later contradiction. |
+| 5 | `documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md` | K-side notation, typed K-state tuple, validity function, and formal validity rule. |
+| 6 | `documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_wigners_friend_registration_layer_mapping.md` | Wigner's Friend registration-layer application boundary. |
+| 7 | `documents/research_documents/vvv-qmrf/synthesis/vvv_qmrf_synthesis_s2_self_certifying_registration_loop.md` | E1/E2/E7 registration closure loop and Wigner's Friend boundary. |
 | 8 | External Wigner's Friend literature | Wigner, Frauchiger-Renner, Brukner, Proietti, Bong, and related quantum foundations references. |
 | 9 | `papers/Testable_Prediction_Section/VVV-QMRF_Testable_Prediction_Plan.md` | Prior scaffold only; not final authority. |
 

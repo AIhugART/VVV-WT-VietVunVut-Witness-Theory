@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 01 — VVV-QMRF là gì?
 
@@ -173,7 +173,7 @@ D. VVV-QMRF chỉ là trò chơi chữ
 
 - [Tài liệu nghiên cứu gốc](../../README.md)
 - [Sơ đồ VVV-QMRF và Standard QM](../research_documents/vvv-qmrf/VVV_QMRF_vs_Standard_QM_system_diagram.md)
-- [Formal Registration-State Measurement Model](../research_documents/framework/vvv_qmrf_framework_formal_registration_state_measurement_model.md)
+- [Formal Registration-State Measurement Model](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_formal_registration_state_measurement_model.md)
 
 ## What This Lesson Does NOT Claim
 

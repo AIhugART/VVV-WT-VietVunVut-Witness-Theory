@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # WP v3.0 Structure Plan
 # Kế hoạch cấu trúc Working Paper v3.0
@@ -12,9 +12,9 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 **Scope:** WP v3.0 is the first paper where φ: K → B(H) is the central claim from abstract; v2.0 is the carry-over base.
 **Source artifacts:**
 - WP v2.0: `../VVV-QMRF_Working_Paper_v2.0.md` — carry-over base
-- φ conjecture: `../../../../../documents/research_documents/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` v0.2
-- K-space axioms: `../../../../../documents/research_documents/meta_architecture/K_Space_Axiomatization.md`
-- Track B decision: `../../../../../documents/research_documents/meta_architecture/decisions/central_claim_change_RCA.md`
+- φ conjecture: `../../../../../documents/research_documents/vvv-qmrf/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` v0.2
+- K-space axioms: `../../../../../documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md`
+- Track B decision: `../../../../../documents/research_documents/vvv-qmrf/meta_architecture/decisions/central_claim_change_RCA.md`
 
 > **DISCLAIMER:** VVV-QMRF is independent Class D personal research, not Standard Quantum Mechanics, not peer-reviewed or experimentally validated. Full boundary protocol: `DISCLAIMER.md`.
 

@@ -1,4 +1,4 @@
-# When Does a Physical Interaction Become a Valid Registered Measurement?
+﻿# When Does a Physical Interaction Become a Valid Registered Measurement?
 ## A VVV-QMRF Registration-Layer Extension of Quantum Mechanics with a Testable Prediction for Extended Wigner's Friend Scenarios
 
 **Working Paper v2.0**
@@ -680,7 +680,7 @@ Both Proietti et al. (2019) and Bong et al. (2020) are compatible with the VVV-Q
 
 ### 6.1 φ-Conditional Analysis (Track B Phase 3)
 
-The architectural comparison above identifies where existing interpretations lack structural machinery relative to VVV-QMRF's registration layer. Phase 2 of the Track B research program (see `documents/research_documents/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` §6) derives nine necessary conditions N_1–N_T for any structure-preserving map φ: K → B(H). This section re-frames each §6 architectural gap as a **φ-conditional scope boundary**: the specific necessary condition N_i that the interpretation lacks the structural machinery to satisfy.
+The architectural comparison above identifies where existing interpretations lack structural machinery relative to VVV-QMRF's registration layer. Phase 2 of the Track B research program (see `documents/research_documents/vvv-qmrf/meta_architecture/K_to_BH_Structure_Preserving_Map_v0_1.md` §6) derives nine necessary conditions N_1–N_T for any structure-preserving map φ: K → B(H). This section re-frames each §6 architectural gap as a **φ-conditional scope boundary**: the specific necessary condition N_i that the interpretation lacks the structural machinery to satisfy.
 
 **Scope boundary convention:** "Lacks the structural machinery for N_i" means the interpretation does not supply the formal element required by N_i — not that the interpretation is incorrect within its own domain. This is a registration-layer scope boundary, not an evaluation of empirical validity.
 
@@ -744,7 +744,7 @@ The `⊥_K` formal definition chain is now complete at the proposed level (Class
 | Full formal proof for `⊥_K` as a mathematical relation | Requires axiomatized K-space (topology, order); paper currently uses registration-layer structural definition |
 | `AdmJoint` necessary-and-sufficient conditions | Currently sufficient conditions A-E; full characterization requires completed K-space axiomatization |
 | Equivalence of `σ(M)` and `R̂_svasa` formalisms | Separate research track (E01 §11.5) |
-| Axiomatize K as a full mathematical structure | ~~Long-term architectural task; not needed for current Class C/D claims~~ → Addressed 2026-05-19: K1-K8 core axioms + T1-T4 bridge theorems formalized in `documents/research_documents/meta_architecture/K_Space_Axiomatization.md` (VVV-QMRF §K-AXIOM v1.5). Layer 1 (K1-K8) frozen; Layer 2 (T1-T4) pending Level 4 freeze. Concrete model (minimal EWF, 2 observers) completed: K1-K8 consistency verified, Level 4 derivation chain verified, T2 proof attempt done with 2 remaining gaps (relativization defense G1, Level 4 ⊥ freeze G3). Full Phase 1–6 RCA audit complete; all blocking issues resolved. |
+| Axiomatize K as a full mathematical structure | ~~Long-term architectural task; not needed for current Class C/D claims~~ → Addressed 2026-05-19: K1-K8 core axioms + T1-T4 bridge theorems formalized in `documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md` (VVV-QMRF §K-AXIOM v1.5). Layer 1 (K1-K8) frozen; Layer 2 (T1-T4) pending Level 4 freeze. Concrete model (minimal EWF, 2 observers) completed: K1-K8 consistency verified, Level 4 derivation chain verified, T2 proof attempt done with 2 remaining gaps (relativization defense G1, Level 4 ⊥ freeze G3). Full Phase 1–6 RCA audit complete; all blocking issues resolved. |
 
 **Next-step operational items (required for confirmation):**
 

@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 23 — E15: "Intrinsic Relational Binding"
 
@@ -159,7 +159,7 @@ D. Tầng thay thế mọi vật lý
 
 ## 8. Source Links
 
-- [E15 Intrinsic Relational Binding](../research_documents/category/vvv_qmrf_category_14_e15_intrinsic_relational_binding.md)
+- [E15 Intrinsic Relational Binding](../research_documents/vvv-qmrf/category/vvv_qmrf_category_14_e15_intrinsic_relational_binding.md)
 - [System Quantum Measurement](../../SYSTEM_Quantum_Measurement/system_qm_full.md)
 
 ## What This Lesson Does NOT Claim

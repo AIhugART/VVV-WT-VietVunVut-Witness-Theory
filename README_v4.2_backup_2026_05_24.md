@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # VVV-QMRF: Quantum Measurement Registration Framework
 # Khung Ghi nhận Đo lường Lượng tử VVV-QMRF
@@ -88,9 +88,9 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 
 ---
 
-**EN:** For the two strongest structural convergences between Buddhist Epistemology and Quantum Mechanics — where both systems independently reach closely analogous registration-validity pressures — see: 📄 **[VVV-QMRF convergences](documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_two_strongest_structural_convergences.md)**
+**EN:** For the two strongest structural convergences between Buddhist Epistemology and Quantum Mechanics — where both systems independently reach closely analogous registration-validity pressures — see: 📄 **[VVV-QMRF convergences](documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_two_strongest_structural_convergences.md)**
 
-**VN:** Hai hội tụ cấu trúc mạnh nhất — nơi cả hai hệ thống độc lập gặp áp lực tương tự về tính hợp lệ của ghi nhận — xem: 📄 **[VVV-QMRF convergences](documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_two_strongest_structural_convergences.md)**
+**VN:** Hai hội tụ cấu trúc mạnh nhất — nơi cả hai hệ thống độc lập gặp áp lực tương tự về tính hợp lệ của ghi nhận — xem: 📄 **[VVV-QMRF convergences](documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_two_strongest_structural_convergences.md)**
 
 | Convergence / Hội tụ | Buddhist / Phật giáo | QM / Lượng tử |
 |:--------------------:|:--------------------:|:-------------:|
@@ -115,9 +115,9 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 
 ### Formal Anchors for Core Postulates (E1–E7) / Neo Công thức cho Tiên đề Cốt lõi
 
-**EN:** The formulas below are README-level anchors sourced from [registration-layer formalization](documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md); their full RCA status and boundaries remain controlled there.
+**EN:** The formulas below are README-level anchors sourced from [registration-layer formalization](documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md); their full RCA status and boundaries remain controlled there.
 
-**VN:** Các công thức dưới đây là neo tóm tắt ở README, lấy từ file [registration-layer formalization](documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md); trạng thái RCA đầy đủ và ranh giới diễn giải vẫn do file đó kiểm soát.
+**VN:** Các công thức dưới đây là neo tóm tắt ở README, lấy từ file [registration-layer formalization](documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md); trạng thái RCA đầy đủ và ranh giới diễn giải vẫn do file đó kiểm soát.
 
 | # | Formal anchor / Neo công thức | RCA boundary / Ranh giới RCA |
 |:-:|-------------------------------|------------------------------|
@@ -373,7 +373,7 @@ S3 — Registering-System Process Hub / Trung tâm Quá trình Hệ ghi nhận
 
 **VN:** BIAN-8 không còn được phân loại chỉ là Bổ đề S2-Δ. Đề xuất **Tiên đề E8** trước đây bị bác vì giáo lý sát-na thô là bản thể luận, không phải toán tử ghi nhận trực tiếp. Kiến trúc hiện hành cô lập cấu trúc phía ghi nhận của gián đoạn thời gian, xếp BIAN-8 là **Class A**, và giải quyết bằng **Category 12 + Postulate E13**. Bổ đề S2-Δ vẫn là biên/kết nối thời gian giữa các pipeline liên tiếp, không phải toàn bộ lời giải.
 
-> **Docs / Tài liệu:** [BIAN_index_SOT.md](documents/research_documents/gap/BIAN_index_SOT.md), [S2 self-certifying registration loop](documents/research_documents/synthesis/vvv_qmrf_synthesis_s2_self_certifying_registration_loop.md), [E13 temporal discontinuity registration postulate](documents/research_documents/framework/vvv_qmrf_framework_e13_temporal_discontinuity_registration_postulate.md)
+> **Docs / Tài liệu:** [BIAN_index_SOT.md](documents/research_documents/vvv-qmrf/gap/BIAN_index_SOT.md), [S2 self-certifying registration loop](documents/research_documents/vvv-qmrf/synthesis/vvv_qmrf_synthesis_s2_self_certifying_registration_loop.md), [E13 temporal discontinuity registration postulate](documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e13_temporal_discontinuity_registration_postulate.md)
 
 ### 5. Registration-State Update Pipeline / Ống dẫn Cập nhật Trạng thái Ghi nhận (S1 Pipeline)
 

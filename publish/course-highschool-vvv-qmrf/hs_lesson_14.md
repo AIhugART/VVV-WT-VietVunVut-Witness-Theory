@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 14 — E6: "Registering-System-as-Process"
 
@@ -173,8 +173,8 @@ D. "Registering system" là tên trò chơi
 
 ## 8. Source Links
 
-- [E6 Registering-System-as-Process Framework](../research_documents/category/vvv_qmrf_category_07_e06_registering_system_as_process_framework.md)
-- [Measurement Interface Postulate E17](../research_documents/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
+- [E6 Registering-System-as-Process Framework](../research_documents/vvv-qmrf/category/vvv_qmrf_category_07_e06_registering_system_as_process_framework.md)
+- [Measurement Interface Postulate E17](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e17_measurement_interface_postulate.md)
 
 ## What This Lesson Does NOT Claim
 

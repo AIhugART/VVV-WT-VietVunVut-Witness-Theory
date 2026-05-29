@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Deep Dive: The Registration Layer ($K$) in VVV-QMRF
 
@@ -7,7 +7,7 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 **Status:** educational draft
 **Reader level:** highschool
 **Scope:** High-school / LLM-friendly explanation of the VVV-QMRF registration layer.
-**Source trace:** `documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md`; `documents/research_documents/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md`; `documents/research_documents/vvv-qmrf/schema_guide.md`; `DISCLAIMER.md`.
+**Source trace:** `documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md`; `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01_self_certifying_registration_postulate.md`; `documents/research_documents/vvv-qmrf/schema_guide.md`; `DISCLAIMER.md`.
 **Claim boundary:** This lesson is an educational interpretation of the registration layer, not a replacement for Standard Quantum Mechanics.
 **Concept boundary:** The registration layer explains K-side registration distinctions only; it must not be read as an identity claim about Standard Quantum Mechanics, physical collapse, quantum superposition, or Buddhist doctrine.
 **Formula boundary:** Symbols here are registration-layer teaching notation, not new physical laws.

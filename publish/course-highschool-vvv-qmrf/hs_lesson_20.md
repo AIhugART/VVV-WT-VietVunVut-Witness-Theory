@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 20 — E12: "Limit-Faculty Registration"
 
@@ -166,7 +166,7 @@ D. Tầng thể thao
 
 ## 8. Source Links
 
-- [E12 Limit-Faculty Registration](../research_documents/category/vvv_qmrf_category_11_e12_limit_faculty_registration.md)
+- [E12 Limit-Faculty Registration](../research_documents/vvv-qmrf/category/vvv_qmrf_category_11_e12_limit_faculty_registration.md)
 - [System Quantum Measurement](../../SYSTEM_Quantum_Measurement/system_qm_full.md)
 
 ## What This Lesson Does NOT Claim

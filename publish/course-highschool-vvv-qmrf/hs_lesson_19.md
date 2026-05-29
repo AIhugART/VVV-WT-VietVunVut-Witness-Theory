@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 19 — E11: "Purely Contrastive Evidence"
 
@@ -171,8 +171,8 @@ D. Không cần kiểm tra gì
 
 ## 8. Source Links
 
-- [E11 Purely Contrastive Evidence](../research_documents/category/vvv_qmrf_category_01_e11_purely_contrastive_evidence.md)
-- [E9 Null Registering-System Event](../research_documents/category/vvv_qmrf_category_06_e09_null_registering_system_event.md)
+- [E11 Purely Contrastive Evidence](../research_documents/vvv-qmrf/category/vvv_qmrf_category_01_e11_purely_contrastive_evidence.md)
+- [E9 Null Registering-System Event](../research_documents/vvv-qmrf/category/vvv_qmrf_category_06_e09_null_registering_system_event.md)
 
 ## What This Lesson Does NOT Claim
 

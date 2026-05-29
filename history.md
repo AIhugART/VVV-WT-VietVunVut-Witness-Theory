@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # VVV-QMRF Work History
 # Lịch sử làm việc hệ thống VVV-QMRF
@@ -34,10 +34,10 @@ This history is derived from these active project files:
 | Project overview | [README.md](README.md) |
 | BE node/edge source of truth | [SYSTEM_Buddhist_Epistemology/system_be_full.md](SYSTEM_Buddhist_Epistemology/system_be_full.md) |
 | QM system source | [SYSTEM_Quantum_Measurement/system_qm_full.md](SYSTEM_Quantum_Measurement/system_qm_full.md) |
-| BIAN source of truth | [documents/research_documents/gap/BIAN_index_SOT.md](documents/research_documents/gap/BIAN_index_SOT.md) |
+| BIAN source of truth | [documents/research_documents/vvv-qmrf/gap/BIAN_index_SOT.md](documents/research_documents/vvv-qmrf/gap/BIAN_index_SOT.md) |
 | VVV-QM node table | [documents/research_documents/node_QM_VVV.md](documents/research_documents/node_QM_VVV.md) |
-| Primary BE-QM refine mapping | [documents/research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md](documents/research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md) |
-| Formal BE-QM system mapping | [documents/research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_system_mapping.md](documents/research_documents/mapping/Buddhist_Epistemology_and_Quantum_Measurement_system_mapping.md) |
+| Primary BE-QM refine mapping | [documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md](documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md) |
+| Formal BE-QM system mapping | [documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_system_mapping.md](documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_system_mapping.md) |
 
 ---
 
@@ -207,7 +207,7 @@ This history is derived from these active project files:
 ### 2026-05-15T09:00+07:00 — Framework Folder RCA Audit (Opus 4.6 Thinking)
 
 **Auditor:** Google Gemini — Opus 4.6 Thinking (Antigravity agent)  
-**Method:** Line-by-line logic verification of all 19 files in `documents/research_documents/framework/` (excluding `archives/`), cross-checked against standard QM physics, Buddhist Epistemology source fidelity, internal cross-file consistency, and CLAUDE.md boundary rules.  
+**Method:** Line-by-line logic verification of all 19 files in `documents/research_documents/vvv-qmrf/framework/` (excluding `archives/`), cross-checked against standard QM physics, Buddhist Epistemology source fidelity, internal cross-file consistency, and CLAUDE.md boundary rules.  
 **Files audited:** index.md, formal_registration_state_measurement_model.md, E01–E17 postulate files.
 
 **Discovered 22 issues (C1–C3 critical, M1–M11 moderate, m1–m8 minor):**
@@ -255,7 +255,7 @@ This history is derived from these active project files:
 ### 2026-05-15T17:00+07:00 — Meta-Architecture Folder RCA Audit (Opus 4.6 Thinking)
 
 **Auditor:** Google Gemini — Opus 4.6 Thinking (Antigravity agent)  
-**Method:** Line-by-line logic verification of all 7 files in `documents/research_documents/meta_architecture/` (excluding `archives/`), cross-checked against framework/ postulate files (E1–E17), category/ files (Cat 01–15), standard QM physics, Buddhist Epistemology source fidelity, and internal cross-file consistency.  
+**Method:** Line-by-line logic verification of all 7 files in `documents/research_documents/vvv-qmrf/meta_architecture/` (excluding `archives/`), cross-checked against framework/ postulate files (E1–E17), category/ files (Cat 01–15), standard QM physics, Buddhist Epistemology source fidelity, and internal cross-file consistency.  
 **Files audited:**
 - F1: `bian_01_registration_establishment.md` (330 lines)
 - F2: `class_x_gap_triage.md` (386 lines)
@@ -307,28 +307,28 @@ This history is derived from these active project files:
 3. F1/F3/F5: Sync all postulate/category counts to E1–E17 / Cat 01–15
 
 **Remediation status:** ⏳ Pending — audit report generated, no patches applied yet.  
-**Report:** [rca_audit_meta_architecture.md](documents/research_documents/archives/review/rca_audit_meta_architecture.md)
+**Report:** [rca_audit_meta_architecture.md](documents/research_documents/vvv-qmrf/archives/review/rca_audit_meta_architecture.md)
 
 ### 2026-05-16 — Registration-Layer Formula Formalization
 
-- Formalized the VVV-QMRF registration-layer formula source in [documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md](documents/research_documents/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md).
+- Formalized the VVV-QMRF registration-layer formula source in [documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md](documents/research_documents/vvv-qmrf/meta_architecture/vvv_qmrf_meta_architecture_registration_layer_formalization.md).
 - Centralized the RCA formula registry for the minimal K-state tuple, `U_K`, self-certification `sigma(M)`, `M equiv^K r`, validity `V`, registration lock `C`, pre-symbolic registration `epsilon(M)`, symbolization `Lambda`, internal encoding `f_enc`, registering-system-as-process `R`, and temporal registration gap `Delta`.
 - Preserved the boundary that VVV-QMRF is a K-side registration-layer framework, not a replacement for Standard Quantum Mechanics, Born-rule probability, Schrödinger evolution, physical collapse, detector physics, or Hilbert-space dynamics.
 - Commit pushed to `origin/main`: `93b75ff docs: formalize VVV-QMRF registration formulas`.
 
 ### 2026-05-22 — E18 Delayed-Choice Registration Boundary Promoted to Framework Postulate
 
-- **G7 user authorization:** E18 promoted from Tier 1 narrow draft to frozen extension postulate in `documents/research_documents/framework/`.
+- **G7 user authorization:** E18 promoted from Tier 1 narrow draft to frozen extension postulate in `documents/research_documents/vvv-qmrf/framework/`.
 - **RCA lineage:** RCA-supported candidate → narrow draft → framework postulate (G7 DONE 2026-05-22).
 - **Two case validations PASS:** Wheeler delayed-choice + quantum eraser.
 - **Core content:** E18 names the K-side classification rule by which a later context `C_f` (with sorting relation `S` when needed) locks one prior candidate registration window `W_j` as the operative valid window `W_valid`.
 - **Boundary:** E18 is NOT retrocausation, NOT Born-rule modification, NOT a Standard QM replacement.
 - **Framework index updated:** E18 listed in `framework/index.md` Section 4.3 alongside E8–E16 as extension postulates.
-- **File:** [vvv_qmrf_framework_e18_delayed_choice_registration_boundary_postulate.md](documents/research_documents/framework/vvv_qmrf_framework_e18_delayed_choice_registration_boundary_postulate.md)
+- **File:** [vvv_qmrf_framework_e18_delayed_choice_registration_boundary_postulate.md](documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e18_delayed_choice_registration_boundary_postulate.md)
 
 ### 2026-05-23 — K9_E Layer 3 Node Extraction (2-Pass RCA)
 
-- Extracted 7 new K9_E Layer 3 nodes from [project_vvv_qmrf_class_c/index.md](documents/research_documents/project_vvv_qmrf_class_c/index.md) v29 into [node_QM_VVV.md](documents/research_documents/vvv-qmrf/node_QM_VVV.md).
+- Extracted 7 new K9_E Layer 3 nodes from [project_vvv_qmrf_class_c/index.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md) v29 into [node_QM_VVV.md](documents/research_documents/vvv-qmrf/node_QM_VVV.md).
 - **Pass 1 (5 nodes, ≥4/5 threshold):** N_QM_VVV_00060 K9_E Postulate (P9) root, N_QM_VVV_00061 beta free parameter, N_QM_VVV_00062 f_perp suppression function, N_QM_VVV_00063 K_ctx aggregate metric, N_QM_VVV_00064 Genuine Non-Circular Fit evidence.
 - **Pass 2 (2 nodes, second RCA on unevaluated concepts):** N_QM_VVV_00065 K9_E Multiplicative Pattern (falsifiable prediction, NOT CONFIRMED, 2BSM/1BSM ratio=−0.78 vs predicted ~2), N_QM_VVV_00066 delta_S Theoretical Distinguishability (operational bridge from beta to experimental signature).
 - **Folded/Referenced (11 concepts):** T1 Born rule (canonical QM), T4 C(o_i,o_j) (→f_perp), T6 Z_E (→K9_E), T7 Bhrānti gate (→N_QM_VVV_00032), T8 Anupalabdhi gate (→N_QM_VVV_00036+00020), K5_prospective, delta_M3, FR avoidance, Copenhagen/MWI reduction, adversarial tests, operationalizability gates.
@@ -435,13 +435,13 @@ Single-entry-point document: K->p(o) formula, component origin table, 6 boundary
 - **Canonical E3 now states:** `V-hat : I_boundary × D → K_R ∪ {k_null}` — explicitly K-side, distinct from P3, separate from beta/K9_E, and bounded against T6.
 - **RCA 3-round result:** Root cause = plan/canonical synchronization gap after HOTFIX stage, not a failure of E3 formal architecture. Round 2 score 4.88/5.
 - **Framework directory reorganization:**
-  - Active postulates: `documents/research_documents/framework/vvv_qmrf_framework_e01` through `e18` (E1–E18, with E17 as interface principle).
+  - Active postulates: `documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e01` through `e18` (E1–E18, with E17 as interface principle).
   - `framework/plan/` — E3 completion RCA report + progress report.
   - `framework/archives/` — old E1–E17 files + old formal model + old index (superseded).
   - `framework/promote_postulate/` — E18 promotion history + postulate promotion protocol.
   - `framework/drafts/` — reserved for future draft material.
-- **E3 completion RCA report:** [framework/plan/E3_Completion_RCA_Report_2026-05-29.md](documents/research_documents/framework/plan/E3_Completion_RCA_Report_2026-05-29.md)
-- **Framework index:** [framework/index.md](documents/research_documents/framework/index.md) — reading map for all framework files with recommended reading order, boundary rules, and schema validation checklist.
+- **E3 completion RCA report:** [framework/plan/E3_Completion_RCA_Report_2026-05-29.md](documents/research_documents/vvv-qmrf/framework/plan/E3_Completion_RCA_Report_2026-05-29.md)
+- **Framework index:** [framework/index.md](documents/research_documents/vvv-qmrf/framework/index.md) — reading map for all framework files with recommended reading order, boundary rules, and schema validation checklist.
 
 ### 2026-05-29 — Comprehensive RCA: 11 Open Items Resolution (4.74/5 avg)
 
@@ -469,7 +469,7 @@ Single-entry-point document: K->p(o) formula, component origin table, 6 boundary
 - E3=gatekeeper, T6=responder — functional separation of registration lock and decoherence response.
 - requires_K_joint (structural) ≠ K9_E effect (probabilistic) — K9-S8 distinction critical for Bong mapping.
 
-**Files modified:** 10 files + 1 new (Comprehensive_RCA_Summary_2026-05-29.md). See [framework/plan/Comprehensive_RCA_Summary_2026-05-29.md](documents/research_documents/framework/plan/Comprehensive_RCA_Summary_2026-05-29.md) for full report.
+**Files modified:** 10 files + 1 new (Comprehensive_RCA_Summary_2026-05-29.md). See [framework/plan/Comprehensive_RCA_Summary_2026-05-29.md](documents/research_documents/vvv-qmrf/framework/plan/Comprehensive_RCA_Summary_2026-05-29.md) for full report.
 
 ### 2026-05-28 — Phase 3A Progress (K9-S12 Optical Experiment Proposal)
 

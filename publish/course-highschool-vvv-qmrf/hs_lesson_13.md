@@ -1,4 +1,4 @@
-Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
+﻿Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
 
 # Bài 13 — E5: "Internal Encoding"
 
@@ -171,9 +171,9 @@ D. E5 là công thức nấu ăn
 
 ## 8. Source Links
 
-- [E5 Internal Encoding Postulate](../research_documents/framework/vvv_qmrf_framework_e05_internal_representation_encoding_postulate.md)
-- [E4 Pre-Symbolic Stratum](../research_documents/category/vvv_qmrf_category_10_e04_pre_symbolic_stratum.md)
-- [E3 Registration Lock Operation](../research_documents/category/vvv_qmrf_category_08_e03_registration_lock_operation.md)
+- [E5 Internal Encoding Postulate](../research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e05_internal_representation_encoding_postulate.md)
+- [E4 Pre-Symbolic Stratum](../research_documents/vvv-qmrf/category/vvv_qmrf_category_10_e04_pre_symbolic_stratum.md)
+- [E3 Registration Lock Operation](../research_documents/vvv-qmrf/category/vvv_qmrf_category_08_e03_registration_lock_operation.md)
 
 ## What This Lesson Does NOT Claim
 
