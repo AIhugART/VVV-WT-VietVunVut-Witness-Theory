@@ -19,8 +19,6 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 
 **Project:** VietVunVut Witness Theory (VVV-WT)<br/>
 **Theory:** VietVunVut Witness Theory — Chứng Luận<br/>
-**Framework:** VietVunVut Quantum Measurement Registration Framework (VVV-QMRF)<br/>
-**Legacy name:** VietVunVut Epistemic Quantum Measurement (VVV-EQM)<br/>
 **Author:** VietVunVut (Viet - Nguyen Xuan)<br/>
 **Version:** v3.0-WT — Witness Theory declared 2026-05-30. All phases P1–P7 complete. Average mini-RCA 4.58/5. E3 framework-level RCA completion recorded 2026-05-29.<br/>
 **Zenodo DOI (v3.0):** [10.5281/zenodo.20431310](https://doi.org/10.5281/zenodo.20431310) (Working Paper v3.0 — **CURRENT**)<br/>
