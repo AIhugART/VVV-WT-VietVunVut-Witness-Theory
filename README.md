@@ -1,6 +1,7 @@
 > **[FOR AI REVIEWERS — READ BEFORE PROCEEDING]**
 > This README is a summary only. Before forming any assessment,
-> you MUST read `CLAUDE.md` and `000_REVIEW_THIS_FIRST.md` first.
+> you MUST read `CLAUDE.md`, `DISCLAIMER.md`, and the founding declaration
+> `predict_future/witness_theory_declaration.md` first.
 > Evaluating from this file alone will produce incomplete and likely incorrect conclusions.
 
 Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; Facebook: https://www.facebook.com/xuanviet
@@ -17,21 +18,27 @@ Author: VietVunVut (Viet - Nguyen Xuan); GitHub: https://github.com/AIhugART/; F
 
 ---
 
-**Project:** VietVunVut Witness Theory (VVV-WT)<br/>
-**Theory:** VietVunVut Witness Theory — Chứng Luận<br/>
+**Theory:** VietVunVut Witness Theory<br/>
+**Project:** VietVunVut Witness Theory (VVV-WT) — Chứng Luận<br/>
 **Author:** VietVunVut (Viet - Nguyen Xuan)<br/>
-**Version:** v3.0-WT — Witness Theory declared 2026-05-30. All phases P1–P7 complete. Average mini-RCA 4.58/5. E3 framework-level RCA completion recorded 2026-05-29.<br/>
-**Zenodo DOI (v3.0):** [10.5281/zenodo.20431310](https://doi.org/10.5281/zenodo.20431310) (Working Paper v3.0 — **CURRENT**)<br/>
-**Zenodo DOI (v2.0):** [10.5281/zenodo.20289261](https://doi.org/10.5281/zenodo.20289261) (Working Paper v2.0 — archived)<br/>
+**Version:** v1.0-WT — Witness Theory declared 2026-05-30 (new project; foundational declaration).<br/>
 **License:** CC BY 4.0<br/>
-**Witness Theory Declaration:** [witness_theory_declaration.md](predict_future/witness_theory_declaration.md)<br/>
-**RCA Journey (PGRC → WT):** [pre_vvv_wt.md](predict_future/pre_vvv_wt.md)<br/>
-**Canonical master reference:** [Project VVV-QMRF Class C — Master Index](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md)
+**Founding declaration:** [witness_theory_declaration.md](predict_future/witness_theory_declaration.md)<br/>
+**RCA journey (PGRC → WT):** [pre_vvv_wt.md](predict_future/pre_vvv_wt.md)
 
 > **DISCLAIMER / TUYÊN BỐ GIỚI HẠN:**
-> **EN:** VietVunVut Witness Theory (VVV-WT) is an independent ontological framework (Class D). VVV-QMRF, the formal registration-logic framework within WT, is Class C personal research — it provides formal language for analyzing measurement registration but does not modify quantum dynamics. **Not peer-reviewed. Not experimentally validated. Not for real-world technical use.** WT is not a Theory of Everything — it is the ontological foundation upon which a future ToE may be built. The testable hypothesis emerging from VVV-QMRF is K9_E (P9). See [DISCLAIMER.md](DISCLAIMER.md) for full boundary protocol and [Formal Definitions](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/06_references/VVV_QMRF_Definitions.md) for formal definitions.
+> **EN:** VietVunVut Witness Theory (VVV-WT) is an independent ontological framework (Class D). **Not peer-reviewed. Not experimentally validated. Not for real-world technical use.** WT is not a Theory of Everything — it is the ontological foundation upon which a future ToE may be built. Its mathematics (notably the incoherence function `f_⊥`) is work in progress. See [DISCLAIMER.md](DISCLAIMER.md) for the full boundary protocol.
 >
-> **VN:** VietVunVut Witness Theory (VVV-WT) là khung bản thể luận độc lập (Class D). VVV-QMRF, khung logic ghi nhận hình thức bên trong WT, là nghiên cứu cá nhân Class C — cung cấp ngôn ngữ hình thức để phân tích kiến trúc ghi nhận của phép đo nhưng không thay đổi động lực học lượng tử. **Chưa được peer review. Chưa được xác nhận thực nghiệm. Không dùng cho ứng dụng kỹ thuật thực tế.** WT không phải là Theory of Everything — WT là nền bản thể luận mà một ToE tương lai có thể được xây dựng lên trên. Giả thuyết có thể kiểm tra nảy sinh từ VVV-QMRF là K9_E (P9). Xem [DISCLAIMER.md](DISCLAIMER.md) cho giao thức ranh giới đầy đủ.
+> **VN:** VietVunVut Witness Theory (VVV-WT) là khung bản thể luận độc lập (Class D). **Chưa được peer review. Chưa được xác nhận thực nghiệm. Không dùng cho ứng dụng kỹ thuật thực tế.** WT không phải là Theory of Everything — WT là nền bản thể luận mà một ToE tương lai có thể được xây dựng lên trên. Phần toán học (đặc biệt là hàm bất tương hợp `f_⊥`) là công trình đang tiến hành. Xem [DISCLAIMER.md](DISCLAIMER.md) cho giao thức ranh giới đầy đủ.
+
+### Official names / Tên gọi chính thức
+
+| Language / Ngôn ngữ | Name / Tên gọi | Abbr. |
+|----------|---------|----------|
+| English | Witness Theory | WT |
+| Tiếng Việt | Chứng Luận | CL |
+| Sanskrit | Sākṣī-Vāda (Sākṣī = witness, Vāda = doctrine) | — |
+| Hán-Việt | Chứng Kiến Luận (證見論) | — |
 
 ---
 
@@ -66,268 +73,186 @@ Tầng 3: Classical Physics (Newton, Maxwell)
          "Mô tả macroscopic thông thường"
 ```
 
-### Cấu trúc ba phần W₁W₂W₃ / Three-Part Witness Structure
+---
+
+## 2. Ba câu hỏi trung tâm / Three Central Questions
+
+| # | Question / Câu hỏi | WT answer / Trả lời |
+|---|---------|---------|
+| **Q₀** | Does witnessing precede reality, or reality precede witnessing? / Chứng kiến có trước hay thực tại có trước? | A wrong question — they co-arise (pratītyasamutpāda). / Câu hỏi sai — chúng đồng khởi. |
+| **Q₁** | What is the minimal structure of a valid witnessing act? / Cấu trúc tối thiểu của một hành động chứng kiến hợp lệ? | Three inseparable parts: W₁ + W₂ + W₃. / Ba phần bất khả phân: W₁ + W₂ + W₃. |
+| **Q₂** | How do spacetime, matter, and laws emerge from witness events? / Không-thời gian, vật chất, định luật nổi lên thế nào? | Four stages: K-space → topology → geometry → physics. / Bốn giai đoạn. |
+
+---
+
+## 3. Cấu trúc ba phần W₁W₂W₃ / Three-Part Witness Structure
 
 | Part | Name | Sanskrit (Dignāga) | Physics equivalent |
 |------|------|--------------------|--------------------|
 | **W₁** | Witnessed (Cái bị chứng kiến) | Grāhyābhāsa (Sở thủ tướng) | Quantum State / Observable |
 | **W₂** | Witnessing (Cái đang chứng kiến) | Grāhakābhāsa (Năng thủ tướng) | Observer Frame / K-space node |
-| **W₃** | Self-Witness (Sự tự chứng) | Svasaṃvedana (Tự chứng phần) | Self-certification / K3 Axiom |
+| **W₃** | Self-Witness (Sự tự chứng) | Svasaṃvedana (Tự chứng phần) | Self-certification |
 
 > QM chỉ có W₁. GR thêm W₂. **Witness Theory thêm W₃** — đây là bước cách mạng.
+> Standard QM holds only W₁; standard GR adds W₂; **Witness Theory adds W₃.**
 
 ---
 
-## 2. VVV-QMRF — Framework Hình thức / Formal Framework
-
-**EN:** VVV-QMRF (Quantum Measurement Registration Framework) is the formal mathematical-logical apparatus within Witness Theory. Standard Quantum Mechanics has four physical postulates (P1–P4): state space, observables, measurement, and dynamics. These postulates are **silent** on the registration architecture of measurement.
-
-VVV-QMRF proposes a **registration-logic structure K**, axiomatized via K1–K8 (Layer 1, frozen) with bridge theorems T1–T9 (Layer 2, updatable), including K7_trace and D_enc as canonical Layer 2 constructs. **T4-H** (N-observer colimit existence) has been verified as a full theorem (4/4 steps, RCA 4.74/5, 2026-05-28). **E3 Registration Lock** was completed at framework level on 2026-05-29 (RCA 4.80/5).
-
-**VN:** VVV-QMRF (Khung Ghi nhận Đo lường Lượng tử) là bộ máy logic-toán hình thức bên trong Witness Theory. Cơ học Lượng tử chuẩn có bốn tiên đề vật lý (P1–P4) nhưng **im lặng** về kiến trúc ghi nhận của phép đo.
-
-VVV-QMRF đề xuất một **cấu trúc logic ghi nhận K**, được tiên đề hóa qua K1–K8 (Tầng 1, đóng băng) với các định lý cầu nối T1–T9 (Tầng 2, có thể cập nhật). **T4-H** đã được xác minh là định lý đầy đủ (4/4 bước, RCA 4.74/5, 2026-05-28). **E3 Registration Lock** đã hoàn tất ở cấp framework ngày 2026-05-29 (RCA 4.80/5).
-
-<p align="center">
-  <strong>Class C (qualified) — structurally testable, empirically UNCONFIRMED</strong><br/>
-  <em>Class C (qualified) — có thể kiểm tra về mặt cấu trúc, CHƯA ĐƯỢC xác nhận thực nghiệm</em>
-</p>
-
-### Ba Dự án Độc lập / Three Independent Projects
-
-| # | Project / Dự án | Type / Loại | Status / Trạng thái |
-|---|-----------------|-------------|---------------------|
-| **A** | BE↔QM Comparative Mapping / Ánh xạ So sánh BE↔QM | Interpretive framework (comparative philosophy) / Khung diễn giải (triết học so sánh) | 30 nodes, 39 edges |
-| **B** | VVV-QMRF Conceptual Framework / Khung Khái niệm VVV-QMRF | Conceptual architecture (K1–K8, T1–T9, K7_trace, D_enc) / Kiến trúc khái niệm | Frozen Layer 1; T4-H **THEOREM** |
-| **C** | K9_E Testable Hypothesis / Giả thuyết Khả kiểm K9_E | Falsifiable hypothesis + experimental proposal / Giả thuyết có thể falsify + đề xuất thực nghiệm | **Working Paper v3.0 — Zenodo published** |
-
-> **MOTIVATION CHAIN (one-way, not derivational) / CHUỖI ĐỘNG LỰC (một chiều, không phải dẫn xuất):**
-> Project A → (motivates / thúc đẩy) → Project B → (motivates / thúc đẩy) → Project C.
->
-> K9_E (Project C) can be tested independently of Projects A and B. A null result falsifies K9_E but does not invalidate the framework. A positive result confirms the hypothesis but does not prove the framework. Each project stands or falls on its own.
->
-> K9_E (Dự án C) có thể được kiểm tra độc lập với Dự án A và B. Kết quả null bác bỏ K9_E nhưng không vô hiệu hóa khung lý thuyết. Mỗi dự án tự đứng vững hoặc sụp đổ.
-
----
-
-## 3. Class C là gì? / What is Class C?
-
-**EN:** Class C is the project's classification for K9_E — a **testable hypothesis** emerging from the VVV-QMRF framework.
-
-- **Class C (qualified)** = structurally testable, empirically **UNCONFIRMED**.
-- K9_E is a **POSTULATE** (P9), not a theorem derivable from K1–K8 alone. K1–K8 define structural properties but do not uniquely determine a probability rule.
-- K9_E produces predictions **structurally different** from Standard QM (delta_S ≠ 0 when β > 0), passes all adversarial tests (4/4), avoids the Frauchiger–Renner paradox via K5 V_prov, and reduces Copenhagen/MWI as special cases.
-- **Qualified** means the empirical evidence is **not confirmed** — non-uniform noise cannot be ruled out as an alternative explanation.
-
-**VN:** Class C là phân loại của dự án cho K9_E — một **giả thuyết có thể kiểm tra** nảy sinh từ khung VVV-QMRF.
-
-- **Class C (qualified)** = có thể kiểm tra về mặt cấu trúc, **CHƯA ĐƯỢC** xác nhận thực nghiệm.
-- K9_E là một **TIÊN ĐỀ** (P9), không phải định lý có thể dẫn xuất từ riêng K1–K8. K1–K8 định nghĩa các tính chất cấu trúc nhưng không xác định duy nhất một quy tắc xác suất.
-- K9_E tạo ra các dự đoán **khác biệt về mặt cấu trúc** so với QM chuẩn (delta_S ≠ 0 khi β > 0), vượt qua tất cả adversarial tests (4/4), tránh nghịch lý Frauchiger–Renner qua cơ chế K5 V_prov, và rút gọn Copenhagen/MWI như các trường hợp đặc biệt.
-- **Qualified** nghĩa là bằng chứng thực nghiệm **chưa được xác nhận** — nhiễu không đồng nhất không thể bị loại trừ như một cách giải thích thay thế.
-
-### Lịch sử Phân loại / Classification History
-
-| Version | Date / Ngày | Status / Trạng thái | Key event / Sự kiện chính |
-|---------|-------------|---------------------|---------------------------|
-| v29 | 2026-05-23 | Class C (genuine) | 3-round RCA upgrade: genuine non-circular fit β=0.598, 2.31σ |
-| v30 | 2026-05-24 | Class C (qualified) | **DOWNGRADE:** Noise sensitivity analysis FAIL (noise_threshold = 0.10σ RMS). Random noise at ANY magnitude produces Δχ² ≥ 5.35 in ~50% of realizations. A0B0 alone drives 80% of Δχ². |
-| v31 | 2026-05-24 | Class C (qualified) | K9E-PAT CLOSED (UNRESOLVABLE), IBM Quantum REJECTED. Post-v30 Execution Plan created. K9-S12 proposed as first dedicated test. |
-| v32 | 2026-05-27 | Class C (qualified) | **arXiv preprint submitted** (quant-ph). K9-S12 paper completed (Draft v94). Track 1 & 2 CLOSED. |
-| v35 | 2026-05-27 | Class C (qualified) | T4-H colimit verified (N=3, Class C). K7_trace + D_enc promoted to canonical Layer 2 (RCA 4.77/5). Track 3 ACTIVE. |
-| **v3.0** | **2026-05-28** | **Class C (qualified)** | **All phases P1–P7 complete. T4-H upgraded to THEOREM (4/4 steps, RCA 4.74/5). 3-OBS prediction upgraded to Class C. Working Paper v3.0 published on Zenodo. DOI: 10.5281/zenodo.20431310.** |
-
-**Remaining empirical path / Con đường thực nghiệm còn lại:** Confirmation or rejection requires a dedicated experiment. K9-S12 Modified Bong protocol (single QWP, α=31°) proposed as FIRST test: Gen LF 1 = +0.0891 (8.6σ), δ⟨A₁B₂⟩ = -0.0355 (20.8σ). **arXiv preprint submitted 2026-05-27.** Track 3 (Experimental Path) now ACTIVE — awaiting optical lab collaboration.
-
----
-
-## 4. Kiến trúc / Architecture
+## 4. Bốn giai đoạn phát sinh / Four Stages of Emergence
 
 ```
-Witness Theory (VVV-WT) — Ontological Foundation (Class D)
-       |              W₁W₂W₃ structure, K-space, PGRC
-       |              "Why is there reality? Who is witnessing?"
-       v
-┌── VVV-QMRF: Formal Framework ────────────────────────────────┐
-│ Layer 1 (FROZEN)     K1–K8 Registration-logic axioms          │
-│        |              binary cert/V ∈ {0,1}, ⊥_K, AdmJoint   │
-│        v                                                      │
-│ Layer 2 (UPDATABLE)  T1–T9 Bridge theorems + K7_trace + D_enc │
-│        |              K_joint construction, T4-H THEOREM      │
-│        v                                                      │
-│ Layer 3 (Class C)    K9_E Probability postulate (P9)          │
-│        |              P(o|K) = Tr(E_o ρ) · f_perp(K_ctx)      │
-│        |              1 parameter β, 8 terms                  │
-│        v              K9_E is a POSTULATE                     │
-│ Layer 4 (Class D)    Multi-paper data fit                     │
-│        |              D1 Proietti CHSH: β=0.598, 2.31σ        │
-│        v                                                      │
-│ Layer 5 (Class D)    Prediction + Reduction + Assessment      │
-│                       3-observer: δM₃=-0.223 at β=0.3        │
-│                       Copenhagen/MWI = special cases          │
-└───────────────────────────────────────────────────────────────┘
+Giai đoạn 0: K-SPACE THUẦN TÚY (Pre-geometric Registration Space)
+  Không có không gian, không có thời gian — chỉ có các Witness Events rời rạc
+  với quan hệ logic: tương hợp / bất tương hợp (= Svalakṣaṇa thuần túy)
+        │ khi đủ nhiều Witness Events đạt PGRC (coherence)
+        ▼
+Giai đoạn 1: TOPOLOGY NỔI LÊN (Emergent Topology)
+  Witness Events tương hợp tạo clusters = "vùng lân cận" = topology
+  Khái niệm "gần/xa" xuất hiện lần đầu (= Saṃtāna bắt đầu hình thành)
+        │ khi topology đủ mịn (N → ∞)
+        ▼
+Giai đoạn 2: HÌNH HỌC NỔI LÊN (Emergent Geometry)
+  Khoảng cách ghi nhận d_K → Metric tensor g_μν → không-thời gian 3+1D
+  General Relativity trở thành giới hạn tiệm cận (= Vikalpa dệt không-thời gian)
+        │ khi geometry đủ ổn định (symmetry groups emerge)
+        ▼
+Giai đoạn 3: VẬT LÝ NỔI LÊN (Emergent Physics)
+  Gauge symmetries → 4 lực; Quantum fields → hạt và tương tác
+  Standard Model = cấu trúc ổn định nhất = thế giới vật lý ta quan sát
 ```
-
-### K-Space Axioms (K1–K8) / Tiên đề K-Space
-
-| Axiom | Name / Tên | Core function / Chức năng |
-|-------|-----------|---------------------------|
-| K1 | Act-Result Co-instantiation | Tuple k = (o, cert, V, t) — outcome and registration are inseparable / kết quả và ghi nhận bất khả phân |
-| K2 | Temporal Injectivity | t₁ <_R t₂ — native registration order / thứ tự ghi nhận nguyên thủy |
-| K3 | Self-Certification | cert(k) = 1 — self-certification marker / đánh dấu tự chứng nhận |
-| K4 | Registration Validity | V(k) ∈ {0,1} — validity status / trạng thái hợp lệ |
-| K5 | Cross-Registration Interaction | ⊥_K — incommensurability firing when k ⊥ k_prev / kích hoạt bất khả thông ước |
-| K6 | Authentication | Auth(k) — non-transitive cross-context authentication / xác thực xuyên ngữ cảnh không bắc cầu |
-| K7 | Closure | t_close — irreversible closure; V_final assigned / đóng không đảo ngược; gán V_final |
-| K8 | Cross-Space Preservation | V_joint(i(k)) = V(k) — validity preserved under embedding / hợp lệ được bảo toàn khi nhúng |
-
-### K9_E Postulate (P9) / Tiên đề K9_E
-
-```
-P(o | K) = Tr(E_o ρ) · f_perp(K_ctx)
-
-trong đó / where:
-  f_perp(K_ctx) = 1 - β · K_ctx
-  K_ctx = Σ_{i≠j} I(k_i ⊥ k_j) / N_pairs
-  β ∈ [0, 1] — single free parameter / tham số tự do duy nhất
-  Born limit: β = 0 ⇒ P(o|K) = Tr(E_o ρ) (exact — K9_E reduces to QM)
-```
-
-**8 terms in K9_E / 8 thành phần trong K9_E:**
-
-| # | Term | Definition / Định nghĩa | In Standard QM? / Có trong QM? |
-|---|------|------------------------|:---:|
-| T1 | `Tr(E_o ρ)` | Born rule probability / Xác suất Born | ✅ QM standard |
-| T2 | `β` | Suppression strength, β ∈ [0,1) / Cường độ triệt tiêu | ❌ **NEW** |
-| T3 | `f_perp` | Fraction of contextual observers with incompatible outcomes / Phần observer ngữ cảnh với kết quả bất tương thích | ❌ **NEW** |
-| T4 | `C(o_i, o_j)` | Compatibility map — outcome orthogonality / Bản đồ tương thích | ❌ **NEW** |
-| T5 | `K_ctx` | Set of K-states from other observers / Tập trạng thái K từ observer khác | ❌ **NEW** |
-| T6 | `Z_E` | Normalization factor / Hệ số chuẩn hóa | ⚠️ **MODIFIED** |
-| T7 | `V(k)=0 → no P` | Bhrānti gate — invalid registration gets no probability / Cổng bhrānti | ❌ **NEW** |
-| T8 | `isNull(k) → no P` | Anupalabdhi gate — null event gets no probability / Cổng anupalabdhi | ❌ **NEW** |
-
-> 6/8 terms are ENTIRELY NEW — not present in Standard QM.
-> 6/8 thành phần là HOÀN TOÀN MỚI — không có trong QM chuẩn.
 
 ---
 
-## 5. Số liệu Chính / Key Numbers
+## 5. Claims & Non-Claims
 
-> **NOTE:** `[G]` = genuine fit (qualified by noise) / khớp thực (bị giới hạn bởi nhiễu). `[T]` = theoretical/structural / lý thuyết/cấu trúc. `[I]` = illustrative (conditional) / minh họa (có điều kiện). `[N]` = noise sensitivity result / kết quả phân tích nhiễu.
+### Witness Theory TUYÊN BỐ / WT Claims
 
-| Quantity / Đại lượng | Value / Giá trị | Meaning / Ý nghĩa | Type / Loại |
-|----------------------|-----------------|-------------------|:-----------:|
-| β (best-fit, Proietti D1) | 0.598 | K9_E ≠ Standard QM at best-fit | `[G]` |
-| V (visibility, fitted) | 0.939 | Non-uniform visibility detected / Phát hiện visibility không đồng nhất | `[G]` |
-| Δχ² (K9_E vs QM-only) | 5.35 (2.31σ) | K9_E improves over QM-uniform-visibility | `[G]` |
-| δS (β=0.5, CHSH) | -0.055 | Theoretical distinguishability / Khả năng phân biệt lý thuyết | `[T]` |
-| δM₃ (β=0.3, 3-observer) | -0.223 | 11× amplification (illustrative) / Khuếch đại 11× (minh họa) | `[I]` |
-| FR paradox / Nghịch lý FR | AVOIDED | K5 V_prov breaks assumption chain / K5 V_prov bẻ gãy chuỗi giả định | `[T]` |
-| Adversarial tests | 4/4 PASS | No counterexample, 0 axiom violations / Không phản ví dụ | `[T]` |
-| Noise threshold / Ngưỡng nhiễu | 0.10σ RMS | Noise at ANY magnitude produces Δχ² ≥ 5.35 in ~50% of realizations / Nhiễu ở MỌI biên độ tạo ra Δχ² ≥ 5.35 trong ~50% mẫu | `[N]` |
-| A0B0 share of Δχ² | 80% | Nearly entire "signal" driven by one data point / Gần như toàn bộ "tín hiệu" từ một điểm dữ liệu | `[N]` |
+| # | Claim |
+|---|-------|
+| **C1** | Ontological Priority — the Witness Event is the ultimate unit of reality; spacetime, matter, energy, and law are emergent. |
+| **C2** | Structural Completeness — any complete physical description must include W₁ + W₂ + W₃. Theories lacking W₃ are ontologically incomplete. |
+| **C3** | Category-Error Identification — the QM↔GR conflict is not a conflict of nature but between two limiting cases (discrete vs continuous) of one underlying structure (K-space). |
+| **C4** | Buddhist Epistemological Foundation — Pramāṇavāda (Dignāga, Dharmakīrti) is a formal logic system, not a religious metaphor. |
+| **C5** | Falsifiability — the parameter β (deviation from the Born rule due to registration-geometry incoherence) must be nonzero in Extended Wigner's Friend (EWF) experiments. |
 
----
+### Witness Theory KHÔNG TUYÊN BỐ / WT Does NOT Claim
 
-## 6. File Map — Muốn hiểu X → Đọc Y / Want to understand X → Read Y
-
-| Question / Câu hỏi | File |
-|--------------------|------|
-| **Witness Theory declaration / Tuyên bố Chứng Luận** | [witness_theory_declaration.md](predict_future/witness_theory_declaration.md) |
-| **RCA journey PGRC → WT / Hành trình RCA** | [pre_vvv_wt.md](predict_future/pre_vvv_wt.md) |
-| Full master index (canonical) / Mục lục tổng thể | [Class C Master Index](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md) |
-| Formal definitions / Định nghĩa hình thức | [VVV_QMRF_Definitions.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/06_references/VVV_QMRF_Definitions.md) |
-| K1–K8 axioms + T1–T9 bridge theorems + K7_trace + D_enc / Tiên đề K1–K8 + định lý cầu nối T1–T9 | [K_Space_Axiomatization.md](documents/research_documents/vvv-qmrf/meta_architecture/K_Space_Axiomatization.md) |
-| Working Paper v3.0 (Zenodo) / Bài báo làm việc v3.0 | [VVV-QMRF_Working_Paper_v3.0.md](papers/paper_003/zenodo/VVV-QMRF_Working_Paper_v3.0.md) |
-| K9_E equation + term-by-term provenance / Phương trình K9_E + nguồn gốc từng thành phần | [Phase8_candidate_equation.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/02_derivation_chain/Phase8_candidate_equation.md) |
-| K9_E adversarial testing / Kiểm tra đối kháng K9_E | [Phase9_adversarial_testing.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/02_derivation_chain/Phase9_adversarial_testing.md) |
-| Proietti CHSH fit (genuine) / Khớp Proietti CHSH (thực) | [Phase10_data_fitting.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/02_derivation_chain/Phase10_data_fitting.md) |
-| FR paradox avoidance / Tránh nghịch lý FR | [Phase10c_fr_consistency.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/02_derivation_chain/Phase10c_fr_consistency.md) |
-| 3-observer prediction / Dự đoán 3-observer | [Phase11_3observer_prediction.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/02_derivation_chain/Phase11_3observer_prediction.md) |
-| Honest assessment / Đánh giá trung thực | [Phase13_honest_assessment.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/02_derivation_chain/Phase13_honest_assessment.md) |
-| RCA decisions / Quyết định RCA | [04_governance/](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/04_governance/) |
-| Noise sensitivity analysis / Phân tích độ nhạy nhiễu | [RCA Methodology](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/04_governance/RCA_P10_NOISE_methodology_decision_2026_05_24.md) |
-| K9-S12 proposal / Đề xuất K9-S12 | [paper_plan_single_waveplate_EWF.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/03_k9_sprints/k9_s12/paper_plan_single_waveplate_EWF.md) |
-| Post-v30 execution plan / Kế hoạch hậu v30 | [Post_v30_Execution_Plan.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/04_governance/Post_v30_Execution_Plan.md) |
-| Numerical fits / Khớp số | [07_fits/](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/07_fits/) |
-| BE↔QM comparative mapping / Ánh xạ so sánh BE↔QM | [refine_mapping.md](documents/research_documents/vvv-qmrf/mapping/Buddhist_Epistemology_and_Quantum_Measurement_refine_mapping.md) |
-| BE SOT for RCA / Nguồn sự thật BE | [system_be_full.md](SYSTEM_Buddhist_Epistemology/system_be_full.md) |
-| E3 Registration Lock completion RCA / RCA hoàn tất E3 Registration Lock | [E3_Completion_RCA_Report_2026-05-29.md](documents/research_documents/vvv-qmrf/framework/plan/E3_Completion_RCA_Report_2026-05-29.md) |
-| E3 canonical framework postulate / Tiên đề E3 canonical | [vvv_qmrf_framework_e03_registration_lock_postulate.md](documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e03_registration_lock_postulate.md) |
-| E1–E18 postulates (frozen extension) / Tiên đề E1–E18 (mở rộng đã đóng băng) | [framework/](documents/research_documents/vvv-qmrf/framework/) |
-| Comprehensive RCA Summary (11 open items) / Tổng kết RCA toàn diện (11 mục) | [Comprehensive_RCA_Summary_2026-05-29.md](documents/research_documents/vvv-qmrf/framework/plan/Comprehensive_RCA_Summary_2026-05-29.md) |
-| Paper draft (K9-S12) / Bản nháp bài báo | [draft_v2.md](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/04_governance/paper/draft_v2.md) |
+| # | Non-Claim |
+|---|----------|
+| **NC1** | **Not a ToE** — WT is an ontological foundation; it does not yet derive the Standard Model or predict physical constants. |
+| **NC2** | **Not idealism** — "witnessing" needs no biological mind; a hydrogen atom "witnesses" a photon when it absorbs it. |
+| **NC3** | **Not religion** — Pramāṇavāda is used as a formal logic system, not as religious belief. |
+| **NC4** | **Does not negate QM/GR** — both are correct in their domains; they are limiting cases of a deeper structure. |
+| **NC5** | **Mathematics not yet complete** — `f_⊥(K_ctx)` is not yet fully formalized; this is work in progress. |
 
 ---
 
-## 7. Cấu trúc Thư mục / Repository Structure
+## 6. Phương trình cốt lõi / Core Equations
+
+**Witness Equation / Phương trình Chứng kiến:**
+
+```
+P(o | K) = Tr(E_o ρ) · f_⊥(K_ctx)
+```
+
+| Symbol | Meaning | Role in WT |
+|---------|---------|-----------------|
+| `P(o | K)` | Probability of outcome o in context K | Probability of witnessing |
+| `Tr(E_o ρ)` | Standard Born rule | W₁: the Witnessed |
+| `f_⊥(K_ctx)` | Registration-geometry incoherence function | W₂ + W₃: frame + self-witness |
+
+**Distance Equation / Phương trình Khoảng cách:**
+
+```
+d_K(x, y)² = − ln( 1 − β · f_⊥(x, y, K_ctx) )
+```
+
+**Metric Emergence Equation / Phương trình Phát sinh Metric:**
+
+```
+g_μν(x) = ½ · ∂²d_K(x, y)² / (∂yᵘ ∂yᵛ) |_{y=x}
+```
+
+### Limiting cases / Giới hạn tiệm cận
+
+| Condition | `f_⊥` | Result | Physics recovered |
+|----------|-----------|---------|----------------|
+| Perfect PGRC (max coherence) | → 1 | `P = Tr(E_o ρ)` | Standard QM |
+| N observers → ∞, synchronized | — | `d_K → ds² = g_μν dxᵘ dxᵛ` | Standard GR |
+| Singularity (black hole, Big Bang) | diverges | Spacetime dissolves | Pure K-space |
+| Vacuum | → 0 | `Λ_eff ≪ Λ_QFT` | Small cosmological constant |
+
+---
+
+## 7. Kế hoạch kiểm chứng / Verification Plan
+
+| # | Experiment | WT prediction | Refutes WT if |
+|---|-----------|----------------|-------------------|
+| **V1** | Extended Wigner's Friend (EWF) | β ≠ 0: probability deviates from Born rule when observers are incoherent | β = 0 exactly in all configurations |
+| **V2** | Modified Bong Protocol (QWP at 31°) | β has a definite, predictable value derived from `f_⊥` | β random or nonexistent |
+| **V3** | Decoherence rate vs observer geometry | Dephasing rate depends on observers' registration geometry, not only environment temperature | Decoherence fully independent of observer geometry |
+
+### Falsification criteria / Tiêu chuẩn bác bỏ
+
+> **Witness Theory is refuted IF:**
+> 1. β = 0 exactly in all EWF experiments with every observer configuration, at precision better than 10⁻⁶.
+> 2. An experiment shows quantum information can be genuinely destroyed (violating unitarity), refuting C1.
+> 3. A successful quantization of gravity on a fixed background spacetime (no emergent spacetime needed), refuting C3.
+
+---
+
+## 8. Dòng truyền thừa trí tuệ / Intellectual Lineage
+
+```
+NHÁNH PHẬT GIÁO / BUDDHIST BRANCH:
+  Buddha → Nāgārjuna → Asaṅga/Vasubandhu → Dignāga → Dharmakīrti
+  (Pratītyasamutpāda → Śūnyatā → Vijñapti-mātra → Pramāṇavāda → Arthakriyā/Kṣaṇika)
+
+NHÁNH VẬT LÝ / PHYSICS BRANCH:
+  Einstein → Bohr/Heisenberg → Wheeler → Bekenstein-Hawking
+  → Maldacena → Rovelli → Susskind/Maldacena (ER=EPR) → Van Raamsdonk
+  (GR Hole Argument → Copenhagen → It from Bit → BH entropy
+   → AdS/CFT → Relational QM → ER=EPR → Entanglement builds Spacetime)
+
+HỢP NHẤT / UNIFICATION:
+  → WITNESS THEORY / CHỨNG LUẬN (2026)
+    K-space + W₁W₂W₃ + PGRC
+```
+
+---
+
+## 9. Cấu trúc Thư mục / Repository Structure
 
 ```
 VietVunVut_Witness_Theory/
 ├── README.md                          ← You are here / Bạn đang ở đây
 ├── DISCLAIMER.md                      ← Boundary protocol / Giao thức ranh giới
 ├── CLAUDE.md                          ← Project instructions / Hướng dẫn dự án
+├── history.md                         ← Work history / Lịch sử làm việc
 ├── predict_future/                    ← **Witness Theory foundational documents**
 │   ├── witness_theory_declaration.md  ← WT founding declaration (Class D)
-│   ├── pre_vvv_wt.md                 ← RCA journey: PGRC → Witness Theory
+│   ├── pre_vvv_wt.md                  ← RCA journey: PGRC → Witness Theory
 │   └── rca_quantum_relativity_unification.md
-├── SYSTEM_Buddhist_Epistemology/
+├── SYSTEM_Buddhist_Epistemology/      ← BE substrate (Pramāṇavāda)
 │   └── system_be_full.md              ← BE SOT for RCA / Nguồn sự thật BE
-├── SYSTEM_Quantum_Measurement/
-│   ├── index.md
-│   └── edge_Quantum_Measurement/
-├── documents/
-│   ├── published_documents/           ← Published reference docs / Tài liệu tham chiếu
-│   ├── research_documents/
-│   │   ├── project_vvv_qmrf_class_c/  ← **ACTIVE: Class C master index + all phases**
-│   │   │   ├── index.md               ← CANONICAL MASTER REFERENCE
-│   │   │   ├── 01_axiomatization/     ← K1-K8 + φ-map + meta-architecture
-│   │   │   ├── 02_derivation_chain/   ← Phase 7–13 deliverables + RCA
-│   │   │   ├── 03_k9_sprints/         ← K9 analysis chain (S1–S12)
-│   │   │   ├── 04_governance/         ← Master plan + RCA reports + paper draft
-│   │   │   ├── 05_ex_compass/         ← VVV-QMRF-EX compass (reference only)
-│   │   │   ├── 06_references/         ← VVV-QMRF core terminology + definitions
-│   │   │   ├── 07_fits/               ← Python reproduction scripts
-│   │   │   └── 09_ibm_quantum/        ← IBM Quantum approach (REJECTED)
-│   │   ├── framework/                 ← E1–E18 postulates (frozen extension)
-│   │   ├── mapping/                   ← BE↔QM mapping documents
-│   │   ├── meta_architecture/         ← K-space axiomatization (canonical copy)
-│   │   └── anti_hallucinations/       ← Anti-Hallucination Pipeline
-│   └── course-highschool-vvv-qmrf/    ← 25-lesson VN high-school course
-├── papers/                            ← Paper-specific working material
-└── scripts/                           ← Utility scripts
+├── SYSTEM_Quantum_Measurement/        ← QM reference structure
+├── SYSTEM_General_Relativity/         ← GR reference structure
+└── documents/                         ← Research + published documents
 ```
 
 ---
 
-## 8. Open Items / Các mục đang mở
+## 10. File Map — Muốn hiểu X → Đọc Y / Want to understand X → Read Y
 
-| # | Item | Status / Trạng thái | Priority / Ưu tiên |
-|---|------|---------------------|:---:|
-| **ZENODO-v3** | Working Paper v3.0 — Zenodo publication | **PUBLISHED (2026-05-28). DOI: 10.5281/zenodo.20431310** | ✅ DONE |
-| POST-v30 | Post-v30 execution plan (Track 1 & 2 COMPLETED, Track 3 ACTIVE) | Track 3 active | HIGH |
-| K9-S12 | Modified Bong protocol paper + experimental proposal | **arXiv SUBMITTED (2026-05-27)** — awaiting arXiv ID | HIGH |
-| 3-OBS | 3-observer experiment — δM₃ = -0.223 (11×) | **Class C** (T4-H THEOREM resolved). FUTURE WORK (Track 3B) | HIGH |
-| T4-H | N-observer colimit existence | **THEOREM (4/4 steps, RCA 4.74/5, 2026-05-28)** | ✅ DONE |
-| K9E-PAT | Multiplicative pattern test | **CLOSED (UNRESOLVABLE, v31)** | — |
-| IBM-Q | IBM Quantum execution | **REJECTED (v31)** | — |
-| K7_trace | Closure Transition Record — canonical Layer 2 | **PROMOTED (v35, RCA 4.77/5)** | ✅ DONE |
-| D_enc | Transition-Encoding Registration Act — canonical Layer 2 | **PROMOTED (v35, RCA 4.77/5)** | ✅ DONE |
-| E3-RCA | E3 Registration Lock framework-level completion | **COMPLETE (2026-05-29, RCA 4.80/5)** — K-side `V-hat : I_boundary × D → K_R ∪ {k_null}`, P3 distinctness, T6 boundary, [A-E3] separation. Report at [framework/plan/E3_Completion_RCA_Report_2026-05-29.md](documents/research_documents/vvv-qmrf/framework/plan/E3_Completion_RCA_Report_2026-05-29.md) | ✅ DONE |
-| E18-PROMOTE | E18 Delayed-Choice Registration Boundary — framework postulate | **PROMOTED (2026-05-22, G7)** — Frozen extension postulate at [framework/vvv_qmrf_framework_e18_delayed_choice_registration_boundary_postulate.md](documents/research_documents/vvv-qmrf/framework/vvv_qmrf_framework_e18_delayed_choice_registration_boundary_postulate.md). Covers K-side context-conditioned locking of prior candidate registration windows. | ✅ DONE |
-| RCA-11 | Comprehensive RCA — 11 open items resolution | **COMPLETE (2026-05-29, avg 4.74/5)** — 10/11 resolved, 1 deferred (E3-F5). E1 fully verified (6/6), E3-F1 T6↔E3 theorem, E3-F2 𝕍_tri operator, E3-F4 D_enc adequacy. Report at [Comprehensive RCA Summary](documents/research_documents/vvv-qmrf/framework/plan/Comprehensive_RCA_Summary_2026-05-29.md). | ✅ DONE |
-| arXiv-002 | arXiv ID confirmation for paper_002 (K9-S12) | Pending confirmation | MEDIUM |
-| PUB | Publication path — Foundations of Physics / Phys Rev A | arXiv submitted, awaiting feedback | MEDIUM |
-
----
-
-## 9. BE↔QM Framework (Legacy Detail — Tóm tắt Kế thừa)
-
-**EN:** Projects A and B provide the conceptual foundation. VVV-QMRF maps 30 Buddhist Epistemology nodes (N_BE_00001–N_BE_00030) and 39 edges (ED_BE_00001–ED_BE_00039) onto quantum measurement structure. This yields 16 stable registration-layer postulates (E1–E16), an E17 measurement-interface proposal, an E18 delayed-choice registration boundary postulate, and 2 lemmas (S1-Λ, S2-Δ). The two strongest structural convergences between BE and QM are: (C1) Niḥsvabhāvatā → Bell's Theorem (no context-independent intrinsic nature), and (C2) Arthakriyā → predictive success as validity criterion.
-
-**VN:** Dự án A và B cung cấp nền tảng khái niệm. VVV-QMRF ánh xạ 30 node Nhận thức luận Phật giáo (N_BE_00001–N_BE_00030) và 39 cạnh (ED_BE_00001–ED_BE_00039) vào cấu trúc đo lường lượng tử. Kết quả là 16 tiên đề ổn định ở tầng ghi nhận (E1–E16), một đề xuất giao diện phép đo E17, và 2 bổ đề (S1-Λ, S2-Δ). Hai hội tụ cấu trúc mạnh nhất giữa BE và QM: (C1) Niḥsvabhāvatā → Bell's Theorem (không có tính chất nội tại độc lập ngữ cảnh), và (C2) Arthakriyā → thành công dự đoán như tiêu chí hợp lệ.
-
-> For full E1–E18 detail, BIAN gaps, synthesis patterns, and compatibility tables, see the [framework index](documents/research_documents/vvv-qmrf/framework/index.md) and [legacy README v4.2 backup](README_v4.2_backup_2026_05_24.md).
+| Question / Câu hỏi | File |
+|--------------------|------|
+| **Witness Theory declaration / Tuyên bố Chứng Luận** | [witness_theory_declaration.md](predict_future/witness_theory_declaration.md) |
+| **RCA journey PGRC → WT / Hành trình RCA** | [pre_vvv_wt.md](predict_future/pre_vvv_wt.md) |
+| QM↔GR unification RCA / RCA hợp nhất QM↔GR | [rca_quantum_relativity_unification.md](predict_future/rca_quantum_relativity_unification.md) |
+| Boundary protocol / Giao thức ranh giới | [DISCLAIMER.md](DISCLAIMER.md) |
+| Buddhist Epistemology SOT / Nguồn sự thật BE | [system_be_full.md](SYSTEM_Buddhist_Epistemology/system_be_full.md) |
+| Project instructions / Hướng dẫn dự án | [CLAUDE.md](CLAUDE.md) |
+| Work history / Lịch sử làm việc | [history.md](history.md) |
 
 ---
 
@@ -337,7 +262,7 @@ VietVunVut_Witness_Theory/
 |----------------|---------------------|
 | Author / Tác giả | Designed research questions, framework architecture, decision protocol / Thiết kế câu hỏi nghiên cứu, kiến trúc khung, giao thức quyết định |
 | Decision protocol / Giao thức | 3-round RCA + 5-Why evaluation + scoring (≥3.5/5 threshold) / 3 vòng RCA + đánh giá 5-Why + chấm điểm (ngưỡng ≥3.5/5) |
-| AI tools / Công cụ AI | Claude Opus 4.6, Codex, Gemini 3.1 Pro, DeepSeek V4 Pro — executed within author-defined protocol / thực thi trong giao thức do tác giả định nghĩa |
+| AI tools / Công cụ AI | Claude Opus, Codex, Gemini, DeepSeek — executed within author-defined protocol / thực thi trong giao thức do tác giả định nghĩa |
 | Final decisions / Quyết định cuối | All architectural decisions made by author / Mọi quyết định kiến trúc do tác giả thực hiện |
 
 ---
@@ -345,23 +270,17 @@ VietVunVut_Witness_Theory/
 ## Citation / Trích dẫn
 
 ```bibtex
-@misc{vietvunvut2026vvvqmrf_v3,
+@misc{vietvunvut2026witnesstheory,
   author    = {Viet Nguyen Xuan (VietVunVut)},
-  title     = {When Does a Physical Interaction Become a Valid Registered
-               Measurement? A VVV-QMRF Registration-Layer Framework with
-               the K9\_E Class C Testable Hypothesis and an Experimental
-               Specification for Extended Wigner's Friend},
+  title     = {VietVunVut Witness Theory (Chứng Luận): A Layer-0 Ontological
+               Framework in which Witnessing Acts Are the Ultimate Unit of
+               Reality and Spacetime Emerges from Their Coherence},
   year      = {2026},
-  doi       = {10.5281/zenodo.20431310},
-  publisher = {Zenodo},
-  note      = {Working Paper v3.0. All phases P1-P7 complete.
-               Class C (qualified). Independent personal research,
-               not peer-reviewed. Repository: https://github.com/AIhugART/
-               VVV-QMRF-VietVunVut-Quantum-Measurement-Registration-Framework}
+  note      = {Foundational declaration v1.0-WT. Class D (Ontological
+               Framework). Independent personal research, not peer-reviewed.
+               Repository: https://github.com/AIhugART/}
 }
 ```
-
-> Previous version (v2.0): DOI [10.5281/zenodo.20289261](https://doi.org/10.5281/zenodo.20289261)
 
 ---
 
@@ -373,7 +292,7 @@ VietVunVut_Witness_Theory/
 
 - **Dignāga, Dharmakīrti (5th–7th century):** Pramāṇavāda (Buddhist Epistemology / Nhận thức luận Phật giáo).
 - **Nāgārjuna:** Śūnyatā (Emptiness / Tánh Không).
-- **Schrödinger, von Neumann, Einstein:** Quantum Mechanics / Cơ học Lượng tử.
+- **Schrödinger, von Neumann, Einstein:** Quantum Mechanics & Relativity / Cơ học Lượng tử & Tương đối.
 - **Lão Tử:** Đạo Đức Kinh / Tao Te Ching.
 
 ### Personal / Cá nhân
@@ -413,20 +332,11 @@ VietVunVut_Witness_Theory/
 
 | Version | Date / Ngày | Notes / Ghi chú |
 |:-------:|-------------|-----------------|
-| v1–v3 | 2026-05-10–14 | Initial release: E1–E7, BE↔QM mapping, rename VVV-EQM→VVV-QMRF |
-| v4 final | 2026-05-16 | Registration-layer formalization: E1–E16, E17 proposal, 2 lemmas |
-| v4.2 | 2026-05-21 | K-space axiomatization README refresh: K1–K8, T1–T4 |
-| v4.3 | 2026-05-24 | Three-project architecture + Class C integration. README restructured per [Class C Master Index](documents/research_documents/vvv-qmrf/project_vvv_qmrf_class_c/index.md). Legacy v4.2 detail backed up to [README_v4.2_backup_2026_05_24.md](README_v4.2_backup_2026_05_24.md). |
-| v32 | 2026-05-27 | arXiv preprint submitted (K9-S12 paper, Draft v94). Track 1 & 2 CLOSED. T4-H colimit verified (N=3). |
-| v35 | 2026-05-28 | K7_trace + D_enc promoted to canonical Layer 2 (RCA 4.77/5). Track 3 (Experimental Path) ACTIVE. |
-| **v3.0** | **2026-05-28** | **Working Paper v3.0: all phases P1–P7 complete. T4-H upgraded to THEOREM (4/4 steps, RCA 4.74/5). 3-OBS prediction upgraded to Class C. Zenodo DOI: 10.5281/zenodo.20431310. Average mini-RCA 4.58/5. README updated to v3.0.** |
-| v3.0-E3-RCA | 2026-05-29 | E3 Registration Lock framework-level RCA completed (4.80/5): canonical E3 now states K-side `V-hat : I_boundary × D → K_R ∪ {k_null}`, P3 distinctness, T6 boundary, [A-E3] separation, and EX compass-only sync. |
-| **v3.0-FINAL** | **2026-05-29** | **Comprehensive RCA: 11 open items resolved (avg 4.74/5). 10/11 closed, 1 deferred (E3-F5). Framework in most complete state. See [Comprehensive RCA Summary](documents/research_documents/vvv-qmrf/framework/plan/Comprehensive_RCA_Summary_2026-05-29.md).** |
-| **v3.0-WT** | **2026-05-30** | **WITNESS THEORY DECLARED (VVV-WT — Chứng Luận). PGRC renamed to internal technical term. VVV-QMRF positioned as formal framework within WT. 9-step RCA: PGRC (67/150) → WT (128/150). Three central questions Q₀Q₁Q₂. W₁W₂W₃ structure formalized. See [witness_theory_declaration.md](predict_future/witness_theory_declaration.md).** |
+| **v1.0-WT** | **2026-05-30** | **WITNESS THEORY DECLARED (VVV-WT — Chứng Luận) as a new, standalone ontological project. Three central questions Q₀Q₁Q₂. W₁W₂W₃ structure. Four-stage emergence. 5 Claims / 5 Non-Claims. Core equations. Verification plan V1–V3. PGRC retained as internal technical term only. See [witness_theory_declaration.md](predict_future/witness_theory_declaration.md) and [pre_vvv_wt.md](predict_future/pre_vvv_wt.md).** |
 
 ---
 
-*VietVunVut (2026). VietVunVut Witness Theory (VVV-WT) — Chứng Luận. VVV-QMRF: Quantum Measurement Registration Framework — Class C (qualified). Working Paper v3.0. DOI: 10.5281/zenodo.20431310. Independent personal research, not peer-reviewed.*
+*VietVunVut (2026). VietVunVut Witness Theory (VVV-WT) — Chứng Luận. Foundational declaration v1.0-WT. Class D (Ontological Framework). Independent personal research, not peer-reviewed.*
 
 © 2026 VietVunVut (Viet - Nguyen Xuan). Licensed under CC BY 4.0.
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
